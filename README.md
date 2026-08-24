@@ -4,6 +4,11 @@ An offline-first phone reference for reading menus in non-English cuisines — a
 glossary plus a quick-reference table that shows, per diner, what a dish contains and
 **how much of the dish it is**.
 
+**Live: https://efrankl4.github.io/menu-decoder/**
+
+Install it to your phone's home screen (see *Offline* below) — that's what makes the
+offline cache durable.
+
 ## Run it locally
 
 ```bash
@@ -101,6 +106,20 @@ Data updates land on the next visit after you're back online.
 
 The **Print / save as PDF** button in the filters panel prints whatever is currently
 filtered — so you can produce a one-cuisine paper sheet to carry.
+
+## Deploying
+
+Hosted on GitHub Pages from `main` at the repo root. Any `git push` to `main`
+redeploys automatically — there's no build step, the files are served as-is.
+`.nojekyll` is present so GitHub serves everything verbatim instead of running the
+files through Jekyll.
+
+After a data or code change, bump `CACHE` in `sw.js`. The service worker only
+swaps in a new cache when that name changes, so without a bump installed phones
+keep serving the old copy.
+
+`deploy.sh` and `_headers` are leftovers from a Netlify mirror and aren't used by
+GitHub Pages.
 
 ## Adding a cuisine
 
