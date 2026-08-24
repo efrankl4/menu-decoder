@@ -41,7 +41,7 @@ data/
   tags.json           tag vocabulary (emoji, labels, groupings)
   cuisines.json       cuisine list; `status: planned` means no file yet
   restaurants.json    restaurants a term list has been checked against
-  terms/*.json        one file per cuisine — 18 built, 647 terms total
+  terms/*.json        one file per cuisine — 18 built, 655 terms total
 validate.js
 ```
 
@@ -91,7 +91,7 @@ than HTML5 drag-and-drop, so it works on touch as well as with a mouse.
 
 Filters aren't only by cuisine — the filters panel also has a **My restaurants** section,
 grouped by city, so the table can be narrowed to only the terms verified against a specific
-restaurant's actual menu (17 restaurants across Bethesda and Rockville, MD as of writing).
+restaurant's actual menu (24 restaurants across Bethesda, Rockville, Silver Spring, and DC as of writing).
 Leave every restaurant unchecked to browse the full general glossary for anywhere else.
 Any term checked against a real menu shows a 🍽 restaurant tag in the table and glossary,
 and its detail sheet lists which restaurant(s) with a tappable chip that jumps straight
