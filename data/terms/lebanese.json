@@ -1,0 +1,1137 @@
+{
+  "cuisine": "lebanese",
+  "terms": [
+    {
+      "id": "le-shankleesh",
+      "term": "Shankleesh",
+      "native": "شنكليش",
+      "romanizations": [
+        "shanklish",
+        "surke"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Aged, ash-coated goat or sheep cheese, crumbled cold over tomato, onion, and za'atar.",
+      "long": "Small balls of goat or sheep milk cheese are salted, rolled in herbs or ash, and aged for weeks to months until pungent and crumbly, similar in intensity to a sharp blue. Served cold, broken up over diced tomato and onion, dusted with za'atar and olive oil. Sharper and funkier than labneh or feta. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-zaatar"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "aged goat or sheep cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "diced raw tomato and onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "za'atar dusting",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "aged cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Some versions are rolled in hot paprika."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-soujok",
+      "term": "Soujok",
+      "native": "سجق",
+      "romanizations": [
+        "sujuk",
+        "sojok",
+        "soujouk"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish",
+        "ingredient"
+      ],
+      "short": "Spicy, garlicky cured lamb or beef sausage, sliced and pan-seared or grilled.",
+      "long": "A short, dense sausage packed with lamb or beef, garlic, Aleppo pepper, cumin, and fenugreek, air-dried briefly then grilled or pan-fried in its own reddened fat, often finished with a squeeze of lemon. Genuinely spicy as a rule — one of the reliably hot items on a Lebanese menu. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb or beef sausage",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Beef versions are equally common."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef sausage",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Built into the cure — not adjustable."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-maanek",
+      "term": "Ma'anek",
+      "native": "مقانق",
+      "romanizations": [
+        "makanek",
+        "maanek"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish",
+        "ingredient"
+      ],
+      "short": "Small grilled lamb sausages finished with pine nuts, coriander, and a splash of lemon or pomegranate.",
+      "long": "Short, plump lamb sausages seasoned with allspice and cinnamon, pan-seared and then doused with lemon juice or pomegranate molasses and scattered with toasted pine nuts and cilantro just before serving. Milder than soujok. The pine nuts are a finishing garnish rather than baked into the sausage, so they're visible and largely removable. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Scattered on top at the end — visible and removable."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-ouzi",
+      "term": "Ouzi",
+      "native": "أوزي",
+      "romanizations": [
+        "auzi",
+        "oozi"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Feast dish of slow-roasted lamb over spiced rice studded with minced meat, mushrooms, and **pine nuts**.",
+      "long": "Whole lamb or lamb shoulder roasted until it falls apart, served over a mound of rice mixed with ground meat, sautéed mushrooms, peas, and generous fried pine nuts and almonds. A celebration centerpiece. The nuts are mixed through the rice, not just on top, so they're less avoidable than a pure garnish. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-snoubar",
+        "pa-baharat"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "slow-roasted lamb",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts and almonds",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Mixed through the rice rather than only on top."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Are there pine nuts or almonds mixed into the rice?",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-fatteh",
+      "term": "Fatteh",
+      "native": "فتة",
+      "romanizations": [
+        "fattah",
+        "fatta"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Layered dish of toasted bread under warm yogurt-garlic sauce, meat or chickpeas, and butter, often topped with **pine nuts**.",
+      "long": "A category as much as a dish: pieces of toasted or fried pita form the base, topped with something warm — chickpeas (*fattet hummus*), lamb chunks (*fattet lahmeh*), or eggplant (*fattet makdous*) — then blanketed in garlicky yogurt sauce and finished with a sizzle of browned butter and toasted pine nuts. The bread stays crisp under the yogurt if served quickly. From real Bethesda menus (Bacchus of Lebanon: Fatte Bel Lahm, Fette Bel Djaj, Fattet Bel Hummus, Fattet Makdous).",
+      "components": [
+        "pa-tahina",
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt sauce, butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The sauce is the defining element."
+        },
+        {
+          "tag": "gluten",
+          "specific": "toasted or fried pita",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Fried and scattered on top — visible, largely removable."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb chunks, in *fattet lahmeh*",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken, in *fette bel djaj*",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the yogurt sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Can the pine nuts be left off the top?",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-msaka",
+      "term": "M'saka",
+      "native": "مسقعة",
+      "romanizations": [
+        "maghmour",
+        "msakaa",
+        "moussaka (Lebanese)"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Baked eggplant, chickpeas, and tomato in olive oil — the Lebanese dish, unrelated to Greek moussaka despite the name.",
+      "long": "Fried or roasted eggplant chunks baked with chickpeas, tomato, onion, and garlic in olive oil until soft, served warm or room temperature. No meat, no béchamel, no potato — worth flagging because the name overlaps with the very different layered Greek dish of the same rough sound. Usually vegan. From real Bethesda menus (Bacchus of Lebanon, listed as \"M'Saka\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-batinjan-raheb",
+      "term": "Bethenjan Al-Raheb",
+      "native": "بيتنجان الراهب",
+      "romanizations": [
+        "batinjan al-raheb",
+        "monk's eggplant",
+        "eggplant caviar"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Charred eggplant chopped and dressed with olive oil, lemon, garlic, and pomegranate molasses — no tahina.",
+      "long": "Similar territory to mutabbal but finely chopped rather than puréed and left without tahina, dressed instead with pomegranate molasses for a tart-sweet edge, sometimes with pomegranate seeds scattered on top. \"The monk's eggplant.\" Sesame-free, unlike mutabbal. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-mutabbal"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "pomegranate seed garnish, when used",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-zahra-makli",
+      "term": "Zahra Makli",
+      "native": "زهرة مقلي",
+      "romanizations": [
+        "zahra maqliyya",
+        "fried cauliflower"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Deep-fried cauliflower florets, served with tahina sauce for dipping.",
+      "long": "Cauliflower florets fried until deeply golden and a little crisp at the edges, piled up and served with a bowl of tahina-lemon sauce, sometimes a garlicky one. Simple, vegan, nut-free. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-tahina"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "tahina dipping sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-kellaje",
+      "term": "Kellaje",
+      "native": "كلاج",
+      "romanizations": [
+        "kalage",
+        "kellaj"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Filo pastry folded around cheese or spiced ground beef with **pine nuts**, then fried or baked.",
+      "long": "Thin filo wrapped around a filling — imported white cheese, or ground beef with onion and pine nuts — folded into a compact packet and fried or baked until crisp. Two distinct versions exist on most menus (*bel-jebne* cheese, *bel-lahm* beef); the nuts belong only to the meat version. From real Bethesda menus (Bacchus of Lebanon: Kalage Bel-Jebne, Kalage Bel-Lahm).",
+      "components": [
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "filo pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "imported white cheese, in the cheese version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only *bel-jebne*."
+        },
+        {
+          "tag": "beef",
+          "specific": "ground beef, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only *bel-lahm*."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Only in the beef filling, not the cheese one."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "Is this the cheese one or the beef-with-pine-nuts one?",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-macarona-bel-laban",
+      "term": "Maacarona Bel Laban",
+      "native": "معكرونة باللبن",
+      "romanizations": [
+        "macarona bi laban",
+        "pasta with yogurt"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Short pasta tossed in warm garlic yogurt sauce, topped with ground beef.",
+      "long": "An unusual-sounding but traditional home-style dish: boiled pasta (often orzo-shaped or elbow) folded through a warm garlicky yogurt sauce similar to the one used in fatteh, topped with browned ground beef. Wheat and dairy are both structural. From real Bethesda menus (Bacchus of Lebanon, listed as \"Maacarona Bel Lah\").",
+      "components": [
+        "le-fatteh"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "pasta",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "ground beef topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-loubieh",
+      "term": "Loubie Bel Zeit",
+      "native": "لوبية بالزيت",
+      "romanizations": [
+        "loubia",
+        "lubyeh bi zeit",
+        "green beans in olive oil"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Green beans simmered soft in olive oil with tomato, onion, and garlic. Served warm or room temperature.",
+      "long": "One of the family of Lebanese \"bi zeit\" (in oil) vegetable dishes — string beans cooked down until fully tender with tomato, onion, and plenty of garlic, finished with a generous pour of olive oil. Vegan, nut-free, always cooked. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-fasoulia",
+      "term": "Fasoulia M'Table",
+      "native": "فاصوليا متبلة",
+      "romanizations": [
+        "fasolia",
+        "white bean salad"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cooked white beans dressed cold with olive oil, lemon, celery, and garlic.",
+      "long": "White beans boiled tender then cooled and tossed with lemon juice, olive oil, chopped celery, and garlic — a cold bean salad rather than a hot stew. Vegan and nut-free. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw celery",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-sabanegh",
+      "term": "Sabanegh Bel Zeit",
+      "native": "سبانخ بالزيت",
+      "romanizations": [
+        "sabanikh bi zeit",
+        "sauteed spinach"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fresh spinach wilted in olive oil with lemon, garlic, and onion, served warm or cool.",
+      "long": "Spinach quickly cooked down in olive oil with garlic, onion, and a good hit of lemon, sometimes with a few chickpeas added. Fully cooked, vegan, nut-free. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-malfoof",
+      "term": "Malfoof Bel Zeit",
+      "native": "ملفوف بالزيت",
+      "romanizations": [
+        "malfouf",
+        "stuffed cabbage"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cabbage leaves rolled around rice, parsley, and mint, simmered in olive oil and pomegranate molasses.",
+      "long": "The vegan, vegetable-only cousin of stuffed grape leaves: cabbage leaves wrapped around a rice-and-herb filling, cooked low and slow in a garlicky, lemony, pomegranate-tinged broth. Nut-free. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-warak-enab"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-baluza",
+      "term": "Baluza",
+      "native": "بلوظة",
+      "romanizations": [
+        "balouza",
+        "balozeh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Cool, wobbly milk-and-cornstarch pudding scented with orange-blossom and rose water.",
+      "long": "Close kin to muhalabieh: milk thickened with cornstarch, lightly sweetened, and perfumed with orange-blossom and rose water, chilled until set to a soft, jiggly pudding. Sometimes topped with pistachio or a drizzle of syrup. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-muhalabieh"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio garnish, when used",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-arak",
+      "term": "Arak",
+      "native": "عرق",
+      "romanizations": [
+        "araq",
+        "arack"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian",
+        "greek"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Clear anise-flavored grape spirit that turns milky white when mixed with water and ice.",
+      "long": "Distilled from grapes and flavored with aniseed, arak is strong (typically 40–63% ABV) and drunk cut with water over ice, which triggers the anise oils to cloud the glass a chalky white — the ritual is part of the drink. The customary companion to a full mezze spread. Not to be confused with the unrelated South/Southeast Asian rice spirit sometimes spelled the same way.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "distilled grape spirit",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Strong — 40%+ ABV is typical."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "le-foul-akhdar",
+      "term": "Foul Akhdar Bel Zeit",
+      "native": "فول أخضر بالزيت",
+      "romanizations": [
+        "ful akhdar",
+        "fresh fava beans"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole fresh young fava pods sautéed in olive oil with garlic and lemon — a spring dish.",
+      "long": "Unlike the mashed, long-cooked *ful medames*, this uses whole young fava pods, still tender enough to eat shell and all, quickly sautéed in olive oil with garlic and a squeeze of lemon. Seasonal, vegan, nut-free. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "et-ful"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-bamye",
+      "term": "Bamye Bel Zeit",
+      "native": "بامية بالزيت",
+      "romanizations": [
+        "bamia bi zeit"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Okra stewed in olive oil with tomato, garlic, and coriander — the cold-mezze version of bamia.",
+      "long": "Small whole okra pods cooked down in olive oil with tomato, garlic, and cilantro until soft, served warm or at room temperature as part of a mezze spread rather than as a main. Vegan, nut-free, fully cooked. From real Bethesda menus (Bacchus of Lebanon).",
+      "components": [
+        "pa-bamia"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bacchus-of-lebanon"
+      ]
+    },
+    {
+      "id": "le-kishk",
+      "term": "Kishk",
+      "native": "كشك",
+      "romanizations": [
+        "kishik"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Dried, fermented mix of bulgur and yogurt, ground to powder — cooked into a tangy, filling porridge.",
+      "long": "Bulgur fermented together with yogurt or milk for days, then sun-dried and ground into a sour, funky powder that keeps for months. Cooked back into a thick porridge with water and often topped with sautéed onion and ground meat, or used as a base for soup. Both fermented and dairy-heavy.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "fermented yogurt/milk base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bulgur wheat",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "fermented dairy-grain mixture",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "le-lahm-bi-ajin",
+      "term": "Lahm bi Ajin",
+      "native": "لحم بعجين",
+      "romanizations": [
+        "lahm bajin"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin, crisp meat flatbread — the Lebanese cousin of sfeeha, usually rolled thinner and eaten as a wrap.",
+      "long": "A thin round of dough spread with spiced minced meat, onion, and tomato and baked hot and fast until crisp, often rolled up and eaten out of hand rather than sliced like sfeeha. Wheat and meat are both structural.",
+      "components": [
+        "pa-sfeeha"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Lamb is a common alternative."
+        },
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "thin wheat dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "le-riz-bi-shaghriyeh",
+      "term": "Riz bi Shaghriyeh",
+      "native": "رز بشعرية",
+      "romanizations": [
+        "riz a shaariyeh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Rice pilaf toasted with broken vermicelli noodles before boiling — the everyday Lebanese rice.",
+      "long": "Short-grain rice cooked alongside toasted broken vermicelli, which turns golden-brown in butter or oil before the rice and water are added, giving the finished pilaf a nutty color and flavor despite containing no actual nuts. The standard rice side across Lebanese meals.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "vermicelli noodles",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, if used to toast the vermicelli",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Oil is an equally common choice."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "le-kibbeh-labanieh",
+      "term": "Kibbeh Labanieh",
+      "native": "كبة لبنية",
+      "romanizations": [
+        "kibbeh bi laban"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Kibbeh balls simmered in a warm garlicky yogurt sauce, similar in spirit to shish barak.",
+      "long": "Football-shaped kibbeh (bulgur and minced lamb shells filled with more spiced meat) poached rather than fried, then simmered gently in a hot yogurt sauce stabilized with cornstarch and dried mint, similar to how shish barak dumplings are served. Wheat, dairy, and lamb are all structural.",
+      "components": [
+        "pa-kibbeh",
+        "pa-shish-barak"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb, in both shell and filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bulgur shell",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "le-jallab",
+      "term": "Jallab",
+      "native": "جلاب",
+      "romanizations": [],
+      "language": "Arabic",
+      "cuisines": [
+        "lebanese",
+        "palestinian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Cold, dark syrup drink of dates, grape molasses, and rose water, served over ice with pine nuts or raisins.",
+      "long": "A concentrated syrup of dates, carob or grape molasses, and rose water, diluted with cold water and poured over crushed ice, traditionally finished with a scatter of pine nuts and raisins floating on top. The nuts sit loose in the glass — visible and easy to spoon out or avoid, but genuinely present in the standard serve.",
+      "components": [
+        "pa-attar"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts floating on top",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Loose in the glass — easy to see and leave, but standard in the classic presentation."
+        },
+        {
+          "tag": "fruit",
+          "specific": "dates, raisins",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Raisins are dried, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

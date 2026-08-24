@@ -1,0 +1,3525 @@
+{
+  "cuisine": "peruvian",
+  "terms": [
+    {
+      "id": "pe-ceviche",
+      "term": "Ceviche",
+      "native": "",
+      "romanizations": [
+        "cebiche",
+        "seviche",
+        "sebiche"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw fish cured in lime juice with raw red onion and ají. Served cold, within minutes of mixing.",
+      "long": "Cubed raw white fish — corvina, sea bass, flounder — tossed with lime juice, salt, sliced raw red onion, cilantro, and ají limo or rocoto. Peruvian ceviche is marinated only briefly, often under ten minutes, so the fish stays translucent in the center; this is emphatically not cooked fish. Served with boiled sweet potato, choclo, and cancha on the side to balance the acid. Mixed versions (*ceviche mixto*) add shrimp, squid, octopus, and mussels. The pooled marinade left in the bowl is *leche de tigre*.",
+      "components": [
+        "pe-leche-de-tigre",
+        "pe-aji-limo",
+        "pe-choclo",
+        "pe-cancha",
+        "pe-camote"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "white fish, lime-cured only",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Acid-denatured, not heat-cooked. There is no cooked version of this dish."
+        },
+        {
+          "tag": "fish",
+          "specific": "white fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "red onion, cilantro, chili",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Sliced raw onion is a large share of the volume."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw red onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, squid, octopus, mussels",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only in *mixto* or *jalea*-style versions; plain ceviche is fish only."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Ají limo is moderate; rocoto versions run hotter. Many kitchens will dial it down."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-leche-de-tigre",
+      "term": "Leche de tigre",
+      "native": "",
+      "romanizations": [
+        "leche de tigre",
+        "tiger's milk"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce",
+        "dish"
+      ],
+      "short": "The lime-fish-chili marinade from ceviche, served as a shot or small bowl.",
+      "long": "Lime juice blended with a little raw fish, ají, garlic, onion, and often celery and ginger, strained into a cloudy, sharp, faintly fishy liquid. Drunk as a shot before a meal or served as a small dish with bits of seafood in it. Even in the drinkable version, raw fish is blended into the base — it is not merely citrus juice.",
+      "components": [
+        "pe-ceviche"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw fish blended into the base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Present even when the liquid looks like plain juice."
+        },
+        {
+          "tag": "fish",
+          "specific": "white fish",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, celery, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Blended and strained."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp or squid",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-tiradito",
+      "term": "Tiradito",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Ceviche's sashimi-influenced cousin: raw fish sliced thin, sauced, no onion.",
+      "long": "The Japanese-Peruvian (*nikkei*) take on ceviche — the fish is sliced into thin sheets rather than cubed, laid flat, and dressed at the last moment with a ají amarillo or rocoto cream sauce. Crucially, tiradito omits the onion, which is often the deciding difference for anyone avoiding raw onion. The fish is just as raw as in ceviche.",
+      "components": [
+        "pe-aji-amarillo",
+        "pe-rocoto",
+        "pe-ceviche"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "thinly sliced raw fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Sauced, not marinated — often even less 'cooked' than ceviche."
+        },
+        {
+          "tag": "fish",
+          "specific": "white fish, sometimes tuna or salmon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "evaporated milk in the sauce",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Cream-style ají sauces usually contain milk."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-aji-amarillo",
+      "term": "Ají amarillo",
+      "native": "",
+      "romanizations": [
+        "aji amarillo",
+        "yellow chili"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "The defining orange-yellow Peruvian chili — fruity, moderately hot, in nearly everything.",
+      "long": "A thick-walled chili with a bright, almost apricot-like flavor and moderate heat, sold fresh, dried (*ají mirasol*), or as a smooth paste. It colors and flavors a huge share of Peruvian cooking — huancaína sauce, ají de gallina, most stews. Its heat is real but rounded and usually blunted by the dairy or starch it's blended with.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Moderate on its own; usually tamed by cream or cheese in finished dishes."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-aji-panca",
+      "term": "Ají panca",
+      "native": "",
+      "romanizations": [
+        "aji panca"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Dark red dried chili paste — smoky and berry-like, and barely hot at all.",
+      "long": "A dried, deep-burgundy chili used as a paste. Smoky and slightly sweet with almost no heat, it does the coloring-and-depth job in anticucho marinade, adobo, and many stews. Seeing *panca* rather than *amarillo* or *rocoto* on a menu is a reliable signal that the dish is not spicy.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Among the mildest chilies in the cuisine."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-rocoto",
+      "term": "Rocoto",
+      "native": "",
+      "romanizations": [
+        "locoto"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Round red chili that looks like a small bell pepper and is genuinely hot.",
+      "long": "A thick-fleshed chili with black seeds, deceptively sweet-looking and considerably hotter than ají amarillo — comparable to a habanero in some specimens. Used in salsas, in rocoto relleno, and in the hotter tiraditos. If a menu names rocoto, take the heat seriously.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": false,
+        "note": "The hot one. Heat varies but skews high."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-aji-limo",
+      "term": "Ají limo",
+      "native": "",
+      "romanizations": [
+        "aji limo"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Small fruity chili, hotter than amarillo, used raw in ceviche.",
+      "long": "A small habanero-family chili, floral and hot, minced raw into ceviche and seafood dishes. Comes in red, yellow, and green. Used sparingly, but raw, so its heat is sharp rather than mellowed.",
+      "components": [
+        "pe-ceviche"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-aji-de-gallina",
+      "term": "Ají de gallina",
+      "native": "",
+      "romanizations": [
+        "aji de gallina"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Shredded chicken in a creamy yellow chili sauce thickened with bread and **walnuts**.",
+      "long": "Poached chicken pulled into threads and folded into a sauce of ají amarillo, evaporated milk, grated parmesan, and bread soaked in milk — traditionally thickened and enriched with ground **walnuts** or pecans. Served over rice with a boiled potato, black olives, and half a hard-boiled egg. Mild despite the name. This is one of the two classic Peruvian dishes built on tree nuts, and the nuts are ground invisibly into the sauce rather than sitting on top, so they can't be avoided by picking around.",
+      "components": [
+        "pe-aji-amarillo",
+        "pe-ocopa"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnut or pecan, ground into the sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Traditional and common, but some kitchens use bread alone. Not visible in the finished dish."
+        },
+        {
+          "tag": "chicken",
+          "specific": "shredded chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "evaporated milk, parmesan",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "white bread thickener",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg garnish",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "On the side of the plate."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Yellow and creamy, not hot — the dairy tames the ají."
+      },
+      "confidence": "high",
+      "ask": "Does your ají de gallina have walnuts in the sauce?"
+    },
+    {
+      "id": "pe-ocopa",
+      "term": "Ocopa",
+      "native": "",
+      "romanizations": [
+        "salsa ocopa",
+        "papas a la ocopa"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce",
+        "dish"
+      ],
+      "short": "Arequipeña sauce of huacatay and **peanuts** over boiled potatoes. The peanut dish.",
+      "long": "A green-tinged sauce from Arequipa blending huacatay (black mint), ají amarillo, onion, garlic, queso fresco, evaporated milk, crackers, and ground **peanuts** — sometimes walnuts as well. Poured over sliced boiled potatoes with olives and egg, exactly like papa a la huancaína but green and nutty. If you're avoiding peanuts, this is the single most important Peruvian dish to recognize, and it looks similar enough to huancaína to be confused with it on a plate.",
+      "components": [
+        "pe-huacatay",
+        "pe-huancaina",
+        "pe-aji-amarillo"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "ground peanuts",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Definitional to the sauce and fully blended in."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "walnut",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Some recipes add walnuts alongside the peanuts."
+        },
+        {
+          "tag": "dairy",
+          "specific": "queso fresco, evaporated milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "soda crackers as thickener",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg garnish",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-huancaina",
+      "term": "Papa a la huancaína",
+      "native": "",
+      "romanizations": [
+        "papa a la huancaina",
+        "salsa huancaina"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish",
+        "sauce"
+      ],
+      "short": "Boiled potato under a creamy yellow cheese-and-ají sauce. Nut-free, unlike its green twin.",
+      "long": "Sliced boiled yellow potato blanketed in a blended sauce of queso fresco, ají amarillo, evaporated milk, and soda crackers, garnished with black olives, hard-boiled egg, and a lettuce leaf. The standard Peruvian starter. Mild and rich. Worth distinguishing carefully from ocopa, which looks similar but is peanut-based — huancaína is reliably nut-free. The lettuce underneath is raw but purely decorative.",
+      "components": [
+        "pe-aji-amarillo",
+        "pe-ocopa"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "queso fresco, evaporated milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "lettuce leaf under the potato",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Decorative only; easily set aside."
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "soda crackers",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-huacatay",
+      "term": "Huacatay",
+      "native": "",
+      "romanizations": [
+        "wacatay",
+        "black mint"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Peruvian black mint — pungent herb, somewhere between mint, basil, and marigold.",
+      "long": "An Andean marigold relative with a strong, resinous, mint-basil aroma. Essential to ocopa and to pachamanca marinades. Sold as a dark green paste. An herb, not a nut, though it usually appears in nut-based sauces.",
+      "components": [
+        "pe-ocopa"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-lomo-saltado",
+      "term": "Lomo saltado",
+      "native": "",
+      "romanizations": [
+        "lomo salteado"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Beef strips stir-fried with onion, tomato, and soy sauce, served over fries and rice.",
+      "long": "The flagship *chifa*-influenced dish: sirloin strips seared hard in a wok with red onion wedges, tomato, ají amarillo, soy sauce, and vinegar, then tossed with french fries so they soak up the pan juices, and served alongside white rice. The onion and tomato are cooked but only briefly — they come out softened and hot, not raw, though still with some bite.",
+      "components": [
+        "pe-aji-amarillo",
+        "pe-chaufa"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "sirloin or tenderloin strips",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Chicken (*pollo saltado*) is a common menu alternative."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "red onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked, but only briefly."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "A little ají amarillo; mild in most restaurants."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-anticuchos",
+      "term": "Anticuchos",
+      "native": "",
+      "romanizations": [
+        "anticucho"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Skewers of marinated grilled **beef heart**, charred over coals. Street-food classic.",
+      "long": "Cubes of beef heart marinated in ají panca, cumin, garlic, and vinegar, threaded on skewers and grilled hard over charcoal until crusted. Tender and mineral rather than gamey, and the most iconic Peruvian street food. Served with a boiled potato and a corn cob, and usually a hot ají sauce on the side. Menus abroad sometimes substitute sirloin, but *anticucho* unqualified means heart.",
+      "components": [
+        "pe-aji-panca",
+        "pe-choclo"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef heart",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Offal; occasionally substituted with sirloin abroad."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "The marinade is mild; the accompanying sauce is where the heat is."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-causa",
+      "term": "Causa",
+      "native": "",
+      "romanizations": [
+        "causa limeña",
+        "causa rellena"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chilled layered terrine of lime-and-ají mashed potato with a filling, often avocado.",
+      "long": "Yellow potato mashed with lime juice, oil, and ají amarillo until dense and bright, then layered cold with a filling — chicken salad, tuna, crab, or shrimp — and almost always sliced **avocado**. Served chilled, cut into a neat block or round, topped with mayonnaise, olive, and egg. The potato is cooked; the avocado and any garnish tomato are raw.",
+      "components": [
+        "pe-aji-amarillo"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "A full layer of raw avocado, not a garnish. Botanically fruit; flag it or not as you prefer."
+        },
+        {
+          "tag": "egg",
+          "specific": "mayonnaise and boiled egg",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken salad filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Menus normally state the filling."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "crab or shrimp filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "*Causa de cangrejo* / *de camarón*."
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Cooked/canned tuna, not raw."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato or lettuce garnish",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-salsa-criolla",
+      "term": "Salsa criolla",
+      "native": "",
+      "romanizations": [
+        "sarsa criolla",
+        "zarza criolla"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Raw red onion slivers with lime, chili, and cilantro. Piled on top of many dishes.",
+      "long": "Thin-sliced raw red onion rinsed and tossed with lime juice, salt, ají limo, and cilantro. Not a sauce so much as a sharp raw relish, heaped on chicharrón, jalea, tamales, and sandwiches. Because it sits on top rather than being mixed in, it's usually removable or can be left off on request — worth knowing, since it appears on a great many plates.",
+      "components": [
+        "pe-aji-limo"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw red onion, cilantro, chili",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Entirely raw, but sits on top and can be omitted on request."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw red onion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Can I get it without the salsa criolla on top?"
+    },
+    {
+      "id": "pe-chicharron",
+      "term": "Chicharrón",
+      "native": "",
+      "romanizations": [
+        "chicharron"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pork belly simmered then fried until crisp. Also used for fried fish or seafood.",
+      "long": "Chunks of pork belly or shoulder boiled in their own fat until tender, then fried until the outside crackles. Served with fried sweet potato, salsa criolla, and often in a bread roll as *sanguche de chicharrón*. **The word is not always pork** — *chicharrón de pescado* and *de calamar* mean battered fried fish or squid, so the modifier matters.",
+      "components": [
+        "pe-salsa-criolla",
+        "pe-camote"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork belly or shoulder",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Unqualified *chicharrón* means pork; *de pescado* or *de calamar* does not."
+        },
+        {
+          "tag": "fish",
+          "specific": "white fish",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in *chicharrón de pescado*."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "squid",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in *chicharrón de calamar*."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "salsa criolla on top",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Removable."
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour batter or bread roll",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-pollo-a-la-brasa",
+      "term": "Pollo a la brasa",
+      "native": "",
+      "romanizations": [
+        "pollo a la braza",
+        "blackened rotisserie chicken"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Charcoal rotisserie chicken marinated in soy, cumin, and ají panca. Mild, served with fries.",
+      "long": "Whole chicken marinated in soy sauce, vinegar, garlic, cumin, ají panca, and often dark beer, then spit-roasted over charcoal until the skin is mahogany. Peru's most-eaten restaurant dish, served with french fries and a simple salad, and a battery of dipping sauces — mayonnaise, ketchup, mustard, and a green *ají verde* that is the hot one. The chicken itself is not spicy at all.",
+      "components": [
+        "pe-aji-verde",
+        "pe-aji-panca"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "whole roast chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce, beer in marinade",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "side salad",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Served alongside, not on the chicken."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Heat lives entirely in the optional green sauce."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-aji-verde",
+      "term": "Ají verde",
+      "native": "",
+      "romanizations": [
+        "aji verde",
+        "green sauce",
+        "crema de aji"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Creamy green chili-mayonnaise served with rotisserie chicken. The hot one on the table.",
+      "long": "Blended jalapeño or ají amarillo with cilantro, huacatay, lime, garlic, mayonnaise, and often queso fresco. Pale green, thick, and quite hot beneath the creaminess. Standard alongside pollo a la brasa. Always served on the side, so it's entirely optional.",
+      "components": [
+        "pe-pollo-a-la-brasa",
+        "pe-huacatay"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "mayonnaise",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "queso fresco or cream",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Always on the side — dose it yourself."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-chaufa",
+      "term": "Arroz chaufa",
+      "native": "",
+      "romanizations": [
+        "chaufa",
+        "aroz chaufa"
+      ],
+      "language": "Spanish / Chinese",
+      "cuisines": [
+        "peruvian",
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Peruvian-Chinese fried rice with egg, scallion, soy sauce, and usually pork or chicken.",
+      "long": "The cornerstone of *chifa*, Peru's Chinese-Peruvian cooking. Day-old rice wok-fried with soy sauce, sesame oil, scallion, ginger, and ribbons of omelette, plus a protein — commonly *char siu*-style roast pork, chicken, or seafood. Menus specify the protein. Nut-free as a rule, but soy and sesame are near-universal.",
+      "components": [
+        "pe-lomo-saltado"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "omelette ribbons",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "char siu roast pork",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "The default protein in many chifa kitchens — worth confirming even for a 'mixto'."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is there pork in the chaufa, or only the protein I ordered?"
+    },
+    {
+      "id": "pe-jalea",
+      "term": "Jalea",
+      "native": "",
+      "romanizations": [
+        "jalea mixta"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Platter of battered deep-fried mixed seafood topped with raw onion salsa.",
+      "long": "Chunks of white fish, squid, shrimp, and sometimes octopus or mussels, dredged in seasoned flour or cornstarch and deep fried, piled on fried yuca or plantain and crowned with salsa criolla. Everything is fully cooked; the raw element is only the onion relish on top.",
+      "components": [
+        "pe-salsa-criolla",
+        "pe-yuca"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "squid, shrimp, mussels, octopus",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "white fish",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Fried, not raw."
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "salsa criolla topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "On top; removable."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-parihuela",
+      "term": "Parihuela",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Intense red seafood broth with shellfish in the shell. Peru's bouillabaisse.",
+      "long": "A deep, concentrated fish-and-crustacean stock built on ají panca, garlic, tomato, and often chicha de jora, loaded with fish, crab, shrimp, mussels, and squid, many still in the shell. Rich and slightly spicy. Reputed as a hangover cure.",
+      "components": [
+        "pe-aji-panca",
+        "pe-chicha-de-jora"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "crab, shrimp, mussels, squid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Shells in the bowl; the broth itself is shellfish-based."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish and fish stock",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "chicha de jora or wine",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Largely cooked off."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-tacu-tacu",
+      "term": "Tacu tacu",
+      "native": "",
+      "romanizations": [
+        "tacutacu"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Leftover beans and rice pressed and fried into a crisp-edged patty.",
+      "long": "Cooked beans mashed with day-old rice, seasoned with ají amarillo and onion, then formed into an oval and pan-fried until a crust forms. Served as a base under steak, seafood, or a fried egg. Afro-Peruvian in origin. Nut-free and mild; the accompaniment determines everything else.",
+      "components": [
+        "pe-aji-amarillo"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "lard, in traditional versions",
+          "certainty": "rarely",
+          "prominence": "trace",
+          "note": "Most restaurants use vegetable oil."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-seco",
+      "term": "Seco",
+      "native": "",
+      "romanizations": [
+        "seco de res",
+        "seco de cordero",
+        "seco a la norteña"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cilantro-braised stew, usually lamb or beef, served with beans and rice.",
+      "long": "Meat braised slowly in a vivid green base of blended cilantro with ají amarillo, garlic, onion, and often chicha de jora or dark beer, until the sauce is thick and herbal. *Seco de cordero* is lamb, *seco de res* beef, *seco de pollo* chicken. Despite meaning \"dry,\" it is a saucy dish. Mild.",
+      "components": [
+        "pe-aji-amarillo",
+        "pe-chicha-de-jora"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb or goat",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "*de cordero*."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "*de res*."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "*de pollo*."
+        },
+        {
+          "tag": "alcohol",
+          "specific": "chicha de jora or beer",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": "Largely cooked off in the braise."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-rocoto-relleno",
+      "term": "Rocoto relleno",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole hot rocoto pepper stuffed with spiced beef, baked under cheese. Genuinely hot.",
+      "long": "A rocoto is hollowed, blanched repeatedly to tame it, then filled with minced beef cooked with onion, olives, raisins, and boiled egg, topped with cheese and baked, usually over a potato gratin. The blanching removes some heat but not all — this remains one of the hotter dishes on a Peruvian menu, and the pepper itself is eaten.",
+      "components": [
+        "pe-rocoto"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "melted cheese, milk in the gratin",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "raisins",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Dried, not raw."
+        },
+        {
+          "tag": "egg",
+          "specific": "boiled egg in the filling",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "peanuts or walnuts in some Arequipeño fillings",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "Not standard, but appears in some regional recipes."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": false,
+        "note": "The vessel is the chili; blanching reduces but never removes the heat."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-papa-rellena",
+      "term": "Papa rellena",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mashed potato shell filled with spiced beef, olives, and egg, then deep fried.",
+      "long": "Seasoned mashed potato molded around a filling of minced beef sautéed with onion, ají panca, cumin, black olives, raisins, and hard-boiled egg, shaped into an oval and fried golden. Served with salsa criolla. Mild.",
+      "components": [
+        "pe-salsa-criolla",
+        "pe-aji-panca"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "boiled egg, and egg in the coating",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "raisins",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Dried."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "salsa criolla on the side",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-cau-cau",
+      "term": "Cau cau",
+      "native": "",
+      "romanizations": [
+        "caucau"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Diced tripe and potato stewed yellow with turmeric, mint, and ají amarillo.",
+      "long": "Honeycomb tripe simmered until tender, then cut small and stewed with potato, ají amarillo, turmeric, and a distinct hit of fresh mint (*hierbabuena*). Bright yellow and mild. A seafood version, *cau cau de mariscos*, replaces the tripe.",
+      "components": [
+        "pe-aji-amarillo"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef tripe",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "The seafood version substitutes shellfish."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "mixed shellfish",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in *cau cau de mariscos*."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-choclo",
+      "term": "Choclo",
+      "native": "",
+      "romanizations": [
+        "chocclo"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Andean corn with enormous, pale, chewy kernels. Always served boiled.",
+      "long": "A large-kernel highland maize, starchy rather than sweet, with kernels the size of a thumbnail. Boiled and served on the cob or in loose kernels alongside ceviche and anticuchos, often with a slab of fresh cheese. Cooked, never raw.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-cancha",
+      "term": "Cancha",
+      "native": "",
+      "romanizations": [
+        "cancha serrana",
+        "chulpe"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Toasted corn kernels — crunchy, salty bar snack. Corn, not a nut.",
+      "long": "Dried *chulpe* maize kernels toasted in oil until they puff slightly and turn crunchy without popping. Salted and served free on the table like peanuts, and alongside ceviche. Worth flagging precisely because it occupies the bowl-of-nuts role — it is corn, and contains no nuts.",
+      "components": [
+        "pe-ceviche"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-camote",
+      "term": "Camote",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Sweet potato — boiled in rounds beside ceviche, or fried in chips.",
+      "long": "Peruvian sweet potato, usually the orange or purple-skinned kind, boiled and sliced into discs to sit alongside ceviche where its sweetness offsets the lime and chili. Also fried into chips with chicharrón. Always cooked.",
+      "components": [
+        "pe-ceviche"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-yuca",
+      "term": "Yuca",
+      "native": "",
+      "romanizations": [
+        "cassava",
+        "manioc"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Cassava root — starchy, boiled or fried into thick wedges. Never eaten raw.",
+      "long": "A long, waxy-skinned tuber with dense white flesh, boiled until soft then often fried. Milder and starchier than potato with a slightly fibrous core. Must be cooked — raw cassava is toxic — so you will never encounter it uncooked.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-olluco",
+      "term": "Olluco",
+      "native": "",
+      "romanizations": [
+        "ulluco",
+        "olluquito"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Small waxy Andean tuber, yellow-pink and crunchy. Usually julienned into olluquito.",
+      "long": "A glossy, brightly colored tuber that stays slightly crisp when cooked, closer to jicama than potato in texture. Most often cut into matchsticks and stewed with ají and dried salted beef (*charqui*) as **olluquito con charqui**. Cooked, though it keeps a raw-seeming crunch.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "charqui, dried salted beef",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only in *olluquito con charqui*, which is the usual preparation."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-quinoa",
+      "term": "Quinua",
+      "native": "",
+      "romanizations": [
+        "quinoa",
+        "kinwa"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Andean seed cooked like a grain. Gluten-free; used in soups and stews as often as salads.",
+      "long": "A seed of a goosefoot plant, not a true cereal, cooked into porridges (*quinua atamalada*), soups (*sopa de quinua*), and hot stews far more often in Peru than in the cold-salad form common abroad. Naturally gluten-free.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-sacha-inchi",
+      "term": "Sacha inchi",
+      "native": "",
+      "romanizations": [
+        "sacha inchik",
+        "Inca peanut",
+        "Inca nut"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Amazonian star-shaped seed sold as \"Inca peanut.\" Not a peanut and not a tree nut, but nut-like.",
+      "long": "The seed of an Amazonian vine, roasted and eaten like a nut or pressed for oil. It is botanically neither a peanut nor a tree nut, so it falls outside standard allergen labeling — but it is a nut-textured, nut-flavored seed, and reported cross-reactivity with true nut allergies means it's worth treating with the same caution rather than dismissing on a technicality. Appears in snack mixes, oils, and modern Peruvian desserts.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "sacha inchi seed — nut-like but botanically distinct",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Flagged deliberately: not a legal tree nut, but reported to cross-react. Treat as a nut unless you know otherwise."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-lucuma",
+      "term": "Lúcuma",
+      "native": "",
+      "romanizations": [
+        "lucuma"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Orange-fleshed Andean fruit tasting of maple and sweet potato. Almost always as ice cream or purée.",
+      "long": "A green-skinned fruit with dry, dense orange flesh and a caramel-maple flavor. Rarely eaten fresh — it is nearly always processed into ice cream, mousse, and pastry filling, so you'll encounter it cooked or frozen rather than as raw fruit. Peru's most popular ice cream flavor.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "lúcuma",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Almost always processed rather than served raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk, when served as ice cream",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-chirimoya",
+      "term": "Chirimoya",
+      "native": "",
+      "romanizations": [
+        "cherimoya",
+        "custard apple"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Green scaly fruit with white custard-like flesh. Usually served raw, spooned from the shell.",
+      "long": "A heart-shaped fruit with soft, sweet, faintly banana-pineapple flesh and large black inedible seeds. Eaten fresh with a spoon, or blended into juices and ice cream. Unlike lúcuma, when chirimoya appears it is typically raw.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "chirimoya",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Typically served fresh and uncooked."
+        },
+        {
+          "tag": "fruit",
+          "specific": "chirimoya",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-maracuya",
+      "term": "Maracuyá",
+      "native": "",
+      "romanizations": [
+        "maracuya",
+        "passion fruit"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Passion fruit — intensely tart, used in juices, sours, mousses, and ceviche variations.",
+      "long": "Yellow passion fruit, sharper and more aromatic than the purple kind. Its juice appears in *pisco sour de maracuyá*, in mousse, and increasingly as an acid in ceviche alongside lime. Usually as raw pressed juice rather than cooked pulp.",
+      "components": [
+        "pe-pisco-sour"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "passion fruit juice or pulp",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Usually raw juice; cooked in mousses and syrups."
+        },
+        {
+          "tag": "fruit",
+          "specific": "passion fruit",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-chicha-morada",
+      "term": "Chicha morada",
+      "native": "",
+      "romanizations": [
+        "chicha morada"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Sweet purple corn drink boiled with pineapple, apple, and spice. Non-alcoholic.",
+      "long": "Dried purple maize simmered with pineapple rind, apple, cinnamon, clove, and quince, then strained, sweetened, and sharpened with lime. Deep violet, served cold, and completely non-alcoholic — not to be confused with *chicha de jora*, which is fermented. Often garnished with small dice of fresh apple.",
+      "components": [
+        "pe-chicha-de-jora"
+      ],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "pineapple, apple, quince — boiled",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked into the infusion and strained out."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "diced fresh apple garnish",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "Floating in the glass; easy to leave."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-chicha-de-jora",
+      "term": "Chicha de jora",
+      "native": "",
+      "romanizations": [
+        "chicha de jora"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage",
+        "ingredient"
+      ],
+      "short": "Fermented maize beer, cloudy and sour. Alcoholic — unlike chicha morada.",
+      "long": "Germinated maize boiled and fermented into a cloudy, tart, low-alcohol beer with pre-Columbian roots. Drunk on its own and used as a braising liquid in seco and adobo. The name overlap with the non-alcoholic chicha morada causes real confusion — *de jora* is the alcoholic one.",
+      "components": [
+        "pe-chicha-morada",
+        "pe-seco"
+      ],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "fermented maize beer",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Low ABV but genuinely alcoholic."
+        },
+        {
+          "tag": "fermented",
+          "specific": "maize ferment",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-pisco-sour",
+      "term": "Pisco sour",
+      "native": "",
+      "romanizations": [
+        "pisco",
+        "pisco sour"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Peru's national cocktail: grape brandy, lime, syrup, and **raw egg white**, with bitters.",
+      "long": "*Pisco* is an unaged grape brandy. The sour shakes it with fresh lime juice, simple syrup, and raw egg white for foam, finished with a few drops of Angostura bitters on the head. The egg white is uncooked — routine in cocktails but worth flagging. Fruit versions (maracuyá, lúcuma) are common.",
+      "components": [
+        "pe-maracuya"
+      ],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "pisco grape brandy",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "raw egg white",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Uncooked. Most bars will make it without on request."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "fresh lime juice",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Raw pressed citrus juice."
+        },
+        {
+          "tag": "fruit",
+          "specific": "lime, plus any fruit variant",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-suspiro",
+      "term": "Suspiro a la limeña",
+      "native": "",
+      "romanizations": [
+        "suspiro limeno",
+        "suspiro de limeña"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Manjar blanco caramel custard under a port-spiked meringue. Very sweet, nut-free.",
+      "long": "A layer of *manjar blanco* — condensed-milk caramel cooked with egg yolk — topped with an Italian meringue whipped with port wine and dusted with cinnamon. Served in a small glass. Extremely sweet and reliably nut-free, which makes it a dependable dessert order.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "condensed and evaporated milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "yolk in the custard, white in the meringue",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Meringue is cooked with hot syrup, not raw."
+        },
+        {
+          "tag": "alcohol",
+          "specific": "port wine",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": "Uncooked in the meringue."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-picarones",
+      "term": "Picarones",
+      "native": "",
+      "romanizations": [
+        "picarón"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Squash-and-sweet-potato doughnut rings fried and drenched in fig syrup.",
+      "long": "A yeasted batter of puréed *zapallo macre* squash and sweet potato, piped into rings and deep fried until crisp, then soaked in *chancaca* syrup — raw cane sugar boiled with fig, orange peel, cinnamon, and clove. Light and less sweet than they look. Nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "fig and orange peel in the syrup",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Boiled into the syrup."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-mazamorra",
+      "term": "Mazamorra morada",
+      "native": "",
+      "romanizations": [
+        "mazamorra"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Thick purple-corn pudding with stewed dried fruit. Often paired with rice pudding.",
+      "long": "Chicha morada's base thickened with sweet potato starch into a spoonable purple pudding studded with stewed dried apricot, prune, and cherry. Served cold, frequently side by side with arroz con leche as *combinado*. Fruit is cooked, not raw; nut-free.",
+      "components": [
+        "pe-chicha-morada"
+      ],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "dried apricot, prune, cherry, pineapple",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Dried and stewed — not raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk, if served combinado with rice pudding",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-alfajor",
+      "term": "Alfajor",
+      "native": "",
+      "romanizations": [
+        "alfajores"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Two crumbly shortbread rounds sandwiching manjar blanco, dusted with sugar.",
+      "long": "Delicate cornstarch-and-flour biscuits filled with *manjar blanco* caramel and buried in powdered sugar. The Peruvian version is drier and more crumbly than the Argentine one and is not usually chocolate-coated. Sometimes the edges are rolled in chopped nuts or coconut — that's the variable to check.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, manjar blanco",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "chopped nuts rolled onto the edge",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "Visible on the rim when present; plain versions are the norm."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-solterito",
+      "term": "Solterito",
+      "native": "",
+      "romanizations": [
+        "solterito de queso",
+        "solterito arequipeño"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cold Arequipeño salad of fava beans, choclo, cheese, olives, tomato, and raw onion.",
+      "long": "Boiled fava beans and choclo kernels tossed cold with diced queso fresco, black olives, tomato, raw red onion, rocoto, and parsley, dressed with vinegar and oil. The beans and corn are cooked; the tomato and onion are raw and diced through the salad rather than sitting on top.",
+      "components": [
+        "pe-choclo",
+        "pe-rocoto"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato, red onion, rocoto",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Diced through the salad."
+        },
+        {
+          "tag": "dairy",
+          "specific": "queso fresco",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw red onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Rocoto is the variable."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-choros-a-la-chalaca",
+      "term": "Choros a la chalaca",
+      "native": "",
+      "romanizations": [
+        "choros a la chalaca"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cold steamed mussels on the half shell topped with raw corn-and-onion salsa.",
+      "long": "Mussels steamed, cooled, and returned to the half shell under a spoonful of *chalaca* — diced raw onion, tomato, choclo kernels, lime, and chili. Served cold as a starter. Mussels are cooked; everything on top is raw.",
+      "components": [
+        "pe-salsa-criolla",
+        "pe-choclo"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "mussels",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Steamed, not raw."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, tomato, chili",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The topping is the dish; not really removable."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-conchitas",
+      "term": "Conchitas a la parmesana",
+      "native": "",
+      "romanizations": [
+        "conchitas parmesana"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Scallops on the half shell broiled under butter, lime, and parmesan.",
+      "long": "Scallops left in the shell, dabbed with butter, lime, white wine, and a blanket of grated parmesan, then run under a broiler until bubbling. Cooked through, mild, nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "scallops",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked."
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, parmesan",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "white wine",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-tallarines-verdes",
+      "term": "Tallarines verdes",
+      "native": "",
+      "romanizations": [
+        "tallarin verde",
+        "green noodles"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Peruvian pesto pasta — basil, spinach, cheese, and often **walnuts or pecans**.",
+      "long": "Spaghetti in a thick green sauce of basil and spinach blended with evaporated milk, queso fresco, and onion — the Italian-immigrant pesto adapted to Peruvian dairy. Many recipes, especially restaurant ones, include ground walnuts or pecans as in traditional pesto. Usually served with a breaded steak (*milanesa*) on top. Milder and creamier than Genovese pesto and the nuts are invisible, so this is worth asking about.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnut or pecan, ground into the sauce",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Common but not universal; fully blended and not visible."
+        },
+        {
+          "tag": "dairy",
+          "specific": "evaporated milk, queso fresco",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat pasta",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "milanesa cutlet on top",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Menus usually name the accompaniment."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "Are there walnuts in the green sauce?"
+    },
+    {
+      "id": "pe-sanguche",
+      "term": "Sanguche",
+      "native": "",
+      "romanizations": [
+        "sánguche",
+        "sandwich"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sandwich — most often pork: chicharrón, jamón del país, or roast pork *lechón*.",
+      "long": "Peruvian sandwiches are overwhelmingly pork-based. The classics are *sanguche de chicharrón* (fried pork belly with fried sweet potato and salsa criolla), *de jamón del país* (a mild boiled-and-pressed country ham), and *de lechón* (roast suckling pig). Chicken and beef versions exist but are the exception rather than the default.",
+      "components": [
+        "pe-chicharron",
+        "pe-salsa-criolla"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "chicharrón, jamón del país, or lechón",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Pork is the default filling; check before assuming otherwise."
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread roll",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "salsa criolla",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Can be left off."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-nikkei",
+      "term": "Nikkei",
+      "native": "",
+      "romanizations": [
+        "nikei"
+      ],
+      "language": "Spanish / Japanese",
+      "cuisines": [
+        "peruvian",
+        "japanese"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "Japanese-Peruvian cooking. Expect raw fish, soy, and miso alongside ají and lime.",
+      "long": "The cuisine of Peru's Japanese community, over a century old and now central to fine dining in Lima. It layers Japanese technique and ingredients — soy, miso, dashi, sashimi cuts — onto Peruvian chilies and citrus. A *nikkei* menu section reliably means more raw fish and more soy than the rest of the menu.",
+      "components": [
+        "pe-tiradito",
+        "pe-ceviche"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "sashimi-style preparations",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Characteristic of the style."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce, miso",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-chifa",
+      "term": "Chifa",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Chinese",
+      "cuisines": [
+        "peruvian",
+        "chinese"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "Chinese-Peruvian cooking — and the word for the restaurants that serve it.",
+      "long": "Cantonese cooking as remade by Chinese immigrants in Peru, now thoroughly Peruvian: arroz chaufa, tallarín saltado, wantán frito, *aeropuerto*. Soy sauce (*sillao*), ginger, and scallion dominate. Pork is extremely common as a default protein, and cashews appear in a few stir-fries though far less than in American Chinese cooking.",
+      "components": [
+        "pe-chaufa",
+        "pe-lomo-saltado"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "char siu and pork stock",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A frequent default protein across the menu."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "cashews in specific stir-fries",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "Named on the menu when present."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-tostones",
+      "term": "Tostones",
+      "native": "",
+      "romanizations": [
+        "patacones"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish",
+        "ingredient"
+      ],
+      "short": "Green (unripe) plantain, twice-fried into flat, crisp discs. Vegan on its own; often topped with pork.",
+      "long": "Unripe plantain sliced thick, fried once to soften, smashed flat, then fried again until crisp outside and starchy within — savory rather than sweet, unlike ripe-plantain preparations. Plain tostones are vegan and nut-free, but they are frequently served as a base under a topping, such as shredded pulled pork, which changes the dish considerably. From real Bethesda menus (Pisco y Nazca, \"Pulled Pork Tostones\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pulled pork topping, in that preparation",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Plain tostones have none; check whether a topping is included."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Are these plain tostones or topped with pulled pork?",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-aceituna-botija",
+      "term": "Aceituna Botija",
+      "native": "",
+      "romanizations": [
+        "botija olive"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Purple-black Peruvian olive, brine-cured, mild and meaty. A common garnish in causa and ceviche.",
+      "long": "A dark, wrinkled olive cured in brine, milder and less bitter than a Kalamata, used whole or as an olive-mayo purée folded into modern ceviche and causa preparations. Cured, not raw.",
+      "components": [
+        "pe-ceviche",
+        "pe-causa"
+      ],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "brine-cured olive",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-rocoto-aioli",
+      "term": "Rocoto Aioli",
+      "native": "",
+      "romanizations": [
+        "rocoto mayo",
+        "rocoto hollandaise"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Raw-egg emulsion (aioli, mayo, or hollandaise) spiked with rocoto chili. The default drizzle sauce on modern Peruvian-fusion menus.",
+      "long": "An egg-yolk emulsified sauce — technically aioli, mayonnaise, or hollandaise depending on the kitchen, all raw-or-barely-cooked egg yolk bases — blended with rocoto for color and heat. Appears constantly across tostones, causas, burgers, and croquetas on contemporary Peruvian menus, usually as a drizzle rather than a dip, so it's not always obvious it's there. From real Bethesda menus (Pisco y Nazca, appearing on Croquetas, Causa Crocante, Lechón Hash, Chicken and Waffles, Resaca Burger, Steak n' Egg Avocado Toast, and more).",
+      "components": [
+        "pe-rocoto"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "raw or barely-cooked egg yolk emulsion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The base of any aioli, mayo, or hollandaise, even when drizzled thin."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-chalaquita",
+      "term": "Chalaquita",
+      "native": "",
+      "romanizations": [
+        "chalaca"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Diced raw tomato, red onion, cilantro, and lime relish — a topping rather than a side salsa.",
+      "long": "Finely diced raw tomato, red onion, and cilantro dressed with lime and a little oil, used as a topping spooned directly onto a dish rather than served alongside it the way salsa criolla often is. Appears on causas, tiraditos, and egg dishes on modern menus. Entirely raw. From real Bethesda menus (Pisco y Nazca, on Causa de Pancita and Tiradito Bicolor).",
+      "components": [
+        "pe-salsa-criolla"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "diced raw tomato, onion, cilantro",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Spooned on top; not always removable once plated together."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw red onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-causa-de-pancita",
+      "term": "Causa de Pancita",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Causa topped with braised pork belly, rocoto hollandaise, chalaquita, and a poached egg.",
+      "long": "A modern causa variant: the classic lime-ají mashed potato base topped with tender braised pork belly, rocoto hollandaise (a raw-egg-yolk sauce), raw tomato-onion chalaquita, and a soft poached egg. Between the hollandaise and the poached egg, this version carries considerably more egg than a classic huancaína-style causa. From real Bethesda menus (Pisco y Nazca).",
+      "components": [
+        "pe-causa",
+        "pe-rocoto-aioli",
+        "pe-chalaquita"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "braised pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "poached egg, plus egg-yolk hollandaise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Two separate egg components — the poached egg is soft-set, not hard-cooked."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "chalaquita topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-tuna-tartare-tacos",
+      "term": "Tuna Tartare Tacos",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Japanese fusion",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw diced tuna in crispy fried wonton-shell tacos, with avocado cream and togarashi.",
+      "long": "A nikkei-style small plate: raw tuna diced tartare-style, seasoned with an Asian-style aioli, piled into crisp fried wonton shells shaped like taco cups, topped with avocado cream and a dusting of togarashi (a Japanese chili-sesame blend). Raw fish, wheat, sesame, and egg (in the aioli) all present. From real Bethesda menus (Pisco y Nazca).",
+      "components": [
+        "jp-spicy-tuna-roll"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw diced tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "fried wonton shell",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "togarashi dusting",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "aioli",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado cream",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-pork-belly-bao",
+      "term": "Pork Belly Bao Buns",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Chinese fusion",
+      "cuisines": [
+        "peruvian",
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy pork belly in a steamed wheat bao bun with leche de tigre and chipotle mayo — a chifa-nikkei mashup.",
+      "long": "Crispy braised pork belly tucked into a soft, pillowy steamed Chinese bao bun (yeasted wheat dough), with raw red onion, cilantro, a splash of leche de tigre (which itself contains raw fish), and chipotle mayo. Layers several allergens that aren't obvious from the name alone. From real Bethesda menus (Pisco y Nazca).",
+      "components": [
+        "pe-leche-de-tigre"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "crispy pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "steamed wheat bao bun",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fish",
+          "specific": "leche de tigre component",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "A spoonful of the ceviche marinade, which itself contains raw fish."
+        },
+        {
+          "tag": "egg",
+          "specific": "chipotle mayo",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw red onion, cilantro",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-lomo-saltado-roll",
+      "term": "Lomo Saltado Roll",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Japanese fusion",
+      "cuisines": [
+        "peruvian",
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A sushi roll built around wok-seared beef tenderloin, breaded and fried, with queso fresco.",
+      "long": "A nikkei roll that takes the lomo saltado stir-fry (beef, soy, oyster sauce, red onion) and rolls it with rice, then coats the whole roll in panko and fries it, finishing with queso fresco and ají amarillo aioli. Combines beef, dairy, shellfish-derived oyster sauce, wheat panko, and egg-based aioli in one roll. From real Bethesda menus (Pisco y Nazca).",
+      "components": [
+        "pe-lomo-saltado"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "wok-seared beef tenderloin",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "queso fresco",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "oyster sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "panko breading, soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "ají amarillo aioli",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-pionono",
+      "term": "Pionono",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Rolled sponge cake filled with dulce de leche and **Nutella** (hazelnut-cocoa spread), served with coffee ice cream.",
+      "long": "A thin sponge cake spread with dulce de leche and hazelnut-chocolate spread, rolled into a log and sliced into rounds, served with coffee chip ice cream. \"Nutella\" specifically means the tree nut is baked directly into the roll — this is not an optional garnish. From real Bethesda menus (Pisco y Nazca).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "Nutella (hazelnut-cocoa spread)",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Rolled into the cake itself, not a garnish — easy to miss since \"Nutella\" doesn't say \"hazelnut\" on the menu."
+        },
+        {
+          "tag": "dairy",
+          "specific": "dulce de leche, ice cream",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "sponge cake",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "sponge cake batter",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "This has Nutella baked in — is that a problem for a tree nut allergy?",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-buenazo",
+      "term": "Buenazo",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Walnut chocolate brownie with Kahlúa mousse, chocolate crunch, lúcuma ice cream, and **candied walnuts**.",
+      "long": "A composed plated dessert: a brownie made with walnuts, layered with coffee-liqueur chocolate mousse, crunchy chocolate pieces, a scoop of lúcuma (Andean fruit) ice cream, and a scatter of candied walnuts on top. Walnuts appear in two separate components — baked into the brownie and again as a garnish. From real Bethesda menus (Pisco y Nazca).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnuts, in the brownie and as candied garnish",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Present in two separate components of the dish."
+        },
+        {
+          "tag": "alcohol",
+          "specific": "Kahlúa (coffee liqueur)",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "In the mousse; not fully cooked off."
+        },
+        {
+          "tag": "dairy",
+          "specific": "mousse, ice cream",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "brownie batter",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "brownie",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-profiteroles-rellenos",
+      "term": "Profiteroles Rellenos",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / French",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Choux pastry puffs filled with lúcuma cream and **Nutella**.",
+      "long": "Small choux pastry shells filled with two creams: one flavored with lúcuma (Andean fruit), the other Nutella-based, so hazelnut is baked directly into the filling rather than drizzled on top. From real Bethesda menus (Pisco y Nazca, Chef's Selection).",
+      "components": [
+        "fr-profiteroles"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "Nutella filling",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "One of the two fillings; not visible from outside the puff."
+        },
+        {
+          "tag": "egg",
+          "specific": "choux pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream fillings, pastry butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "choux pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-frangelico",
+      "term": "Frangelico",
+      "native": "",
+      "romanizations": [],
+      "language": "Italian (on a Peruvian dessert-drink list)",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Sweet Italian **hazelnut** liqueur, served as an after-dinner digestif.",
+      "long": "A hazelnut-and-herb liqueur from Italy, sweet and nutty, sipped neat after a meal. Easy to overlook as a nut risk since it's filed under drinks rather than desserts, but the flavor is entirely hazelnut-derived. From real Bethesda menus (Pisco y Nazca dessert menu, Licor y Vino Dulce section).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "hazelnut liqueur",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The defining flavor of the liqueur — filed under drinks, easy to miss if scanning only the dessert food list."
+        },
+        {
+          "tag": "alcohol",
+          "specific": "hazelnut liqueur",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-flan",
+      "term": "Flan (Crema Volteada)",
+      "native": "",
+      "romanizations": [
+        "crema volteada"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Peruvian-style caramel egg custard, unmolded, with grilled pineapple and a quinoa tuile.",
+      "long": "A dense, egg-heavy caramel custard (more concentrated than a French crème caramel) baked in a mold and inverted to serve, here plated with grilled pineapple and a crisp quinoa wafer. Egg and dairy are both structural to the custard itself. From real Bethesda menus (Pisco y Nazca).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg custard base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "grilled pineapple",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Cooked, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-cafe-bombon",
+      "term": "Café Bombón",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Espresso layered over sweetened condensed milk, with foamed milk on top.",
+      "long": "A layered coffee drink: sweetened condensed milk poured first, hot espresso added on top so the layers stay distinct, finished with foamed milk. Entirely dairy in its sweet component. From real Bethesda menus (Pisco y Nazca).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "condensed milk, foamed milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "pisco-y-nazca"
+      ]
+    },
+    {
+      "id": "pe-chairo",
+      "term": "Chairo",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Aymara",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Hearty Andean lamb and vegetable soup with chuño (freeze-dried potato) and wheat berries.",
+      "long": "A thick soup from the high Andes with lamb or beef, chuño (potatoes freeze-dried through repeated freeze-thaw cycles at altitude), wheat berries, and vegetables, simmered for hours. Rustic, filling, and a strong contrast to coastal Peruvian dishes.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Beef is a common alternative."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat berries",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-rocoto-note-aji-mirasol",
+      "term": "Ají Mirasol",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Dried version of ají amarillo — deep orange, fruitier and slightly smokier than the fresh chili.",
+      "long": "Ají amarillo dried in the sun, which concentrates and deepens the flavor into something fruitier and a touch smoky. Rehydrated and blended into sauces and stews where a more intense version of the fresh chili's character is wanted.",
+      "components": [
+        "pe-aji-amarillo"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-anticucho-de-corazon-note",
+      "term": "Escabeche de Pescado",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried fish fillet under a warm, tangy pickled onion and ají amarillo relish.",
+      "long": "A fish fillet fried and topped with onions, carrots, and ají amarillo, softened and pickled briefly in vinegar and cooked until just tender — warm rather than cold in the Peruvian style. Fully cooked fish; the pickled onion is the main topping.",
+      "components": [
+        "pe-salsa-criolla"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fried fish fillet",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "pickled onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-humita",
+      "term": "Humita",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fresh ground corn mixed with cheese or a savory filling, wrapped in the husk and steamed.",
+      "long": "Fresh (not dried) corn kernels ground into a thick paste, mixed with onion, cheese or a savory sofrito, wrapped in the corn's own husk, and steamed until set, similar in construction to a tamale but with a coarser, sweeter corn base. Cheese is common but savory meat-filled versions exist too.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "cheese, in the classic savory filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "fresh corn",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-tamal",
+      "term": "Tamal Peruano",
+      "native": "",
+      "romanizations": [
+        "Peruvian tamale"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Corn dough steamed in banana leaf around chicken or pork, olive, and hard-boiled egg.",
+      "long": "Ground corn dough (masa) mixed with pork fat and ají panca, wrapped around a piece of chicken or pork, a black olive, and often a slice of hard-boiled egg, then wrapped in banana leaf and steamed. Egg is a standard, structural filling component here, unlike in many other tamale traditions.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken, in the chicken version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Pork is an equally standard alternative filling."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork, in the pork version, plus pork fat in the dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Pork fat is standard in the dough even for chicken tamales."
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg slice",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Often served with salsa criolla on the side for heat."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pe-pachamanca",
+      "term": "Pachamanca",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Andean feast of meats and potatoes slow-cooked underground over hot stones with huacatay and other herbs.",
+      "long": "A traditional Andean cooking method and the meal it produces: marinated meats (lamb, pork, chicken, guinea pig), potatoes, and fava beans layered with hot stones and herbs like huacatay in a pit dug in the earth, covered, and left to steam-roast for hours. A ceremonial, shared feast dish rather than an everyday order.",
+      "components": [
+        "pe-huacatay"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Multiple meats are typically served together — pork, chicken, and lamb are all common."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-anticuchos-note-cuy",
+      "term": "Cuy",
+      "native": "",
+      "romanizations": [
+        "cuy chactado",
+        "guinea pig"
+      ],
+      "language": "Spanish / Quechua",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole guinea pig, deep fried or spit-roasted, skin crisped — a traditional Andean delicacy.",
+      "long": "Guinea pig, farmed specifically for eating in the Andes, marinated in garlic and herbs then deep fried whole (*chactado*) until the skin turns crackling-crisp, or spit-roasted over coals. Served whole, head and all, in traditional presentations. Not commonly available outside specialty or highland-focused restaurants.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-crema-de-rocoto",
+      "term": "Crema de Rocoto",
+      "native": "",
+      "romanizations": [
+        "rocoto cream sauce"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Blended rocoto, cheese, and cream sauce served over fries or grilled meat — a fiery table sauce.",
+      "long": "Roasted rocoto blended with evaporated milk or cream and a little cheese into a smooth, orange-red sauce, hot enough that it's usually offered in small ramekins alongside anticuchos, fries, or sandwiches rather than mixed into the dish itself.",
+      "components": [
+        "pe-rocoto"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "cream or evaporated milk, cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Usually served on the side, so the dose is up to you."
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-turron-de-doña-pepa",
+      "term": "Turrón de Doña Pepa",
+      "native": "",
+      "romanizations": [
+        "turron"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Layered anise-scented cookie bars glued with fig syrup, topped with rainbow sprinkles. Traditional in October.",
+      "long": "Crisp anise-flavored cookie layers stacked and bound with a thick fig-and-spice syrup, cut into bars and finished with colorful sugar sprinkles (*grageas*). Associated with the October Lord of Miracles procession. Wheat and egg are both present in the cookie layers; reliably nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat cookie layers",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the cookie dough",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "fig syrup",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-emoliente",
+      "term": "Emoliente",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Warm street-cart herbal infusion of barley, flaxseed, and horsetail, drunk for digestion.",
+      "long": "A warm infusion brewed from boiled barley, flaxseed, horsetail (cola de caballo), and other herbs, strained and served hot from street carts, often with lime juice added at the cup. Considered a folk digestive remedy as much as a drink. Barley content means it carries gluten.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "barley in the infusion base",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pe-inca-kola",
+      "term": "Inca Kola",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "peruvian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Bright yellow, bubblegum-and-lemongrass-flavored Peruvian soda. Ubiquitous, non-alcoholic.",
+      "long": "A carbonated soft drink flavored with hierba luisa (lemongrass) among other botanicals, giving it a distinct sweet, bubblegum-like taste and vivid yellow color. The best-selling soda in Peru, often paired with ceviche or chifa food.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

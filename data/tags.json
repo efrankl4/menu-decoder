@@ -1,0 +1,36 @@
+{
+  "groups": [
+    { "id": "nuts", "label": "Nuts & seeds" },
+    { "id": "produce", "label": "Produce" },
+    { "id": "meat", "label": "Meat & poultry" },
+    { "id": "seafood", "label": "Seafood" },
+    { "id": "other", "label": "Other common restrictions" }
+  ],
+  "tags": [
+    { "id": "tree_nut",      "group": "nuts",    "emoji": "🌰", "label": "Tree nuts",      "short": "TN",  "desc": "Almond, walnut, pistachio, cashew, pecan, hazelnut, pine nut, Brazil, macadamia." },
+    { "id": "peanut",        "group": "nuts",    "emoji": "🥜", "label": "Peanuts",        "short": "PN",  "desc": "Peanut, groundnut, peanut oil, peanut flour." },
+    { "id": "sesame",        "group": "nuts",    "emoji": "",   "label": "Sesame",         "short": "SES", "desc": "Sesame seed, tahini, halva, za'atar blends." },
+
+    { "id": "raw_vegetable", "group": "produce", "emoji": "🥬", "label": "Raw vegetables",  "short": "RV",  "desc": "Uncooked vegetables, including salads, slaws, and raw garnishes." },
+    { "id": "raw_fruit",     "group": "produce", "emoji": "🍎", "label": "Raw fruit",       "short": "RF",  "desc": "Uncooked fruit. Excludes melon, which is tracked separately." },
+    { "id": "melon",         "group": "produce", "emoji": "🍈", "label": "Melon",           "short": "MEL", "desc": "Watermelon, cantaloupe, honeydew, and other melons, raw or otherwise." },
+    { "id": "fruit",         "group": "produce", "emoji": "🍇", "label": "Fruit (any)",     "short": "FR",  "desc": "Fruit in any form — cooked, dried, juiced, or raw." },
+    { "id": "allium",        "group": "produce", "emoji": "🧅", "label": "Onion & garlic",  "short": "ALL", "desc": "Onion, garlic, shallot, leek, scallion, chive." },
+
+    { "id": "pork",          "group": "meat",    "emoji": "🐖", "label": "Pork",           "short": "PK",  "desc": "Pork, ham, bacon, lard, pork-based sausage and broth." },
+    { "id": "beef",          "group": "meat",    "emoji": "🐄", "label": "Beef",           "short": "BF",  "desc": "Beef and veal, including beef broth and tallow." },
+    { "id": "chicken",       "group": "meat",    "emoji": "🐔", "label": "Chicken",        "short": "CH",  "desc": "Chicken and other poultry, including chicken stock." },
+    { "id": "lamb",          "group": "meat",    "emoji": "🐑", "label": "Lamb & goat",    "short": "LB",  "desc": "Lamb, mutton, goat." },
+
+    { "id": "shellfish",     "group": "seafood", "emoji": "🦐", "label": "Shellfish",      "short": "SF",  "desc": "Shrimp, crab, lobster, and molluscs — clam, mussel, squid, octopus, scallop." },
+    { "id": "raw_fish",      "group": "seafood", "emoji": "🍣", "label": "Raw fish",       "short": "RFS", "desc": "Uncooked fish, including cured and citrus-'cooked' preparations." },
+    { "id": "fish",          "group": "seafood", "emoji": "🐟", "label": "Fish (any)",     "short": "FSH", "desc": "Any finfish, including fish sauce, anchovy, and dried shrimp-free fish pastes." },
+
+    { "id": "gluten",        "group": "other",   "emoji": "🌾", "label": "Gluten",         "short": "GL",  "desc": "Wheat, barley, rye, bulgur, freekeh, semolina, most soy sauce." },
+    { "id": "dairy",         "group": "other",   "emoji": "🥛", "label": "Dairy",          "short": "DY",  "desc": "Milk, butter, ghee, cheese, yogurt, cream." },
+    { "id": "egg",           "group": "other",   "emoji": "🥚", "label": "Egg",            "short": "EGG", "desc": "Egg in any form, including as a binder or wash." },
+    { "id": "soy",           "group": "other",   "emoji": "🫘", "label": "Soy",            "short": "SOY", "desc": "Soybean, soy sauce, tofu, miso, soybean oil." },
+    { "id": "alcohol",       "group": "other",   "emoji": "🍷", "label": "Alcohol",        "short": "ALC", "desc": "Alcohol as an ingredient, including cooking wine that is not fully cooked off." },
+    { "id": "fermented",     "group": "other",   "emoji": "",   "label": "Fermented",      "short": "FERM","desc": "Fermented or cultured components — fish sauce, kimchi, injera, pickles, aged pastes." }
+  ]
+}

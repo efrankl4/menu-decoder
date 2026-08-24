@@ -1,0 +1,573 @@
+{
+  "cuisine": "spanish",
+  "terms": [
+    {
+      "id": "es-jamon-serrano",
+      "term": "Jamón Serrano",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Dry-cured mountain ham, sliced paper-thin and eaten raw/cured — not cooked with heat.",
+      "long": "Pork leg salted and air-dried in mountain air for months to over a year, sliced translucently thin and eaten as-is. Cured rather than heat-cooked — the same preservation category as prosciutto or basturma. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "pa-basturma"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured ham",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured, not cooked with heat."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-jamon-iberico",
+      "term": "Jamón Ibérico",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Premium cured ham from Iberian pigs, often acorn-fed (de bellota) — richer and more marbled than Serrano.",
+      "long": "A more prized, more expensive relative of jamón serrano, from the black Iberian pig breed, sometimes specifically acorn-fed (jamón ibérico de bellota) for a nuttier fat flavor despite containing no actual nuts. Cured, not cooked. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "es-jamon-serrano"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured Iberian ham",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured, not cooked with heat."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-croquetas",
+      "term": "Croquetas de Jamón",
+      "native": "",
+      "romanizations": [
+        "ham croquettes"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small fried rolls of thick béchamel studded with minced ham, breaded and deep fried.",
+      "long": "A very thick béchamel (butter, flour, milk) mixed with finely minced Serrano ham, chilled until firm, formed into small logs, breaded, and deep fried until the outside crisps around a molten center. Dairy, wheat, and pork are all structural — easy to underestimate given the small bite-sized format. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "es-jamon-serrano"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "béchamel (butter and milk)",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "minced Serrano ham",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "béchamel flour, breading",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg wash in the breading",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-patatas-bravas",
+      "term": "Patatas Bravas",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy fried potato cubes under a spicy tomato sauce, garlic aioli, or both.",
+      "long": "Potato cut into cubes, fried until crisp, and topped with *salsa brava* (a smoky, mildly spicy tomato-paprika sauce) and often a drizzle of garlic aioli as well. Egg appears if aioli is included; otherwise vegan. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "gr-skordalia"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "garlic aioli, when included",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the aioli",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-tortilla-espanola",
+      "term": "Tortilla Española",
+      "native": "",
+      "romanizations": [
+        "Spanish omelette",
+        "tortilla de patatas"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick potato and onion omelette, served warm or room temperature in wedges — not a flatbread despite the name.",
+      "long": "Thinly sliced potato and onion slow-cooked in olive oil until soft, then bound with a large number of beaten eggs and cooked in a pan, flipped whole, into a thick, dense disc, sliced into wedges. The name is easy to confuse with the Mexican corn/flour flatbread of the same name, but this is entirely egg-based. From real DC menus (Taberna del Alabardero, with olives and alioli).",
+      "components": [
+        "fr-galette-bretonne"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire dish is bound with egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Not to be confused with the flatbread tortilla — this is a dense potato omelette."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-pulpo-gallega",
+      "term": "Pulpo a la Gallega",
+      "native": "",
+      "romanizations": [
+        "Galician-style octopus"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Boiled octopus sliced over potato, dusted with smoked paprika and sea salt, finished with olive oil.",
+      "long": "Octopus boiled until tender (a specific technique, often involving dipping it in and out of the water repeatedly to keep the skin intact), sliced into rounds over boiled potato, and dusted with sweet or hot smoked paprika and coarse sea salt. Fully cooked, simple, nut-free. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "gr-htapodi"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "octopus",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Depends on sweet vs hot smoked paprika."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-calamares-andaluza",
+      "term": "Calamares a la Andaluza",
+      "native": "",
+      "romanizations": [
+        "fried calamari"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Squid rings dredged in flour and deep fried, Andalusian style — plain, crisp, served with lemon.",
+      "long": "Squid rings lightly dredged in flour (sometimes cut with a little cornstarch) and flash-fried in olive oil until just crisp, seasoned only with salt and served with lemon wedges — simpler and less battered than many other fried-calamari styles. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "gr-kalamari"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "squid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-gambas-al-ajillo",
+      "term": "Gambas al Ajillo",
+      "native": "",
+      "romanizations": [
+        "garlic shrimp"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Shrimp sizzled in olive oil with a large amount of sliced garlic and dried chili, served bubbling.",
+      "long": "Shrimp cooked quickly in a shallow dish of olive oil with generous sliced garlic and dried chili flake, brought to the table still sizzling, eaten with bread to mop up the oil. From real DC menus (Taberna del Alabardero).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "a large quantity of garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-paella",
+      "term": "Paella",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Saffron rice cooked in a wide shallow pan, topped with seafood, chicken and rabbit, or both.",
+      "long": "Short-grain rice cooked in a wide, shallow pan with saffron-infused stock, left undisturbed so a crisp bottom crust (socarrat) forms. **Paella de mariscos** is seafood-topped (shrimp, mussels, clams, squid); **paella valenciana** is the original, with chicken and rabbit and green beans, no seafood at all; **paella mixta** combines both. The three versions carry very different allergen profiles despite sharing a name.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, mussels, clams, squid, in the seafood or mixed versions",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in de mariscos or mixta — valenciana has none."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken, in the valenciana or mixta versions",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this the seafood paella, the valenciana (chicken and rabbit), or mixed?"
+    },
+    {
+      "id": "es-alioli",
+      "term": "Alioli",
+      "native": "",
+      "romanizations": [
+        "aioli"
+      ],
+      "language": "Spanish / Catalan",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Raw garlic and olive oil emulsion — traditionally egg-free, though most restaurant versions add egg.",
+      "long": "Traditionally just raw garlic pounded and slowly emulsified with olive oil, with no egg at all — a labor-intensive technique. Most modern restaurant versions add egg yolk to stabilize the emulsion more easily, functionally becoming a garlic mayonnaise. The traditional and modern versions are not visually distinguishable.",
+      "components": [
+        "pa-toum"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "raw garlic, in significant quantity",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg yolk, in most modern restaurant versions",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Traditional alioli has none, but most restaurants make the easier egg-stabilized version — worth asking if egg matters."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this alioli made with egg, or the traditional egg-free style?"
+    },
+    {
+      "id": "es-gazpacho",
+      "term": "Gazpacho",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cold, blended raw tomato and vegetable soup — the whole dish is uncooked.",
+      "long": "Raw tomato, cucumber, bell pepper, garlic, and bread blended smooth with olive oil and sherry vinegar, served chilled. Every vegetable component is raw; only the bread (if used as a thickener) requires the gluten flag.",
+      "components": [
+        "mx-pico-de-gallo"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw tomato, cucumber, pepper",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The entire soup is raw, blended vegetables."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread thickener, in traditional recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "es-crema-catalana",
+      "term": "Crema Catalana",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Catalan",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Egg-yolk custard flavored with citrus and cinnamon, topped with a torched sugar crust — Catalonia's answer to crème brûlée.",
+      "long": "A stovetop-set custard (rather than baked) of milk, egg yolk, citrus zest, and cinnamon, chilled, then finished with a caramelized sugar crust torched just before serving. Egg and dairy are both structural.",
+      "components": [
+        "fr-creme-brulee"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg yolk custard",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "es-sangria",
+      "term": "Sangría",
+      "native": "",
+      "romanizations": [
+        "sangria"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Red or white wine mixed with chopped raw fruit, brandy, and a little sugar, served cold.",
+      "long": "Wine mixed with brandy or orange liqueur, sweetened, and packed with chopped raw citrus and other fruit that soaks in the alcohol, served over ice. Both alcohol and raw fruit are consumed together.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "wine, plus brandy or liqueur",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "chopped raw citrus and other fruit",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Soaked in alcohol, still raw fruit."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

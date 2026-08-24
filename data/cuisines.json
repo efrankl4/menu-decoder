@@ -1,0 +1,42 @@
+{
+  "cuisines": [
+    { "id": "ethiopian",   "label": "Ethiopian",   "flag": "🇪🇹", "file": "ethiopian.json",   "status": "built",
+      "brief": "Stews (wat) eaten communally off injera with the hands. Very low nut risk; heavy on clarified butter, chili, and fermented grain. Raw beef dishes are a real category, not a novelty." },
+    { "id": "peruvian",    "label": "Peruvian",    "flag": "🇵🇪", "file": "peruvian.json",    "status": "built",
+      "brief": "Coastal seafood plus Andean tubers, with Chinese (chifa) and Japanese (nikkei) fusion woven in. Raw fish and raw onion are everywhere; peanuts and walnuts appear in specific sauces. On modern menus, watch for hazelnut (Nutella, Frangelico) hiding in desserts and drinks, and raw-egg aioli/hollandaise drizzled on savory dishes." },
+    { "id": "palestinian", "label": "Palestinian", "flag": "🇵🇸", "file": "palestinian.json", "status": "built",
+      "brief": "Levantine. Highest tree-nut density of the pilot four — pine nuts and almonds garnish many hot dishes, and desserts are nut-built. Raw vegetable salads are a menu staple. Modern fusion restaurants add walnut/pistachio dukkah, muhammara, and occasional raw-fish or shellfish dishes not found on traditional menus." },
+    { "id": "thai",        "label": "Thai",        "flag": "🇹🇭", "file": "thai.json",        "status": "built",
+      "brief": "Peanuts are common but usually identifiable by dish. Fish sauce and dried shrimp are near-universal background ingredients, including in dishes that read as vegetarian." },
+
+    { "id": "lebanese",    "label": "Lebanese",    "flag": "🇱🇧", "file": "lebanese.json",    "status": "built",
+      "brief": "Levantine, heavily overlapping with Palestinian. Sausages (soujok, ma'anek), fatteh, and feast dishes like ouzi add pine nuts mixed through rice, not just on top — check prominence, not just presence." },
+    { "id": "greek",       "label": "Greek",       "flag": "🇬🇷", "file": "greek.json",       "status": "built",
+      "brief": "Dairy-forward — feta, yogurt, béchamel — with raw village salads and a couple of genuinely spicy dips (htipiti). Gyro and souvlaki meat varies by restaurant; always ask which." },
+    { "id": "french",      "label": "French",      "flag": "🇫🇷", "file": "french.json",      "status": "built",
+      "brief": "Raw and rare proteins are a real category here — steak tartare, oysters, seared tuna niçoise — alongside heavy, reliable dairy (butter, cream, cheese) in nearly every sauce." },
+    { "id": "chinese",     "label": "Chinese",     "flag": "🇨🇳", "file": "chinese.json",     "status": "built",
+      "brief": "American-Chinese-menu peanuts and cashews are usually named in the dish (Kung Pao, cashew chicken) rather than hidden. Soy and shellfish (oyster sauce, dried shrimp) run through many 'vegetable' dishes. Regional Sichuan menus add sesame/peanut paste in noodle sauces and genuinely numbing-hot dishes alongside the milder Cantonese-American standards." },
+    { "id": "japanese",    "label": "Japanese",    "flag": "🇯🇵", "file": "japanese.json",    "status": "built",
+      "brief": "Raw fish is the headline risk but far from universal — tempura, teriyaki, katsu, and udon are all cooked. Miso and dashi both commonly carry fish stock even in 'vegetarian'-looking dishes. Seared 'tataki' and Hawaiian-style poke are both effectively raw despite looking cooked; sukiyaki dips into raw beaten egg." },
+    { "id": "korean",      "label": "Korean",      "flag": "🇰🇷", "file": "korean.json",      "status": "built",
+      "brief": "Fermented chili paste (gochujang) and kimchi run through most of the menu and are reliably spicy. Fish sauce or salted shrimp hide inside kimchi even when the dish looks vegetable-only. At an all-you-can-eat BBQ table, unmarinated cuts (chadol/brisket) are the most allergen-transparent option, and shared-grill cross-contact with shellfish is worth asking about." },
+    { "id": "ukrainian",   "label": "Ukrainian",   "flag": "🇺🇦", "file": "ukrainian.json",   "status": "built",
+      "brief": "Dairy (sour cream, farmer's cheese) and pork are the two ingredients to track — both recur constantly. Vegetarian versions of borscht and varenyky are standard, labeled menu choices, not substitutions." },
+
+    { "id": "turkish",     "label": "Turkish",     "flag": "🇹🇷", "file": "turkish.json",     "status": "built",
+      "brief": "Heavy overlap with Greek and Lebanese mezze, but with its own dairy-forward desserts (kazandibi, künefe) and yogurt-based sauces. Lamb and pistachio/walnut are both common; ask which nut a given dessert uses." },
+    { "id": "indian",      "label": "Indian",      "flag": "🇮🇳", "file": "indian.json",      "status": "built",
+      "brief": "Dairy (ghee, paneer, cream, yogurt) runs through almost everything, including most 'vegetarian' curries. Cashews and almonds are common thickeners in creamy sauces (korma, makhani) and are blended in, not garnished — easy to miss." },
+    { "id": "salvadoran",  "label": "Salvadoran",  "flag": "🇸🇻", "file": "salvadoran.json",  "status": "built",
+      "brief": "Corn-and-pork-forward. Pupusas are the centerpiece and nearly always contain pork (chicharrón) or cheese; curtido (pickled cabbage slaw) is a raw-vegetable topping on almost everything. Low nut risk as a rule." },
+    { "id": "afghan",      "label": "Afghan",      "flag": "🇦🇫", "file": "afghan.json",      "status": "built",
+      "brief": "Distinct from Middle Eastern despite surface similarities — qorma sauces are yogurt- and herb-based rather than tahina-based, and dumplings (mantu, aushak) are always topped with garlic yogurt. Lamb and beef dominate; nut risk is low except in specific rice dishes (qabuli) with raisins and carrot, occasionally almond." },
+    { "id": "mexican",     "label": "Mexican",     "flag": "🇲🇽", "file": "mexican.json",     "status": "built",
+      "brief": "Corn, pork, and raw onion/cilantro toppings are everywhere. Cheese varies by dish (queso fresco, Chihuahua, cotija) and is nearly always present even when a dish looks meat-only. Nut risk is low outside of mole sauces, which can contain peanut or almond." },
+    { "id": "vietnamese",  "label": "Vietnamese",  "flag": "🇻🇳", "file": "vietnamese.json",  "status": "built",
+      "brief": "Fish sauce (nước mắm) is nearly universal, similar to Thai cooking. Fresh herbs and raw vegetables arrive as a build-your-own side plate with most noodle dishes — genuinely raw, not garnish. Peanuts are common on top of noodle salads and some pho, usually visible and removable." },
+    { "id": "spanish",     "label": "Spanish",     "flag": "🇪🇸", "file": "spanish.json",     "status": "built",
+      "brief": "Cured pork (jamón) and olive oil run through the menu constantly. Seafood tapas are often served with the shell/shellfish visible and easy to identify, but Spanish tortilla and croquetas both hide egg and dairy behind an unassuming name." }
+  ]
+}

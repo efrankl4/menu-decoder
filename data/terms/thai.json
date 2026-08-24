@@ -1,0 +1,3595 @@
+{
+  "cuisine": "thai",
+  "terms": [
+    {
+      "id": "th-nam-pla",
+      "term": "Nam pla",
+      "native": "น้ำปลา",
+      "romanizations": [
+        "nam plaa",
+        "fish sauce"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Fermented anchovy sauce — the salt of Thai cooking. In almost everything savory.",
+      "long": "Small fish, usually anchovies, salted and fermented for a year, then drained. It supplies nearly all the salt in Thai cooking and appears in curries, stir-fries, soups, salads, and dipping sauces alike. Its practical consequence is that a great many dishes that read as vegetarian on a menu are not — this is the single most common hidden animal ingredient in the cuisine, and most kitchens can substitute soy or a vegetarian fish sauce if asked in advance.",
+      "components": [
+        "th-kapi"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fermented anchovy",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Small quantity but present in most savory dishes."
+        },
+        {
+          "tag": "fermented",
+          "specific": "fish ferment",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-kapi",
+      "term": "Kapi",
+      "native": "กะปิ",
+      "romanizations": [
+        "gapi",
+        "shrimp paste"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Fermented **shrimp** paste — a base of nearly every Thai curry paste.",
+      "long": "Tiny shrimp salted, fermented, and pressed into a dense purple-grey block with a powerful smell that cooks out into savory depth. It goes into red, green, panang, and massaman curry pastes, into nam prik dips, and into som tam. This is the reason shellfish avoidance in Thai food is much harder than it looks: a vegetable green curry with no visible seafood very likely still contains shrimp paste. Some kitchens keep a vegan paste; it is always worth asking.",
+      "components": [
+        "th-gaeng-keow-wan",
+        "th-nam-prik"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "fermented shrimp",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Small quantity, but blended into the paste and unremovable."
+        },
+        {
+          "tag": "fermented",
+          "specific": "shrimp ferment",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Does your curry paste have shrimp paste in it?"
+    },
+    {
+      "id": "th-pad-thai",
+      "term": "Pad thai",
+      "native": "ผัดไทย",
+      "romanizations": [
+        "phat thai",
+        "pad tai",
+        "pud thai"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Rice noodles stir-fried in tamarind sauce with egg, tofu, and crushed **peanuts** on top.",
+      "long": "Thin flat rice noodles tossed in a wok with a sauce of tamarind, palm sugar, and fish sauce, plus egg, pressed tofu, garlic chives, and bean sprouts, then plated with crushed roasted **peanuts**, chili flakes, and a lime wedge. Dried shrimp and preserved radish are standard in the sauce base even for the chicken or tofu version. The peanuts arrive on top and can be left off — but many kitchens also stir some into the wok, so it's worth specifying. Mild unless you add the chili flakes yourself.",
+      "components": [
+        "th-tamarind",
+        "th-nam-pla",
+        "th-taohu"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "crushed roasted peanuts",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Normally sprinkled on top and omittable, but some kitchens also add them into the wok."
+        },
+        {
+          "tag": "egg",
+          "specific": "scrambled through the noodles",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "dried shrimp in the sauce base",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Present even in tofu and chicken versions unless specially made."
+        },
+        {
+          "tag": "soy",
+          "specific": "tofu, sometimes soy sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw bean sprouts and garlic chives on the side",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Served raw alongside to add yourself."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Not spicy as cooked; heat comes from the chili flakes on the condiment caddy."
+      },
+      "confidence": "high",
+      "ask": "Can you make it with no peanuts at all, including in the wok?"
+    },
+    {
+      "id": "th-pad-see-ew",
+      "term": "Pad see ew",
+      "native": "ผัดซีอิ๊ว",
+      "romanizations": [
+        "phat si io",
+        "pad si ew",
+        "pad see ew"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Wide rice noodles charred in dark soy with egg and Chinese broccoli. Not spicy, no nuts.",
+      "long": "Broad fresh rice noodles seared hard in a very hot wok with dark sweet soy sauce, egg, garlic, and *gai lan*, until the edges caramelize and pick up smoky *wok hei*. Savory-sweet rather than hot, and reliably free of nuts and chili — one of the safest orders on a Thai menu for both nuts and heat. Pork is the default protein in many kitchens.",
+      "components": [
+        "th-see-ew-dam"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "dark and light soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "scrambled into the noodles",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce, and oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "sliced pork",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "The default protein in many kitchens; chicken, beef, and tofu are standard alternatives."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": "Oyster sauce is standard in the seasoning."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-pad-kee-mao",
+      "term": "Pad kee mao",
+      "native": "ผัดขี้เมา",
+      "romanizations": [
+        "pad kee mao",
+        "phat khi mao",
+        "drunken noodles"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "\"Drunken noodles\" — wide noodles stir-fried hot with holy basil and lots of chili.",
+      "long": "The same wide rice noodles as pad see ew but taken in the opposite direction: fresh chili, garlic, holy basil, young peppercorns, and sometimes baby corn and bell pepper, in a savory soy-and-fish-sauce base. Contains no alcohol despite the name. Genuinely spicy as standard, though the heat is added rather than built into a paste, so kitchens can adjust it easily. Nut-free.",
+      "components": [
+        "th-kaprao",
+        "th-nam-pla"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy and oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "One of several standard proteins."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Fresh chili added in the wok, so easy to reduce on request."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-pad-kaprao",
+      "term": "Pad kaprao",
+      "native": "ผัดกะเพรา",
+      "romanizations": [
+        "pad krapow",
+        "pad gaprao",
+        "pad ka prao"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Minced meat stir-fried with holy basil and chili, over rice with a fried egg.",
+      "long": "Thailand's default everyday lunch: minced pork or chicken flash-fried with pounded garlic and bird's-eye chili, seasoned with fish sauce, oyster sauce, and a little sugar, then finished with a handful of holy basil that wilts into it. Served over jasmine rice with a crisp-edged fried egg (*kai dao*). Hot as standard. **Moo** means pork and is the most common version — *gai* is chicken.",
+      "components": [
+        "th-kaprao",
+        "th-nam-pla"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "*Kaprao moo* is the default; *kaprao gai* is chicken."
+        },
+        {
+          "tag": "chicken",
+          "specific": "minced chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "fried egg on top",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Optional; ordered as *kai dao*."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Fresh bird's-eye chili, added by count — very easy to adjust."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-kaprao",
+      "term": "Kaprao",
+      "native": "กะเพรา",
+      "romanizations": [
+        "krapow",
+        "gaprao",
+        "holy basil"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Holy basil — peppery and clove-like, wilted into stir-fries. Not the same as Thai basil.",
+      "long": "A basil with narrow, slightly fuzzy leaves and a sharp peppery, almost clove-like bite that appears only when cooked. Distinct from *horapha* (Thai sweet basil), which is anise-scented and goes into curries. The two are frequently swapped abroad; if a dish tastes licorice-sweet rather than peppery, it was made with horapha.",
+      "components": [
+        "th-horapha",
+        "th-pad-kaprao"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Peppery, but no chili heat."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-horapha",
+      "term": "Horapha",
+      "native": "โหระพา",
+      "romanizations": [
+        "horapa",
+        "Thai basil",
+        "sweet basil"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Thai sweet basil — purple stems, anise scent. The basil in green and red curry.",
+      "long": "Glossy green leaves on purple stems with a distinct anise-licorice aroma. Torn into curries at the end and served raw alongside noodle soups. This is the basil most people picture as \"Thai basil.\"",
+      "components": [
+        "th-kaprao",
+        "th-gaeng-keow-wan"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-tom-yum",
+      "term": "Tom yum",
+      "native": "ต้มยำ",
+      "romanizations": [
+        "tom yam",
+        "dtom yum"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Hot-and-sour clear broth with lemongrass, galangal, and lime leaf. Usually shrimp.",
+      "long": "A broth sharpened with lime juice and fish sauce and perfumed with bruised lemongrass, galangal, and kaffir lime leaf, with mushrooms and a protein — most often shrimp (*tom yum goong*). The aromatics are left in whole and are not meant to be eaten. Two versions exist: **nam sai** is the clear original, **nam khon** adds evaporated milk or coconut milk and chili paste, turning it orange and creamy. Hot and sour in equal measure.",
+      "components": [
+        "th-takrai",
+        "th-kha",
+        "th-bai-makrut",
+        "th-nam-prik-pao"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "*Goong* is shrimp; *gai* chicken and *talay* mixed seafood are the other standards."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "evaporated milk in the *nam khon* version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "fresh lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Squeezed in raw at the end."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Whole bird's-eye chilies plus chili paste; adjustable on request."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-tom-kha",
+      "term": "Tom kha",
+      "native": "ต้มข่า",
+      "romanizations": [
+        "tom kha gai",
+        "dtom kha"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Coconut milk soup with galangal and lime leaf — mild, creamy cousin of tom yum.",
+      "long": "Coconut milk simmered with galangal, lemongrass, lime leaf, mushrooms, and usually chicken, sharpened with lime juice and fish sauce. Far milder and richer than tom yum, with just a couple of chilies for warmth. Dairy-free (the creaminess is coconut) and nut-free — coconut is not a tree nut for most purposes, though it is worth knowing that it's occasionally classified as one.",
+      "components": [
+        "th-kha",
+        "th-kati",
+        "th-tom-yum"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "*Gai*; shrimp and tofu versions exist."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "fresh lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Mild by design; coconut milk blunts what chili there is."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-som-tam",
+      "term": "Som tam",
+      "native": "ส้มตำ",
+      "romanizations": [
+        "som tum",
+        "somtam",
+        "green papaya salad"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pounded **raw** green papaya salad with **peanuts**, dried shrimp, lime, and chili.",
+      "long": "Shredded unripe green papaya bruised in a mortar with garlic, bird's-eye chili, long beans, tomato, lime juice, palm sugar, fish sauce, dried shrimp, and roasted **peanuts**. Entirely raw and pounded rather than cooked, and typically very hot — chilies are added by count, so ordering \"two chilies\" is normal and understood. The Lao-Isaan version, **som tam pla ra**, adds fermented fish sauce and is funkier; **som tam poo** adds raw salted crab. Both peanuts and dried shrimp are pounded through the salad rather than sprinkled on, so they are not removable after the fact.",
+      "components": [
+        "th-nam-pla",
+        "th-prik-kee-noo"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "roasted peanuts",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Pounded through the salad — not removable once made. Ask before it's pounded."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "green papaya, long bean, tomato, garlic",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The whole dish is raw."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "unripe papaya, lime juice",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Green papaya is used as a vegetable but is botanically fruit, and raw."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "dried shrimp, and raw salted crab in *som tam poo*",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Dried shrimp is standard; salted crab only in specific versions."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce, or fermented pla ra",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "Made to order — chilies are counted, so you can specify exactly."
+      },
+      "confidence": "high",
+      "ask": "No peanuts and no dried shrimp, and two chilies please."
+    },
+    {
+      "id": "th-larb",
+      "term": "Larb",
+      "native": "ลาบ",
+      "romanizations": [
+        "laab",
+        "laap",
+        "larp"
+      ],
+      "language": "Thai / Lao",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Warm minced-meat salad with toasted rice powder, lime, chili, mint, and raw shallot.",
+      "long": "Minced pork, chicken, beef, or duck cooked briefly in its own juices, then tossed off the heat with lime juice, fish sauce, dried chili, sliced raw shallot, mint, cilantro, and **khao khua** — raw sticky rice toasted and ground, which gives the dish its characteristic nutty crunch and is rice, not nuts. Served at room temperature with sticky rice and raw vegetables. Isaan in origin and usually hot. A raw version, *larb dib*, exists and is uncommon in restaurants abroad.",
+      "components": [
+        "th-khao-khua",
+        "th-khao-niao",
+        "th-prik-kee-noo"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "*Larb moo* is the most common; chicken, beef, and duck are all standard."
+        },
+        {
+          "tag": "chicken",
+          "specific": "minced chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shallot, mint, cilantro, and the vegetable plate",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Raw shallot is mixed through; a plate of raw cabbage and beans comes alongside."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw shallot, scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Dried chili powder, mixed in — say mild when ordering."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-khao-khua",
+      "term": "Khao khua",
+      "native": "ข้าวคั่ว",
+      "romanizations": [
+        "kao kua",
+        "toasted rice powder"
+      ],
+      "language": "Thai / Lao",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Toasted ground sticky rice — the nutty crunch in larb and nam tok. Contains no nuts.",
+      "long": "Raw glutinous rice dry-toasted in a pan until deep brown and fragrant, then pounded coarse. It adds a sandy texture and a genuinely nutty aroma to Isaan salads. Worth knowing precisely because that nutty character causes people to assume nuts are present — it is rice, and it is gluten-free despite \"glutinous\" in the name.",
+      "components": [
+        "th-larb"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-nam-tok",
+      "term": "Nam tok",
+      "native": "น้ำตก",
+      "romanizations": [
+        "nam dtok",
+        "waterfall salad"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled sliced beef or pork dressed like larb — lime, chili, mint, toasted rice.",
+      "long": "Steak or pork neck grilled over coals, rested, sliced thin, and tossed with the same dressing as larb. Named for the juices that drip onto the coals. Usually served medium-rare, so the beef is pink in the middle. Hot, sour, and nut-free.",
+      "components": [
+        "th-larb",
+        "th-khao-khua"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "grilled steak",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "*Nam tok nuea* is beef; *nam tok moo* is pork neck."
+        },
+        {
+          "tag": "pork",
+          "specific": "grilled pork neck",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shallot, mint, cilantro",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-gaeng-keow-wan",
+      "term": "Gaeng keow wan",
+      "native": "แกงเขียวหวาน",
+      "romanizations": [
+        "gang keo wan",
+        "kaeng khiao wan",
+        "green curry"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Green curry — coconut milk with a fresh green chili paste. The hottest of the standard curries.",
+      "long": "A paste of fresh green bird's-eye chilies, lemongrass, galangal, garlic, shallot, coriander root, kaffir lime zest, and shrimp paste, fried in coconut cream then loosened with coconut milk, with chicken or beef, Thai eggplant, bamboo, and sweet basil. \"Sweet\" in the name refers to the pale green color, not the flavor — this is typically the hottest of the three everyday curries. Nut-free, but the paste almost always contains shrimp paste.",
+      "components": [
+        "th-kapi",
+        "th-kati",
+        "th-horapha"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Blended into the paste; ask for a vegan paste if this matters."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Heat is built into the paste, so reducing it means using less paste — kitchens can, but the flavor thins."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-gaeng-daeng",
+      "term": "Gaeng phet",
+      "native": "แกงเผ็ด",
+      "romanizations": [
+        "gaeng ped",
+        "kaeng phet",
+        "gaeng daeng",
+        "red curry"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Red curry — dried red chili paste in coconut milk. Moderately hot, nut-free.",
+      "long": "Built on dried red chilies rather than fresh green, giving a deeper, rounder heat and a brick-orange color. Same aromatic backbone — lemongrass, galangal, shrimp paste, coriander root — simmered with coconut milk, bamboo shoots, and basil. Generally a touch milder than green curry. **Gaeng daeng** and **gaeng phet** are used interchangeably on most menus.",
+      "components": [
+        "th-kapi",
+        "th-kati",
+        "th-gaeng-keow-wan"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-panang",
+      "term": "Panang",
+      "native": "พะแนง",
+      "romanizations": [
+        "phanaeng",
+        "penang",
+        "panaeng"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick, sweet, mild red curry — and one that traditionally contains ground **peanuts**.",
+      "long": "A drier, richer curry than red or green: less coconut milk, reduced until it clings to the meat, sweeter, and mild. The traditional paste includes roasted **peanuts** ground in, which is what gives panang its characteristic nutty roundness, and many restaurant versions also finish it with crushed peanuts. Garnished with fine-sliced kaffir lime leaf and red chili. Of the standard curries this is the one to be careful with for peanuts — and unlike a garnish, the peanut is in the paste.",
+      "components": [
+        "th-kati",
+        "th-bai-makrut",
+        "th-kapi"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "ground roasted peanuts in the paste",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Traditional to the paste itself, not just a topping. Some commercial pastes omit it — worth asking."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Beef and pork are equally standard."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "The mildest of the common curries."
+      },
+      "confidence": "high",
+      "ask": "Is there peanut in the panang paste itself?"
+    },
+    {
+      "id": "th-massaman",
+      "term": "Massaman",
+      "native": "มัสมั่น",
+      "romanizations": [
+        "matsaman",
+        "mussaman",
+        "masaman"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mild Persian-influenced curry with potato and whole **peanuts**, warm with cinnamon and cardamom.",
+      "long": "A slow, gentle curry reflecting Persian and Malay trade: beef or chicken braised with potato, onion, cinnamon, cardamom, clove, star anise, tamarind, and coconut milk, with whole roasted **peanuts** simmered in until soft. Barely spicy and slightly sweet-sour. The peanuts are usually whole and visible so they can in principle be avoided, but the paste is often ground with peanuts too. Frequently the mildest thing on the menu, which makes it a common recommendation — worth knowing that mild and nut-free are not the same question.",
+      "components": [
+        "th-kati",
+        "th-tamarind"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "whole roasted peanuts, and often ground in the paste",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Whole nuts are visible; the paste may also contain them."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Beef and chicken are both standard."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "The mildest standard Thai curry."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-khao-soi",
+      "term": "Khao soi",
+      "native": "ข้าวซอย",
+      "romanizations": [
+        "kao soy",
+        "khao soy"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Northern coconut curry noodle soup with soft egg noodles and a nest of crisp fried ones.",
+      "long": "A Chiang Mai speciality of Burmese descent: **wheat** egg noodles in a golden coconut curry broth with a chicken leg or braised beef, topped with a tangle of the same noodles deep fried until crunchy, and served with pickled mustard greens, raw shallot, lime, and chili oil on the side. The condiments arrive separately so you control the heat and the raw elements. Contains wheat, unlike most Thai noodle dishes. Nut-free.",
+      "components": [
+        "th-kati",
+        "th-bami"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat egg noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "One of the few wheat-noodle Thai dishes."
+        },
+        {
+          "tag": "egg",
+          "specific": "egg noodles",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken leg",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Beef is the other standard."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shallot and pickled greens on the side",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Served separately — add or skip."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Broth is mild; the chili oil served alongside is the hot part."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-satay",
+      "term": "Satay",
+      "native": "สะเต๊ะ",
+      "romanizations": [
+        "sate",
+        "satae"
+      ],
+      "language": "Thai / Malay",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Turmeric-marinated grilled skewers served with a **peanut** sauce and cucumber relish.",
+      "long": "Strips of chicken or pork marinated in coconut milk, turmeric, and coriander, threaded on skewers and grilled, served with a thick **peanut** dipping sauce and *ajad*, a small dish of raw cucumber and shallot in sweet vinegar. The peanut sauce is the point of the dish and comes in a separate bowl, so it's separable — but the sauce is unambiguously peanut-based and there is no traditional version without it.",
+      "components": [
+        "th-nam-jim-satay",
+        "th-ajad"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "peanut dipping sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Served in a separate bowl, so avoidable — but definitional to the dish."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Pork satay is standard in Thailand."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "cucumber and shallot in the ajad relish",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Separate small dish."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-nam-jim-satay",
+      "term": "Nam jim satay",
+      "native": "น้ำจิ้มสะเต๊ะ",
+      "romanizations": [
+        "satay sauce",
+        "peanut sauce"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "The **peanut** dipping sauce — ground peanuts, coconut milk, and red curry paste.",
+      "long": "Roasted peanuts ground and simmered with coconut milk, red curry paste, palm sugar, and tamarind into a thick, mildly spicy brown sauce. Served with satay, and sometimes with fresh rolls or as a salad dressing (*salad khaek*). Peanut is the base, not an accent.",
+      "components": [
+        "th-satay",
+        "th-kati"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "ground roasted peanuts",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The sauce is peanut. No version omits it."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste via the curry paste",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-ajad",
+      "term": "Ajad",
+      "native": "อาจาด",
+      "romanizations": [
+        "arjad",
+        "ajaad",
+        "cucumber relish"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Raw cucumber, shallot, and chili in sweet vinegar. Served beside satay and curry puffs.",
+      "long": "Thin-sliced raw cucumber and shallot with a whole red chili, steeped briefly in sugar-vinegar syrup. Cool and sharp, meant to cut through fried or rich food. Entirely raw but always a separate small dish.",
+      "components": [
+        "th-satay"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "cucumber, shallot, chili",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Entirely raw, but a separate side dish."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw shallot",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "The chili is usually whole and decorative."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-kati",
+      "term": "Kati",
+      "native": "กะทิ",
+      "romanizations": [
+        "gati",
+        "coconut milk"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Coconut milk and cream — the body of every curry and most desserts. Dairy-free.",
+      "long": "Grated coconut flesh pressed with water; the first thick pressing is *hua kati* (cream), the thinner later ones *hang kati*. Curries begin by frying the paste in the cream until the oil separates. Entirely dairy-free. Coconut is a fruit, not a botanical tree nut, though a small number of allergy protocols group it with them.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "coconut",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Botanically a drupe; not a tree nut for most allergy purposes."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-takrai",
+      "term": "Takrai",
+      "native": "ตะไคร้",
+      "romanizations": [
+        "ta krai",
+        "lemongrass"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Lemongrass — a fibrous stalk, bruised for soups or minced fine into pastes.",
+      "long": "A tough grass stalk with a clean citrus-floral aroma. Cut into lengths and bruised for tom yum, where it flavors the broth but is not eaten, or sliced paper-thin and pounded into curry pastes and salads where it is. Not spicy.",
+      "components": [
+        "th-tom-yum"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-kha",
+      "term": "Kha",
+      "native": "ข่า",
+      "romanizations": [
+        "ka",
+        "galangal"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Galangal — ginger's sharper, piney cousin. Sliced into soups, not eaten.",
+      "long": "A hard, pale rhizome with a medicinal-pine sharpness quite unlike ginger, which cannot substitute for it. Sliced into coins for tom yum and tom kha and left in the bowl as an aromatic rather than eaten. Pungent but not hot.",
+      "components": [
+        "th-tom-kha"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Sharp and pungent, but no chili heat."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-bai-makrut",
+      "term": "Bai makrut",
+      "native": "ใบมะกรูด",
+      "romanizations": [
+        "kaffir lime leaf",
+        "makrut lime leaf"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Makrut lime leaf — intensely citrus, torn into soups or shredded over curry.",
+      "long": "A glossy double-lobed leaf with a floral citrus perfume far stronger than lime zest. Torn whole into soups (and not eaten) or sliced into fine threads as a garnish on panang and fried fish (where it is). Often labeled kaffir lime leaf on Western menus.",
+      "components": [
+        "th-panang"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-prik-kee-noo",
+      "term": "Prik kee noo",
+      "native": "พริกขี้หนู",
+      "romanizations": [
+        "prik ki nu",
+        "bird's eye chili",
+        "prik kinu"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Bird's-eye chili — tiny, very hot, and the source of most Thai heat.",
+      "long": "A small pointed chili, green or red, packing intense but relatively short-lived heat. Pounded into salads and pastes or sliced raw into dipping sauces. Because it's usually added by the piece rather than by paste, its quantity is the main lever kitchens use when you ask for a dish milder.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "Counted rather than measured, so easy to specify."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-nam-prik-pao",
+      "term": "Nam prik pao",
+      "native": "น้ำพริกเผา",
+      "romanizations": [
+        "nam prik pow",
+        "chili jam",
+        "roasted chili paste"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Sweet roasted chili jam with dried **shrimp** and tamarind. Adds color, not much heat.",
+      "long": "Dried chilies, shallot, and garlic fried until dark, then pounded with dried shrimp, tamarind, palm sugar, and fish sauce into a dark, oily, sweet-smoky paste. Stirred into tom yum, fried rice, and stir-fries for depth and a red sheen. More sweet and smoky than hot, but shrimp is a standard ingredient.",
+      "components": [
+        "th-tom-yum"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "dried shrimp",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Standard in most commercial and homemade versions."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "shallot, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Sweeter and smokier than its color suggests."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-nam-prik",
+      "term": "Nam prik",
+      "native": "น้ำพริก",
+      "romanizations": [
+        "namprik",
+        "chili dip"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "sauce",
+        "dish"
+      ],
+      "short": "Pounded chili dip eaten with **raw** vegetables. Almost always contains shrimp paste.",
+      "long": "A family of mortar-pounded chili relishes served with a platter of raw and blanched vegetables, sticky rice, and often fried fish. **Nam prik kapi** is shrimp paste, chili, lime, and garlic; **nam prik ong** is a northern one with minced pork and tomato; **nam prik num** is roasted green chili, smoky and mild-ish. Shrimp paste or dried shrimp is near-universal, and the accompanying vegetables are the point of the dish and mostly raw.",
+      "components": [
+        "th-kapi"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste or dried shrimp",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Definitional in *nam prik kapi*; common in the others."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "the raw vegetable platter served with it",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The vegetables are the dish, not a garnish."
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork in *nam prik ong*",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce, sometimes fermented fish",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": false,
+        "note": "These are chili dips — heat is the purpose."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-moo-ping",
+      "term": "Moo ping",
+      "native": "หมูปิ้ง",
+      "romanizations": [
+        "mu ping",
+        "moo bing"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled **pork** skewers marinated in coconut milk, garlic, and soy. Street breakfast.",
+      "long": "Thin strips of pork shoulder marinated in coconut milk, garlic, white pepper, soy, and palm sugar, then grilled over charcoal and basted so the edges caramelize. Sold with a bag of sticky rice. **Moo** means pork and is one of the most useful words on a Thai menu — it appears in moo ping, moo krob, moo daeng, larb moo, and kaprao moo.",
+      "components": [
+        "th-khao-niao"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork shoulder",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "*Moo* = pork."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce in the marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-gai-yang",
+      "term": "Gai yang",
+      "native": "ไก่ย่าง",
+      "romanizations": [
+        "kai yang",
+        "gai yaang"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Isaan charcoal-grilled chicken marinated with coriander root, garlic, and white pepper.",
+      "long": "Butterflied chicken marinated in pounded coriander root, garlic, white pepper, fish sauce, and sometimes coconut milk, then grilled slowly over coals until the skin lacquers. Served with sticky rice and *jaew*, a roasted-chili and toasted-rice dipping sauce. The chicken itself is not spicy; the dip is. Nut-free.",
+      "components": [
+        "th-khao-niao",
+        "th-khao-khua"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "whole grilled chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce in the marinade",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Heat lives in the *jaew* dip, served separately."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-khao-niao",
+      "term": "Khao niao",
+      "native": "ข้าวเหนียว",
+      "romanizations": [
+        "khao neow",
+        "kao niew",
+        "sticky rice",
+        "glutinous rice"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Steamed sticky rice, eaten by hand in small balls. Gluten-free despite the name.",
+      "long": "Glutinous rice soaked and steamed in a bamboo basket until translucent and chewy, served in a lidded container and pinched into balls with the fingers to dip into sauces. Standard with all Isaan food. \"Glutinous\" describes the sticky texture — it contains no gluten and no wheat.",
+      "components": [
+        "th-larb",
+        "th-gai-yang"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-khao-pad",
+      "term": "Khao pad",
+      "native": "ข้าวผัด",
+      "romanizations": [
+        "kao pad",
+        "khao phat",
+        "fried rice"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thai fried rice with egg, onion, and tomato, served with lime and chili fish sauce.",
+      "long": "Jasmine rice wok-fried with egg, garlic, onion, tomato, and a protein, seasoned with fish sauce and a little soy — lighter and less soy-heavy than Chinese fried rice, and finished with a lime wedge, cucumber slices, and a dish of *prik nam pla*. Nut-free and not spicy as cooked.",
+      "components": [
+        "th-prik-nam-pla"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "scrambled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "cucumber slices and raw scallion on the plate",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, in *khao pad goong*",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Menus name the protein."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork, in *khao pad moo*",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Heat is in the optional prik nam pla on the side."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-prik-nam-pla",
+      "term": "Prik nam pla",
+      "native": "พริกน้ำปลา",
+      "romanizations": [
+        "nam pla prik",
+        "prik nampla"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Fish sauce with sliced raw chili, garlic, and lime. The default table condiment.",
+      "long": "Sliced bird's-eye chilies steeped in fish sauce with garlic and a squeeze of lime, in a small dish on every table. Spooned over rice dishes and noodles. Simple, extremely salty, and hot — and entirely optional, since it's always served separately.",
+      "components": [
+        "th-nam-pla",
+        "th-prik-kee-noo"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw chili and garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "On the side — entirely your call."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-guay-teow",
+      "term": "Guay teow",
+      "native": "ก๋วยเตี๋ยว",
+      "romanizations": [
+        "kuay teow",
+        "kway teow",
+        "guaytiew",
+        "noodle soup"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "The general term for rice-noodle soup, ordered by noodle width and broth.",
+      "long": "A whole ordering system rather than one dish: you pick the noodle — *sen lek* thin, *sen yai* wide, *sen mee* vermicelli, *bami* wheat egg noodle — then the broth and topping. Broths are usually pork- or chicken-bone based even when the topping is something else, which is the key thing to check. Served plain, with a caddy of sugar, chili flakes, vinegar-chili, and fish sauce to season yourself.",
+      "components": [
+        "th-bami",
+        "th-nam-tok-noodle"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork-bone broth",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The default stock base in most shops, regardless of the topping."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken broth",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw bean sprouts and herbs added at the table",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Served on the side."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "You season it yourself from the caddy."
+      },
+      "confidence": "high",
+      "ask": "Is the broth made with pork bones?"
+    },
+    {
+      "id": "th-nam-tok-noodle",
+      "term": "Guay teow nam tok",
+      "native": "ก๋วยเตี๋ยวน้ำตก",
+      "romanizations": [
+        "boat noodles",
+        "kuay teow reua"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "\"Boat noodles\" — dark, intense pork or beef noodle soup thickened with **blood**.",
+      "long": "A small, very concentrated bowl of noodle soup in a broth darkened and thickened with fresh pig's or cow's blood, seasoned with cinnamon, star anise, and fermented bean curd, with slices of meat, meatballs, and offal. Served in tiny portions so you order several. The blood is a defining ingredient, not an optional one, and is often not mentioned on English menus.",
+      "components": [
+        "th-guay-teow"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork, offal, and pig's blood",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Blood thickens the broth; not removable."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef and beef blood",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef versions are equally standard."
+        },
+        {
+          "tag": "soy",
+          "specific": "fermented bean curd",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "fermented bean curd, pickled greens",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-bami",
+      "term": "Bami",
+      "native": "บะหมี่",
+      "romanizations": [
+        "ba mee",
+        "bamee",
+        "egg noodle"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Yellow **wheat** egg noodles — the exception in a rice-noodle cuisine.",
+      "long": "Thin springy wheat-and-egg noodles of Chinese origin, served in soup or dry (*bami haeng*) with barbecued pork and wonton. Worth flagging because most Thai noodles are rice-based and gluten-free, while these are not.",
+      "components": [
+        "th-guay-teow"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "char siu pork, in the standard preparation",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "*Bami moo daeng* is the default order."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-poh-pia",
+      "term": "Poh pia",
+      "native": "ปอเปี๊ยะ",
+      "romanizations": [
+        "por pia",
+        "popia",
+        "spring roll"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spring rolls — fried (*tod*) with vegetables and glass noodles, or fresh (*sod*), uncooked.",
+      "long": "**Poh pia tod** are the familiar fried rolls: a wheat wrapper around cabbage, carrot, glass noodle, and sometimes minced pork, served with sweet chili sauce. **Poh pia sod** are fresh, unfried rolls with raw vegetables, herbs, and sometimes shrimp in a soft wrapper — these are served cold and uncooked, and the dipping sauce for them is often peanut-based. The one-word difference matters.",
+      "components": [
+        "th-nam-jim-satay"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork in the filling",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Vegetable versions are common and usually labeled."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw vegetables in the fresh version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in *poh pia sod*, which is uncooked."
+        },
+        {
+          "tag": "peanut",
+          "specific": "peanut dipping sauce with the fresh version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Fried rolls come with sweet chili instead."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp in the fresh version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-tod-mun",
+      "term": "Tod mun pla",
+      "native": "ทอดมันปลา",
+      "romanizations": [
+        "tod man pla",
+        "fish cake"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Bouncy fried fish cakes with red curry paste and long bean, served with cucumber relish.",
+      "long": "Fish paste pounded with red curry paste, kaffir lime leaf, and sliced long bean, formed into small patties and deep fried until springy rather than flaky. Served with *ajad* and often crushed **peanuts** scattered over the relish. A shrimp version, *tod mun goong*, also exists.",
+      "components": [
+        "th-ajad",
+        "th-gaeng-daeng"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fish paste",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked, not raw."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste; shrimp in *tod mun goong*",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "crushed peanuts on the relish",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "In the side dish rather than the fish cakes."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "cucumber relish",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-taohu",
+      "term": "Tao hu",
+      "native": "เต้าหู้",
+      "romanizations": [
+        "tao hoo",
+        "tofu"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Tofu — usually the firm pressed yellow kind, fried in cubes.",
+      "long": "Most often the dense, turmeric-tinted pressed variety, cut into cubes and deep fried so the outside turns chewy. Used in pad thai, curries, and as the standard vegetarian substitute. Ordering tofu does not by itself make a dish vegetarian, since fish sauce and shrimp paste usually remain.",
+      "components": [
+        "th-pad-thai",
+        "th-jay"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soybean curd",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-jay",
+      "term": "Jay",
+      "native": "เจ",
+      "romanizations": [
+        "jae",
+        "je",
+        "vegetarian"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "Strict Buddhist vegan — no meat, no fish sauce, no shrimp paste, and no alliums.",
+      "long": "A stricter category than *mangsawirat* (ordinary vegetarian): **jay** food excludes all animal products including fish sauce, shrimp paste, egg, and dairy, and also excludes the five pungent vegetables — garlic, onion, shallot, chive, and leek. Marked with a yellow-and-red flag. Asking for a dish *jay* is the most reliable way to remove hidden fish sauce and shrimp paste, though it removes garlic and onion too.",
+      "components": [
+        "th-kapi",
+        "th-nam-pla",
+        "th-taohu"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Unrelated to the dietary category."
+      },
+      "confidence": "high",
+      "ask": "Can this be made jay?"
+    },
+    {
+      "id": "th-tamarind",
+      "term": "Makham",
+      "native": "มะขาม",
+      "romanizations": [
+        "ma kham",
+        "tamarind",
+        "nam makham"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Tamarind — sour-sweet fruit pulp, the acid in pad thai and massaman.",
+      "long": "The pulp of a brown pod, soaked and strained into a thick sour-sweet liquid. It provides the fruity acidity in pad thai, massaman, and many sauces, distinct from the sharper acidity of lime. Cooked into dishes rather than used raw.",
+      "components": [
+        "th-pad-thai",
+        "th-massaman"
+      ],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "tamarind pulp",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked into sauces, not served raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-see-ew-dam",
+      "term": "See ew dam",
+      "native": "ซีอิ๊วดำ",
+      "romanizations": [
+        "si io dam",
+        "dark soy sauce",
+        "sweet soy"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Thick sweet dark soy sauce — molasses-like, used for color in pad see ew.",
+      "long": "Soy sauce reduced with molasses or palm sugar into a syrupy, barely salty, deeply colored sauce used mainly to darken and sweeten noodles. Distinct from ordinary light soy (*see ew khao*), which does the salting. Both usually contain wheat.",
+      "components": [
+        "th-pad-see-ew"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soybean",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Most Thai soy sauces are wheat-brewed."
+        },
+        {
+          "tag": "fermented",
+          "specific": "soy ferment",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-moo-krob",
+      "term": "Moo krob",
+      "native": "หมูกรอบ",
+      "romanizations": [
+        "moo grob",
+        "mu krop",
+        "crispy pork belly"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish",
+        "ingredient"
+      ],
+      "short": "Crispy **pork** belly with a puffed crackling skin — a topping as much as a dish.",
+      "long": "Pork belly boiled, dried, then fried so the skin blisters into a crunchy layer over soft fat and meat. Chopped and served over rice, tossed into pad kaprao, or stir-fried with Chinese broccoli (*pad kana moo krob*). Appears as an add-on across many menu sections.",
+      "components": [
+        "th-moo-ping"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-yum",
+      "term": "Yum",
+      "native": "ยำ",
+      "romanizations": [
+        "yam",
+        "yum salad"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "The word for a hot-sour tossed salad. Usually raw, usually spicy, dressed with lime and fish sauce.",
+      "long": "A category rather than a dish: anything tossed in a dressing of lime juice, fish sauce, palm sugar, and chili, with raw shallot and herbs. **Yum woon sen** is glass noodles with shrimp and minced pork; **yum talay** mixed seafood; **yum pla duk foo** crispy shredded catfish with green mango. Anything with *yum* in the name is a good bet to be both raw-vegetable heavy and hot.",
+      "components": [
+        "th-larb",
+        "th-som-tam"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shallot, celery, tomato, herbs",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Structural to the category."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice, sometimes raw green mango",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp or squid",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Very common in the popular versions."
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Standard in *yum woon sen*."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw shallot",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-khao-niao-mamuang",
+      "term": "Khao niao mamuang",
+      "native": "ข้าวเหนียวมะม่วง",
+      "romanizations": [
+        "mango sticky rice",
+        "kao neow mamuang"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Sweet coconut sticky rice with **raw ripe mango** and toasted mung beans on top.",
+      "long": "Warm glutinous rice steeped in sweetened, salted coconut cream, plated beside thick slices of fresh ripe mango with a little extra cream poured over and a scatter of toasted split mung beans or **sesame** for crunch. The mango is raw and is half the dish. The crunchy topping is mung bean or sesame rather than nuts, though some places substitute crushed peanuts.",
+      "components": [
+        "th-khao-niao",
+        "th-kati"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "fresh ripe mango",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Raw and roughly half the plate. Not removable — it's the dish."
+        },
+        {
+          "tag": "fruit",
+          "specific": "mango, coconut",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "toasted sesame topping",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "crushed peanuts as a substitute topping",
+          "certainty": "rarely",
+          "prominence": "garnish",
+          "note": "Mung bean is the traditional crunch; a few kitchens use peanut."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-roti",
+      "term": "Roti",
+      "native": "โรตี",
+      "romanizations": [
+        "rotee"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dessert",
+        "bread"
+      ],
+      "short": "Flaky griddled flatbread, sweet with banana and condensed milk or savory with curry.",
+      "long": "A Muslim-Thai flatbread stretched paper-thin, folded, and fried on a flat griddle until crisp and layered. The street version is sliced and drizzled with condensed milk and sugar, often with sliced **banana** or egg folded inside. Also served plain alongside massaman for dipping. Wheat and usually dairy.",
+      "components": [
+        "th-massaman"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "condensed milk, ghee or margarine",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "sliced banana",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Folded in raw, though it warms on the griddle."
+        },
+        {
+          "tag": "fruit",
+          "specific": "banana",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg folded into the dough",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-cha-yen",
+      "term": "Cha yen",
+      "native": "ชาเย็น",
+      "romanizations": [
+        "cha yhen",
+        "Thai iced tea"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Thai iced tea — strong spiced black tea, orange from food coloring, with condensed milk.",
+      "long": "Heavily brewed black tea, often blended with star anise and tamarind and dyed a distinctive orange, sweetened with condensed milk and poured over ice with evaporated milk floated on top. Very sweet and dairy-heavy. *Cha dam yen* is the same tea without milk.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "condensed and evaporated milk",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "*Cha dam yen* is the black, milk-free version."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-gaeng-som",
+      "term": "Gaeng som",
+      "native": "แกงส้ม",
+      "romanizations": [
+        "kaeng som",
+        "sour curry"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sour orange curry with no coconut milk — thin, fiercely hot, and tamarind-sharp.",
+      "long": "A southern curry with no coconut milk at all: a thin, bright orange broth of dried chili, turmeric, shallot, and shrimp paste, soured hard with tamarind, usually with fish and a vegetable like green papaya or cha-om omelette. Because there's no coconut milk to soften it, this is often the hottest curry on a Thai menu despite looking the lightest.",
+      "components": [
+        "th-tamarind",
+        "th-kapi"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fish, fish sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "cha-om omelette, when included",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "No coconut milk to temper it — often the hottest curry on the menu."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-choo-chee",
+      "term": "Choo chee",
+      "native": "ฉู่ฉี่",
+      "romanizations": [
+        "chu chi",
+        "chuchee"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick red curry sauce poured over fried fish, with shredded lime leaf. Mild.",
+      "long": "A reduced red curry sauce, rich with coconut cream and only lightly spicy, ladled over a fried fish fillet or whole fish and finished with fine-shredded kaffir lime leaf and red chili slivers. More of a sauce-over-protein than a curry you eat with a spoon. Nut-free.",
+      "components": [
+        "th-gaeng-daeng",
+        "th-bai-makrut"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fried fish",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Shrimp versions are also common."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, or shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-sai-ua",
+      "term": "Sai ua",
+      "native": "ไส้อั่ว",
+      "romanizations": [
+        "sai oua",
+        "Chiang Mai sausage"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Northern **pork** sausage coiled and grilled, packed with lemongrass and curry paste.",
+      "long": "Coarsely minced pork mixed with red curry paste, lemongrass, kaffir lime leaf, turmeric, and herbs, stuffed into casing, coiled into a spiral, and grilled over coals. Sliced and eaten with sticky rice and *nam prik num*. Strongly aromatic and moderately hot.",
+      "components": [
+        "th-nam-prik",
+        "th-khao-niao"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork and pork casing",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Built into the sausage — not adjustable."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-hoy-tod",
+      "term": "Hoy tod",
+      "native": "หอยทอด",
+      "romanizations": [
+        "hoi tod",
+        "oyster omelette",
+        "hoy tord"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy batter pancake fried with **oysters or mussels** and egg, on bean sprouts.",
+      "long": "A rice-flour batter poured onto a hot griddle with oysters or mussels and egg, fried until the edges shatter and the center stays soft, served over raw bean sprouts with sriracha. A night-market classic. Shellfish is the entire point of the dish.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "oysters or mussels",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw bean sprouts underneath",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-phet-noi",
+      "term": "Phet noi",
+      "native": "เผ็ดน้อย",
+      "romanizations": [
+        "ped noi",
+        "mai phet",
+        "phet nit noi"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "technique"
+      ],
+      "short": "\"A little spicy.\" *Mai phet* means not spicy. The two phrases worth knowing.",
+      "long": "**Phet** (เผ็ด) means spicy. *Mai phet* is \"not spicy,\" *phet nit noi* is \"a little spicy,\" and *phet mak* is \"very spicy.\" Useful to know that for dishes where heat comes from added fresh chili — stir-fries, salads, soups — kitchens can genuinely make it mild, while for paste-based curries reducing heat means using less paste and thinning the whole flavor. Asking for chilies on the side is often the better move.",
+      "components": [
+        "th-prik-kee-noo"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-polamai",
+      "term": "Polamai",
+      "native": "ผลไม้",
+      "romanizations": [
+        "ponlamai",
+        "pon la mai",
+        "fresh fruit"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "The fresh fruit plate — raw seasonal fruit, very often including melon.",
+      "long": "The default Thai dessert: a plate of peeled, cut, chilled raw fruit — pineapple, watermelon, cantaloupe, mango, papaya, rose apple, longan — sometimes with a small dish of *prik gluea*, sugar mixed with salt and dried chili, for dipping. Composition changes with the season and the kitchen, so what arrives is rarely specified on the menu. Watermelon and cantaloupe are among the most common inclusions.",
+      "components": [
+        "th-khao-niao-mamuang"
+      ],
+      "contains": [
+        {
+          "tag": "melon",
+          "specific": "watermelon, cantaloupe",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Very common on the plate, but the mix varies — worth asking what is on it."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "assorted raw fruit",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Entirely raw by definition."
+        },
+        {
+          "tag": "fruit",
+          "specific": "assorted fruit",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Only from the optional chili-salt dip on the side."
+      },
+      "confidence": "medium",
+      "ask": "What fruit is on the plate today?"
+    },
+    {
+      "id": "th-hor-mok",
+      "term": "Hor Mok",
+      "native": "ห่อหมก",
+      "romanizations": [
+        "haw mok",
+        "hormok"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Steamed coconut-curry fish or seafood custard, traditionally in a banana-leaf cup.",
+      "long": "Fish or mixed seafood folded into a thick red curry paste loosened with coconut milk and egg, then steamed in a banana-leaf cup (or ramekin on most US menus) until it sets into a soft, custardy mousse, topped with a ribbon of coconut cream and shredded kaffir lime leaf. Egg is the setting agent and is not optional. From real Bethesda menus (Sense of Thai, \"Samui Island\" style seafood curry dishes; Hor Mok Seafood at Sala Thai).",
+      "components": [
+        "th-gaeng-keow-wan",
+        "th-kati",
+        "th-bai-makrut"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg binding the custard",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "What gives the dish its set, custardy texture."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish or mixed seafood",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, squid, or mussels in mixed-seafood versions",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Curry paste is cooked into the custard, so heat isn't easily adjustable per order."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "sala-thai",
+        "sense-of-thai"
+      ]
+    },
+    {
+      "id": "th-pad-med-mamuang",
+      "term": "Pad Med Mamuang",
+      "native": "ผัดเม็ดมะม่วง",
+      "romanizations": [
+        "pad mamuang himmaphan",
+        "cashew stir-fry",
+        "pad him ma parn"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Stir-fried meat with whole roasted **cashews**, dried chili, and onion in a mild sweet-savory sauce.",
+      "long": "Chicken, beef, shrimp, or tofu wok-fried with whole roasted cashews, onion, scallion, bell pepper, and dried chilies in a mild soy-and-oyster-sauce base — similar in construction to the Chinese cashew chicken but with a more caramelized, slightly sweet Thai profile. The cashews are whole, visible, and mixed through in real quantity. From real Bethesda menus (Sala Thai, listed as \"Pad Him Ma Parn (Cashew Stir-Fry)\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "whole roasted cashews",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Mixed throughout the dish, not a garnish."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef, shrimp, and tofu are equally standard menu choices."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "oyster sauce, and shrimp if that protein is chosen",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Dried chilies are present mostly for aroma, not heat, on most US menus."
+      },
+      "confidence": "high",
+      "ask": "Does this have cashews mixed in, or only as a garnish?",
+      "restaurants": [
+        "sala-thai"
+      ]
+    },
+    {
+      "id": "th-lad-na",
+      "term": "Lad Na",
+      "native": "ราดหน้า",
+      "romanizations": [
+        "rad na",
+        "lard na"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Wide rice noodles under a thick, savory gravy of Chinese broccoli and a light bean sauce.",
+      "long": "Wide flat rice noodles, sometimes pan-fried crisp on one side first, blanketed in a starch-thickened gravy of Chinese broccoli (gai lan), garlic, and a mild soybean-based sauce, with a choice of protein. Milder and saucier than pad see ew, and not spicy as cooked. From real Bethesda menus (Sala Thai).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soybean-based gravy",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in the soy/oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "oyster sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork, a common default protein",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "sala-thai"
+      ]
+    },
+    {
+      "id": "th-sukiyaki",
+      "term": "Sukiyaki (Thai street style)",
+      "native": "สุกี้",
+      "romanizations": [
+        "suki"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thai street-food stir-fry of glass noodles, egg, and napa cabbage — unrelated to the Japanese hot pot of the same name.",
+      "long": "Despite sharing a name with the Japanese beef hot pot, Thai \"suki\" is a completely different dish: cellophane (glass) noodles stir-fried with chicken, egg, napa cabbage, celery, onion, and scallion in a light sauce, often served with a tangy suki dipping sauce on the side. No raw egg-dipping ritual and no beef-broth base — the resemblance is in name only. From real Bethesda menus (Sala Thai, Thai Street Feast section).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "scrambled egg mixed through the stir-fry",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Cooked into the dish, not raw or served as a dip."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy-based stir-fry sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "The suki dipping sauce on the side is usually the spicier component."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "sala-thai"
+      ]
+    },
+    {
+      "id": "th-tom-saep",
+      "term": "Tom Saep",
+      "native": "ต้มแซ่บ",
+      "romanizations": [
+        "tom zaap"
+      ],
+      "language": "Thai (Isaan)",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Isaan-style hot-and-sour pork rib soup, punchier and herbier than tom yum, with toasted rice powder.",
+      "long": "Pork ribs simmered in a broth similar to tom yum but sharpened with lime, fish sauce, and mint, and thickened slightly with toasted rice powder (khao khua), the same ingredient used in larb. Genuinely spicy and herb-forward.",
+      "components": [
+        "th-tom-yum",
+        "th-khao-khua"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork ribs",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-pla-rad-prik",
+      "term": "Pla Rad Prik",
+      "native": "ปลาราดพริก",
+      "romanizations": [],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole fried fish topped with a sweet-spicy, garlicky chili sauce.",
+      "long": "A whole fish (often tilapia or sea bass), deep fried until the flesh is crackling-crisp, blanketed in a glossy sauce of chili, garlic, fish sauce, and palm sugar. Fully cooked and genuinely spicy.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "whole fried fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce in the topping",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-pad-priew-wan",
+      "term": "Pad Priew Wan",
+      "native": "ผัดเปรี้ยวหวาน",
+      "romanizations": [
+        "sweet and sour"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thai sweet and sour stir-fry with pineapple, tomato, and bell pepper. Mild, not spicy.",
+      "long": "A protein stir-fried with pineapple, tomato, onion, cucumber, and bell pepper in a ketchup-and-vinegar-based sweet-sour sauce, closer in spirit to the Chinese-American dish than to anything fermented. Reliably mild and nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "pineapple, cooked into the sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-gaeng-pa",
+      "term": "Gaeng Pa",
+      "native": "แกงป่า",
+      "romanizations": [
+        "jungle curry"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "\"Jungle curry\" — a fiery curry made with no coconut milk at all, thin and intensely hot.",
+      "long": "A red curry paste base cooked in plain water or stock rather than coconut milk, with whatever vegetables and protein are available — often including green peppercorn on the stem and krachai (wild ginger). With no coconut fat to soften it, this is reliably one of the hottest curries on a Thai menu.",
+      "components": [
+        "th-gaeng-som"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp paste in the curry paste",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "No coconut milk to buffer the chili — routinely the hottest curry on the menu."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-tom-jued",
+      "term": "Tom Jued",
+      "native": "ต้มจืด",
+      "romanizations": [
+        "clear soup"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Plain, mild clear broth with tofu, glass noodles, and minced pork — the anti-spicy Thai soup.",
+      "long": "A gentle, unseasoned-by-comparison broth with soft tofu, glass noodles or napa cabbage, and minced pork meatballs, seasoned only lightly with white pepper and cilantro. The standard order for anyone who wants zero heat.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork meatballs",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce, tofu",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "The standard mild/no-heat order."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-kai-jeow",
+      "term": "Kai Jeow",
+      "native": "ไข่เจียว",
+      "romanizations": [
+        "Thai omelette"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick, deep-fried Thai omelette with crispy, frilly edges, served over rice.",
+      "long": "Beaten egg, sometimes with a little fish sauce and minced pork mixed in, poured into very hot oil so the edges puff, crisp, and turn golden-brown while the center stays soft. A comfort-food staple, usually topped with sriracha on the side.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire dish is egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork, if added",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce seasoning",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Sriracha usually served on the side."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-krapow-moo-grob",
+      "term": "Krapow Moo Grob",
+      "native": "กะเพราหมูกรอบ",
+      "romanizations": [],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy fried pork belly stir-fried with holy basil and chili — the crunchy version of pad kaprao.",
+      "long": "Pork belly boiled and fried until the skin puffs and crackles, then chopped and stir-fried briefly with garlic, bird's-eye chili, and holy basil, keeping the crispy texture even after the toss. Reliably spicy.",
+      "components": [
+        "th-pad-kaprao",
+        "th-moo-krob"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "crispy pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-larb-pet",
+      "term": "Larb Ped",
+      "native": "ลาบเป็ด",
+      "romanizations": [
+        "duck larb"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Larb made with minced duck instead of pork or chicken — richer and gamier.",
+      "long": "The same larb preparation and dressing (lime, fish sauce, toasted rice powder, raw shallot, chili) but built on minced duck, which brings more fat and a gamier flavor than the pork or chicken versions. Sometimes includes crispy fried duck skin mixed through.",
+      "components": [
+        "th-larb"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shallot, mint, cilantro",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "th-kluay-tod",
+      "term": "Kluay Tod",
+      "native": "กล้วยทอด",
+      "romanizations": [
+        "fried banana"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Banana slices battered and deep fried until crisp, sometimes rolled in sesame seed.",
+      "long": "Ripe banana halved and dipped in a rice-flour-and-coconut batter, then deep fried until the coating turns crackling and golden. Some recipes fold sesame seeds into the batter, giving it a nutty crunch.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "banana, cooked",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame seeds in the batter, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-thai-iced-tea-condensed",
+      "term": "Cha Manao",
+      "native": "ชามะนาว",
+      "romanizations": [
+        "Thai lemon iced tea"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Black tea with lime and simple syrup, no milk — the tart, dairy-free relative of Thai iced tea.",
+      "long": "Brewed black tea shaken with lime juice, sugar syrup, and ice — sharp and citrus-forward rather than sweet and creamy like the orange cha yen. No dairy at all.",
+      "components": [
+        "th-cha-yen"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-yam-woon-sen-talay",
+      "term": "Yum Talay",
+      "native": "ยำทะเล",
+      "romanizations": [
+        "seafood salad"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Hot-sour mixed seafood salad — shrimp, squid, and mussels tossed with raw shallot, chili, and lime.",
+      "long": "Boiled shrimp, squid, and mussels tossed while still warm with raw shallot, celery, tomato, cilantro, chili, fish sauce, and lime juice. Both shellfish and raw vegetable are structural and substantial.",
+      "components": [
+        "th-yum"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, squid, mussels",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shallot, celery, tomato",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "th-massaman-note-mustikas",
+      "term": "Krachai",
+      "native": "กระชาย",
+      "romanizations": [
+        "fingerroot",
+        "Chinese ginger"
+      ],
+      "language": "Thai",
+      "cuisines": [
+        "thai"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Fingerroot — a bundle of thin, ginger-like fingers with a sharp, medicinal aroma, common in jungle curry.",
+      "long": "A rhizome related to ginger and galangal but with a distinct, more medicinal, almost citrusy bite, sold as a cluster of thin brown fingers. Central to gaeng pa (jungle curry) and some fish preparations to cut fishy smells. Not a nut despite an unfamiliar look.",
+      "components": [
+        "th-gaeng-pa"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

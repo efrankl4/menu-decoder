@@ -1,0 +1,9 @@
+# Always revalidate the service worker so a new deploy actually reaches installed
+# phones instead of being shadowed by a stale cached copy.
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Netlify serves .webmanifest as application/octet-stream by default, which Chrome
+# can reject — breaking "Install app" on Android. Force the correct type.
+/app/manifest.webmanifest
+  Content-Type: application/manifest+json

@@ -1,0 +1,703 @@
+{
+  "cuisine": "turkish",
+  "terms": [
+    {
+      "id": "tr-kunefe",
+      "term": "Künefe",
+      "native": "künefe",
+      "romanizations": [
+        "kunafah",
+        "kanafeh"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish",
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Hot, stretchy melted cheese under crisp shredded kataifi pastry, soaked in syrup.",
+      "long": "The Turkish name for the same dessert covered under Knafeh in the Levantine section — shredded kataifi pastry baked around a layer of soft unsalted cheese until the cheese turns molten and stretchy, then drenched in syrup and often finished with crushed pistachio. Served hot; the cheese pull is the point. From real Bethesda menus (Agora Bethesda).",
+      "components": [
+        "pa-knafeh"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "melted unsalted cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "shredded kataifi pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "crushed pistachio garnish",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "On top; visible and largely removable."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "agora-bethesda"
+      ]
+    },
+    {
+      "id": "tr-kazandibi",
+      "term": "Kazandibi",
+      "native": "kazandibi",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Milk pudding deliberately caramelized on the bottom until it browns and slightly bitter-chars.",
+      "long": "A milk-and-rice-flour pudding (the same base as muhallebi/muhalabieh) poured into a very hot pan so the bottom scorches into a caramelized, faintly burnt layer, then flipped so the charred side faces up when served. The name literally means \"bottom of the pot.\" Dairy-heavy, egg-free, nut-free. From real Bethesda menus (Agora Bethesda).",
+      "components": [
+        "pa-muhalabieh"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk pudding",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "agora-bethesda"
+      ]
+    },
+    {
+      "id": "tr-saganaki-note",
+      "term": "Saganaki",
+      "native": "saganaki",
+      "romanizations": [],
+      "language": "Greek / Turkish",
+      "cuisines": [
+        "turkish",
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pan-seared firm cheese, often flambéed tableside. Shared across Greek and Turkish mezze menus.",
+      "long": "The same fried-cheese dish covered under the Greek entry, appearing equally on Turkish-leaning mezze menus. A block of firm cheese dredged and pan-seared until the surface browns, sometimes flambéed with brandy at the table. From real Bethesda menus (Agora Bethesda).",
+      "components": [
+        "gr-saganaki"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "firm cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "agora-bethesda"
+      ]
+    },
+    {
+      "id": "tr-watermelon-feta",
+      "term": "Watermelon and Feta Salad",
+      "native": "karpuz peynir",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish",
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw watermelon cubes with salty feta, mint, and sometimes sesame — sweet-salty and entirely raw/uncooked.",
+      "long": "Cubed raw watermelon tossed with crumbled feta, fresh mint, and sometimes a scatter of black sesame or toasted pumpkin seed, dressed lightly with olive oil. The whole dish is served cold and uncooked. From real Bethesda menus (Agora Bethesda).",
+      "components": [
+        "pa-batteekh"
+      ],
+      "contains": [
+        {
+          "tag": "melon",
+          "specific": "raw watermelon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "watermelon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "feta cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame seed garnish, when used",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "agora-bethesda"
+      ]
+    },
+    {
+      "id": "tr-adana-kebab",
+      "term": "Adana Kebab",
+      "native": "Adana kebabı",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Long, hand-minced spicy lamb kebab molded onto a flat skewer and char-grilled.",
+      "long": "Ground lamb (traditionally hand-chopped with a cleaver rather than machine-ground) mixed with red pepper and lamb fat, molded onto a wide flat skewer, and grilled over charcoal until charred outside and juicy within. Named for the Turkish city of Adana. Genuinely spicy, unlike most other kebabs on the same menu.",
+      "components": [
+        "pa-kofta"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "hand-minced lamb",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-iskender",
+      "term": "İskender Kebab",
+      "native": "İskender kebabı",
+      "romanizations": [
+        "Iskender"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sliced döner meat over cubed pita, drenched in tomato sauce and browned butter, with a side of yogurt.",
+      "long": "Thin-sliced döner (rotisserie) lamb or beef laid over pita bread cubes, doused with a tomato sauce and a generous pour of hot browned butter, served with a scoop of plain yogurt on the side. Dairy (butter and yogurt), wheat, and meat are all structural.",
+      "components": [
+        "gr-gyro"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "döner lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef is an equally standard döner meat."
+        },
+        {
+          "tag": "beef",
+          "specific": "döner beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "browned butter, yogurt side",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pita bread cubes",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-lahmacun",
+      "term": "Lahmacun",
+      "native": "lahmacun",
+      "romanizations": [
+        "Turkish pizza"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Very thin, crisp flatbread topped with minced lamb, tomato, and pepper paste, rolled up to eat.",
+      "long": "A paper-thin round of dough spread with a paste of minced lamb, tomato, onion, and red pepper, baked hot and fast until crisp, then typically topped with fresh parsley, raw onion, and a squeeze of lemon and rolled up like a wrap. Wheat and lamb are both structural.",
+      "components": [
+        "le-lahm-bi-ajin"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "thin flatbread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, parsley topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-pide",
+      "term": "Pide",
+      "native": "pide",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "bread",
+        "dish"
+      ],
+      "short": "Boat-shaped yeasted flatbread with open-topped fillings — cheese, egg, or spiced meat.",
+      "long": "An oval, canoe-shaped bread with pinched edges holding a filling that bakes fully exposed — common versions are kaşar cheese, spinach and cheese, minced meat, or a version cracked with a whole egg on top just before it finishes baking. Filling determines the actual allergen profile.",
+      "components": [
+        "pa-manakish"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "yeasted flatbread base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "kaşar or other cheese, in that filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "whole egg, in the egg-topped version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "What filling is in this pide?"
+    },
+    {
+      "id": "tr-cig-kofte",
+      "term": "Çiğ Köfte",
+      "native": "çiğ köfte",
+      "romanizations": [
+        "chig kofte"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Traditionally raw spiced beef and bulgur, kneaded until smooth — modern versions in the US are usually meat-free.",
+      "long": "Historically a raw dish, similar in spirit to kibbeh nayyeh: finely ground raw beef kneaded for a long time with fine bulgur, tomato paste, and a heavy dose of pepper until smooth. Due to US food-safety regulations, almost all çiğ köfte served in American restaurants today is made meat-free, using only bulgur, walnut, and tomato-pepper paste — but the name alone doesn't tell you which version you're getting.",
+      "components": [
+        "pa-kibbeh-nayyeh"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "raw ground beef, in the traditional version only",
+          "certainty": "rarely",
+          "prominence": "primary",
+          "note": "Most US restaurant versions are meat-free due to food-safety rules — confirm which is being served."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "ground walnut, in the modern meat-free version",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Walnut is a standard substitute for the meat's fattiness in vegetarian versions."
+        },
+        {
+          "tag": "gluten",
+          "specific": "fine bulgur",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "Is this the traditional raw-meat version or the modern meat-free one, and does it have walnut?"
+    },
+    {
+      "id": "tr-doner",
+      "term": "Döner",
+      "native": "döner",
+      "romanizations": [
+        "doner",
+        "donair"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Stacked, marinated meat roasted on a vertical rotisserie and shaved thin — the origin of shawarma and gyro.",
+      "long": "Layers of marinated lamb, beef, or chicken pressed onto a vertical spit and roasted, with the cooked outer layer shaved off continuously as it turns. The technique that shawarma and Greek gyro both derive from. Served in bread, on rice, or on a plate.",
+      "components": [
+        "gr-gyro",
+        "pa-shawarma"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb, often blended with beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Chicken döner is a common labeled alternative."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken döner",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-simit",
+      "term": "Simit",
+      "native": "simit",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Ring-shaped bread crusted heavily in sesame seeds, dipped in grape molasses before baking.",
+      "long": "A circular bread, chewier than a bagel, dipped in grape molasses (pekmez) and then rolled thickly in sesame seeds before baking, giving a shiny, deeply sesame-crusted surface. Sold everywhere as a street snack.",
+      "components": [
+        "pa-kaak"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "heavy sesame seed crust",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat bread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "grape molasses glaze",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-menemen",
+      "term": "Menemen",
+      "native": "menemen",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Soft scrambled eggs cooked into tomato, green pepper, and onion — a breakfast staple.",
+      "long": "Tomato, green pepper, and onion sautéed down soft, then eggs stirred in and cooked gently so they stay loose and custardy rather than firm, often finished with crumbled feta or sucuk (spiced beef sausage). The entire dish is egg-based.",
+      "components": [
+        "gr-avgolemono"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire dish is scrambled egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "feta, if added",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "sucuk (spiced beef sausage), if added",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-baklava-note",
+      "term": "Baklava (Turkish)",
+      "native": "baklava",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Layered filo and ground **pistachio** or **walnut**, soaked in syrup — same dish as the Levantine version.",
+      "long": "The same baklava covered in the Palestinian/Lebanese section, made and sold identically in Turkish cuisine, typically pistachio-forward in the south (Gaziantep style) versus walnut-forward further north. From real Bethesda menus (Agora Bethesda).",
+      "components": [
+        "pa-baklava"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio or walnut filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The filling is ground nuts — not removable."
+        },
+        {
+          "tag": "gluten",
+          "specific": "filo pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "agora-bethesda"
+      ]
+    },
+    {
+      "id": "tr-turkish-coffee",
+      "term": "Türk Kahvesi",
+      "native": "Türk kahvesi",
+      "romanizations": [
+        "Turkish coffee"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Very finely ground coffee simmered directly in water with sugar, served unfiltered with thick grounds settled at the bottom.",
+      "long": "Extremely fine coffee grounds simmered slowly with water (and sugar, per preference) in a small long-handled pot (cezve) until foamy, then poured unfiltered into a small cup — the grounds settle at the bottom and are not drunk. No dairy by default.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tr-ayran",
+      "term": "Ayran",
+      "native": "ayran",
+      "romanizations": [],
+      "language": "Turkish",
+      "cuisines": [
+        "turkish"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Salted, thinned yogurt drink, served ice-cold alongside grilled meat.",
+      "long": "Plain yogurt whisked with cold water and salt until smooth and pourable, served over ice. The standard beverage pairing for kebabs and pide across Turkish (and broader Central Asian) cuisine.",
+      "components": [
+        "pa-laban"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

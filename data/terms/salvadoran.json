@@ -1,0 +1,459 @@
+{
+  "cuisine": "salvadoran",
+  "terms": [
+    {
+      "id": "sv-pupusa",
+      "term": "Pupusa",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish (Salvadoran)",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick corn masa cake stuffed with cheese, pork, or beans, griddled — El Salvador's national dish.",
+      "long": "Corn masa flattened by hand around a filling — most classically cheese and pork cracklings (chicharrón), or refried beans, or a mix (revuelta) — sealed, and cooked on a hot griddle (comal) until the outside browns and blisters. Always served with curtido on top and a thin tomato sauce on the side. From real Silver Spring menus (El Golfo, pork & cheese and vegan squash/spinach versions).",
+      "components": [
+        "sv-curtido"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork cracklings (chicharrón), in the classic and revuelta fillings",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Cheese-only and vegan bean/vegetable versions are standard labeled alternatives."
+        },
+        {
+          "tag": "dairy",
+          "specific": "cheese filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Heat is in the optional side salsa."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ],
+      "ask": "Which pupusa filling is this — cheese and pork, beans, or vegan?"
+    },
+    {
+      "id": "sv-curtido",
+      "term": "Curtido",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish (Salvadoran)",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Lightly fermented raw cabbage slaw with carrot and onion, vinegar-pickled — the standard pupusa topping.",
+      "long": "Shredded raw cabbage, carrot, and onion salted and left to lightly ferment or quick-pickle in vinegar, giving a crunchy, tangy slaw served cold on top of nearly every pupusa. Vegan, and entirely raw/fermented rather than cooked.",
+      "components": [
+        "sv-pupusa"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw cabbage, carrot, onion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "lightly fermented or vinegar-pickled cabbage",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ]
+    },
+    {
+      "id": "sv-yuca-con-chicharron",
+      "term": "Yuca con Chicharrón",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish (Salvadoran)",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Boiled-then-fried cassava with crispy fried pork shoulder pieces, topped with curtido and pico de gallo.",
+      "long": "Yuca (cassava) boiled until tender then fried until the outside crisps, served alongside small fried chunks of pork shoulder (a different cut and texture than pork rind chicharrón elsewhere), topped with curtido and fresh pico de gallo. From real Silver Spring menus (El Golfo).",
+      "components": [
+        "pe-yuca",
+        "sv-curtido"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "fried pork shoulder pieces",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "curtido, pico de gallo topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion in curtido and pico de gallo",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ]
+    },
+    {
+      "id": "sv-tamal",
+      "term": "Tamal",
+      "native": "",
+      "romanizations": [
+        "tamales"
+      ],
+      "language": "Spanish (Salvadoran)",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Corn masa steamed in banana leaf (not corn husk), often sweeter and softer than Mexican tamales.",
+      "long": "Salvadoran tamales use banana leaf rather than dried corn husk as the wrapper, and the masa is typically looser and a touch sweeter, filled with chicken, pork, or vegetables, or made as a dessert (elote/sweet corn tamale). From real Silver Spring menus (El Golfo, including a fried sweet plantain-yuca-corn version).",
+      "components": [
+        "pe-tamal"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken filling, in the savory version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Pork, vegetable, and sweet corn versions are equally standard."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ],
+      "ask": "What's the filling in this tamal?"
+    },
+    {
+      "id": "sv-sopa-de-mariscos",
+      "term": "Sopa de Mariscos",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mixed seafood soup — shrimp, fish, crab, and often conch or clam in a tomato-based broth.",
+      "long": "A hearty, tomato-based broth loaded with a mix of shrimp, white fish, crab, and often shellfish like conch or clam, sometimes with a coconut-milk finish depending on the kitchen. Shellfish is the entire point of the dish. From real Silver Spring menus (El Golfo).",
+      "components": [
+        "pe-parihuela"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, crab, and often conch or clam",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "white fish",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ]
+    },
+    {
+      "id": "sv-carne-asada",
+      "term": "Carne Asada a la Mexicana",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "salvadoran",
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled marinated skirt or flank steak, sliced, served with rice, beans, and grilled onion.",
+      "long": "Beef (typically skirt or flank) marinated in citrus, garlic, and spices, grilled hot and fast, sliced against the grain, and served with rice, refried beans, and grilled onion or pepper. From real Silver Spring menus (El Golfo).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "grilled skirt or flank steak",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "grilled onion, garlic marinade",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ]
+    },
+    {
+      "id": "sv-platanos-fritos",
+      "term": "Plátanos Fritos",
+      "native": "",
+      "romanizations": [
+        "fried sweet plantain"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "salvadoran",
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Ripe plantain fried until caramelized, served with crema and refried beans — sweet, not savory.",
+      "long": "Fully ripe (black-skinned) plantain sliced and pan-fried until deeply caramelized and soft, typically plated with a drizzle of Salvadoran crema (a thin, tangy cultured cream, milder than sour cream) and a side of refried beans. Distinct from tostones, which use unripe green plantain and are savory. From real Silver Spring menus (El Golfo).",
+      "components": [
+        "pe-tostones"
+      ],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "ripe plantain, cooked",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "crema",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ]
+    },
+    {
+      "id": "sv-crema",
+      "term": "Crema Salvadoreña",
+      "native": "",
+      "romanizations": [
+        "Salvadoran crema"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Thin, tangy cultured cream, milder and runnier than Mexican crema or American sour cream.",
+      "long": "A lightly fermented dairy product similar to crème fraîche, poured (rather than dolloped) over pupusas, tamales, and fried plantain. Dairy and mildly fermented.",
+      "components": [
+        "sv-platanos-fritos"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "cultured cream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "lightly cultured",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "sv-frijoles-fritos",
+      "term": "Frijoles Fritos",
+      "native": "",
+      "romanizations": [
+        "refried beans"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "salvadoran",
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cooked beans mashed and fried until smooth and thick — a nearly universal side.",
+      "long": "Cooked red or black beans mashed and fried in oil or lard until thick and spreadable, seasoned simply with onion and salt. Reliably vegetarian unless lard is used as the fat, which is common — worth asking if that matters.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "lard, if used as the frying fat",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Common in traditional preparations; vegetable oil is an equally common substitute."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ],
+      "ask": "Are these beans fried in lard or vegetable oil?"
+    },
+    {
+      "id": "sv-empanada-platano",
+      "term": "Empanada de Plátano",
+      "native": "",
+      "romanizations": [
+        "plantain empanada"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "salvadoran"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Sweet mashed-plantain dough filled with sweetened milk custard or refried beans, fried and sugared.",
+      "long": "Ripe plantain mashed into a dough (rather than a wheat pastry), wrapped around a filling of sweetened condensed milk custard or refried black beans, deep fried, and rolled in sugar. Distinct from a typical wheat-based empanada — the shell itself is fruit.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "ripe plantain dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk custard filling, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Bean-filled versions are dairy-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "Is this filled with milk custard or with beans?"
+    }
+  ]
+}

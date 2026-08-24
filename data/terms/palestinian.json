@@ -1,0 +1,3979 @@
+{
+  "cuisine": "palestinian",
+  "terms": [
+    {
+      "id": "pa-musakhan",
+      "term": "Musakhan",
+      "native": "مسخّن",
+      "romanizations": [
+        "msakhan",
+        "musakkhan"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Palestine's national dish: sumac-and-onion roast chicken on taboon bread, strewn with **pine nuts**.",
+      "long": "Chicken roasted over flatbread that has been drenched in olive oil and piled with onions cooked slowly with a very generous quantity of sumac, until the bread turns crimson and soaks up the fat and juices. Finished with toasted **pine nuts** and sometimes almonds scattered across the top. Eaten with the hands, bread and all. The nuts sit on the surface rather than being mixed in, so they are visible and can be brushed off — but they are traditional enough that a kitchen may not think to mention them.",
+      "components": [
+        "pa-sumac",
+        "pa-taboon",
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts, sometimes almonds",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Toasted and scattered on top — visible and largely removable."
+        },
+        {
+          "tag": "chicken",
+          "specific": "roast chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "taboon flatbread",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The bread is part of the dish, not a side."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Enormous quantities of slow-cooked onion."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Tart from sumac, not hot."
+      },
+      "confidence": "high",
+      "ask": "Can you leave the pine nuts off?"
+    },
+    {
+      "id": "pa-snoubar",
+      "term": "Snoubar",
+      "native": "صنوبر",
+      "romanizations": [
+        "snobar",
+        "sanawbar",
+        "pine nuts"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Pine nuts — fried in butter and scattered over meat, rice, and stuffed dishes constantly.",
+      "long": "The most frequently encountered nut in Levantine savory cooking. Small ivory kernels toasted or fried in ghee until golden and showered over mansaf, maqluba, musakhan, kibbeh, and rice dishes. Botanically a seed from a pine cone, but classed with tree nuts for allergy purposes and cross-reactive for many people. Because it's a finishing garnish rather than a blended ingredient, it can usually be omitted if you ask when ordering — but it is so routine that it often goes unmentioned on a menu.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pine nut",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Treated as a tree nut for allergy purposes despite being a seed."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-maqluba",
+      "term": "Maqluba",
+      "native": "مقلوبة",
+      "romanizations": [
+        "maqlouba",
+        "makloubeh",
+        "maklouba",
+        "upside-down"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "\"Upside-down\" — layered rice, fried eggplant, and meat, flipped out of the pot as a cake.",
+      "long": "Fried eggplant (sometimes cauliflower or potato) layered in a pot with spiced rice and chicken or lamb, cooked together, then inverted onto a platter so it holds the pot's shape. Seasoned with allspice, cinnamon, turmeric, and bay. Traditionally crowned with fried **pine nuts and slivered almonds** and served with a bowl of plain yogurt. The nuts are a top garnish; the yogurt is on the side.",
+      "components": [
+        "pa-snoubar",
+        "pa-baharat"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts, slivered almonds",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Scattered over the top after unmolding — visible and removable."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Chicken and lamb are both standard; menus specify."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt served alongside",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "On the side."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Warm-spiced, not hot."
+      },
+      "confidence": "high",
+      "ask": "Can it come without the pine nuts and almonds?"
+    },
+    {
+      "id": "pa-mansaf",
+      "term": "Mansaf",
+      "native": "منسف",
+      "romanizations": [
+        "mensaf"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Lamb cooked in fermented dried-yogurt sauce over rice, heavily topped with **nuts**.",
+      "long": "The great feast dish of Jordan and Palestine. Lamb simmered in *jameed*, a rehydrated hard dried yogurt with a sharp, salty, deeply fermented tang, ladled over rice spread on a sheet of shrak bread and blanketed with fried **almonds and pine nuts**. Traditionally eaten communally with the right hand from a single tray. The nuts here are more than a token garnish — they're spread across the whole surface — and the jameed sauce is poured over everything.",
+      "components": [
+        "pa-jameed",
+        "pa-snoubar",
+        "pa-taboon"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "almonds and pine nuts",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Spread across the whole platter, though still surface-level."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb, bone-in",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "jameed dried yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The sauce is entirely dairy — not removable."
+        },
+        {
+          "tag": "fermented",
+          "specific": "jameed",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "shrak or taboon bread under the rice",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-jameed",
+      "term": "Jameed",
+      "native": "جميد",
+      "romanizations": [
+        "jamid"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Hard dried sheep's-milk yogurt, rehydrated into the tangy sauce for mansaf.",
+      "long": "Yogurt salted, drained, and sun-dried into rock-hard pale balls that keep for years, then broken up and whisked with water into a sharp, salty, faintly funky sauce. Unmistakable in flavor and impossible to make dairy-free.",
+      "components": [
+        "pa-mansaf"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "dried sheep or goat yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "yogurt culture",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-makdous",
+      "term": "Makdous",
+      "native": "مكدوس",
+      "romanizations": [
+        "makdoos",
+        "makdus"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Baby eggplants cured in oil, stuffed with **walnuts**, garlic, and red pepper.",
+      "long": "Small eggplants blanched, salted, drained for days, then packed with a paste of crushed **walnuts**, garlic, and chili and submerged in olive oil to cure. Served whole as part of a breakfast or mezze spread. The walnuts are the entire filling, not a garnish — there is no version of this dish without them, and it looks like a plain oil-cured vegetable from the outside.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "crushed walnuts",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The filling is walnut paste. Not visible from outside; not removable."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "salt-cured in oil",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Red pepper in the stuffing; varies by maker."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-kibbeh",
+      "term": "Kibbeh",
+      "native": "كبة",
+      "romanizations": [
+        "kibbe",
+        "kubbeh",
+        "kubba",
+        "kebbeh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Bulgur-and-lamb shell around a spiced meat filling, usually with **pine nuts**, deep fried.",
+      "long": "Fine bulgur kneaded with minced lamb and onion into a smooth paste, shaped into a torpedo, hollowed, and filled with more minced lamb sautéed with onion, allspice, and **pine nuts**, then fried until crisp. Also made as a baked tray (*kibbeh bil sanieh*) or served raw (*kibbeh nayyeh*, uncooked minced lamb with bulgur — a real menu item, not a rarity). Contains wheat in the bulgur, and the pine nuts are inside the filling where you won't see them.",
+      "components": [
+        "pa-snoubar",
+        "pa-bulgur",
+        "pa-baharat"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts in the filling",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Inside the shell — not visible and not removable once fried."
+        },
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Beef is a common substitute."
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bulgur wheat",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Warm allspice, not chili."
+      },
+      "confidence": "high",
+      "ask": "Are there pine nuts inside the kibbeh?"
+    },
+    {
+      "id": "pa-kibbeh-nayyeh",
+      "term": "Kibbeh nayyeh",
+      "native": "كبة نية",
+      "romanizations": [
+        "kibbe nayeh",
+        "kibbeh nayye"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw minced lamb pounded with bulgur and spices, spread and eaten with bread and raw onion.",
+      "long": "Very lean raw lamb or goat pounded to a paste with fine bulgur, onion, and spices, spread flat on a plate, scored, and drizzled with olive oil. Served with raw onion wedges, mint, and bread. Entirely uncooked. The word **nayyeh** means raw and is the signal to watch for.",
+      "components": [
+        "pa-kibbeh",
+        "pa-bulgur"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "raw minced lamb",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Served fully raw."
+        },
+        {
+          "tag": "gluten",
+          "specific": "bulgur wheat",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion and mint alongside",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Served on the plate."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-sumac",
+      "term": "Sumac",
+      "native": "سماق",
+      "romanizations": [
+        "summaq",
+        "sumaq"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Ground dried red berry with a clean sour-citrus tang. Not hot at all.",
+      "long": "The dried and ground fruit of the sumac shrub, deep wine-red and sharply tart in a lemony rather than vinegary way. Dusted over fattoush, hummus, grilled meat, and used by the handful in musakhan. Purely sour — it never contributes heat, and its red color is often misread as chili on a plate.",
+      "components": [
+        "pa-zaatar"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Red but sour, not hot — a common misread."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-zaatar",
+      "term": "Za'atar",
+      "native": "زعتر",
+      "romanizations": [
+        "zaatar",
+        "zatar",
+        "za'tar"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "spice-blend",
+        "ingredient"
+      ],
+      "short": "Blend of wild thyme, **sesame**, and sumac. Also the name of the herb itself.",
+      "long": "Both a specific wild hyssop-thyme and the green-brown blend made from it with toasted **sesame seeds**, sumac, and salt. Mixed with olive oil and spread on bread as manakish, dusted over labneh, or eaten as a dip with bread and oil. Sesame is a defining component of nearly every blend. Some commercial mixes are cut with roasted flour or chickpea. No tree nuts or peanuts.",
+      "components": [
+        "pa-sumac",
+        "pa-manakish"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "toasted sesame seeds",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "A defining ingredient of the blend."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-tahina",
+      "term": "Tahina",
+      "native": "طحينة",
+      "romanizations": [
+        "tahini",
+        "tahineh",
+        "taheena"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "sauce",
+        "ingredient"
+      ],
+      "short": "Ground **sesame** paste, thinned with lemon and garlic into a pourable sauce.",
+      "long": "Hulled sesame seeds ground to a loose butter. Used straight as an ingredient in hummus and mutabbal, or slackened with lemon juice, garlic, and water into a white sauce poured over falafel, shawarma, and grilled fish. Extremely common — it is present in far more dishes than name it. Sesame only: contains no tree nuts or peanuts.",
+      "components": [
+        "pa-hummus",
+        "pa-mutabbal"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "ground sesame seed",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, in sauce form",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-hummus",
+      "term": "Hummus",
+      "native": "حمّص",
+      "romanizations": [
+        "hommos",
+        "humus",
+        "hummous"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Puréed chickpeas with tahina, lemon, and garlic. Hot toppings often add **pine nuts**.",
+      "long": "Cooked chickpeas blended smooth with tahina, lemon, garlic, and ice water, spread in a shallow bowl with a well of olive oil. Plain hummus is nut-free apart from sesame. But the topped versions are where nuts appear: **hummus bil lahmeh** (with spiced minced lamb) and **hummus beiruti** are typically finished with fried pine nuts, and *fattet hummus* is layered with them too. Eaten warm and fresh rather than cold from a tub.",
+      "components": [
+        "pa-tahina",
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "tahina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts on meat-topped versions",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "Plain hummus has none; *bil lahmeh* and *beiruti* usually do."
+        },
+        {
+          "tag": "lamb",
+          "specific": "minced lamb topping",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only on *hummus bil lahmeh*."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-mutabbal",
+      "term": "Mutabbal",
+      "native": "متبل",
+      "romanizations": [
+        "mtabbal",
+        "moutabal",
+        "baba ghanoush"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Charred eggplant whipped with tahina, lemon, and garlic. Smoky and pale.",
+      "long": "Whole eggplants blistered black over flame until the flesh collapses, then mashed with tahina, lemon, garlic, and sometimes yogurt. Smoky, creamy, and off-white. Often listed as *baba ghanoush* on English menus, though strictly baba ghanoush is a chunkier version with tomato and onion and no tahina. Sometimes garnished with pomegranate seeds, which are raw.",
+      "components": [
+        "pa-tahina"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "tahina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "pomegranate seed garnish",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "Scattered on top; easily left."
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-falafel",
+      "term": "Falafel",
+      "native": "فلافل",
+      "romanizations": [
+        "felafel"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fritters of ground raw chickpea with herbs and spice, deep fried. Nut-free.",
+      "long": "Dried chickpeas soaked but never cooked, ground raw with parsley, cilantro, onion, garlic, cumin, and coriander, then formed into balls or patties and deep fried until dark and crisp with a green interior. The Levantine version uses chickpeas; the Egyptian one uses fava. Reliably free of nuts, dairy, and egg. Served with tahina sauce and pickles, or stuffed into pita with salad.",
+      "components": [
+        "pa-tahina",
+        "pa-khubz"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame seeds on the crust, tahina sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "salad in a sandwich version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only when served as a sandwich."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "The optional chili sauce is the hot part."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-fattoush",
+      "term": "Fattoush",
+      "native": "فتوش",
+      "romanizations": [
+        "fatoush",
+        "fattush"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw chopped salad with fried pita shards and a sumac-lemon dressing.",
+      "long": "Romaine, cucumber, tomato, radish, scallion, mint, and parsley chopped roughly and tossed with pieces of fried or toasted flatbread, dressed with olive oil, lemon, sumac, and often pomegranate molasses. Everything but the bread is raw. The bread should stay crunchy, so it is added at the last moment.",
+      "components": [
+        "pa-sumac",
+        "pa-khubz"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "lettuce, cucumber, tomato, radish, herbs",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Entirely raw — this is a raw salad by definition."
+        },
+        {
+          "tag": "gluten",
+          "specific": "fried pita",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "pomegranate molasses",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Cooked-down juice, not raw fruit."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-tabbouleh",
+      "term": "Tabbouleh",
+      "native": "تبولة",
+      "romanizations": [
+        "tabouli",
+        "tabbouli",
+        "taboule"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Overwhelmingly parsley — a raw herb salad with a little bulgur, tomato, and lemon.",
+      "long": "Flat-leaf parsley chopped extremely fine, with mint, diced raw tomato, scallion, lemon juice, and olive oil, and only a small amount of soaked fine bulgur. The American grain-salad version has the ratio backwards: authentically this is a herb salad that is at least three-quarters parsley. Entirely raw apart from the soaked bulgur.",
+      "components": [
+        "pa-bulgur"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "parsley, mint, tomato, scallion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The dish is raw herbs; nothing is cooked."
+        },
+        {
+          "tag": "gluten",
+          "specific": "fine bulgur",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Soaked, not boiled."
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-bulgur",
+      "term": "Burghul",
+      "native": "برغل",
+      "romanizations": [
+        "bulgur",
+        "bulghur",
+        "borghol"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Parboiled cracked wheat. Fine grind for kibbeh and tabbouleh, coarse for pilafs.",
+      "long": "Wheat that has been boiled, dried, and cracked, so it needs only soaking or brief cooking. Fine bulgur binds kibbeh and tabbouleh; coarse bulgur is cooked as a pilaf in place of rice. Wheat, so gluten throughout.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "cracked wheat",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-freekeh",
+      "term": "Freekeh",
+      "native": "فريكة",
+      "romanizations": [
+        "frikeh",
+        "farik",
+        "freeka"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Green wheat harvested young and fire-roasted, giving a smoky chewy grain.",
+      "long": "Durum wheat cut while still green and soft, then set alight so the straw burns off and the moist grains only char, producing a distinctly smoky, savory grain that stays chewy. Cooked as a pilaf with chicken or lamb, or in soup. Wheat, so gluten. Frequently garnished with fried nuts.",
+      "components": [
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "green durum wheat",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "fried almonds or pine nuts on top",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "Common when served as a pilaf."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken and chicken stock",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Usually cooked in meat stock rather than water."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-maftoul",
+      "term": "Maftoul",
+      "native": "مفتول",
+      "romanizations": [
+        "moftoul",
+        "Palestinian couscous"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Hand-rolled pearls of bulgur and wheat flour — bigger and chewier than couscous.",
+      "long": "Bulgur rolled by hand with flour and water into irregular pea-sized pearls, then steamed. Nuttier and far chewier than North African couscous. Served with chicken, chickpeas, and onion in a caraway- and cumin-scented broth. Wheat throughout.",
+      "components": [
+        "pa-bulgur"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "bulgur and wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken and broth",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The standard preparation."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-mujaddara",
+      "term": "Mujaddara",
+      "native": "مجدرة",
+      "romanizations": [
+        "mujadara",
+        "mejadra",
+        "mudardara"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Lentils and rice under a heap of deeply caramelized fried onion. Vegan and nut-free.",
+      "long": "Brown or green lentils cooked with rice or bulgur, seasoned simply with cumin, and topped with onions fried slowly until dark brown and almost bitter-sweet. Humble, filling, and reliably vegan and nut-free — one of the safest orders on a Levantine menu. Usually served with yogurt or a cucumber-yogurt salad on the side.",
+      "components": [
+        "pa-labneh"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "fried onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked, in quantity."
+        },
+        {
+          "tag": "gluten",
+          "specific": "bulgur, in the bulgur version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Rice versions are gluten-free."
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt served alongside",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "On the side."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-warak-enab",
+      "term": "Warak enab",
+      "native": "ورق عنب",
+      "romanizations": [
+        "warak dawali",
+        "waraq enab",
+        "dolma",
+        "stuffed grape leaves"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grape leaves rolled around rice, herbs, and sometimes lamb, simmered in lemon.",
+      "long": "Brined grape leaves wrapped tightly around a filling of rice with parsley, mint, tomato, and lemon — vegetarian and served cold — or rice with minced lamb, served warm. Cooked slowly in a lemony broth, sometimes layered over lamb chops. The vegetarian version is nut-free and vegan; ask which one, since menus often just say \"stuffed grape leaves.\"",
+      "components": [
+        "pa-mahshi"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Meat and vegetarian versions look nearly identical."
+        },
+        {
+          "tag": "fermented",
+          "specific": "brined grape leaves",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-mahshi",
+      "term": "Mahshi",
+      "native": "محشي",
+      "romanizations": [
+        "mahshy",
+        "mehshi"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "\"Stuffed\" — the family word for vegetables filled with rice and meat and stewed.",
+      "long": "Zucchini (*kousa*), eggplant, peppers, cabbage leaves, or grape leaves hollowed and packed with rice, minced lamb, and warm spices, then simmered in a tomato or yogurt broth. *Kousa mahshi* is the most common. Any dish named mahshi is fully cooked and rarely contains nuts, though the meat filling occasionally includes pine nuts.",
+      "components": [
+        "pa-warak-enab",
+        "pa-baharat"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb in the filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Vegetarian versions exist and are usually labeled."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts in some meat fillings",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt broth, in *mahshi bil laban*",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-shish-barak",
+      "term": "Shish barak",
+      "native": "شيش برك",
+      "romanizations": [
+        "shishbarak",
+        "shush barak"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small meat dumplings simmered in warm garlicky yogurt sauce.",
+      "long": "Thin dough circles folded around minced lamb with onion and sometimes pine nuts, baked or fried, then finished in a hot yogurt sauce stabilized with cornstarch and flavored heavily with garlic and dried mint. Comforting and mild. Both wheat and dairy are structural.",
+      "components": [
+        "pa-laban"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The sauce is yogurt; no version omits it."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "lamb",
+          "specific": "minced lamb filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts in the filling",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-sayadieh",
+      "term": "Sayadieh",
+      "native": "صيادية",
+      "romanizations": [
+        "sayadiyeh",
+        "sayyadieh",
+        "fisherman's rice"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fish over rice browned with deeply caramelized onion, topped with fried **nuts**.",
+      "long": "White fish fried or baked and laid over rice cooked in fish stock with onions caramelized nearly black, which turn the rice brown and sweet, seasoned with cumin and sometimes cinnamon. Finished with fried **pine nuts and almonds** and served with a lemon-tahina sauce. Coastal Palestinian, especially Gaza and Jaffa. The nuts are a top garnish.",
+      "components": [
+        "pa-tahina",
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "white fish, cooked",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Fully cooked."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts, almonds",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Scattered on top."
+        },
+        {
+          "tag": "sesame",
+          "specific": "tahina sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "caramelized onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-samke-harra",
+      "term": "Samke harra",
+      "native": "سمكة حرة",
+      "romanizations": [
+        "samkeh harra",
+        "samke harrah"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "\"Spicy fish\" — baked fish under a chili-tahina sauce with **walnuts and pine nuts**.",
+      "long": "Whole fish or fillets baked under a sauce of tahina, lemon, garlic, cilantro, and hot red pepper, garnished with toasted **walnuts and pine nuts** and fresh cilantro. From the Tripoli and Gaza coasts. **Harra** means hot, and this is one of the few genuinely spicy dishes in the cuisine. Nuts appear both in the sauce and on top depending on the kitchen.",
+      "components": [
+        "pa-tahina",
+        "pa-snoubar"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "baked white fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "walnuts and pine nuts",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Sometimes ground into the sauce rather than only scattered on top."
+        },
+        {
+          "tag": "sesame",
+          "specific": "tahina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "*Harra* means hot — one of the genuinely spicy Levantine dishes."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-shawarma",
+      "term": "Shawarma",
+      "native": "شاورما",
+      "romanizations": [
+        "shawerma",
+        "shwarma",
+        "shawirma"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Marinated meat stacked on a vertical spit, shaved thin, wrapped with sauce and pickles.",
+      "long": "Layers of marinated lamb, beef, or chicken pressed onto a rotating vertical spit and shaved off in thin strips as the outside crisps. Chicken shawarma is served with garlic *toum*; lamb and beef with tahina sauce. Wrapped in flatbread with pickles, tomato, and onion, or plated over rice or fries. The wrap's raw tomato and onion can be left out. Nut-free.",
+      "components": [
+        "pa-toum",
+        "pa-tahina",
+        "pa-khubz"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Menus specify meat; chicken and lamb/beef are both standard."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Often blended with lamb on the same spit."
+        },
+        {
+          "tag": "gluten",
+          "specific": "flatbread wrap",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Plated versions skip it."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato, onion, parsley in the wrap",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Easy to leave out on request."
+        },
+        {
+          "tag": "sesame",
+          "specific": "tahina sauce",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-toum",
+      "term": "Toum",
+      "native": "ثوم",
+      "romanizations": [
+        "toom",
+        "thoum",
+        "garlic sauce"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Fierce white emulsion of raw garlic and oil. No dairy, no egg, no nuts — just garlic.",
+      "long": "Raw garlic pounded with salt and emulsified with a large volume of neutral oil and lemon juice into a stiff, brilliant-white paste with the texture of mayonnaise and none of its ingredients. Ferociously pungent and served with chicken shawarma and grilled chicken. Contains no egg, dairy, or nuts, but the garlic is entirely raw and the quantity is not small.",
+      "components": [
+        "pa-shawarma"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The dish is raw garlic. Nothing tempers it."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Pungent and sharp, but no chili."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-shish-taouk",
+      "term": "Shish taouk",
+      "native": "شيش طاووق",
+      "romanizations": [
+        "shish tawook",
+        "shish tawuk",
+        "shish taook"
+      ],
+      "language": "Arabic / Turkish",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Skewered chicken cubes marinated in yogurt, lemon, and garlic, then grilled.",
+      "long": "Boneless chicken marinated in yogurt with lemon, garlic, tomato paste, and warm spices, then grilled on skewers so the outside chars while the yogurt keeps the inside tender. Served with toum, rice or fries, and grilled vegetables. Mild and reliably nut-free.",
+      "components": [
+        "pa-toum"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken breast or thigh",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Marinade only; largely cooked off."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-kofta",
+      "term": "Kofta",
+      "native": "كفتة",
+      "romanizations": [
+        "kufta",
+        "kefta",
+        "kafta"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese",
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Minced lamb or beef kneaded with parsley and onion, shaped on skewers and grilled.",
+      "long": "Ground lamb, beef, or a mix, worked with finely chopped parsley, onion, and allspice until sticky, then molded around flat skewers and grilled, or baked in a tray with potato and tomato (*kofta bil sanieh*). Simple and nut-free. Distinct from kibbeh, which contains bulgur and is usually stuffed.",
+      "components": [
+        "pa-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Often a lamb-beef blend."
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Frequently blended with lamb even when described as one or the other."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-arayes",
+      "term": "Arayes",
+      "native": "عرايس",
+      "romanizations": [
+        "araies",
+        "arayess"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pita stuffed with raw kofta mix and grilled until the bread crisps and the fat soaks in.",
+      "long": "Seasoned minced lamb or beef spread inside split pita, then grilled or griddled so the meat cooks through while its fat crisps the bread. Cut into wedges and served with tahina or yogurt. Nut-free.",
+      "components": [
+        "pa-kofta",
+        "pa-khubz"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pita",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-manakish",
+      "term": "Manakish",
+      "native": "مناقيش",
+      "romanizations": [
+        "manaeesh",
+        "manoushe",
+        "man'ousheh",
+        "manakeesh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "bread",
+        "dish"
+      ],
+      "short": "Flatbread baked with a topping — za'atar and oil, cheese, or spiced meat.",
+      "long": "A round of dough spread with a topping and baked hot: *bi za'atar* (za'atar mixed with olive oil, the classic breakfast), *bi jibneh* (akkawi cheese), or *bi lahmeh* (spiced minced meat with tomato). Folded and eaten out of hand. The za'atar version contains sesame; all versions contain wheat.",
+      "components": [
+        "pa-zaatar",
+        "pa-akkawi"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame in the za'atar",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Only the za'atar version."
+        },
+        {
+          "tag": "dairy",
+          "specific": "akkawi or halloumi",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only the cheese version."
+        },
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only *bi lahmeh*."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-taboon",
+      "term": "Taboon",
+      "native": "طابون",
+      "romanizations": [
+        "taboun"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Thick flatbread baked on hot stones, dimpled and chewy. The bread under musakhan.",
+      "long": "Named for the clay oven lined with smooth pebbles it's baked on, which leave the loaf pitted and uneven. Thicker and sturdier than pita, made to hold sauce without disintegrating. The base of musakhan.",
+      "components": [
+        "pa-musakhan"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-khubz",
+      "term": "Khubz",
+      "native": "خبز",
+      "romanizations": [
+        "khobz",
+        "pita",
+        "kmaj"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Bread generally — usually the thin pocket pita served with every mezze.",
+      "long": "The general Arabic word for bread, in practice the round two-layer pita that comes with every meal and doubles as a utensil for scooping dips. Thin, soft, and always wheat.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-labneh",
+      "term": "Labneh",
+      "native": "لبنة",
+      "romanizations": [
+        "labaneh",
+        "lebneh",
+        "labne"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Yogurt strained until thick and spreadable, pooled with olive oil and za'atar.",
+      "long": "Yogurt drained in cloth for a day or more until it reaches a soft cheese consistency — tangy, salted, and served in a shallow bowl with a well of olive oil, often dusted with za'atar or dried mint. Also rolled into balls and stored in oil (*labneh makbus*). A breakfast and mezze staple.",
+      "components": [
+        "pa-zaatar"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "strained yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "yogurt culture",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "za'atar dusting",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-laban",
+      "term": "Laban",
+      "native": "لبن",
+      "romanizations": [
+        "laban ayran",
+        "shanineh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient",
+        "beverage"
+      ],
+      "short": "Plain yogurt — as a drink, a cooking sauce, or a bowl beside a hot dish.",
+      "long": "Unstrained yogurt. Salted and thinned with water it becomes a savory drink (*ayran* or *shanineh*); cooked with cornstarch it becomes the yogurt sauce in shish barak and *laban immo*. A bowl of it turns up beside maqluba and stuffed vegetables as a matter of course.",
+      "components": [
+        "pa-shish-barak",
+        "pa-labneh"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "yogurt culture",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-akkawi",
+      "term": "Akkawi",
+      "native": "عكاوي",
+      "romanizations": [
+        "ackawi",
+        "akawi"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Mild white brined cheese from Akka. Soaked to desalt, then melted into knafeh and pastries.",
+      "long": "A smooth, squeaky, quite salty white cheese named for the city of Acre. Soaked in water before use to draw out the salt, then used in knafeh, manakish, and sweet cheese pastries because it melts into strands without breaking. Mild and milky on its own.",
+      "components": [
+        "pa-knafeh",
+        "pa-manakish"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "cow or sheep milk cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-knafeh",
+      "term": "Knafeh",
+      "native": "كنافة",
+      "romanizations": [
+        "kunafa",
+        "kanafeh",
+        "knafe",
+        "kunafah"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Hot cheese under orange shredded pastry, soaked in syrup, dusted with **pistachio**.",
+      "long": "The Nabulsi dessert: a layer of soft unsalted cheese under either fine shredded pastry (*na'ameh*) or coarse strands (*khishneh*), stained orange, baked in ghee until crisp, flipped, and drenched in rose or orange-blossom syrup while still hot. Served in a wedge with a scatter of ground **pistachio** on top. The pistachio is a surface garnish; the cheese and semolina underneath are not optional.",
+      "components": [
+        "pa-akkawi",
+        "pa-attar"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "ground pistachio",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Sprinkled on top after baking — visible and often scrapeable."
+        },
+        {
+          "tag": "dairy",
+          "specific": "fresh cheese and ghee",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "kataifi pastry or semolina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-baklava",
+      "term": "Baklawa",
+      "native": "بقلاوة",
+      "romanizations": [
+        "baklava",
+        "baqlawa"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese",
+        "greek"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Layered filo packed with ground **nuts** and soaked in syrup. Nuts are the filling.",
+      "long": "Sheets of filo brushed with ghee, layered around a thick bed of ground walnuts, pistachios, cashews, or almonds, baked, then flooded with sugar syrup scented with rose or orange blossom. Cut into diamonds or fingers. Unlike knafeh, the nuts here are the entire filling rather than a garnish — there is no meaningful nut-free version, and different shapes on a tray often indicate different nuts rather than different pastries.",
+      "components": [
+        "pa-attar"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnut, pistachio, cashew, or almond",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The filling is ground nuts. Not removable."
+        },
+        {
+          "tag": "gluten",
+          "specific": "filo pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "ghee",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-maamoul",
+      "term": "Ma'amoul",
+      "native": "معمول",
+      "romanizations": [
+        "maamoul",
+        "mamool",
+        "ma'moul"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Molded semolina shortbread filled with dates, **walnuts**, or **pistachios**.",
+      "long": "Semolina and ghee dough pressed into carved wooden molds around a filling, baked pale, and dusted with powdered sugar. The three classic fillings are date paste, ground walnut, and ground pistachio — and the mold shape traditionally encodes which: round for dates, domed for walnut, oval for pistachio. Made for Eid and Easter. Only the date version is nut-free, and from the outside the shape is your only clue.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnut or pistachio filling",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Two of the three standard fillings are nut. Date-filled is the nut-free one."
+        },
+        {
+          "tag": "fruit",
+          "specific": "date paste",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "The nut-free filling."
+        },
+        {
+          "tag": "gluten",
+          "specific": "semolina and flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "ghee or butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Which of these are date-filled rather than nut-filled?"
+    },
+    {
+      "id": "pa-qatayef",
+      "term": "Qatayef",
+      "native": "قطايف",
+      "romanizations": [
+        "katayef",
+        "atayef",
+        "qata'if"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Ramadan pancake folded around **walnuts** or sweet cheese, fried and syruped.",
+      "long": "A yeasted pancake cooked on one side only so it stays sticky, then folded into a half-moon around either a **walnut**-cinnamon filling or unsalted cheese, sealed, fried, and dipped in syrup. An open version, *qatayef asafiri*, is left unfolded and filled with clotted *ashta* cream and pistachio. Almost exclusive to Ramadan. Both main fillings are worth distinguishing: one is nut, one is dairy.",
+      "components": [
+        "pa-ashta",
+        "pa-attar"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnut filling, or pistachio on the cream version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "The walnut version is one of the two standards; the cheese version has none."
+        },
+        {
+          "tag": "dairy",
+          "specific": "cheese or ashta cream filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-ashta",
+      "term": "Ashta",
+      "native": "قشطة",
+      "romanizations": [
+        "achta",
+        "kashta",
+        "qishta"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Thick clotted cream used to fill pastries, almost always topped with **pistachio**.",
+      "long": "Milk simmered and skimmed, or thickened with semolina and rose water, into a dense fresh cream. Fills qatayef, halawet el jibn, and rice puddings, and is nearly always finished with chopped pistachio and syrup. The cream itself is nut-free; the standard garnish is not.",
+      "components": [
+        "pa-qatayef",
+        "pa-muhalabieh"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "clotted cream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio garnish",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "On top, not in the cream."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-muhalabieh",
+      "term": "Muhalabieh",
+      "native": "مهلبية",
+      "romanizations": [
+        "mahalabia",
+        "muhallebi",
+        "mhalabiyeh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Cool milk pudding set with cornstarch, scented with rose water, topped with **pistachio**.",
+      "long": "Milk thickened with cornstarch or rice flour, sweetened lightly, perfumed with rose or orange-blossom water, and chilled in small bowls until just set. Delicate and barely sweet, garnished with chopped pistachio and sometimes a spoon of syrup. Gluten-free, but the pistachio garnish is standard.",
+      "components": [
+        "pa-ashta"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "chopped pistachio",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Sprinkled on top; easy to leave or omit on request."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-halawa",
+      "term": "Halawa",
+      "native": "حلاوة",
+      "romanizations": [
+        "halva",
+        "halveh",
+        "halawi"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Dense crumbly **sesame** confection, often studded with **pistachio**.",
+      "long": "Tahina cooked with sugar syrup and whipped into a firm, flaky block that crumbles when cut. Sold plain, marbled with chocolate, or shot through with whole pistachios or almonds. Sesame is the base of every version; nuts are the common but optional addition.",
+      "components": [
+        "pa-tahina"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "tahina",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The entire base."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio or almond",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Visible when present; plain versions are common."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-attar",
+      "term": "Attar",
+      "native": "قطر",
+      "romanizations": [
+        "qater",
+        "ater",
+        "sugar syrup"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Sugar syrup with lemon and rose or orange-blossom water, poured over hot pastry.",
+      "long": "The thin, floral syrup that soaks nearly every Levantine pastry. Sugar and water cooked with a squeeze of lemon to prevent crystallizing, then perfumed with rose water, orange-blossom water, or both. Nut-free and dairy-free on its own; it is what makes baklawa and knafeh sticky.",
+      "components": [
+        "pa-baklava",
+        "pa-knafeh"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-molokhia",
+      "term": "Molokhia",
+      "native": "ملوخية",
+      "romanizations": [
+        "mulukhiyah",
+        "molokhiya",
+        "mloukhieh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Jute-leaf stew, dark green and deliberately slippery, served over rice with chicken.",
+      "long": "Finely chopped jute mallow leaves cooked in chicken or rabbit broth with garlic and coriander until the stew takes on a distinctive mucilaginous, okra-like body — the texture is the point, not a flaw. Served over rice with the poached chicken and a squeeze of lemon or a dish of vinegar-onion on the side. Nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken and chicken broth",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The broth is the base even when the meat is served separately."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion in vinegar on the side",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-bamia",
+      "term": "Bamia",
+      "native": "بامية",
+      "romanizations": [
+        "bamya",
+        "bamieh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Okra braised in garlicky tomato sauce, often with lamb. Fully cooked, nut-free.",
+      "long": "Small whole okra pods stewed with tomato, garlic, cilantro, and lemon until tender, commonly with chunks of lamb. Served with rice or vermicelli. Reliably nut-free and never raw.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A vegetarian version is common and usually labeled."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-qidra",
+      "term": "Qidra",
+      "native": "قدرة",
+      "romanizations": [
+        "qedra",
+        "kidreh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Hebron rice and meat baked in a sealed clay pot with whole garlic and chickpeas.",
+      "long": "Rice, lamb or chicken, whole garlic cloves, chickpeas, and cardamom sealed into a wide clay pot (the *qidra*) and traditionally sent to a communal wood oven to bake slowly. The rice takes on the fat and spice. A specialty of Hebron. Sometimes topped with fried nuts, otherwise nut-free.",
+      "components": [
+        "pa-baharat"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Chicken versions exist."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "fried almonds or pine nuts on top",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "whole garlic cloves",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked whole and soft."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-baharat",
+      "term": "Baharat",
+      "native": "بهارات",
+      "romanizations": [
+        "bhar",
+        "seven spice",
+        "sabaa baharat"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "spice-blend"
+      ],
+      "short": "The warm all-purpose spice blend — allspice, cinnamon, black pepper. Not hot.",
+      "long": "Literally \"spices.\" Typically allspice, black pepper, cinnamon, clove, nutmeg, coriander, and cumin, sometimes as \"seven spice.\" Warm and aromatic rather than hot — black pepper is the only pungency. It seasons nearly every meat dish in the cuisine, which is why so much Levantine food reads as spiced but not spicy.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Warm spice and black pepper only — no chili."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-shatta",
+      "term": "Shatta",
+      "native": "شطة",
+      "romanizations": [
+        "shata",
+        "harissa"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Fermented red or green chili paste served on the side. The hot thing on the table.",
+      "long": "Fresh chilies salted and left to ferment, then blended with garlic, oil, lemon, and sometimes cilantro into a bright, sharp paste. Served in a small dish alongside falafel, fish, and grills. Since Palestinian cooking is mostly not spicy, shatta is where nearly all the heat lives — and it's on the side, so it's yours to control.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "fermented chilies",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "Always served separately — you decide the dose."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-harissa-sweet",
+      "term": "Harissa (the cake)",
+      "native": "هريسة",
+      "romanizations": [
+        "hareeseh",
+        "namoura",
+        "basbousa"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Semolina cake soaked in syrup with an almond on each square. Not the chili paste.",
+      "long": "A dense, sandy semolina cake bound with yogurt or coconut, baked in a tray, scored into diamonds with a blanched **almond** pressed into each, then drenched in syrup. Also called *namoura* or *basbousa*. Worth flagging because the Levantine sweet *harissa* and the North African chili paste *harissa* share a name entirely — on a Palestinian dessert list, it is the cake.",
+      "components": [
+        "pa-attar",
+        "pa-shatta"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "one blanched almond per piece",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Pressed into the top of each square; visible and liftable."
+        },
+        {
+          "tag": "gluten",
+          "specific": "semolina",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt, butter or ghee",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "A dessert — no relation to the chili paste of the same name."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-mezze",
+      "term": "Mezze",
+      "native": "مازة",
+      "romanizations": [
+        "meze",
+        "mazza"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese",
+        "greek"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "The opening spread of many small dishes, hot and cold, shared across the table.",
+      "long": "Not a dish but the structure of the meal: a table covered in small plates — hummus, mutabbal, labneh, tabbouleh, fattoush, olives, pickles, warak enab, kibbeh, falafel — eaten with bread over a long stretch before any main course. Ordering \"a mezze\" typically brings a set the kitchen chooses, so it's worth naming what to leave out rather than assuming. The cold section is where nearly all the raw vegetables live; the hot fried section is where pine nuts turn up.",
+      "components": [
+        "pa-hummus",
+        "pa-mutabbal",
+        "pa-tabbouleh",
+        "pa-fattoush",
+        "pa-kibbeh",
+        "pa-labneh"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "tabbouleh, fattoush, crudités",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "At least one raw salad is near-guaranteed in a set spread."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts on hot dishes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Depends entirely on which plates arrive."
+        },
+        {
+          "tag": "sesame",
+          "specific": "tahina in several dips",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread, bulgur",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "If we order the mezze, can you leave off anything with pine nuts?"
+    },
+    {
+      "id": "pa-batteekh",
+      "term": "Batteekh",
+      "native": "بطيخ",
+      "romanizations": [
+        "battikh",
+        "bateekh",
+        "watermelon"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert",
+        "ingredient"
+      ],
+      "short": "Watermelon — served raw in wedges with salty white cheese as a summer course.",
+      "long": "Chilled watermelon cut into wedges or cubes and eaten alongside slabs of salty white cheese, usually nabulsi or feta, with bread. The sweet-salt contrast is the point. It closes a summer meal in place of a pastry dessert and is served entirely raw. Also blended into juice. Note the near-collision with *shamam* (شمام), which is muskmelon or cantaloupe and is treated the same way.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "melon",
+          "specific": "watermelon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The dish is melon; nothing else to it."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "watermelon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "watermelon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "salty white cheese",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Served alongside rather than mixed in."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-shamam",
+      "term": "Shamam",
+      "native": "شمام",
+      "romanizations": [
+        "shammam",
+        "muskmelon",
+        "cantaloupe"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Muskmelon / cantaloupe — raw, in fruit plates, juices, and summer desserts.",
+      "long": "The orange-fleshed melon, served in wedges on a fruit platter, blended with milk into a sweet juice, or cut into a fruit salad. Always raw. Distinct on menus from *batteekh*, which is watermelon.",
+      "components": [
+        "pa-batteekh"
+      ],
+      "contains": [
+        {
+          "tag": "melon",
+          "specific": "cantaloupe / muskmelon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "cantaloupe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "cantaloupe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk, when served as juice",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-muhammara",
+      "term": "Muhammara",
+      "native": "محمرة",
+      "romanizations": [
+        "mhammara",
+        "muhamara"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish",
+        "sauce"
+      ],
+      "short": "Roasted red pepper dip ground with **walnuts** (sometimes almonds), pomegranate molasses, and Aleppo/Urfa pepper.",
+      "long": "Roasted red peppers blended with toasted walnuts and breadcrumbs into a thick, brick-red, tangy-sweet-spicy dip, sharpened with pomegranate molasses and warmed with Aleppo or Urfa pepper. One of the most walnut-forward dips in Levantine cooking — the nuts are ground fully into the dip, not a garnish, and give it its characteristic texture as much as its flavor. Modern versions sometimes swap in or add almonds. From real Bethesda menus (ala, \"Muhammara Re-Invented\" with roasted red pepper, garlic, almond, dill oil, Urfa pepper).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnuts, sometimes almonds",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Ground fully into the dip — not a garnish, not removable, and not always obvious from the bright-red color alone."
+        },
+        {
+          "tag": "gluten",
+          "specific": "breadcrumbs, as a thickener in traditional recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Some modern versions omit bread."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Aleppo/Urfa pepper gives a warm, fruity heat rather than a sharp burn."
+      },
+      "confidence": "high",
+      "ask": "Is this the version with walnuts, almonds, or both?",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-dukkah",
+      "term": "Dukkah",
+      "native": "دقة",
+      "romanizations": [
+        "duqqa",
+        "dukka"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "spice-blend",
+        "ingredient"
+      ],
+      "short": "Toasted, crushed nut-and-spice blend — usually **pistachio** or hazelnut — sprinkled over dips, meats, and pastries.",
+      "long": "A dry, crunchy mix of toasted nuts (commonly pistachio or hazelnut, sometimes almond), sesame seeds, and toasted spices like cumin and coriander, all coarsely ground. Traditionally an Egyptian dipping mix for bread and oil, it now turns up as a finishing crunch across modern Levantine menus — on dips, roasted vegetables, wraps, even desserts. Because it's a garnish applied generously and by hand, it's usually visible but easy to underestimate as \"just spices.\" From real Bethesda menus (ala, appearing on Halloumi Wraps, Carrot Mahmas, and Antep Baklava).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio, hazelnut, or almond, toasted and crushed",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "A finishing topping, but often applied heavily — treat as more than a token garnish."
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame seeds",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-karanab",
+      "term": "Karanab",
+      "native": "",
+      "romanizations": [],
+      "language": "Arabic (modern Levantine)",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried Brussels sprouts tossed with currants, toum, and **walnuts** — a modern Levantine small plate.",
+      "long": "Brussels sprouts deep-fried until the outer leaves crisp, tossed with dried currants for sweetness, a heavy dose of raw-garlic toum, and chopped walnuts. A contemporary dish rather than a traditional one — the walnuts and toum are both mixed through rather than served on the side. From real Bethesda menus (ala).",
+      "components": [
+        "pa-toum"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "walnuts",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Tossed through the dish, not a garnish."
+        },
+        {
+          "tag": "fruit",
+          "specific": "dried currants",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Dried, not raw."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic (toum)",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-salmon-kibbeh-nayah",
+      "term": "Salmon Kibbeh Nayah",
+      "native": "",
+      "romanizations": [],
+      "language": "Arabic (modern Levantine)",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw house-smoked salmon tartare worked with bulgur in the style of kibbeh nayyeh, with hot Urfa pepper and radish.",
+      "long": "A modern reinterpretation of the raw-lamb classic kibbeh nayyeh, substituting house-smoked raw salmon for the lamb, still bound with fine bulgur and seasoned with Urfa pepper, served with radish and pickles. The fish is raw (smoking here is for flavor, not fully curing/cooking it through) — worth treating with the same care as sashimi rather than assuming \"smoked\" means cooked. From real Bethesda menus (ala).",
+      "components": [
+        "pa-kibbeh-nayyeh"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "house-smoked raw salmon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cold-smoked for flavor, not cooked through — treat as raw fish."
+        },
+        {
+          "tag": "fish",
+          "specific": "salmon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bulgur wheat",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "radish, pickles",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-tuna-tartare-dolmades",
+      "term": "Tuna Tartare Dolmades",
+      "native": "",
+      "romanizations": [],
+      "language": "Arabic / Greek (modern Levantine fusion)",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grape leaves wrapped around raw yellowfin tuna tartare instead of the traditional rice filling.",
+      "long": "A fusion reworking of warak enab: brined grape leaves wrapped around raw diced yellowfin tuna dressed with Urfa pepper, mustard, and garlic yogurt, rather than the traditional rice-and-herb filling. The leaf itself is a traditional, non-raw component, but the filling is unambiguously raw fish, unlike a classic dolma. From real Bethesda menus (ala).",
+      "components": [
+        "pa-warak-enab"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw yellowfin tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The filling, in place of the traditional cooked rice."
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "garlic yogurt",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-duck-prosciutto",
+      "term": "Duck Prosciutto",
+      "native": "",
+      "romanizations": [],
+      "language": "Arabic / Italian (modern Levantine fusion)",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cured, air-dried duck breast sliced thin like prosciutto, served with crispy lavash and orange.",
+      "long": "Duck breast salt-cured and air-dried for weeks in the Italian prosciutto style, sliced paper-thin, and served cold with crispy lavash bread, orange segments, pickled onion, and a mild sweet shatta (chili sauce) alongside Turkish coffee. The duck is cured rather than cooked with heat — similar in principle to a raw-cured charcuterie, though duck itself carries no standard tag in this tool beyond the general absence of a poultry-wide flag. From real Bethesda menus (ala).",
+      "components": [
+        "pa-shatta"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "crispy lavash",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "orange, onion preserve",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": "The accompanying shatta is described as mild."
+      },
+      "confidence": "medium",
+      "ask": "This is cured, not cooked through with heat — is that a concern for you?",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-basturma",
+      "term": "Basturma",
+      "native": "بسطرمة",
+      "romanizations": [
+        "pastirma",
+        "bastirma"
+      ],
+      "language": "Arabic / Turkish / Armenian",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Air-dried, heavily spiced cured beef, coated in a garlicky fenugreek paste (çemen) and sliced paper-thin.",
+      "long": "Beef tenderloin or eye round salt-cured, pressed, and air-dried, then coated in a thick paste of fenugreek, garlic, and paprika (*çemen*) before final drying. Sliced almost translucently thin and served cold, similarly cured rather than cooked with heat — like bresaola or a dry-cured salami. Appears both as a standalone plate and folded into a flatbread (*pide*). From real Bethesda menus (ala: Half Aged Basturma with arugula and parmesan; Basturma Pide flatbread).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "cured beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured/dried rather than cooked with heat."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the çemen coating",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "parmesan, on the appetizer plate; Kashkaval, on the pide",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pide flatbread, in that preparation",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only the pide version."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-soujouk-pide",
+      "term": "Soujouk Pide",
+      "native": "",
+      "romanizations": [
+        "sujuk pide"
+      ],
+      "language": "Turkish / Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish",
+        "bread"
+      ],
+      "short": "Boat-shaped flatbread topped with spicy soujouk sausage, Kashkaval cheese, and hot pepper honey.",
+      "long": "A Turkish-style pide — an oval, open-topped yeasted flatbread — spread with sliced soujouk (spicy cured beef or lamb sausage) and Kashkaval cheese, baked until the edges char and the cheese bubbles, drizzled with a hot-pepper-infused honey. From real Bethesda menus (ala).",
+      "components": [
+        "le-soujok"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "soujouk sausage, if lamb-based",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Recipe varies by kitchen between lamb and beef."
+        },
+        {
+          "tag": "beef",
+          "specific": "soujouk sausage, if beef-based",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "Kashkaval cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pide flatbread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the sausage cure",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Both the sausage and the hot pepper honey drizzle add heat."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-manti",
+      "term": "Manti",
+      "native": "",
+      "romanizations": [
+        "mantı"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Tiny beef dumplings served in beef stock with garlic yogurt and harissa, finished with fried mint.",
+      "long": "Small, hand-pinched wheat dumplings filled with minced beef, poached, and served swimming in a light beef broth with a garlic yogurt sauce and a spoon of harissa, topped with mint fried crisp in butter. Turkish/Central Asian in origin, appearing on modern Levantine-fusion menus. From real Bethesda menus (ala).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "minced beef filling, beef stock",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat dumpling wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "garlic yogurt sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "From the harissa spoon."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-garides",
+      "term": "Garides",
+      "native": "γαρίδες",
+      "romanizations": [
+        "karides"
+      ],
+      "language": "Greek / Turkish",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled butterflied shrimp with a parsley-tahini pesto and grilled lettuce.",
+      "long": "Whole shrimp, butterflied and grilled, served over grilled lettuce with a pesto-like sauce of parsley and tahini and a dusting of seven-spice. Notable on a Palestinian-adjacent menu specifically because shellfish is not a typical ingredient in home-style Palestinian cooking — this dish is a modern Levantine-restaurant addition rather than a traditional preparation. From real Bethesda menus (ala).",
+      "components": [
+        "pa-tahina"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "whole shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Not typical of traditional Palestinian cooking; specific to this modern-fusion menu."
+        },
+        {
+          "tag": "sesame",
+          "specific": "tahini pesto",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-lavraki",
+      "term": "Lavraki",
+      "native": "λαβράκι",
+      "romanizations": [
+        "branzino"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole butterflied Mediterranean sea bass, baked sealed in paper with herbs and lemon. Fully cooked.",
+      "long": "A whole branzino (European sea bass), butterflied and cooked sealed inside parchment paper with bay leaves, garlic scapes, tarragon, and lemon, so it steams in its own juices. Fully cooked through, unlike several of the raw/cured items on the same modern-Levantine menu. From real Bethesda menus (ala).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "whole sea bass",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked through, not raw."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic scapes",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-amba",
+      "term": "Amba",
+      "native": "عنبة",
+      "romanizations": [
+        "anba"
+      ],
+      "language": "Arabic (from Hindi/Urdu \"amb\")",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Tangy, fermented pickled-mango condiment with mustard and turmeric — sharp and sour, not sweet.",
+      "long": "Green mango fermented and blended with mustard seed, fenugreek, turmeric, and chili into a bright yellow, pungent, sour condiment, brought to the Levant by Iraqi Jewish communities from India via trade routes. Spooned over grilled meats and shawarma. Despite being mango-based, it reads as tangy and savory rather than sweet or fruity. From real Bethesda menus (ala, on Tawook Shish Kebab).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "fermented green mango",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Fermented, not raw/fresh."
+        },
+        {
+          "tag": "fermented",
+          "specific": "fermented mango, mustard, fenugreek",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Tangy and mustard-sharp more than chili-hot."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-antep-baklava",
+      "term": "Antep Baklava",
+      "native": "",
+      "romanizations": [
+        "Gaziantep baklava"
+      ],
+      "language": "Turkish",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Pistachio baklava in the Gaziantep style, finished with white chocolate **dukkah**.",
+      "long": "Baklava made in the style of Gaziantep, Turkey — famous for using pistachio exclusively rather than walnut — here finished with a crumble of white-chocolate dukkah (itself nut-based) on top. Two separate, non-overlapping nut/dairy sources: the pistachio filling and the white-chocolate-and-nut topping. From real Bethesda menus (ala).",
+      "components": [
+        "pa-baklava",
+        "pa-dukkah"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio filling, plus nuts in the dukkah topping",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Present in two separate components."
+        },
+        {
+          "tag": "dairy",
+          "specific": "white chocolate",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "filo pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-layali-lubnan",
+      "term": "Layali Lubnan",
+      "native": "ليالي لبنان",
+      "romanizations": [
+        "layali libnan",
+        "\"Lebanon nights\""
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Semolina pudding set with plant milk, topped with **pistachio** and rose-scented date-tamarind syrup.",
+      "long": "Semolina cooked into a thick, custard-like pudding (here made with oat milk rather than dairy milk), chilled until set, and served with crushed pistachio and a drizzle of jallab — a rose-and-orange-blossom-scented syrup of dates and tamarind. The oat-milk base makes this one of the rare dairy-free Levantine desserts, though the pistachio remains a firm tree-nut flag. From real Bethesda menus (ala).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "crushed pistachio topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "semolina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "date-tamarind syrup (jallab)",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Cooked into syrup."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ala"
+      ]
+    },
+    {
+      "id": "pa-sumaghiyeh",
+      "term": "Sumaghiyeh",
+      "native": "سماقية",
+      "romanizations": [
+        "sumagiyyeh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Gaza specialty stew of chard and meat or seafood in a tangy sumac-tahina broth with dill and garlic.",
+      "long": "Swiss chard cooked down with sumac water (soaked and strained sumac berries), thickened with tahina, and simmered with chunks of beef or, in the coastal version, shrimp or crab, finished with garlic and dill. Distinctly Gazan and much tangier and dill-forward than most Levantine stews. Both meat and seafood versions exist as separate standard orders.",
+      "components": [
+        "pa-tahina",
+        "pa-sumac"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "tahina thickener",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Seafood is an equally traditional coastal-Gaza version."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp or crab, in the seafood version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Gazan cooking runs hotter than other Palestinian regional styles as a rule."
+      },
+      "confidence": "medium",
+      "ask": "Is this the meat or the seafood sumaghiyeh?"
+    },
+    {
+      "id": "pa-zibdiyet-gambari",
+      "term": "Zibdiyet Gambari",
+      "native": "زبدية جمبري",
+      "romanizations": [
+        "zibdiyeh"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Gaza shrimp stewed in a fiery clay-pot sauce of chili, garlic, and dill.",
+      "long": "Shrimp cooked in a small clay pot (*zibdiyeh*) with a bright, hot sauce of green chili, garlic, cilantro, and dill, served bubbling. One of the most reliably spicy dishes in Palestinian cooking and specific to Gaza's coastal cuisine, which uses considerably more chili heat than the West Bank tradition.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": "Genuinely hot — one of the spiciest standard Palestinian dishes."
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pa-rummaniyeh",
+      "term": "Rummaniyeh",
+      "native": "رمانية",
+      "romanizations": [],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Gaza eggplant and red lentil stew soured with pomegranate molasses and tahina.",
+      "long": "Eggplant and red lentils cooked together until soft, then soured and colored deep red-brown with pomegranate molasses, enriched with tahina, and warmed with garlic and chili. Vegan, and another distinctly Gazan dish built on tang and heat rather than the milder West Bank profile.",
+      "components": [
+        "pa-mutabbal"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "tahina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pa-dagga",
+      "term": "Dagga",
+      "native": "دقة",
+      "romanizations": [],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Gaza raw tomato-chili relish, pounded rather than diced, sharply hot.",
+      "long": "Raw tomato pounded with garlic, hot green chili, and dill in a mortar rather than finely diced like chalaquita or salsa criolla, giving a rougher, juicier texture. Served as a fiery side to grilled fish or meat. Entirely raw and one of the hotter condiments in the cuisine.",
+      "components": [
+        "pa-shatta"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "pounded raw tomato, chili",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "pa-sfeeha",
+      "term": "Sfeeha",
+      "native": "صفيحة",
+      "romanizations": [
+        "sfiha",
+        "lahm bi ajin"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small open-faced dough rounds topped with spiced minced meat, tomato, and pomegranate molasses, baked.",
+      "long": "Discs of yeasted dough topped with a mixture of minced lamb or beef, onion, tomato, and pomegranate molasses (sometimes pine nuts), baked until the edges crisp. Similar in concept to a mini pizza. Distinct from manakish, which is usually folded and often za'atar- or cheese-based rather than meat-topped.",
+      "components": [
+        "pa-manakish"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Beef is equally standard."
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "yeasted dough base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pine nuts, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-kaak",
+      "term": "Ka'ak",
+      "native": "كعك",
+      "romanizations": [
+        "kaak",
+        "Jerusalem bread"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Large oval sesame-crusted bread ring, sold by street vendors, often with za'atar for dipping.",
+      "long": "A large, thin, oval ring of bread dusted heavily with sesame seeds on the outside, sold hot from carts (particularly associated with Jerusalem) and typically paired with a small packet of za'atar to dip into. Sesame content is heavy and visible over the entire surface.",
+      "components": [
+        "pa-zaatar"
+      ],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "sesame crust covering the whole loaf",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat bread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-jibneh-nabulsi",
+      "term": "Jibneh Nabulsi",
+      "native": "جبنة نابلسية",
+      "romanizations": [
+        "nabulsi cheese"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Firm, salty white brined cheese from Nablus, flavored with mahlab, used both fresh and melted (as in knafeh).",
+      "long": "A semi-firm white cheese, brined and often studded with mahlab (a spice from cherry pits) or black seed, from the West Bank city of Nablus. Eaten fresh in slices, grilled until squeaky, or as the melting cheese layer inside knafeh nabulsiyeh. Very salty; usually soaked to reduce salt before use in sweets.",
+      "components": [
+        "pa-knafeh"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "brined sheep or cow milk cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-tamr-hindi",
+      "term": "Tamr Hindi",
+      "native": "تمر هندي",
+      "romanizations": [
+        "tamarind drink"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Cold, tart tamarind drink, sweetened, often sold by street vendors from ornate brass containers.",
+      "long": "Tamarind pulp soaked, strained, and sweetened into a dark, tangy cold drink, traditionally sold from large decorated brass jugs carried on vendors' backs, especially during Ramadan. Vegan, dairy-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "tamarind",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-qamar-al-din",
+      "term": "Qamar al-Din",
+      "native": "قمر الدين",
+      "romanizations": [],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Thick apricot drink made from dried, pressed apricot sheets, popular during Ramadan.",
+      "long": "Sun-dried apricot paste, sold in flat sheets, rehydrated with water and blended into a thick, tart-sweet, orange drink. A Ramadan-season staple used to break the fast. Vegan and dairy-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "dried apricot",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-sahlab",
+      "term": "Sahlab",
+      "native": "سحلب",
+      "romanizations": [
+        "sahlep"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Hot, thick milk drink traditionally thickened with orchid tuber flour, topped with cinnamon and nuts.",
+      "long": "Milk heated and thickened with sahlab (dried orchid tuber) powder — or, in modern versions, cornstarch as a substitute — into a warm, silky pudding-drink, topped with cinnamon and often chopped pistachio or coconut. A winter drink. Dairy is the base; nuts are a standard topping.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "chopped pistachio topping",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "Visible on top, generally removable."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "pa-dibs",
+      "term": "Dibs",
+      "native": "دبس",
+      "romanizations": [
+        "debs"
+      ],
+      "language": "Arabic",
+      "cuisines": [
+        "palestinian",
+        "lebanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Thick fruit molasses — most often grape or date, sometimes carob — used as a sweetener across the cuisine.",
+      "long": "Fruit juice (grape, date, or carob) boiled down for hours into a thick, dark, intensely sweet syrup, used as a natural sweetener drizzled over labneh, tahina, or bread, or cooked into sauces. Distinct from pomegranate molasses (rumman), which is sour rather than sweet.",
+      "components": [
+        "pa-attar"
+      ],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "grape, date, or carob, reduced",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked down, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

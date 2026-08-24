@@ -1,0 +1,1121 @@
+{
+  "cuisine": "indian",
+  "terms": [
+    {
+      "id": "in-samosa",
+      "term": "Samosa",
+      "native": "समोसा",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Triangular deep-fried pastry filled with spiced potato and pea, or minced meat.",
+      "long": "A wheat pastry folded into a cone, filled with spiced boiled potato and peas (the vegetarian standard) or minced lamb, sealed, and deep fried until the crust blisters. Served with tamarind and mint chutney. From real Rockville menus (Bombay Bistro, Vegetable Samosa).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "lamb",
+          "specific": "minced lamb, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "The potato-pea version is the vegetarian default."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-papri-chaat",
+      "term": "Papri Chaat",
+      "native": "पापड़ी चाट",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crisp fried wheat crackers piled with chickpea, yogurt, tamarind, and raw onion — cold, tangy, and textural.",
+      "long": "A street-food-style assembled dish: small crisp fried wheat wafers (papri) layered with boiled chickpeas or potato, whisked yogurt, tamarind and mint chutneys, and a scatter of raw chopped onion, tomato, and cilantro, finished with crunchy sev (fried chickpea-flour noodles). Yogurt and raw vegetable are both structural, not garnish. From real Rockville menus (Bombay Bistro).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "whisked yogurt",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, tomato, cilantro",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat papri wafers, sev",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-malabar-mussels",
+      "term": "Malabar Mussels",
+      "native": "",
+      "romanizations": [],
+      "language": "English (Indian coastal)",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mussels cooked in a South Indian coconut-curry sauce with curry leaf and mustard seed.",
+      "long": "Mussels simmered in a coconut-milk-based sauce tempered with mustard seed, curry leaf, and dried red chili, typical of the Malabar coast (Kerala) style. Shellfish and coconut are both central.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "mussels",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "coconut milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-chicken-65",
+      "term": "Chicken 65",
+      "native": "",
+      "romanizations": [],
+      "language": "English (South Indian)",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Deep-fried, deeply red, chili-and-curry-leaf marinated boneless chicken bites. Genuinely spicy.",
+      "long": "Boneless chicken marinated in ginger, garlic, chili powder, and yogurt, battered and deep fried until deep red, then tossed with curry leaf, mustard seed, and green chili in a quick second sauté. A South Indian bar-food staple; reliably one of the spicier appetizers on the menu. From real Rockville menus (Bombay Bistro).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "boneless fried chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "batter, sometimes with wheat or cornstarch",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-momo",
+      "term": "Momo",
+      "native": "मम:",
+      "romanizations": [],
+      "language": "Nepali / Tibetan (on Indian menus)",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Steamed dumplings filled with spiced vegetables or minced chicken, served with a chili dip.",
+      "long": "Himalayan-style steamed dumplings, wheat wrappers folded around a filling of finely minced vegetables or chicken with ginger and garlic, served with a fiery tomato-chili dipping sauce. Increasingly common on Indian restaurant menus given Nepali and Tibetan influence.",
+      "components": [
+        "cn-potstickers"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "minced chicken, in that filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Vegetable filling is an equally standard alternative."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, ginger",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Heat is in the dipping sauce, served separately."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-lobster-shrimp-bisque",
+      "term": "Lobster Shrimp Bisque",
+      "native": "",
+      "romanizations": [],
+      "language": "English (Indian-fusion)",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cream-based lobster and shrimp soup, warmed with Indian spice rather than classic French technique.",
+      "long": "A rich cream soup built on lobster and shrimp stock, spiced with a light curry warmth rather than the sherry-and-tarragon of a classic French bisque. Dairy and shellfish are both central and non-optional.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "lobster, shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-rogan-josh",
+      "term": "Lamb Rogan Josh",
+      "native": "रोगन जोश",
+      "romanizations": [
+        "roghan josh"
+      ],
+      "language": "Hindi / Kashmiri",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Kashmiri lamb curry, deep red from Kashmiri chili, yogurt-based rather than tomato-based.",
+      "long": "Lamb braised slowly in a sauce colored deep red by mild Kashmiri chili powder (more color than heat) and thickened with yogurt rather than the tomato base common to many other curries. Aromatic with fennel and ginger. From real Rockville menus (Bombay Bistro).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "braised lamb",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic, ginger",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Kashmiri chili is more about color than raw heat, though the dish still carries real warmth."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-chicken-tikka-makhani",
+      "term": "Chicken Tikka Makhani",
+      "native": "मुर्ग़ मक्खनी",
+      "romanizations": [
+        "butter chicken",
+        "murgh makhani"
+      ],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Butter chicken — grilled tandoori chicken simmered in a creamy, mildly spiced tomato-butter sauce.",
+      "long": "Chicken marinated in yogurt and spices, grilled in a tandoor until charred, then finished simmering in a sauce of tomato, butter, and cream. One of the most dairy-heavy curries on a standard Indian menu, and among the mildest.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "tandoori chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, cream, and yogurt marinade",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-chettinad",
+      "term": "Chicken Chettinad",
+      "native": "",
+      "romanizations": [],
+      "language": "Tamil",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fiery South Indian curry from the Chettinad region, built on a dry-roasted whole-spice masala.",
+      "long": "Chicken cooked in a masala of dry-roasted and ground whole spices — black pepper, fennel, star anise, dried red chili — from the Chettinad region of Tamil Nadu, known as one of the spicier regional Indian cuisines. Coconut is a common addition; dairy is not typically used.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "coconut, in some versions",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": "One of the hotter regional curry styles as a rule."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-vindaloo",
+      "term": "Vindaloo",
+      "native": "",
+      "romanizations": [],
+      "language": "Konkani / Goan",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Goan curry souring vinegar and hot chili, with Portuguese roots. Usually the hottest curry on the menu.",
+      "long": "A Goan dish with Portuguese origins (from *carne de vinha d'alhos*, wine-and-garlic meat), built on a sharp vinegar-and-chili marinade. Chicken or lamb is simmered in the sour, fiery sauce until tender. Reliably the spiciest option on a standard menu, and the vinegar tang is a distinguishing marker.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Lamb is an equally standard alternative."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": false,
+        "note": "Usually the hottest item on the curry list, by name and reputation."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-saag-paneer",
+      "term": "Saag Paneer",
+      "native": "साग पनीर",
+      "romanizations": [
+        "palak paneer"
+      ],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Puréed spinach (or mixed greens) curry with cubes of fresh, unaged **paneer** cheese.",
+      "long": "Spinach, and often mustard greens or fenugreek, cooked down and puréed into a smooth, dark green curry, studded with cubes of paneer — a fresh, unaged, non-melting cheese. Reliably vegetarian and dairy-forward; nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "paneer cheese, plus often cream or ghee",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-malai-kofta",
+      "term": "Malai Kofta",
+      "native": "मलाई कोफ्ता",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried vegetable-and-paneer dumplings in a rich, creamy, often **cashew**-thickened sauce.",
+      "long": "Dumplings of mashed potato, paneer, and vegetables, sometimes bound with a little nut paste, deep fried and served in a smooth, rich tomato-cream sauce that is very often thickened with ground cashew paste for body — the vegetarian, dairy-and-nut-forward counterpart to butter chicken.",
+      "components": [
+        "in-chicken-tikka-makhani"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "cashew paste thickening the sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Blended into the sauce, not visible — a common hidden nut source in vegetarian Indian curries."
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream, paneer",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the sauce thickened with cashew paste?"
+    },
+    {
+      "id": "in-korma",
+      "term": "Korma",
+      "native": "क़ोरमा",
+      "romanizations": [
+        "qorma"
+      ],
+      "language": "Urdu / Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Very mild, creamy curry thickened with ground **cashew or almond** paste and yogurt.",
+      "long": "Meat or vegetables braised gently in a sauce built on yogurt and a ground nut paste (cashew, almond, or sometimes melon seed), giving a pale, rich, mellow curry with almost no chili heat. One of the most reliably nut-heavy dishes on a standard Indian menu, and the mildness can make it an easy recommendation for someone avoiding spice — right up until the nut question comes up.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "cashew or almond paste",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The base of the sauce, blended smooth — not visible or removable."
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt or cream",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken, one of several standard proteins",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "One of the mildest curries — but the mildness often gets recommended without mentioning the nut base."
+      },
+      "confidence": "high",
+      "ask": "Is the korma sauce made with cashew or almond paste?"
+    },
+    {
+      "id": "in-dal-makhani",
+      "term": "Dal Makhani",
+      "native": "दाल मखनी",
+      "romanizations": [],
+      "language": "Hindi / Punjabi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole black lentils simmered for hours with generous butter and cream until velvety.",
+      "long": "Black lentils (urad dal) and often kidney beans, simmered very slowly, finished with a substantial amount of butter and cream, giving a dish that reads as \"just lentils\" but carries real dairy weight. Nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "butter and cream, in generous quantity",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Easy to underestimate since the dish is lentil-based."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-baingan-bharta",
+      "term": "Baingan Bharta",
+      "native": "बैंगन भरता",
+      "romanizations": [
+        "baingan bhartha"
+      ],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Smoky mashed roasted eggplant cooked with tomato, onion, and ginger. Usually vegan.",
+      "long": "Whole eggplant charred over open flame until smoky and collapsed, then peeled, mashed, and cooked down with onion, tomato, garlic, and ginger. Similar in spirit to mutabbal/melitzanosalata but Indian-spiced. Vegan by default, nut-free.",
+      "components": [
+        "pa-mutabbal"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic, ginger",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-biryani",
+      "term": "Biryani",
+      "native": "बिरयानी",
+      "romanizations": [],
+      "language": "Urdu / Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Layered basmati rice and marinated meat or vegetables, slow-cooked together under a sealed lid.",
+      "long": "Par-cooked basmati rice layered with a marinated protein (or vegetables) and fried onion, sealed tightly (traditionally with a dough seal, *dum*) and cooked over low heat so the rice finishes absorbing the meat's steam and flavor. Saffron and whole spices are typical. Nut-free as a rule, though fried onion and sometimes raisin or cashew garnish appears on festive versions.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken, one of several standard protein choices",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Lamb, goat, shrimp, and vegetable are equally standard menu choices."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "fried cashew garnish, on some festive or premium versions",
+          "certainty": "rarely",
+          "prominence": "garnish",
+          "note": "Not standard on everyday biryani, but appears on some restaurant versions."
+        },
+        {
+          "tag": "fruit",
+          "specific": "raisins, on some versions",
+          "certainty": "rarely",
+          "prominence": "garnish",
+          "note": "Dried, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-dosa",
+      "term": "Dosa",
+      "native": "தோசை",
+      "romanizations": [],
+      "language": "Tamil",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish",
+        "bread"
+      ],
+      "short": "Large, thin, crisp fermented rice-and-lentil crepe, naturally gluten-free.",
+      "long": "A batter of soaked, ground, and fermented rice and urad dal (black lentil), spread thin on a hot griddle until it crisps into a large, blistered, savory crepe. Served plain, or filled with spiced potato (masala dosa). Naturally gluten-free and vegan, and one of the most reliably allergen-simple dishes in the cuisine, apart from the sambar and chutney served alongside.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "The accompanying sambar and chutneys carry the heat, if any."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-oothapam",
+      "term": "Uthappam",
+      "native": "உத்தப்பம்",
+      "romanizations": [
+        "oothapam"
+      ],
+      "language": "Tamil",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick, savory fermented rice-and-lentil pancake topped with raw onion, tomato, and chili.",
+      "long": "The same fermented rice-and-lentil batter as dosa, poured thicker so it stays soft rather than crisping, topped with diced raw onion, tomato, and green chili before it finishes cooking. Naturally gluten-free.",
+      "components": [
+        "in-dosa"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, tomato, chili topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Pressed into the batter before it fully sets — mostly cooked through by the time it's served, though still fresh-tasting."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-naan",
+      "term": "Naan",
+      "native": "नान",
+      "romanizations": [],
+      "language": "Hindi / Persian",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Leavened wheat flatbread baked against the wall of a tandoor. Garlic and other flavored versions are common.",
+      "long": "A yeasted or yogurt-leavened wheat dough slapped against the hot inner wall of a clay tandoor oven, where it puffs and chars in spots within a minute. Plain, garlic, and butter-brushed versions are all standard; some kitchens offer a version stuffed with paneer or nuts.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt in the dough, butter brushed on after baking",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-raita",
+      "term": "Raita",
+      "native": "रायता",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Cool yogurt dip with raw grated cucumber, used to temper spicy dishes.",
+      "long": "Plain yogurt whisked smooth and mixed with grated raw cucumber, cumin, and sometimes mint or raw tomato, served as a cooling counterpoint to spicy curries and biryani. Dairy and raw vegetable are both structural.",
+      "components": [
+        "gr-tzatziki"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "grated raw cucumber",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-gulab-jamun",
+      "term": "Gulab Jamun",
+      "native": "गुलाब जामुन",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Deep-fried milk-solid dumplings soaked in rose- or cardamom-scented sugar syrup.",
+      "long": "Balls of khoya (reduced milk solids) and a little flour, deep fried until deeply browned, then soaked in a warm, fragrant sugar syrup until saturated and soft. Dairy is the base of the dumpling itself, not just a topping.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "reduced milk solids (khoya)",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "small amount of flour binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-kheer",
+      "term": "Pista Badam Kheer",
+      "native": "पिस्ता बादाम खीर",
+      "romanizations": [
+        "kheer"
+      ],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Rice pudding simmered in milk and finished with **pistachio and almond**.",
+      "long": "Rice slow-cooked in milk with sugar and cardamom until thick and creamy, finished with a generous scatter of chopped pistachio and almond. Unlike some rice puddings, the nuts here are a defining, heavy garnish rather than a token sprinkle.",
+      "components": [
+        "gr-rizogalo"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio and almond",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "A defining, generous topping — named in the dish itself."
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-kulfi",
+      "term": "Kulfi",
+      "native": "क़ुल्फ़ी",
+      "romanizations": [],
+      "language": "Urdu / Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Dense, slow-churn-free frozen milk dessert, denser and creamier than Western ice cream, often pistachio-flavored.",
+      "long": "Milk reduced slowly until thick, sweetened, flavored (commonly pistachio, mango, or cardamom), and frozen in a mold without the churning used for regular ice cream, giving it a much denser texture. Pistachio is one of the most common standard flavors, not just an add-on.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "reduced milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "pistachio, when that flavor is chosen",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "One of the most common standard flavors — worth checking which flavor before assuming."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ],
+      "ask": "Which flavor is this kulfi — does it contain pistachio?"
+    },
+    {
+      "id": "in-mango-lassi",
+      "term": "Mango Lassi",
+      "native": "आम लस्सी",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Blended yogurt drink with mango purée, thick and sweet.",
+      "long": "Yogurt blended with mango pulp, sugar, and sometimes a little milk or cardamom, served cold. Dairy-heavy; sweet lassi (plain, sugared) and salt lassi (savory, cumin-spiced) are the unflavored versions.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt, sometimes milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "mango purée",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-papadam",
+      "term": "Papadam",
+      "native": "पापड़",
+      "romanizations": [
+        "papadum",
+        "poppadom"
+      ],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Thin, crisp lentil- or chickpea-flour wafer, roasted or fried. Naturally gluten-free.",
+      "long": "A thin round of seasoned lentil or urad-bean flour dough, dried and then roasted over flame or deep fried until it puffs and crisps, served as a starter or side. Naturally gluten-free unless a wheat-blended version is used.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Some versions include cracked black pepper or chili."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bombay-bistro"
+      ]
+    },
+    {
+      "id": "in-garam-masala",
+      "term": "Garam Masala",
+      "native": "गरम मसाला",
+      "romanizations": [],
+      "language": "Hindi",
+      "cuisines": [
+        "indian"
+      ],
+      "type": [
+        "spice-blend"
+      ],
+      "short": "Warm, aromatic spice blend of cinnamon, cardamom, clove, and cumin — added at the end, not for raw heat.",
+      "long": "A blend of toasted whole spices ground together — typically cinnamon, cardamom, clove, cumin, coriander, and black pepper — used as a finishing seasoning stirred in near the end of cooking rather than a base. Warm and fragrant rather than chili-hot, similar in role to Ethiopian berbere or Levantine baharat.",
+      "components": [
+        "pa-baharat"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Warm spice, not chili heat."
+      },
+      "confidence": "high"
+    }
+  ]
+}

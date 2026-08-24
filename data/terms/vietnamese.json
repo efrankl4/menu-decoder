@@ -1,0 +1,1017 @@
+{
+  "cuisine": "vietnamese",
+  "terms": [
+    {
+      "id": "vn-pho",
+      "term": "Phở",
+      "native": "phở",
+      "romanizations": [
+        "pho"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Rice noodle soup in a long-simmered beef or chicken broth, served with a plate of raw herbs and lime to add yourself.",
+      "long": "Flat rice noodles in a clear broth simmered for hours with charred onion, ginger, and warm spices (star anise, cinnamon, clove), topped with sliced beef — which can range from well-done brisket to rare eye-round that finishes cooking in the hot broth — or chicken. Always served with a side plate of raw bean sprouts, Thai basil, cilantro, lime, and sliced chili for the diner to add. From real Rockville menus (Hello Vietnam, offering vegetable, rare beef, and well-done brisket versions).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef broth and sliced beef",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Chicken pho (phở gà) and vegetable pho are standard labeled alternatives."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw bean sprouts, basil, cilantro on the side plate",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Served separately, but genuinely raw and meant to be added."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce seasoning the broth",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Sliced fresh chili is on the side plate, added to taste."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ],
+      "ask": "Is the beef rare/pink, or fully cooked?"
+    },
+    {
+      "id": "vn-banh-mi",
+      "term": "Bánh Mì",
+      "native": "bánh mì",
+      "romanizations": [
+        "banh mi"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Baguette sandwich layered with pork or pâté, pickled raw daikon and carrot, cucumber, and cilantro.",
+      "long": "A crisp French-derived baguette split and filled with a protein (grilled pork, pork meatball, cold cuts, or pâté), spread with mayonnaise, and packed with quick-pickled raw daikon and carrot, raw cucumber, cilantro, and jalapeño. Wheat, and often liver pâté and egg-based mayonnaise, are all standard. From real Rockville menus (Hello Vietnam, \"Banh Mi Bo Ne\" with beef steak, meatball, omelet, and pâté).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "baguette",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork filling, cold cuts, or pâté (often pork liver)",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Beef and vegetarian tofu versions are common labeled alternatives."
+        },
+        {
+          "tag": "egg",
+          "specific": "mayonnaise, and omelet in some versions",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "pickled raw daikon, carrot, plus raw cucumber and cilantro",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Fresh jalapeño slices, usually easy to leave off."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-goi-cuon",
+      "term": "Gỏi Cuốn",
+      "native": "gỏi cuốn",
+      "romanizations": [
+        "summer rolls",
+        "fresh spring rolls"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Translucent rice-paper rolls packed with raw herbs, lettuce, rice noodle, and shrimp or pork — served cold, unfried.",
+      "long": "A sheet of rice paper wrapped tightly around raw lettuce, mint, and Thai basil, rice vermicelli, and usually shrimp or sliced pork, served cold with a peanut or fish-sauce dipping sauce. Unlike the fried egg roll, nothing here is cooked at serving time except the pre-cooked shrimp/pork. From real Rockville menus (Hello Vietnam, spring/summer rolls).",
+      "components": [
+        "cn-spring-roll"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw lettuce, mint, basil",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Pork or tofu are common alternatives."
+        },
+        {
+          "tag": "pork",
+          "specific": "sliced pork, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "peanut dipping sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The standard dip; a fish-sauce-based dip (nước chấm) is a nut-free alternative."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ],
+      "ask": "Is the dipping sauce peanut-based or fish-sauce based?"
+    },
+    {
+      "id": "vn-cha-gio",
+      "term": "Chả Giò",
+      "native": "chả giò",
+      "romanizations": [
+        "fried egg rolls"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy fried spring rolls filled with pork, shrimp, and glass noodle — the fried counterpart to gỏi cuốn.",
+      "long": "A thin wheat or rice-paper wrapper rolled around a filling of ground pork, minced shrimp, glass noodle, wood ear mushroom, and carrot, then deep fried until crackling. Usually eaten wrapped in lettuce and dipped in nước chấm (fish sauce dip).",
+      "components": [
+        "vn-goi-cuon"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "ground pork filling",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "minced shrimp filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper, in versions that use one rather than rice paper",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce dip",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-bun-cha",
+      "term": "Bún Chả",
+      "native": "bún chả",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled pork patties and pork belly served in a bowl of sweet fish-sauce broth, with rice noodles and raw herbs on the side.",
+      "long": "Charcoal-grilled pork patties and slices of pork belly, served not in the broth but alongside it in a small dipping bowl of sweetened, diluted fish sauce, accompanied by a plate of vermicelli rice noodles and raw herbs to build each bite. A Hanoi specialty. Pork appears in two forms and fish sauce is central to the dip.",
+      "components": [
+        "vn-pho"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "grilled pork patties and pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce dipping broth",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw herb plate served alongside",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-bun-bo-hue",
+      "term": "Bún Bò Huế",
+      "native": "bún bò Huế",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spicy, lemongrass-scented beef and pork noodle soup from the city of Huế — much hotter than phở.",
+      "long": "Thick round rice noodles in a broth built on beef bone, lemongrass, and a chili-oil-and-fermented-shrimp-paste base (mắm ruốc), typically loaded with sliced beef shank, pork knuckle or pork blood cake, and cha lua (pork sausage). Genuinely spicy, unlike the mild default of phở, and carries shellfish (fermented shrimp paste) even though the dish reads as a beef soup.",
+      "components": [
+        "vn-pho"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef shank and broth",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork knuckle, blood cake, or pork sausage (cha lua)",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "fermented shrimp paste (mắm ruốc) in the broth base",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Easy to miss — the dish reads as a beef soup but the broth base includes shrimp paste."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Reliably one of the spicier Vietnamese noodle soups."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-com-tam",
+      "term": "Cơm Tấm",
+      "native": "cơm tấm",
+      "romanizations": [
+        "broken rice"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "\"Broken rice\" plate with grilled pork chop, a fried egg, and shredded pickled vegetable.",
+      "long": "Rice made from broken grains (a byproduct once considered lower-status, now a beloved dish), served with a marinated and grilled pork chop, a fried egg, shredded pork skin or a small steamed egg-meat cake (chả trứng), and pickled carrot and daikon on the side, with a fish-sauce dressing poured over.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "grilled pork chop, plus often shredded pork skin",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "fried egg, or a steamed egg-meat cake",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce dressing",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "vn-bun-thit-nuong",
+      "term": "Bún Thịt Nướng",
+      "native": "bún thịt nướng",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cold vermicelli noodle bowl topped with grilled pork, raw lettuce and herbs, pickled vegetable, and crushed **peanuts**.",
+      "long": "Rice vermicelli noodles served cold or room-temperature in a bowl, topped with grilled marinated pork, a generous pile of raw lettuce and mint, pickled carrot and daikon, crushed roasted peanuts, and fried shallot, dressed with nước chấm (diluted fish sauce). Peanuts are a standard, visible topping rather than a hidden ingredient.",
+      "components": [
+        "vn-goi-cuon"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "grilled marinated pork",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "crushed roasted peanuts",
+          "certainty": "always",
+          "prominence": "garnish",
+          "note": "Standard and visible on top — easy to spot and pick off, though some falls into the noodles."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw lettuce, mint, pickled carrot/daikon",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce dressing",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "vn-nuoc-cham",
+      "term": "Nước Chấm",
+      "native": "nước chấm",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "The all-purpose dipping sauce — fish sauce diluted with lime, sugar, water, garlic, and chili.",
+      "long": "Fish sauce cut with water, lime juice, sugar, minced garlic, and chili, used as the standard table condiment and dipping sauce across nearly the entire cuisine — for spring rolls, bún dishes, and grilled meat alike. Fish is the base of almost every serving.",
+      "components": [
+        "vn-goi-cuon"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fish sauce base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw minced garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "vn-banh-xeo",
+      "term": "Bánh Xèo",
+      "native": "bánh xèo",
+      "romanizations": [
+        "sizzling crepe"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Large, crisp turmeric-yellow rice-flour crepe folded around shrimp, pork, and bean sprout, eaten wrapped in lettuce.",
+      "long": "A thin batter of rice flour, turmeric, and coconut milk poured into a hot pan with shrimp and pork, folded in half around a filling of bean sprouts once crisp, and served whole to be torn, wrapped in lettuce or rice paper with herbs, and dipped in nước chấm. Naturally gluten-free (rice flour), but shellfish and pork are both standard fillings.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "sliced pork filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "lettuce and herbs for wrapping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "coconut milk in the batter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "vn-ca-phe-sua-da",
+      "term": "Cà Phê Sữa Đá",
+      "native": "cà phê sữa đá",
+      "romanizations": [
+        "Vietnamese iced coffee"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Strong drip coffee sweetened with condensed milk, poured over ice.",
+      "long": "Dark-roast coffee slow-dripped through a small metal phin filter directly over a layer of sweetened condensed milk, then stirred and poured over ice. Dairy is concentrated and central, not optional, in the standard version — a black version (cà phê đen) omits it.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "sweetened condensed milk",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The black version (cà phê đen) omits it — worth specifying if needed."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-che",
+      "term": "Chè",
+      "native": "chè",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dessert",
+        "beverage"
+      ],
+      "short": "Sweet dessert soup/pudding — beans, jellies, and fruit in coconut milk or syrup, hot or cold.",
+      "long": "A broad category of sweet soups and puddings combining ingredients like mung bean, red bean, tapioca pearl, grass jelly, and fresh or canned fruit, in a base of coconut milk, sweetened water, or crushed ice. Composition varies enormously by the specific chè ordered.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "coconut milk, and often fruit",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "What's in this chè today?"
+    },
+    {
+      "id": "vn-banh-cuon",
+      "term": "Bánh Cuốn",
+      "native": "bánh cuốn",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Steamed, silky-thin rice rolls filled with minced pork and shrimp, topped with fried shallot.",
+      "long": "A thin rice-flour batter steamed on a cloth into a translucent sheet, filled with a mix of ground pork, minced shrimp, wood ear mushroom, and chopped onion while still soft, then rolled and served with fried shallot on top and a side of nước chấm. Naturally gluten-free (rice flour), but pork and shrimp are both standard fillings, not optional. From real Rockville menus (Hello Vietnam, Banh Cuon Cha Lua and Banh Cuon Thit Nuong).",
+      "components": [
+        "vn-cha-gio"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "ground pork filling",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "minced shrimp filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "chopped onion filling, fried shallot topping",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce in the nước chấm side",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-bun-dau-mam-tom",
+      "term": "Bún Đậu Mắm Tôm",
+      "native": "bún đậu mắm tôm",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Vermicelli, fried tofu, pork, and often pig stomach or intestine, dipped in pungent fermented shrimp paste.",
+      "long": "A shared platter of rice vermicelli, deep-fried tofu, sliced boiled pork, sticky rice cakes, and often offal (pig stomach or intestine), eaten by dipping each piece into mắm tôm — a strong, purple-grey fermented shrimp paste whipped with lime and chili until frothy. One of the most distinctively pungent, shellfish-forward condiments in the cuisine, and offal is a standard component of the platter rather than a rare addition. From real Rockville menus (Hello Vietnam).",
+      "components": [
+        "vn-nuoc-cham"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "fermented shrimp paste (mắm tôm)",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The defining dip — pungent, purple-grey, and central to the dish, not a background seasoning."
+        },
+        {
+          "tag": "pork",
+          "specific": "sliced boiled pork, and often pig stomach or intestine",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Offal is a standard part of the traditional platter."
+        },
+        {
+          "tag": "fermented",
+          "specific": "fermented shrimp paste",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "fried tofu",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ],
+      "ask": "Does this platter include pig stomach or intestine, or just pork and tofu?"
+    },
+    {
+      "id": "vn-com-ca-kho-to",
+      "term": "Cá Kho Tộ",
+      "native": "cá kho tộ",
+      "romanizations": [
+        "com ca kho to"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fish braised in a clay pot with caramelized sugar and fish sauce until dark, salty-sweet, and sticky.",
+      "long": "Fish (often catfish or mackerel) simmered slowly in a clay pot with a caramel made from cooked-down sugar, fish sauce, and black pepper, until the sauce reduces to a thick, dark, intensely savory-sweet glaze. Served with plain white rice. Fish sauce and fish itself are both concentrated here, not just a background seasoning. From real Rockville menus (Hello Vietnam, \"Com Ca Kho To\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "braised fish, plus fish sauce in the braise",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-nom-du-du-bo-kho",
+      "term": "Nộm Đu Đủ Bò Khô",
+      "native": "nộm đu đủ bò khô",
+      "romanizations": [
+        "green papaya salad with beef jerky"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw shredded green papaya salad tossed with sweet-spicy dried beef jerky strips and roasted **peanuts**.",
+      "long": "Julienned raw green papaya and carrot dressed with lime, fish sauce, sugar, and chili in the style of Thai som tam, tossed with strips of sweet-spicy dried beef jerky (bò khô) and topped with roasted peanuts and Vietnamese coriander. Entirely raw vegetable base with a dried, not fresh, beef component. From real Rockville menus (Hello Vietnam, \"Nom Du Du Bo Kho\").",
+      "components": [
+        "th-som-tam"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shredded green papaya, carrot",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "dried beef jerky strips",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Dried, not fresh/raw beef."
+        },
+        {
+          "tag": "peanut",
+          "specific": "roasted peanut topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Standard and visible, but mixed through rather than only on top."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish sauce dressing",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-nem-cua-be",
+      "term": "Nem Cua Bể",
+      "native": "nem cua bể",
+      "romanizations": [
+        "crab spring rolls"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy fried spring rolls filled with crab meat, pork, and glass noodle — a premium version of chả giò.",
+      "long": "The same fried-spring-roll format as chả giò, but built specifically around crab meat blended with ground pork, glass noodle, and wood ear mushroom, considered a more special-occasion version. From real Rockville menus (Hello Vietnam, both as an appetizer and in the \"Bun Nem Cua Be\" noodle bowl).",
+      "components": [
+        "vn-cha-gio"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "crab meat filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The defining filling, unlike plain chả giò which is usually shrimp or pork alone."
+        },
+        {
+          "tag": "pork",
+          "specific": "ground pork filling",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper, if used rather than rice paper",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-tra-sua",
+      "term": "Trà Sữa",
+      "native": "trà sữa",
+      "romanizations": [
+        "bubble tea",
+        "boba"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Milk tea with chewy tapioca pearls; flavor add-ins vary widely and some (black sesame, almond) carry real allergens.",
+      "long": "Black or green tea shaken with milk or creamer and sugar, served with chewy tapioca pearls (boba) at the bottom, drunk through a wide straw. The base drink is milk/dairy, but flavor variants matter a lot here — options like black sesame and almond are real ingredients blended in, not just flavoring names, while others (mango, strawberry, taro, matcha, honeydew) carry no nut or sesame risk. From real Rockville menus (Hello Vietnam, offering Black Sesame and Almond among many other flavors).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk or non-dairy creamer base",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Some shops use a non-dairy creamer — worth asking if avoiding dairy specifically."
+        },
+        {
+          "tag": "sesame",
+          "specific": "black sesame flavor, when that variant is chosen",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only in the black sesame flavor — a real ingredient, not just a name."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "almond flavor, when that variant is chosen",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only in the almond flavor."
+        },
+        {
+          "tag": "gluten",
+          "specific": "tapioca pearls are gluten-free on their own",
+          "certainty": "rarely",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ],
+      "ask": "Which flavor — does it contain sesame or almond?"
+    },
+    {
+      "id": "vn-sinh-to-bo",
+      "term": "Sinh Tố Bơ",
+      "native": "sinh tố bơ",
+      "romanizations": [
+        "avocado smoothie"
+      ],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Thick, sweet blended avocado smoothie with condensed milk — savory fruit used purely as dessert here.",
+      "long": "Ripe avocado blended with sweetened condensed milk, ice, and a little regular milk into a very thick, mousse-like sweet smoothie — a popular Vietnamese use of avocado that surprises people used to it only as a savory food. Raw fruit and dairy are both central. From real Rockville menus (Hello Vietnam, listed under Sinh To).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "raw avocado",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "condensed milk, and often regular milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    },
+    {
+      "id": "vn-bac-xiu",
+      "term": "Bạc Xỉu",
+      "native": "bạc xỉu",
+      "romanizations": [],
+      "language": "Vietnamese",
+      "cuisines": [
+        "vietnamese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "\"White\" iced coffee — more milk than coffee, unlike the condensed-milk-forward cà phê sữa đá.",
+      "long": "The same drip coffee and condensed milk as cà phê sữa đá, but with a much higher ratio of milk (condensed and/or fresh milk or half-and-half) to coffee, giving a pale, milk-forward drink rather than a dark, coffee-forward one. Dairy content is higher here than in the standard iced coffee. From real Rockville menus (Hello Vietnam, \"Bac Xiu - White Iced Coffee\").",
+      "components": [
+        "vn-ca-phe-sua-da"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "condensed milk plus fresh milk or half-and-half",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "A higher dairy ratio than standard Vietnamese iced coffee."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "hello-vietnam"
+      ]
+    }
+  ]
+}

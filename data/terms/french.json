@@ -1,0 +1,2058 @@
+{
+  "cuisine": "french",
+  "terms": [
+    {
+      "id": "fr-steak-tartare",
+      "term": "Steak Tartare",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Hand-cut raw beef, seasoned and bound with raw egg yolk or aioli, served cold.",
+      "long": "Finely hand-chopped raw beef (never ground, which would change the texture) mixed with capers, shallot, Dijon, and Worcestershire, classically topped with a raw egg yolk that's stirred in tableside, or bound instead with a dijon aioli. Unambiguously raw beef and typically raw or barely-set egg. From real Bethesda menus (Mon Ami Gabi: Classic Steak Tartare with dijon aioli).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "raw hand-chopped beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Raw by definition."
+        },
+        {
+          "tag": "egg",
+          "specific": "raw egg yolk or aioli",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Classic preparation uses a raw yolk; some modern versions substitute aioli, which is also raw-egg-based."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw shallot",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-escargot",
+      "term": "Escargots de Bourgogne",
+      "native": "",
+      "romanizations": [
+        "escargot"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Land snails baked in garlic-herb butter, usually served in their shells.",
+      "long": "Cooked snails returned to their shells (or plated in a divot dish) and baked under a generous amount of garlic-parsley butter until bubbling. Rich in dairy and raw garlic flavor, though the garlic itself is cooked into the butter. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked into the butter, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-foie-gras",
+      "term": "Foie Gras",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish",
+        "ingredient"
+      ],
+      "short": "Fattened duck or goose liver, served as a smooth cured torchon or seared whole.",
+      "long": "Liver from a duck or goose specially fattened, prepared either as a **torchon** — cured, rolled in cloth, and served cold and spreadable like a rich pâté — or seared hot and served warm and custardy inside. The torchon style is a cured, not-fully-cooked preparation; seared foie gras is cooked through. From real Bethesda menus (Mon Ami Gabi: Foie Gras Torchon with armagnac prunes).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "armagnac or other brandy in accompaniments",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "prunes or fruit compote, typically served alongside",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Cooked/dried."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "This is duck or goose liver, not chicken or another poultry — worth noting if you're avoiding poultry broadly, since no specific duck/goose tag exists in this tool yet.",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-pate",
+      "term": "Pâté",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Smooth or coarse seasoned meat spread, usually liver-based, served cold with bread.",
+      "long": "Ground or puréed meat — often chicken liver — cooked with butter, brandy, and aromatics, then chilled until firm enough to spread. Served with toast, cornichons, and mustard. Fully cooked, unlike tartare; the main flags are dairy and alcohol. From real Bethesda menus (Mon Ami Gabi: Chicken Liver Mousse Pâté).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken liver",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "brandy or wine, cooked in",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-moules-mariniere",
+      "term": "Moules Marinière",
+      "native": "",
+      "romanizations": [
+        "moules mariniere"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mussels steamed in white wine, garlic, and butter, served in the shell with the broth for dipping bread.",
+      "long": "Fresh mussels steamed quickly in a pot with white wine, shallot, garlic, and parsley, finished with a swirl of butter, and served still in the shell in their own broth alongside bread or fries for dipping. Fully cooked. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "mussels",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "white wine",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Mostly cooked off, but present as a base ingredient."
+        },
+        {
+          "tag": "allium",
+          "specific": "shallot, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-onion-soup",
+      "term": "Onion Soup au Gratin",
+      "native": "soupe à l'oignon gratinée",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Beef broth with deeply caramelized onion, topped with toasted bread and melted cheese.",
+      "long": "Onions cooked down slowly until dark and sweet, simmered in beef stock (sometimes with a splash of wine or sherry), then topped with a crouton and a thick layer of melted cheese and run under the broiler until it browns. Onion, wheat, and dairy are all structural, non-optional components. From real Bethesda menus (Mon Ami Gabi, Bistro Provence).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "deeply cooked onion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The dish is built on onion."
+        },
+        {
+          "tag": "dairy",
+          "specific": "melted cheese (usually Jarlsberg or Gruyère)",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread crouton",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef stock base",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "wine or sherry in the broth",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Mostly cooked off."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi",
+        "bistro-provence"
+      ]
+    },
+    {
+      "id": "fr-croque-monsieur",
+      "term": "Croque Monsieur",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled ham and cheese sandwich under a baked layer of béchamel and more cheese.",
+      "long": "Ham and Gruyère between bread, coated in béchamel sauce and more cheese, then baked or broiled until the top browns. **Croque Madame** adds a fried egg on top. Wheat and dairy are both heavy and structural. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "ham",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "Gruyère cheese, béchamel",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread, flour in the béchamel",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "fried egg, only on Croque Madame",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-quiche-lorraine",
+      "term": "Quiche Lorraine",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Open savory tart of egg-and-cream custard baked with bacon and cheese in a pastry shell.",
+      "long": "A buttery pastry shell filled with a custard of eggs and cream, studded with lardons (bacon) and caramelized onion, and often Gruyère, baked until just set. Egg, dairy, and wheat are all central. From real Bethesda menus (Mon Ami Gabi, Bistro Provence).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg custard base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream, Gruyère",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "bacon lardons",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pastry shell",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "caramelized onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi",
+        "bistro-provence"
+      ]
+    },
+    {
+      "id": "fr-nicoise",
+      "term": "Salade Niçoise",
+      "native": "",
+      "romanizations": [
+        "nicoise salad"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Composed salad of tuna, hard-boiled egg, olives, green beans, and raw tomato and onion.",
+      "long": "A plated, not tossed, salad: seared or canned tuna (occasionally seared rare, sometimes ahi-style), quartered hard-boiled egg, blanched green beans, boiled potato, Niçoise olives, anchovy, and raw tomato and onion, dressed with a red wine vinaigrette. Both raw vegetables and egg are core, non-garnish components. From real Bethesda menus (Mon Ami Gabi, listed as Ahi Tuna Niçoise).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Often seared rare rather than fully cooked through — worth confirming doneness."
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw tomato, cucumber",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "anchovy",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the tuna seared rare or cooked through?",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-frisee-lardon",
+      "term": "Frisée aux Lardons",
+      "native": "",
+      "romanizations": [
+        "frisee salad"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Bitter curly greens with warm bacon and a soft-poached, runny egg, dressed in warm vinaigrette.",
+      "long": "Frisée lettuce tossed with hot bacon fat and a Dijon-champagne vinaigrette, topped with a poached egg whose yolk is meant to be runny and stirred through as a dressing. The egg is deliberately undercooked/soft — worth flagging separately from a hard-boiled egg. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "bacon lardons",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "soft-poached, runny-yolk egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Intentionally undercooked as part of the dish's design."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "frisée lettuce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Can typically request the egg cooked firmer."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-trout-almondine",
+      "term": "Trout Almondine",
+      "native": "truite amandine",
+      "romanizations": [
+        "truite aux amandes"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pan-seared trout finished with a brown butter sauce and toasted **sliced almonds**.",
+      "long": "A whole trout fillet dredged lightly and pan-fried, then finished with beurre noisette (browned butter), lemon, and a generous scatter of toasted sliced almonds across the top. The almonds are a defining, visible part of the classic preparation, not an optional garnish someone forgot to mention. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "trout",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "toasted sliced almonds",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Central to the classic preparation — 'amandine' means with almonds."
+        },
+        {
+          "tag": "dairy",
+          "specific": "brown butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "light flour dredge",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-steak-frites",
+      "term": "Steak Frites",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled steak with hand-cut fries, served with a choice of butter or cream-based sauce.",
+      "long": "A simply grilled cut of steak (hanger, filet, or ribeye depending on the menu) served alongside crisp fries, with a named sauce chosen separately: **béarnaise** (egg yolk and butter emulsion), **au poivre** (cream and brandy peppercorn), **bordelaise** (red wine and onion, no dairy), or **roquefort** (blue cheese cream). The sauce choice changes the allergen profile significantly — bordelaise is the dairy-free option among them. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "steak",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter or cream, in béarnaise/au poivre/roquefort sauces",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Bordelaise is the dairy-free sauce choice; the others are dairy-heavy."
+        },
+        {
+          "tag": "egg",
+          "specific": "egg yolk, in béarnaise sauce specifically",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Only the béarnaise option."
+        },
+        {
+          "tag": "alcohol",
+          "specific": "brandy or red wine, in au poivre/bordelaise",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Cooked into the sauce."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Which sauce is dairy-free — is that the bordelaise?",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-ratatouille",
+      "term": "Ratatouille",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Provençal stew of eggplant, zucchini, pepper, and tomato, slow-cooked in olive oil. Vegan, nut-free.",
+      "long": "Eggplant, zucchini, bell pepper, onion, garlic, and tomato, each often cooked somewhat separately before being combined and simmered together in olive oil with herbes de Provence until soft. Reliably vegan and one of the safer, simplest sides on a French menu. From real Bethesda menus (Mon Ami Gabi, listed as \"Ratatouille Provençal\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-creme-brulee",
+      "term": "Crème Brûlée",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Baked egg-yolk custard under a torched sugar crust. Nut-free, dairy- and egg-heavy.",
+      "long": "A rich custard of cream, egg yolk, sugar, and vanilla, baked slowly in a water bath until just set, chilled, then dusted with sugar and caramelized under a torch just before serving to form a brittle glass-like top. Dairy and egg are the entire structure of the dish. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "heavy cream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg yolk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-tarte-tatin",
+      "term": "Tarte Tatin",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Upside-down caramelized apple tart, baked apple-side down then flipped. Cooked apple, not raw.",
+      "long": "Apple halves cooked in butter and sugar until deeply caramelized, topped with pastry dough, baked, then inverted onto a plate so the glossy caramelized apples end up on top. The apple is fully cooked throughout, not a raw garnish. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "apple, caramelized",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked thoroughly, not raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, pastry, ice cream accompaniment",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-profiteroles",
+      "term": "Profiteroles",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Small choux pastry puffs filled with vanilla ice cream and draped in hot fudge sauce.",
+      "long": "Light, hollow choux pastry (egg-leavened, no chemical raising agent) baked into puffs, split and filled with vanilla ice cream, and served drenched in warm chocolate sauce. Egg and dairy are both structural. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "choux pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Eggs are what leaven choux pastry."
+        },
+        {
+          "tag": "dairy",
+          "specific": "ice cream, butter in the pastry",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "choux pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-skate-grenobloise",
+      "term": "Skate Wing Grenobloise",
+      "native": "raie grenobloise",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pan-seared skate wing in brown butter with capers, lemon, and diced fennel — no nuts despite similar-sounding sauces.",
+      "long": "A flat, cartilaginous fish wing dredged and pan-fried, served in a brown butter sauce with capers and lemon segments (the *grenobloise* garnish), here with fennel added. Worth distinguishing from *amandine* preparations, which use the same brown-butter base but add almonds — grenobloise does not. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [
+        "fr-trout-almondine"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "skate wing",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "brown butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-oysters-half-shell",
+      "term": "Oysters on the Half Shell",
+      "native": "huîtres",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw oysters served chilled in the shell with mignonette or cocktail sauce.",
+      "long": "Freshly shucked raw oysters served on ice with lemon, mignonette (shallot in vinegar), or cocktail sauce on the side. Unambiguously raw shellfish. From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "raw oysters",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Served raw by definition."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw shallot, in mignonette",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-crab-cake",
+      "term": "Jumbo Lump Blue Crab Cake",
+      "native": "",
+      "romanizations": [],
+      "language": "French (American bistro)",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pan-seared crab cake bound with egg and breadcrumb, served with remoulade.",
+      "long": "Lump crab meat mixed lightly with egg, mayonnaise, mustard, and breadcrumb, formed into a cake and pan-seared, served with a tangy remoulade (an egg-based sauce similar to tartar sauce). From real Bethesda menus (Mon Ami Gabi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "blue crab",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg binder, remoulade sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "breadcrumb filler",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-roast-chicken-grandmere",
+      "term": "Roast Chicken à la Grand-Mère",
+      "native": "poulet rôti grand-mère",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy roasted half chicken with bacon, mushrooms, and mashed potato in a chicken jus. Mild, dairy-heavy sides.",
+      "long": "A free-range half chicken roasted until the skin crackles, served with thick-cut bacon, sautéed mushrooms, buttery mashed potato (*pommes purée*), and a light chicken pan sauce. No nuts, no shellfish, generally mild — but the potato purée is typically loaded with butter and cream. From real Bethesda menus (Mon Ami Gabi, \"Our Famous Roast Chicken\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "roast chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "thick-cut bacon",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter and cream in the mashed potato",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "mon-ami-gabi"
+      ]
+    },
+    {
+      "id": "fr-bouillabaisse",
+      "term": "Bouillabaisse",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Provençal seafood stew of several fish and shellfish in a saffron broth, served with rouille and croutons.",
+      "long": "A Marseille specialty: multiple varieties of fish plus shellfish simmered in a saffron-and-fennel-scented broth with tomato, then typically served in two courses — the broth first over garlic croutons spread with rouille (a garlicky saffron mayonnaise), followed by the fish itself. Shellfish, fish, and egg (in the rouille) all present.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "multiple fish varieties",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "mussels, crab, or other shellfish",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "rouille (garlic-saffron mayonnaise)",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the rouille",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "croutons",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-coq-au-vin",
+      "term": "Coq au Vin",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chicken braised slowly in red wine with mushroom, bacon, and pearl onion.",
+      "long": "Chicken pieces browned then braised for hours in red wine (traditionally Burgundy) with lardons, mushroom, pearl onion, and garlic until the sauce reduces to a deep, glossy gravy. Alcohol is cooked down substantially but is a base ingredient, not a garnish.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "braised chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "bacon lardons",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "red wine braise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Reduced over hours, but present as a base ingredient."
+        },
+        {
+          "tag": "allium",
+          "specific": "pearl onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-boeuf-bourguignon",
+      "term": "Bœuf Bourguignon",
+      "native": "",
+      "romanizations": [
+        "beef bourguignon"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Beef chunks braised for hours in red Burgundy wine with mushroom, bacon, and carrot.",
+      "long": "Cubed beef chuck braised low and slow in red wine with lardons, pearl onions, carrot, and mushroom until fork-tender and the sauce turns rich and dark. The Burgundian beef counterpart to coq au vin.",
+      "components": [
+        "fr-coq-au-vin"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "braised beef chuck",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "bacon lardons",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "red wine braise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Reduced over hours."
+        },
+        {
+          "tag": "allium",
+          "specific": "pearl onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-cassoulet",
+      "term": "Cassoulet",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Slow-baked white bean casserole layered with duck confit, pork sausage, and often pork skin.",
+      "long": "White beans baked for hours with duck or goose confit, garlic pork sausage (saucisse de Toulouse), and sometimes pork belly or ham hock, developing a browned crust on top that's traditionally broken and stirred back in several times during cooking. Dense with two or three different meats at once.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "sausage, and often pork belly or ham hock",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-confit-de-canard",
+      "term": "Confit de Canard",
+      "native": "",
+      "romanizations": [
+        "duck confit"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Duck leg salt-cured then slow-cooked and preserved in its own rendered fat until meltingly tender.",
+      "long": "Duck legs are salted and left to cure for a day, then submerged in duck fat and cooked at a low temperature for hours, which both cooks the meat through and preserves it. Served with the skin crisped in a hot pan just before plating. Fully cooked, but rich in rendered fat.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-beurre-blanc",
+      "term": "Beurre Blanc",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Warm emulsified butter sauce with white wine and shallot — no egg, unlike hollandaise.",
+      "long": "White wine and vinegar reduced with minced shallot, then whisked off the heat with a large quantity of cold butter until it emulsifies into a pale, silky sauce. Unlike hollandaise or béarnaise, it contains no egg — dairy and alcohol are the flags here.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "white wine reduction",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Reduced, but a base ingredient."
+        },
+        {
+          "tag": "allium",
+          "specific": "shallot",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-hollandaise",
+      "term": "Hollandaise",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Warm emulsion of egg yolk, butter, and lemon — the base for eggs Benedict and many fish dishes.",
+      "long": "Egg yolks whisked over gentle heat with lemon juice until pale and thick, then emulsified with warm clarified butter into a silky, rich sauce. The yolks are only gently warmed, not fully cooked through in the way a hard-boiled egg is.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg yolk, only gently warmed",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The base of the emulsion — not fully cooked through."
+        },
+        {
+          "tag": "dairy",
+          "specific": "clarified butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-vichyssoise",
+      "term": "Vichyssoise",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cold, silky leek and potato soup, enriched with cream.",
+      "long": "Leek and potato soup puréed until smooth, enriched with cream, and chilled before serving, often with chives on top. Dairy-heavy and typically vegetarian, though some versions use chicken stock as the base.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "cream",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "leek, chive garnish",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken stock, in some versions",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-tartiflette",
+      "term": "Tartiflette",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Baked potato, bacon, and onion casserole under a whole melted wheel of reblochon cheese.",
+      "long": "Sliced potatoes layered with sautéed bacon lardons and onion, baked under a whole halved wheel of reblochon (a soft, washed-rind cheese) until it melts completely over the top. An Alpine specialty; extremely dairy-heavy.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "reblochon cheese, melted over the whole dish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "bacon lardons",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-raclette",
+      "term": "Raclette",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A wheel of cheese melted and scraped directly onto potatoes, charcuterie, and pickles.",
+      "long": "Both a cheese and the dish built around it: a large wheel is heated until the surface turns molten, then scraped onto boiled potatoes, cured meats, and cornichons at the table. An interactive, shared, extremely dairy-forward meal.",
+      "components": [
+        "fr-tartiflette"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "melted raclette cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "charcuterie, typically including ham or salami",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-fondue",
+      "term": "Fondue Savoyarde",
+      "native": "",
+      "romanizations": [
+        "cheese fondue"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Melted Gruyère and Comté with white wine, shared by dipping bread cubes on long forks.",
+      "long": "Grated Gruyère and Comté melted together with white wine, garlic, and a splash of kirsch, kept warm in a communal pot over a flame, with cubes of crusty bread speared on forks for dipping. Dairy, wheat, and alcohol all central and shared across the table.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "Gruyère and Comté cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread cubes for dipping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "white wine, kirsch",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-crepe",
+      "term": "Crêpe",
+      "native": "",
+      "romanizations": [
+        "crepe"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin wheat pancake, filled sweet (Nutella, sugar) or savory (ham and cheese) and folded.",
+      "long": "A very thin batter of wheat flour, egg, and milk, cooked quickly on a hot flat griddle, then filled and folded. Sweet fillings range from simple sugar-lemon to Nutella (hazelnut) or fruit preserve; savory versions (technically a *galette* if buckwheat) hold ham, cheese, or egg.",
+      "components": [
+        "pe-pionono"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour batter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk in the batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "Nutella filling, if chosen",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only if that filling is ordered — many other fillings are nut-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Does this filling contain Nutella or any nuts?"
+    },
+    {
+      "id": "fr-galette-bretonne",
+      "term": "Galette (Breton)",
+      "native": "",
+      "romanizations": [
+        "galette bretonne",
+        "buckwheat crepe"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Savory buckwheat crêpe, naturally gluten-free, folded around ham, cheese, and egg.",
+      "long": "Made from buckwheat flour rather than wheat, so naturally gluten-free unless the kitchen blends in wheat flour (worth confirming). Classically folded into a square around ham, grated cheese, and a sunny-side egg (*galette complète*).",
+      "components": [
+        "fr-crepe"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "fried egg filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The classic \"complète\" version; plainer fillings omit it."
+        },
+        {
+          "tag": "dairy",
+          "specific": "grated cheese",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "ham",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour, if the kitchen blends it with buckwheat",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Traditional galette batter is pure buckwheat; some kitchens cut it with wheat — worth asking if gluten matters."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "Is the batter pure buckwheat, or is there wheat flour mixed in?"
+    },
+    {
+      "id": "fr-madeleine",
+      "term": "Madeleine",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Small shell-shaped sponge cake, buttery and light, with a distinctive hump on top.",
+      "long": "A small cake baked in a scalloped shell mold, made from a butter-and-egg batter that rests before baking, producing the characteristic domed hump. Egg, dairy, and wheat are all central; nut-free by default.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-macaron",
+      "term": "Macaron",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Small sandwich cookie made from **almond** flour meringue, filled with buttercream or ganache.",
+      "long": "Two disks of meringue made primarily from ground almond flour and whipped egg white, sandwiched around a buttercream, ganache, or jam filling. Unlike the coconut macaroon it's easily confused with by name, the French macaron is fundamentally an almond-flour product — there is no standard nut-free version.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "almond flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The shell itself is made from almond flour — structural, not optional."
+        },
+        {
+          "tag": "egg",
+          "specific": "whipped egg white meringue",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "buttercream filling, in most flavors",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-eclair",
+      "term": "Éclair",
+      "native": "",
+      "romanizations": [
+        "eclair"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Long choux pastry filled with pastry cream, topped with a chocolate or fruit glaze.",
+      "long": "Choux pastry (egg-leavened) piped into a log, baked hollow, filled with a rich egg-and-milk pastry cream, and topped with a fondant or chocolate glaze. Egg and dairy are both structural to the filling and the shell.",
+      "components": [
+        "fr-profiteroles"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "choux pastry, pastry cream",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "pastry cream, glaze",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "choux pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-mille-feuille",
+      "term": "Mille-feuille",
+      "native": "",
+      "romanizations": [
+        "napoleon"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Layers of crisp puff pastry alternating with pastry cream, topped with icing or powdered sugar.",
+      "long": "Three layers of baked puff pastry sandwiched with two layers of vanilla pastry cream, finished with a feathered icing top or a dusting of powdered sugar. Known as a \"Napoleon\" on many English-language menus. Egg and dairy are both structural to the cream.",
+      "components": [
+        "fr-eclair"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "pastry cream",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "pastry cream, butter in the pastry",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "puff pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-tarte-au-citron",
+      "term": "Tarte au Citron",
+      "native": "",
+      "romanizations": [
+        "lemon tart"
+      ],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Tart shell filled with a dense, egg-thickened lemon curd, sometimes topped with meringue.",
+      "long": "A buttery pastry shell filled with lemon curd — egg yolk, sugar, butter, and lemon juice cooked until thick and set — sometimes finished with a torched meringue top. Egg and dairy are both structural to the filling.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "lemon curd filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter in the curd and pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pastry shell",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-clafoutis",
+      "term": "Clafoutis",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Baked custard studded with whole cherries, traditionally left unpitted for flavor.",
+      "long": "A thick, flan-like egg batter poured over cherries and baked until just set. Traditionally the cherry pits are left in, which is thought to add an almond-like flavor during baking — worth knowing if pits (or being warned about them) matters. Egg and dairy are both structural.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "custard batter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk or cream in the batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "cherries, cooked, traditionally unpitted",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked, not raw; pits are traditionally left in."
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour in the batter",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Are the cherry pits left in?"
+    },
+    {
+      "id": "fr-pissaladiere",
+      "term": "Pissaladière",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Provençal flatbread topped with deeply caramelized onion, anchovy, and Niçoise olives — no cheese, no tomato.",
+      "long": "A yeasted flatbread base spread thickly with slow-cooked, sweet caramelized onion, arranged with a lattice of whole anchovy fillets and dotted with black Niçoise olives. Unlike a pizza, it typically has no cheese or tomato sauce. Fish (anchovy) is easy to overlook since the topping reads mostly as onion.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "whole anchovy fillets",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Arranged visibly on top, but easy to underestimate given how onion-dominant the dish looks."
+        },
+        {
+          "tag": "gluten",
+          "specific": "yeasted flatbread base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "caramelized onion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-rillettes",
+      "term": "Rillettes",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pork (or duck) slow-cooked in its own fat, then shredded and potted into a spreadable pâté.",
+      "long": "Pork shoulder or duck cooked very slowly in its own rendered fat until falling apart, then shredded and packed into a jar or ramekin with the cooking fat sealing the top. Served cold, spread on toast or bread. Fully cooked despite the pâté-like texture.",
+      "components": [
+        "fr-pate"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "shredded pork shoulder",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Duck rillettes is a common alternative."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "fr-pastis",
+      "term": "Pastis",
+      "native": "",
+      "romanizations": [],
+      "language": "French",
+      "cuisines": [
+        "french"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Anise-flavored aperitif from Provence, drunk cut with water like ouzo or arak, turning cloudy.",
+      "long": "An anise- and licorice-root-flavored spirit, clear in the bottle, that turns milky when diluted with water and ice — the same visual effect as Greek ouzo or Lebanese arak, a shared Mediterranean family of anise spirits. Typically drunk before a meal.",
+      "components": [
+        "le-arak",
+        "gr-ouzo"
+      ],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "anise-flavored spirit",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

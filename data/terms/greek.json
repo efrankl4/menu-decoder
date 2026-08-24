@@ -1,0 +1,1816 @@
+{
+  "cuisine": "greek",
+  "terms": [
+    {
+      "id": "gr-tzatziki",
+      "term": "Tzatziki",
+      "native": "τζατζίκι",
+      "romanizations": [
+        "dzadziki",
+        "tsatsiki"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Cold yogurt dip with grated cucumber, garlic, and dill. The default sauce on a gyro.",
+      "long": "Strained yogurt mixed with grated and drained cucumber, crushed garlic, olive oil, and usually dill or mint. Served as a dip with pita or spooned onto gyro and souvlaki. Dairy is the base; the cucumber is raw but grated fine, and garlic is always raw. From real Bethesda menus (The Big Greek Cafe).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "strained yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "grated raw cucumber",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Grated fine, but genuinely raw and a real share of the volume."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-htipiti",
+      "term": "Htipiti",
+      "native": "χτυπητή",
+      "romanizations": [
+        "tirokafteri",
+        "feisty feta",
+        "whipped feta"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Whipped feta blended with roasted red pepper and chili — spicier than it looks.",
+      "long": "Feta cheese whipped smooth with roasted red peppers, olive oil, and hot chili (fresh or flakes), sometimes with a little yogurt for body. Served as a dip with pita or bread. One of the few genuinely spicy things on a standard Greek taverna menu. From real Bethesda menus (The Big Greek Cafe, listed as \"Feisty Feta\").",
+      "components": [
+        "gr-feta"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "feta cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "The chili content varies by kitchen but is rarely omitted entirely."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-melitzanosalata",
+      "term": "Melitzanosalata",
+      "native": "μελιτζανοσαλάτα",
+      "romanizations": [
+        "melizano salata",
+        "melintzanosalata"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Smoky roasted eggplant dip with garlic and olive oil — the Greek cousin of mutabbal, without tahina.",
+      "long": "Whole eggplants charred until collapsed, then the flesh mashed or blended with garlic, olive oil, lemon or vinegar, and sometimes yogurt or a little tomato. Smoky and tangy, and unlike the Levantine mutabbal it contains no tahina. Sesame-free as a rule. From real Bethesda menus (The Big Greek Cafe).",
+      "components": [
+        "pa-mutabbal"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt, in some versions",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-spanakopita",
+      "term": "Spanakopita",
+      "native": "σπανακόπιτα",
+      "romanizations": [
+        "spanokopita"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spinach and feta baked between layers of crisp filo. Vegetarian, nut-free.",
+      "long": "Chopped spinach, feta, egg, and usually dill or scallion, sandwiched between buttered sheets of filo and baked until the top shatters. Served as a triangle appetizer or a full-tray slice. Reliably nut-free and a dependable vegetarian order — check only for egg if that matters. From real Bethesda menus (The Big Greek Cafe).",
+      "components": [
+        "gr-feta"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "filo pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "feta, butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg binding the filling",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-avgolemono",
+      "term": "Avgolemono",
+      "native": "αυγολέμονο",
+      "romanizations": [
+        "avgolémono",
+        "egg-lemon soup"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish",
+        "sauce"
+      ],
+      "short": "Chicken soup thickened with whisked egg and lemon into a silky, tart, pale broth.",
+      "long": "Chicken broth with rice or orzo, finished by tempering whisked egg and lemon juice into the hot liquid off heat, which thickens it to a light, custardy consistency without curdling. Both a soup in its own right and a sauce spooned over dolmades or vegetables. Egg is structural to the dish's texture, not a garnish. From real Bethesda menus (The Big Greek Cafe).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "whisked whole egg or yolk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The thickener — not removable without changing the dish."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken broth, often with shredded chicken",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "orzo, when used instead of rice",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-dolma",
+      "term": "Dolmades",
+      "native": "ντολμάδες",
+      "romanizations": [
+        "dolma",
+        "dolmadakia"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grape leaves rolled around rice and herbs, served cold with lemon or warm with egg-lemon sauce.",
+      "long": "The Greek version of stuffed grape leaves: usually a vegetarian rice-and-dill filling, served chilled with a squeeze of lemon, though a meat version with ground beef or lamb exists and is often served warm under avgolemono sauce. Vegan by default unless the menu specifies meat. From real Bethesda menus (The Big Greek Cafe, listed with rice and beef).",
+      "components": [
+        "gr-avgolemono",
+        "pa-warak-enab"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "The vegetarian rice-only version is equally standard — menus usually specify."
+        },
+        {
+          "tag": "egg",
+          "specific": "avgolemono sauce, on warm versions",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Are these the vegetarian rice ones or the ones with beef?",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-moussaka",
+      "term": "Moussaka",
+      "native": "μουσακάς",
+      "romanizations": [
+        "mousaka"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Baked layers of eggplant, spiced ground meat, and béchamel. Distinct from the meat-free Lebanese m'saka.",
+      "long": "Sliced eggplant (and often potato) fried or roasted, layered with a cinnamon-spiced ground lamb or beef ragù, and topped with a thick egg-and-cheese béchamel that bakes into a golden crust. Rich in dairy and egg throughout, unlike its Lebanese near-namesake which is a plain vegan eggplant dish — the two are easy to confuse by name alone. From real Bethesda menus (The Big Greek Cafe).",
+      "components": [
+        "le-msaka"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Lamb is the traditional alternative."
+        },
+        {
+          "tag": "lamb",
+          "specific": "ground lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "béchamel, cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The topping is entirely dairy-based."
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the béchamel",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour in the béchamel",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-pastitsio",
+      "term": "Pastitsio",
+      "native": "παστίτσιο",
+      "romanizations": [
+        "pastichio"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Baked tube pasta layered with spiced ground meat and béchamel — Greece's answer to lasagna.",
+      "long": "Thick tubular pasta layered with a cinnamon-and-clove ground beef sauce and a thick egg-enriched béchamel, baked until set and golden on top. Wheat, dairy, and egg are all structural. From real Bethesda menus (The Big Greek Cafe, listed as \"Pastichio\").",
+      "components": [
+        "gr-moussaka"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "pasta, flour in béchamel",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "ground beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "béchamel, cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the béchamel",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-souvlaki",
+      "term": "Souvlaki",
+      "native": "σουβλάκι",
+      "romanizations": [
+        "souvlakia"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Skewered, grilled cubes of marinated meat — chicken, pork, or shrimp are all standard.",
+      "long": "Bite-sized cubes of meat marinated in olive oil, lemon, garlic, and oregano, threaded on a skewer and grilled hard. Served as a platter with rice or fries, or wrapped in pita with tzatziki, tomato, and raw onion. Pork is the traditional street-food default in Greece; menus abroad commonly offer chicken and shrimp too. From real Bethesda menus (The Big Greek Cafe: chicken, pork, shrimp souvlaki pita).",
+      "components": [
+        "gr-tzatziki"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "The traditional default; chicken is equally common on US menus."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato and raw onion, when served in a pita",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Easy to leave out on request."
+        },
+        {
+          "tag": "dairy",
+          "specific": "tzatziki",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic in the marinade and tzatziki",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-gyro",
+      "term": "Gyro",
+      "native": "γύρος",
+      "romanizations": [
+        "gyros",
+        "yeeros"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spiced, pressed meat shaved off a vertical rotisserie, wrapped in pita with tzatziki and raw onion.",
+      "long": "Traditionally a pork-and-lamb or pork-and-beef blend pressed into a cone and roasted on a vertical spit, shaved thin off the outside as it crisps — the same rotisserie method as shawarma and doner. Wrapped in pita with tzatziki, tomato, and raw onion, or served over fries as a platter. Chicken gyro is a common menu addition, always labeled. From real Bethesda menus (The Big Greek Cafe: \"Our Famous Gyro Pita\").",
+      "components": [
+        "gr-tzatziki"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork, often blended with beef or lamb",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "The traditional default meat; chicken gyro is a labeled alternative."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in the blend",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb, in the blend",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken gyro",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "A labeled alternative on most US menus."
+        },
+        {
+          "tag": "gluten",
+          "specific": "pita",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato, raw onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Easy to leave out."
+        },
+        {
+          "tag": "dairy",
+          "specific": "tzatziki",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the gyro meat pork, or is it the chicken version?",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-bifteki",
+      "term": "Bifteki",
+      "native": "μπιφτέκι",
+      "romanizations": [
+        "biftekia"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled ground beef or pork patty seasoned with onion and oregano, often stuffed with feta.",
+      "long": "A thick burger-like patty of ground beef or a beef-pork blend mixed with grated onion, garlic, and oregano, grilled and frequently split and filled with a slab of melting feta. Served with fries or rice. From real Bethesda menus (The Big Greek Cafe, \"Big Greek Bifteki Pita\").",
+      "components": [
+        "gr-feta"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Pork-beef blends are also common."
+        },
+        {
+          "tag": "pork",
+          "specific": "ground pork, in blended versions",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "feta stuffing, when present",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "grated onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "pita, if served as a sandwich",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-feta",
+      "term": "Feta",
+      "native": "φέτα",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Brined sheep or sheep-goat milk cheese, tangy and crumbly. In salads, pies, and as a standalone side.",
+      "long": "Cheese made from sheep's milk or a sheep-goat blend, cured in brine, giving it a sharp tang and a crumbly-but-creamy texture. The default cheese across the cuisine — in the horiatiki salad, baked into spanakopita, stuffed into bifteki, or served in a block with olive oil and oregano. Dairy, and often noticeably salty.",
+      "components": [
+        "gr-spanakopita"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "sheep or sheep-goat milk cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "brined and cured cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-horiatiki",
+      "term": "Horiatiki",
+      "native": "χωριάτικη",
+      "romanizations": [
+        "horiatiki salad",
+        "Greek village salad"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "The \"village salad\" — raw tomato, cucumber, onion, and green pepper under a slab of feta. No lettuce.",
+      "long": "Chunked raw tomato, cucumber, green bell pepper, and red onion, tossed with olives and olive oil and topped with a full unbroken slab of feta rather than crumbles. Traditionally contains no lettuce at all, unlike the Americanized \"Greek salad.\" Entirely raw apart from the feta and olives.",
+      "components": [
+        "gr-feta"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato, cucumber, green pepper, red onion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The whole salad is raw vegetables."
+        },
+        {
+          "tag": "dairy",
+          "specific": "feta",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw red onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-saganaki",
+      "term": "Saganaki",
+      "native": "σαγανάκι",
+      "romanizations": [
+        "flaming cheese"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A slab of firm cheese seared or fried until the outside crisps, sometimes flambéed tableside.",
+      "long": "Named for the small two-handled pan it's cooked in. A block of firm cheese — kefalotyri or kasseri — is dusted in flour and pan-seared until the surface browns, then often finished with a splash of brandy set alight at the table (\"Opa!\") and a squeeze of lemon to douse it. All dairy, all cooked.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "kefalotyri or kasseri cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "brandy, when flambéed",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Ignited and largely burned off."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-loukoumades",
+      "term": "Loukoumades",
+      "native": "λουκουμάδες",
+      "romanizations": [
+        "lukumades",
+        "Greek donuts"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Small yeasted dough balls, deep fried and drenched in honey syrup, often with cinnamon and walnut.",
+      "long": "Bite-sized fritters of yeasted batter, fried until golden and hollow inside, then soaked in honey syrup and dusted with cinnamon. Walnut pieces and sesame are a common finishing topping, though plain versions exist. Wheat throughout.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat batter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "chopped walnut topping",
+          "certainty": "usually",
+          "prominence": "garnish",
+          "note": "On top of the syrup; visible and largely avoidable."
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame topping, in some versions",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-rizogalo",
+      "term": "Rizogalo",
+      "native": "ρυζόγαλο",
+      "romanizations": [
+        "rizógalo",
+        "Greek rice pudding"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Creamy rice pudding scented with cinnamon and lemon zest. Nut-free.",
+      "long": "Rice slow-cooked in milk and sugar until thick and creamy, sometimes thickened further with a little cornstarch or egg, finished with a dusting of ground cinnamon and often a touch of lemon zest. Served cold or warm. Reliably nut-free. From real Bethesda menus (The Big Greek Cafe).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "big-greek-cafe"
+      ]
+    },
+    {
+      "id": "gr-ouzo",
+      "term": "Ouzo",
+      "native": "ούζο",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Anise-flavored Greek spirit, drunk over ice and turning cloudy white like arak.",
+      "long": "A grape-pomace spirit redistilled with anise and other botanicals, similar in effect to Lebanese arak or Turkish rakı: clear in the bottle, milky white once poured over ice or cut with water. Traditionally sipped alongside mezedes.",
+      "components": [
+        "le-arak"
+      ],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "anise-flavored grape spirit",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-taramasalata",
+      "term": "Taramasalata",
+      "native": "ταραμοσαλάτα",
+      "romanizations": [
+        "tarama"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pale pink whipped dip of cured fish roe, bread or potato, oil, and lemon.",
+      "long": "Cured carp or cod roe (*tarama*) blended with soaked white bread or boiled potato, a large amount of oil, and lemon juice into a pale, fluffy, tangy spread. The fish roe is cured, not raw in the sushi sense, but it is the dominant ingredient and should be flagged for anyone avoiding fish.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "cured carp or cod roe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured rather than cooked, but not raw fish flesh."
+        },
+        {
+          "tag": "gluten",
+          "specific": "soaked bread, in the bread-based version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Potato-based versions are gluten-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-keftedes",
+      "term": "Keftedes",
+      "native": "κεφτέδες",
+      "romanizations": [
+        "keftedakia"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried meatballs of ground beef or pork, bound with bread and mint, served as a mezze.",
+      "long": "Ground beef or pork mixed with soaked bread, grated onion, mint, and oregano, formed into small balls or ovals and fried until crisp outside and juicy within. A standard mezze plate, usually served with lemon wedges rather than a sauce.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef, sometimes with pork",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "soaked bread binder",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "grated onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-fasolada",
+      "term": "Fasolada",
+      "native": "φασολάδα",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick white bean soup with tomato, carrot, and celery — often called Greece's national dish.",
+      "long": "White beans simmered until soft with tomato, carrot, celery, onion, and olive oil into a hearty, rustic soup. Vegan by default, and one of the most reliably nut-free, allergen-simple dishes on a Greek menu.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-gigantes",
+      "term": "Gigantes Plaki",
+      "native": "γίγαντες πλακί",
+      "romanizations": [
+        "gigantes"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Giant lima beans baked slowly in tomato sauce with herbs. Vegan, nut-free.",
+      "long": "Large lima or butter beans baked low and slow in a tomato, onion, and garlic sauce with dill and parsley until the beans turn creamy and the sauce concentrates. Served warm or at room temperature as a mezze or side.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-kolokithokeftedes",
+      "term": "Kolokithokeftedes",
+      "native": "κολοκυθοκεφτέδες",
+      "romanizations": [
+        "zucchini fritters"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried zucchini fritters bound with feta, egg, and herbs.",
+      "long": "Grated zucchini salted to remove excess water, then mixed with feta, egg, dill, mint, and a little flour, and pan-fried into small patties. Vegetarian; egg and dairy are both structural.",
+      "components": [
+        "gr-feta"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "feta cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg binder",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-briam",
+      "term": "Briam",
+      "native": "μπριάμ",
+      "romanizations": [
+        "briami"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sliced zucchini, potato, and eggplant roasted together in olive oil and tomato. The Greek ratatouille.",
+      "long": "Layers of sliced zucchini, potato, eggplant, and bell pepper roasted slowly in a generous amount of olive oil with tomato and garlic until soft and slightly caramelized. Vegan and nut-free.",
+      "components": [
+        "fr-ratatouille"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-horta",
+      "term": "Horta",
+      "native": "χόρτα",
+      "romanizations": [
+        "vlita"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Boiled wild or leafy greens (dandelion, amaranth, or chicory), dressed simply with olive oil and lemon.",
+      "long": "Bitter wild greens or amaranth boiled until tender, drained, and dressed at the table with olive oil and lemon juice. Fully cooked, vegan, and one of the simplest, most reliably safe sides on a Greek menu.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-kalamari",
+      "term": "Kalamari",
+      "native": "καλαμάρι",
+      "romanizations": [
+        "calamari"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Squid rings battered and deep fried, served with lemon.",
+      "long": "Squid cut into rings, dredged in flour or a light batter, and deep fried until crisp, served with lemon wedges and sometimes a garlic-yogurt dip. Fully cooked, but shellfish and wheat are both structural.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "squid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge or batter",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-htapodi",
+      "term": "Htapodi",
+      "native": "χταπόδι",
+      "romanizations": [
+        "htapodi sxaras",
+        "grilled octopus"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole octopus, tenderized then char-grilled, dressed with olive oil, vinegar, and oregano.",
+      "long": "Octopus boiled or slow-braised until tender, then finished on a hot grill until the tentacle tips crisp, and dressed simply with olive oil, red wine vinegar, and oregano. Fully cooked, nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "octopus",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-psari-plaki",
+      "term": "Psari Plaki",
+      "native": "ψάρι πλακί",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole fish baked slowly with tomato, onion, and potato until it falls off the bone.",
+      "long": "A whole white fish baked low and slow in a bed of tomato, onion, garlic, and potato until very tender. Fully cooked, mild, and nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "whole white fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-kleftiko",
+      "term": "Kleftiko",
+      "native": "κλέφτικο",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Lamb slow-baked for hours, traditionally sealed in parchment, until it falls off the bone.",
+      "long": "Bone-in lamb shoulder marinated in garlic, lemon, and oregano, wrapped tightly in parchment or foil with potato, and baked for hours until the meat falls apart. Named for Greek klephts (bandits) who supposedly cooked meat this way to hide the smoke. Fully cooked, nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "bone-in lamb shoulder",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-youvetsi",
+      "term": "Youvetsi",
+      "native": "γιουβέτσι",
+      "romanizations": [
+        "giouvetsi"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Orzo baked with braised lamb or beef in tomato sauce, finished with cheese.",
+      "long": "Braised lamb or beef simmered in a cinnamon-spiced tomato sauce, combined with orzo pasta and baked until the pasta absorbs the sauce, topped with grated kefalotyri or myzithra cheese. Wheat, dairy, and meat are all structural.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "braised lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef is an equally standard alternative."
+        },
+        {
+          "tag": "beef",
+          "specific": "braised beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "orzo pasta",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "grated hard cheese topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-galaktoboureko",
+      "term": "Galaktoboureko",
+      "native": "γαλακτομπούρεκο",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Semolina custard baked between filo layers, soaked in syrup. Nut-free, egg- and dairy-heavy.",
+      "long": "A thick semolina-and-milk custard poured between sheets of buttered filo, baked until the top crisps, then drenched in citrus syrup while still hot. Egg and dairy are both structural to the custard; unlike baklava, it is reliably nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk custard, butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the custard",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "filo pastry, semolina",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-kataifi",
+      "term": "Kataifi",
+      "native": "κανταΐφι",
+      "romanizations": [
+        "kadaifi"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert",
+        "ingredient"
+      ],
+      "short": "Shredded filo dough, like fine vermicelli, wrapped around **walnuts** and baked in syrup.",
+      "long": "Wheat dough stretched into fine, hair-like strands, which can be used as a crispy shell (as in the Levantine knafeh) or, in its classic Greek dessert form, wrapped around a chopped walnut-cinnamon filling, baked until golden, and soaked in syrup. The nuts are the filling, not a garnish, in the dessert preparation.",
+      "components": [
+        "pa-knafeh"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "chopped walnuts",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "The filling in the classic dessert roll; savory/cheese uses of kataifi shreds have none."
+        },
+        {
+          "tag": "gluten",
+          "specific": "shredded wheat dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-bougatsa",
+      "term": "Bougatsa",
+      "native": "μπουγάτσα",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert",
+        "dish"
+      ],
+      "short": "Filo pastry filled with sweet semolina custard or savory cheese, dusted with powdered sugar or cinnamon.",
+      "long": "Thin filo sheets wrapped around a filling — most often a sweet semolina custard, though a savory version with soft white cheese is equally traditional — baked or fried until crisp, then dusted with sugar and cinnamon (sweet) or served plain (savory). Egg and dairy vary by which version is ordered.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "custard milk or cheese filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the sweet custard version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "The savory cheese version typically has none."
+        },
+        {
+          "tag": "gluten",
+          "specific": "filo pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this the sweet custard version or the savory cheese one?"
+    },
+    {
+      "id": "gr-loukaniko",
+      "term": "Loukaniko",
+      "native": "λουκάνικο",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Coarse Greek pork sausage seasoned with orange zest, fennel, and leek, grilled or pan-fried.",
+      "long": "A rustic pork sausage flavored distinctively with orange zest and fennel seed, sometimes leek, grilled or pan-seared and sliced. Served as a mezze or main. Pork is the standard base.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "coarse pork sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "orange zest",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-kourabiedes",
+      "term": "Kourabiedes",
+      "native": "κουραμπιέδες",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Buttery shortbread cookies made with ground **almonds**, buried in powdered sugar.",
+      "long": "A rich, crumbly shortbread of butter, flour, and ground almonds, shaped into crescents or balls, baked pale, and rolled in a thick coat of powdered sugar while still warm. A Christmas and celebration staple; the almonds are baked into the dough itself, not a garnish.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "ground almonds",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Mixed into the dough — not visible from the finished, sugar-dusted cookie."
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-melomakarona",
+      "term": "Melomakarona",
+      "native": "μελομακάρονα",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Spiced olive oil cookies soaked in honey syrup and topped with chopped **walnuts**.",
+      "long": "Egg-free, dairy-free cookies made with olive oil, orange juice, and warm spices (cinnamon, clove), baked until firm, then dunked in a honey-orange syrup and finished with a scatter of chopped walnuts. The classic Christmas counterpart to kourabiedes.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "chopped walnut topping",
+          "certainty": "always",
+          "prominence": "garnish",
+          "note": "On top rather than baked in — visible and removable, unlike kourabiedes' hidden almonds."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "orange juice and zest",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-skordalia",
+      "term": "Skordalia",
+      "native": "σκορδαλιά",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Ferociously pungent raw-garlic dip whipped with potato or bread and olive oil.",
+      "long": "Boiled potato or soaked bread pounded with a large quantity of raw garlic and olive oil into a thick, sharp dip, traditionally served alongside fried salt cod. One of the most raw-garlic-forward dishes in the cuisine.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "raw garlic, in large quantity",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The dish is built around raw garlic intensity."
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread, in the bread-based version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Potato-based versions are gluten-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Pungent from raw garlic, not chili."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-retsina",
+      "term": "Retsina",
+      "native": "ρετσίνα",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "White or rosé wine infused with pine resin during fermentation — a distinctly piney, dry taste.",
+      "long": "A style unique to Greece: pine resin is added during fermentation, a practice dating to when resin sealed amphorae, giving the finished wine a sharp, turpentine-like pine aroma that people either love or find off-putting. Dry and best served very cold.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "resinated wine",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-metaxa",
+      "term": "Metaxa",
+      "native": "μεταξά",
+      "romanizations": [],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Greek brandy blended with aged wine and a proprietary botanical infusion — sweeter than cognac.",
+      "long": "A spirit distilled from sun-dried Muscat grapes, aged in oak, and blended with aged Muscat wine and a secret botanical/rose infusion, giving it a sweeter, more aromatic profile than a straight brandy. Sipped neat or over ice as a digestif.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "brandy-wine blend",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "gr-frappe",
+      "term": "Frappé",
+      "native": "φραπές",
+      "romanizations": [
+        "frappe"
+      ],
+      "language": "Greek",
+      "cuisines": [
+        "greek"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Cold, foamy instant-coffee drink, shaken or blended with ice — a Greek café staple.",
+      "long": "Instant coffee, sugar, and a splash of water shaken vigorously (traditionally in a cocktail shaker) until deeply foamy, then poured over ice and topped up with water or milk. Milk is optional and usually asked about at order time.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk, if requested",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Ordered separately as \"me gala\" (with milk) or \"sketo\"/\"metrio\" (without)."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

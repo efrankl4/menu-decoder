@@ -1,0 +1,2156 @@
+{
+  "cuisine": "japanese",
+  "terms": [
+    {
+      "id": "jp-nigiri",
+      "term": "Nigiri",
+      "native": "握り",
+      "romanizations": [
+        "nigirizushi"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "A hand-pressed oval of vinegared rice topped with a single slice of fish or seafood, often raw.",
+      "long": "Rice seasoned with vinegar, salt, and sugar, pressed into a small oblong by hand, and topped with one piece of fish, shellfish, or occasionally cooked egg or vegetable. Whether any given piece is raw depends entirely on the topping — salmon, tuna, and yellowtail are raw; eel, egg, and shrimp are typically cooked. From real Bethesda menus (Takumi, offering nigiri across salmon, tuna, yellowtail, mackerel, snapper, uni, and more).",
+      "components": [
+        "jp-sashimi"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw fish topping, for most standard cuts",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Cooked exceptions: unagi (eel), tamago (egg), and often ebi (shrimp) are served cooked."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, scallop, uni, or other shellfish toppings",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Which of these pieces are cooked rather than raw?",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-sashimi",
+      "term": "Sashimi",
+      "native": "刺身",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sliced raw fish or seafood served alone, with no rice.",
+      "long": "Thin, precise slices of raw fish or shellfish plated with no rice, usually with shredded daikon, shiso, and wasabi. The most unambiguous raw-fish item on a Japanese menu — unlike nigiri or rolls, there is no cooked-topping version to watch for.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw fish or shellfish, sliced",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Definitionally raw."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "when the cut is scallop, uni, or similar",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-toro",
+      "term": "Toro",
+      "native": "トロ",
+      "romanizations": [
+        "o-toro",
+        "chu-toro"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "The fatty belly cut of tuna, always served raw. O-toro is the fattiest, most prized grade.",
+      "long": "Cut from the tuna's belly, marbled with fat like a well-aged steak, softer and richer than lean *akami* tuna. Graded by fat content: *chu-toro* (medium fatty) and *o-toro* (very fatty, most expensive). Always served raw, whether as nigiri or sashimi. From real Bethesda menus (Takumi).",
+      "components": [
+        "jp-sashimi"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw fatty tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-uni",
+      "term": "Uni",
+      "native": "雲丹",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Sea urchin roe — bright orange-yellow, custardy, briny. Always raw.",
+      "long": "The gonads of the sea urchin, harvested in delicate lobes, sweet and oceanic with a soft, almost custard texture. Served raw as nigiri, in sashimi form, or spooned over rice. Shellfish-adjacent (echinoderm) rather than a fish, but conventionally grouped with shellfish for allergy purposes. From real Bethesda menus (Takumi, including a Hokkaido Uni Nigiri).",
+      "components": [
+        "jp-nigiri"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "sea urchin roe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "An echinoderm, not technically a crustacean or mollusk, but conventionally flagged with shellfish."
+        },
+        {
+          "tag": "raw_fish",
+          "specific": "always served raw",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Grouped with raw-fish preparations even though it isn't fish."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-ikura",
+      "term": "Ikura",
+      "native": "いくら",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Cured salmon roe — large, bright orange, bursting pearls. Raw/cured, not cooked.",
+      "long": "Salmon eggs separated, brined or marinated briefly in soy, and served as large glistening orange pearls, usually mounded on rice or nigiri. Cured rather than heat-cooked, so it is grouped with raw fish preparations. Distinct from the much smaller, crunchier *tobiko* (flying fish roe).",
+      "components": [
+        "jp-nigiri"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "cured salmon roe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured/marinated, not cooked with heat."
+        },
+        {
+          "tag": "fish",
+          "specific": "salmon roe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-unagi",
+      "term": "Unagi",
+      "native": "鰻",
+      "romanizations": [
+        "anago"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Freshwater eel, always served cooked and glazed with sweet soy — never raw.",
+      "long": "Eel is toxic raw and is always grilled or broiled and lacquered with a sweet soy-mirin glaze (*tare*) before serving, whether as nigiri, in a roll, or over rice as *unadon*. Worth knowing because it sits on a raw-leaning menu but is reliably cooked. **Anago** (saltwater conger eel) is the milder, less fatty relative, prepared the same way.",
+      "components": [
+        "jp-nigiri"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "eel",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Always cooked — not a raw-fish item despite appearing alongside sushi."
+        },
+        {
+          "tag": "soy",
+          "specific": "sweet soy glaze",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in the soy-based glaze",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-california-roll",
+      "term": "California Roll",
+      "native": "カリフォルニアロール",
+      "romanizations": [],
+      "language": "Japanese (American)",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crab (or imitation crab), avocado, and cucumber rolled inside-out with rice on the outside. Usually cooked, not raw.",
+      "long": "Invented outside Japan, this roll uses cooked crab meat or imitation crab (surimi), sliced avocado, and cucumber, rolled *ura-maki* style with the rice on the outside and often a coat of sesame or tobiko. One of the few standard rolls with no raw fish at all — a common recommendation for someone avoiding raw fish specifically. From real Bethesda menus (Takumi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "crab or imitation crab (surimi)",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked, not raw."
+        },
+        {
+          "tag": "fish",
+          "specific": "surimi base, if imitation crab",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "cucumber",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame coating, on some versions",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-spicy-tuna-roll",
+      "term": "Spicy Tuna Roll",
+      "native": "スパイシーツナロール",
+      "romanizations": [],
+      "language": "Japanese (American)",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chopped raw tuna mixed with spicy mayo, rolled with rice. Genuinely contains raw fish, despite the casual name.",
+      "long": "Minced raw tuna bound with a chili-spiked mayonnaise, rolled with rice and often crunchy tempura flake, sometimes topped with more spicy mayo and scallion. Easy to underestimate as \"just a roll\" — the tuna is raw and is the bulk of the filling. From real Bethesda menus (Takumi, listed under Spicy Crunch Makis).",
+      "components": [
+        "jp-nigiri"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "minced raw tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "mayonnaise",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 2,
+        "adjustable": false,
+        "note": "The chili-mayo blend is mixed in, not on the side."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-rainbow-roll",
+      "term": "Rainbow Roll",
+      "native": "レインボーロール",
+      "romanizations": [],
+      "language": "Japanese (American)",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A California roll draped in an assortment of different raw fish slices on top.",
+      "long": "Built on a California-roll base (crab or imitation crab, avocado, cucumber), then topped with a fan of raw fish slices — typically tuna, salmon, yellowtail, and avocado — laid over the outside of the roll. Unlike a plain California roll, this one does carry raw fish, on top rather than inside. From real Bethesda menus (Takumi).",
+      "components": [
+        "jp-california-roll"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "assorted raw fish draped on top",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The topping, not the filling — visible but not removable without redoing the dish."
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna, salmon, yellowtail",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "crab or imitation crab inside",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-philly-roll",
+      "term": "Philadelphia Roll",
+      "native": "フィラデルフィアロール",
+      "romanizations": [
+        "Philly roll"
+      ],
+      "language": "Japanese (American)",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Smoked salmon, cream cheese, and cucumber rolled together — smoked, not raw, and dairy-heavy.",
+      "long": "An American invention pairing cream cheese with smoked salmon and cucumber. The salmon is smoked/cured rather than raw sushi-grade fish, but cream cheese makes this one of the few dairy-bearing items on a sushi menu. From real Bethesda menus (Takumi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "smoked salmon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Smoked/cured, generally treated as not raw, though curing is a form of the same technique."
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "cucumber",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-miso-soup",
+      "term": "Miso Soup",
+      "native": "味噌汁",
+      "romanizations": [
+        "misoshiru"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fermented soybean paste dissolved in dashi broth with tofu and seaweed. Usually contains fish stock.",
+      "long": "Miso (fermented soybean paste) whisked into hot dashi, typically bonito-fish-based stock, with cubes of soft tofu and wakame seaweed. The soy content is obvious; the fish content is easy to miss since the dashi is a background broth rather than a visible ingredient — kombu-only (vegan) dashi exists but is not the default.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "miso paste, tofu",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "miso",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "bonito dashi stock",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "The default stock; vegan kombu-only dashi is the exception, not the norm."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the dashi made with bonito, or is this a vegetarian broth?"
+    },
+    {
+      "id": "jp-agedashi-tofu",
+      "term": "Agedashi Tofu",
+      "native": "揚げ出し豆腐",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Soft tofu dusted in starch, fried, and served in warm dashi broth with grated daikon and bonito flakes.",
+      "long": "Silken tofu cubes lightly coated in potato or corn starch, fried until the outside crisps while the inside stays custardy, then set in a pool of warm dashi and topped with grated ginger, scallion, and often shaved bonito flakes that curl in the steam. The bonito topping is a fish product on what otherwise reads as a vegetarian dish. From real Bethesda menus (Takumi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "tofu, soy-based dashi seasoning",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "bonito flakes and/or dashi",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Easy to miss — the topping and the broth are both often fish-based."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is there bonito in the broth or on top?",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-edamame",
+      "term": "Edamame",
+      "native": "枝豆",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Young soybeans boiled in the pod and salted. Vegan, nut-free, cooked.",
+      "long": "Whole soybean pods boiled or steamed, salted, and served warm — the beans are popped from the pod by hand. Reliably vegan, cooked, and one of the safest starters on a Japanese menu.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soybean",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Some kitchens offer a chili-garlic version."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-gyoza",
+      "term": "Gyoza",
+      "native": "餃子",
+      "romanizations": [
+        "gyouza"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pan-fried pork dumplings, the Japanese take on Chinese potstickers.",
+      "long": "Thin wheat wrappers folded around minced pork, cabbage, garlic, and chive, pan-fried on one side then steamed, served with a soy-vinegar dip. Vegetable versions are a standard menu alternative.",
+      "components": [
+        "cn-potstickers"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Vegetable versions are common and usually labeled."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, chive",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy dipping sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-shrimp-tempura",
+      "term": "Tempura",
+      "native": "天ぷら",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "Shrimp or vegetables in a light, airy egg-and-flour batter, deep fried. Cooked, not raw.",
+      "long": "A very light, cold batter of flour, egg, and ice water, coating shrimp or vegetables (sweet potato, green bean, shiso leaf) and flash-fried so it stays pale and crisp rather than deeply browned. Served with a soy-dashi dipping sauce (*tentsuyu*). Reliably cooked through; the concern here is wheat and egg, not rawness.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "flour batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, in the shrimp version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Vegetable tempura is a standard alternative."
+        },
+        {
+          "tag": "fish",
+          "specific": "dashi in the dipping sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-chicken-teriyaki",
+      "term": "Teriyaki",
+      "native": "照り焼き",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "Grilled or pan-seared meat or fish glazed with a sweet soy-mirin-sake sauce. Cooked, mild.",
+      "long": "A cooking method as much as a dish: chicken, beef, salmon, or tofu grilled and basted repeatedly with a reducing glaze of soy sauce, mirin, sake, and sugar until lacquered and sticky-sweet. Reliably not raw and not spicy — a dependable order across proteins. From real Bethesda menus (Takumi, Sala Thai — Thai-Japanese crossover salmon teriyaki).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy sauce base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "mirin and sake in the glaze",
+          "certainty": "always",
+          "prominence": "trace",
+          "note": "Cooked down substantially during glazing."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef, salmon, and tofu are equally standard."
+        },
+        {
+          "tag": "fish",
+          "specific": "salmon, in the salmon version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi",
+        "sala-thai"
+      ]
+    },
+    {
+      "id": "jp-katsu",
+      "term": "Katsu",
+      "native": "カツ",
+      "romanizations": [
+        "tonkatsu",
+        "chicken katsu"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Breaded, deep-fried cutlet of pork or chicken, sliced and served with a tangy fruit-vegetable sauce.",
+      "long": "A cutlet coated in panko breadcrumbs and deep-fried until deeply crisp, sliced into strips, served with shredded cabbage and a thick, dark, sweet-tangy sauce built on fruit and vegetable purée (similar to a British brown sauce). *Tonkatsu* is pork, *chicken katsu* is chicken. Also served over curry as **katsu curry**.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork cutlet (tonkatsu)",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Chicken katsu is an equally standard menu item."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken cutlet",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "panko breading",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg wash in the breading",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "shredded raw cabbage",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Served alongside."
+        },
+        {
+          "tag": "fruit",
+          "specific": "fruit purée in the tonkatsu sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Cooked into the sauce."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Katsu curry can range mild to hot depending on the curry roux used."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-udon",
+      "term": "Udon",
+      "native": "うどん",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Thick, chewy wheat noodles served in hot dashi broth or cold with dipping sauce.",
+      "long": "Thick, round wheat-flour noodles, springy and mild, served hot in a soy-dashi broth with toppings like tempura or thin beef, or cold (*zaru udon*) for dipping. Wheat and usually fish-based dashi are both standard. From real Bethesda menus (Takumi: chicken/beef/shrimp tempura udon soup).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "bonito dashi broth",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy-seasoned broth",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp tempura, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Spicy seafood udon is a common menu variant."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-ramen",
+      "term": "Ramen",
+      "native": "ラーメン",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Wheat noodles in a rich broth — tonkotsu is pork bone, miso is soy-based, and toppings often include egg and pork belly.",
+      "long": "The broth style is the key variable: **tonkotsu** is a long-simmered pork-bone broth, opaque and rich; **shoyu** is a clear soy-seasoned chicken or pork broth; **miso** ramen adds fermented soybean paste for a heartier, nuttier depth; vegan broths exist but are a specific menu callout, not the default. Standard toppings include a soft-boiled marinated egg (*ajitama*), sliced pork belly (*chashu*), and nori. From real Bethesda menus (Takumi: Tonkotsu, Golden chicken-broth, Kimchi Beef spicy miso, and a labeled Vegan ramen).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork bone broth and/or chashu pork belly",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Definitional to tonkotsu specifically; a vegan broth is the labeled exception, not assumed."
+        },
+        {
+          "tag": "egg",
+          "specific": "soft-boiled marinated egg topping",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy or miso seasoning",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Spicy miso styles run hotter; shoyu and tonkotsu are typically mild unless chili oil is added."
+      },
+      "confidence": "high",
+      "ask": "Is the broth made with pork bones, and is there a vegan option?",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-donburi",
+      "term": "Donburi",
+      "native": "丼",
+      "romanizations": [
+        "don"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A rice bowl topped with a cooked protein — oyakodon is chicken and egg, gyudon is beef.",
+      "long": "A bowl of steamed rice topped with a simmered or grilled protein and sauce. **Oyakodon** (\"parent and child\") is chicken simmered with onion in a soy-dashi sauce, bound with egg. **Gyudon** is thin-sliced beef and onion simmered in a sweet soy broth. **Tonkatsu don** tops rice with a breaded pork cutlet and egg. All are cooked through, no raw fish involved unless separately ordered as a *chirashi don*.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken, in oyakodon",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in gyudon",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork cutlet, in tonkatsu don",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg binding the sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Standard in oyakodon and tonkatsu don; gyudon sometimes adds a raw or onsen egg on top."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy-dashi braising liquid",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-chirashi",
+      "term": "Chirashi",
+      "native": "ちらし",
+      "romanizations": [
+        "chirashizushi"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A bowl of sushi rice scattered with an assortment of sliced raw fish. Unambiguously raw.",
+      "long": "Literally \"scattered sushi\" — a bowl of vinegared rice topped with a generous, varied scatter of raw fish and seafood slices, roe, and sometimes a few cooked or pickled items for contrast. No wrapping or hiding: the raw fish is the entire visible top layer.",
+      "components": [
+        "jp-sashimi"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "assorted raw fish and seafood",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "assorted fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "often includes shellfish cuts",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-mochi",
+      "term": "Mochi",
+      "native": "餅",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Pounded glutinous rice, chewy and gluten-free. As a dessert, usually wrapped around ice cream.",
+      "long": "Steamed glutinous rice pounded into a smooth, stretchy dough. Despite \"glutinous\" in the name it contains no wheat gluten. As a restaurant dessert it's most often *mochi ice cream* — a thin mochi shell wrapped around a scoop of ice cream, so dairy becomes the relevant flag rather than gluten.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "ice cream filling, in mochi ice cream",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "The mochi itself is dairy-free; the ice cream inside is the dairy source."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-taiyaki",
+      "term": "Taiyaki",
+      "native": "鯛焼き",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Fish-shaped waffle cake, traditionally filled with sweet red bean paste.",
+      "long": "A wheat batter cooked in a fish-shaped mold until crisp outside, most traditionally filled with sweetened azuki red bean paste, though custard and chocolate fillings are common on modern menus. From real Bethesda menus (Takumi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat batter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "custard filling, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Red bean is the traditional dairy-free filling."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "takumi"
+      ]
+    },
+    {
+      "id": "jp-wasabi",
+      "term": "Wasabi",
+      "native": "山葵",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Sharp green horseradish-relative paste — a nose-hit, not a tongue-burn, and almost never true wasabi root.",
+      "long": "Genuine wasabi is a rare, expensive rhizome; the bright green paste served at nearly all restaurants is a substitute of horseradish, mustard, and green dye. Its heat is a fast sinus jolt rather than a lingering chili burn, and it's always served on the side or dabbed under nigiri in a small controllable amount.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 2,
+        "adjustable": true,
+        "note": "A sharp, fast horseradish-style heat rather than chili heat; easy to request light or on the side."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-poke",
+      "term": "Poke",
+      "native": "",
+      "romanizations": [
+        "poké"
+      ],
+      "language": "Hawaiian (on Japanese-American sushi-bar menus)",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A bowl of cubed raw fish (usually tuna or salmon) marinated in soy and sesame oil, over rice with toppings.",
+      "long": "Hawaiian in origin, not Japanese, but now a near-fixture on sushi-bar menus alongside nigiri and rolls: raw fish cubed and lightly marinated in soy sauce, sesame oil, and scallion, served over rice or greens with toppings like avocado, edamame, seaweed salad, and crunchy toppings. Unambiguously raw fish, sesame, and soy all at once. From real Rockville menus (Kabuto, \"Hawaiian Poke Salad\").",
+      "components": [
+        "jp-sashimi"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "cubed raw tuna or salmon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna or salmon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce marinade",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil, sesame seed garnish",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "A \"spicy\" version with chili mayo is usually a separate menu line."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "kabuto"
+      ]
+    },
+    {
+      "id": "jp-tataki",
+      "term": "Tataki",
+      "native": "叩き",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "Fish or beef seared very briefly on the outside, left raw/rare in the center, sliced thin, dressed with ponzu.",
+      "long": "A technique rather than one dish: the surface of a tuna or beef block is seared hard and fast — often literally with a torch — leaving a thin cooked rind around a fully raw or rare center, then sliced thin and dressed with ponzu (citrus soy sauce) and scallion. The center is functionally raw even though the outside has color, which is an easy detail to miss compared to a fully raw sashimi cut. From real Rockville menus (Kabuto, Tuna Tataki).",
+      "components": [
+        "jp-sashimi"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "tuna, seared only on the surface",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "The interior is raw despite the seared exterior."
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Beef tataki is also common and carries no fish at all."
+        },
+        {
+          "tag": "soy",
+          "specific": "ponzu (citrus soy sauce)",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "kabuto"
+      ]
+    },
+    {
+      "id": "jp-takoyaki",
+      "term": "Takoyaki",
+      "native": "たこ焼き",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Ball-shaped fried batter with a piece of octopus inside, brushed with sweet sauce, mayo, and bonito flakes.",
+      "long": "A wheat-and-egg batter poured into a special molded pan with a chunk of octopus, scallion, and pickled ginger in each cavity, rotated as it cooks into a crisp-outside, molten-inside ball. Finished with a sweet Worcestershire-style sauce, Japanese mayo, and shaved bonito flakes that curl in the residual heat. From real Rockville menus (Kabuto).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "octopus",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter, and Japanese mayo topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "bonito flake topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "kabuto"
+      ]
+    },
+    {
+      "id": "jp-sukiyaki-hotpot",
+      "term": "Sukiyaki",
+      "native": "すき焼き",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin-sliced beef and vegetables simmered tableside in a sweet soy broth, dipped in raw beaten egg before eating.",
+      "long": "Thinly sliced beef, tofu, mushroom, and napa cabbage simmered in a shallow pan of sweetened soy sauce and mirin at the table, then each piece is dipped in a small bowl of raw beaten egg before eating — the hot food cooks the egg only slightly on contact, so it stays mostly raw. Distinct from the unrelated Thai stir-fried noodle dish of the same name. From real Rockville menus (Kabuto, as \"Beef Sukiyaki Udon\" and standalone).",
+      "components": [
+        "th-sukiyaki"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "thin-sliced beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "raw beaten egg for dipping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Only lightly warmed by the hot food, not cooked through."
+        },
+        {
+          "tag": "soy",
+          "specific": "sweet soy broth",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce, and in the udon version",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Can the egg be left out or substituted with a cooked dipping sauce?",
+      "restaurants": [
+        "kabuto"
+      ]
+    },
+    {
+      "id": "jp-masago",
+      "term": "Masago",
+      "native": "ましゃご",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Tiny, crunchy capelin roe, usually dyed orange — smaller and cheaper than tobiko, used the same way.",
+      "long": "The roe of the capelin fish, naturally pale and often dyed bright orange (sometimes green or black) to resemble the pricier tobiko (flying fish roe) it commonly substitutes for. Used as a crunchy topping on rolls like the Spider Roll or Boston Roll. Raw/cured, like other roe.",
+      "components": [
+        "jp-california-roll"
+      ],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "capelin roe",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "A garnish quantity, but raw fish roe nonetheless."
+        },
+        {
+          "tag": "fish",
+          "specific": "capelin roe",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-ponzu",
+      "term": "Ponzu",
+      "native": "ポン酢",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Citrus-spiked soy sauce — thinner, brighter, and more acidic than plain soy. The dip for tataki and carpaccio-style dishes.",
+      "long": "Soy sauce cut with rice vinegar and the juice of a Japanese citrus (yuzu, sudachi, or a substitute like lime), sometimes with a little dashi. Used as a dipping sauce for tataki, shabu-shabu, and gyoza rather than as a cooking sauce. Carries the same soy/wheat/fish-stock profile as regular soy sauce, plus citrus.",
+      "components": [
+        "jp-tataki"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy sauce base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "dashi, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-charsu-tacos",
+      "term": "Charsu Tacos",
+      "native": "",
+      "romanizations": [
+        "chashu tacos"
+      ],
+      "language": "Japanese (fusion)",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Braised pork belly (chashu) tucked into small taco-style shells with corn, onion, and avocado.",
+      "long": "Slow-braised soy-glazed pork belly (the same style used to top ramen) served in mini crisp taco shells with corn, onion, and avocado — a Japanese-Mexican fusion small plate common on modern izakaya-style menus. Fully cooked pork, wheat shell. From real Rockville menus (Kabuto).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "braised pork belly (chashu)",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "taco shell, soy glaze",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy glaze",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "kabuto"
+      ]
+    },
+    {
+      "id": "jp-natto",
+      "term": "Nattō",
+      "native": "納豆",
+      "romanizations": [
+        "natto"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Fermented whole soybeans, famously sticky and pungent, eaten over rice.",
+      "long": "Soybeans fermented with Bacillus subtilis until they develop a strong ammonia-like aroma and a distinctive sticky, stringy texture when stirred. Traditionally eaten over hot rice with a little soy sauce and mustard. A polarizing but common breakfast item.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "fermented whole soybeans",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "soybean fermentation",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-okonomiyaki",
+      "term": "Okonomiyaki",
+      "native": "お好み焼き",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Savory griddle pancake of shredded cabbage and batter, topped with pork, sweet sauce, mayo, and bonito flakes.",
+      "long": "A thick batter of flour, egg, and grated yamaimo (mountain yam) mixed with shredded cabbage and often thin pork belly slices, cooked on a griddle into a substantial pancake, then finished with a Worcestershire-style okonomiyaki sauce, Japanese mayo, aonori seaweed, and shaved bonito flakes that curl in the heat. Literally \"grilled as you like it\" — toppings vary widely.",
+      "components": [
+        "jp-takoyaki"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour batter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter, and in the mayo topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "thin pork belly slices",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Seafood and vegetable versions are common labeled alternatives."
+        },
+        {
+          "tag": "fish",
+          "specific": "bonito flake topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-yakitori",
+      "term": "Yakitori",
+      "native": "焼き鳥",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Skewered, charcoal-grilled chicken pieces, glazed in sweet soy tare or simply salted.",
+      "long": "Bite-sized chicken — thigh, skin, cartilage, liver, or other cuts depending on the skewer — grilled over charcoal, either brushed repeatedly with a sweet reducing soy glaze (*tare*) or simply salted (*shio*). Organ-meat skewers are a standard part of the menu, not a rarity, so it's worth checking what a given skewer actually is.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "various chicken cuts, sometimes including liver or other offal",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "tare glaze, on that style",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Shio (salt) style has none."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in the soy-based tare",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "What cut is this skewer — is it an organ meat?"
+    },
+    {
+      "id": "jp-shabu-shabu",
+      "term": "Shabu-Shabu",
+      "native": "しゃぶしゃぶ",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Paper-thin beef or pork swished briefly in hot broth at the table, then dipped in ponzu or sesame sauce.",
+      "long": "Very thinly sliced beef or pork, along with vegetables and tofu, cooked a few seconds at a time by swishing in a pot of simmering kombu broth at the table, then dipped in ponzu (citrus soy) or goma (sesame) sauce. Unlike sukiyaki, there's no raw-egg dip — the sauces are fully prepared and cooked.",
+      "components": [
+        "jp-sukiyaki-hotpot"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "thin-sliced beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Pork is an equally standard alternative."
+        },
+        {
+          "tag": "pork",
+          "specific": "thin-sliced pork",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "goma (sesame) dipping sauce, if chosen",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "ponzu dipping sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-donburi-katsudon",
+      "term": "Katsudon",
+      "native": "カツ丼",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Breaded fried pork cutlet simmered with egg and onion in sweet soy sauce, served over rice.",
+      "long": "A tonkatsu (breaded pork cutlet) sliced and simmered briefly in a sweet soy-dashi sauce with onion, then egg is poured over and just barely set before the whole thing slides onto a bowl of rice. Pork, egg, wheat (breading), and soy are all structural.",
+      "components": [
+        "jp-katsu",
+        "jp-donburi"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "breaded pork cutlet",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg simmered over the cutlet",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Often left just barely set, not fully hard-cooked."
+        },
+        {
+          "tag": "gluten",
+          "specific": "panko breading",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-onigiri",
+      "term": "Onigiri",
+      "native": "おにぎり",
+      "romanizations": [
+        "omusubi"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Hand-pressed rice ball, often wrapped in nori, with a filling like salted salmon, pickled plum, or tuna mayo.",
+      "long": "Seasoned or plain rice pressed into a triangle or ball by hand, usually wrapped with a strip of nori, and often hiding a filling in the center — grilled salted salmon, sour pickled plum (umeboshi), tuna with mayonnaise, or kelp. Fillings vary widely and are the entire allergen question.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "salted salmon or tuna, in those fillings",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Plum and kelp fillings are fish-free."
+        },
+        {
+          "tag": "egg",
+          "specific": "mayonnaise, in tuna mayo filling",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "What's the filling in this one?"
+    },
+    {
+      "id": "jp-inari",
+      "term": "Inari Sushi",
+      "native": "稲荷寿司",
+      "romanizations": [
+        "inarizushi"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sweet, soy-simmered fried tofu pouch stuffed with vinegared rice. No raw fish, no fish at all.",
+      "long": "A pouch of deep-fried tofu (aburaage) simmered in sweet soy and mirin until saturated and glossy, then stuffed with plain sushi rice. One of the few sushi-counter items that is reliably vegan and completely fish-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "fried tofu pouch, soy simmering liquid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in the soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-tamagoyaki",
+      "term": "Tamagoyaki",
+      "native": "卵焼き",
+      "romanizations": [
+        "dashimaki tamago"
+      ],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sweet layered rolled omelette, often with a little dashi and sugar, sliced into pieces.",
+      "long": "Beaten egg mixed with dashi (or just sugar and soy), cooked in thin layers in a rectangular pan and rolled up on itself repeatedly, producing a distinctive layered, slightly sweet omelette, sliced and served as a side, in a bento, or as the *tamago* nigiri topping.",
+      "components": [
+        "jp-nigiri"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire dish is egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "dashi stock, if used",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce seasoning",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-oden",
+      "term": "Oden",
+      "native": "おでん",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Winter hot-pot of fish cakes, daikon, egg, and konjac simmered together in a light dashi broth.",
+      "long": "A mixed pot of ingredients — various fish cakes, boiled egg, daikon radish, konjac, and sometimes beef tendon — simmered slowly in a soy-and-dashi broth until they absorb the flavor. A convenience-store and winter street-food staple.",
+      "components": [
+        "kr-eomuk"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fish cake, dashi broth",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "whole boiled egg",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy-dashi broth",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-karaage",
+      "term": "Karaage",
+      "native": "唐揚げ",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Bite-sized chicken marinated in soy and ginger, dusted in potato starch, and deep fried.",
+      "long": "Chicken thigh cut small, marinated in soy sauce, garlic, and ginger, then coated in potato or corn starch (not usually wheat flour) and deep fried until craggy and crisp. Nut-free and, unlike wheat-battered fried chicken, sometimes gluten-free depending on the starch used.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "marinated fried chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy marinade",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat, if the coating uses flour rather than pure starch",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Many recipes use potato starch only, which is gluten-free — worth asking."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, ginger",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-yuzu-kosho",
+      "term": "Yuzu Kosho",
+      "native": "柚子胡椒",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Fermented paste of yuzu citrus zest and green or red chili — sharp, fragrant, and genuinely hot.",
+      "long": "Fresh chili pounded with salt and yuzu zest and left to ferment briefly, producing a bright, citrusy, sharply hot condiment used sparingly as a garnish for grilled meat, fish, or hot pot. Small quantities pack real heat.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "salt-fermented chili and citrus",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Used in small dabs, so easy to control the dose."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "jp-matcha",
+      "term": "Matcha",
+      "native": "抹茶",
+      "romanizations": [],
+      "language": "Japanese",
+      "cuisines": [
+        "japanese"
+      ],
+      "type": [
+        "ingredient",
+        "beverage"
+      ],
+      "short": "Finely ground green tea powder, whisked into a drink or used to flavor desserts. Nut-free on its own.",
+      "long": "Shade-grown tea leaves ground into a fine powder, traditionally whisked with hot water into a frothy drink, or used to flavor ice cream, mochi, and cake. The tea itself carries no allergens; the dessert format it's mixed into (ice cream = dairy, cake = egg/gluten) determines the actual flags.",
+      "components": [
+        "jp-mochi"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

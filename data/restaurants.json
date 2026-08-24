@@ -1,0 +1,28 @@
+{
+  "restaurants": [
+    { "id": "chercher",             "name": "Chercher Ethiopian Cuisine", "city": "Bethesda, MD", "cuisines": ["ethiopian"] },
+    { "id": "pisco-y-nazca",        "name": "Pisco y Nazca",              "city": "Bethesda, MD", "cuisines": ["peruvian"] },
+    { "id": "bacchus-of-lebanon",   "name": "Bacchus of Lebanon",         "city": "Bethesda, MD", "cuisines": ["lebanese"] },
+    { "id": "sala-thai",            "name": "Sala Thai",                  "city": "Bethesda, MD", "cuisines": ["thai"] },
+    { "id": "sense-of-thai",        "name": "Sense of Thai",              "city": "Bethesda, MD", "cuisines": ["thai"] },
+    { "id": "big-greek-cafe",       "name": "The Big Greek Cafe",         "city": "Bethesda, MD", "cuisines": ["greek"] },
+    { "id": "wang-dynasty",         "name": "Wang Dynasty",               "city": "Bethesda, MD", "cuisines": ["chinese"] },
+    { "id": "city-lights-of-china", "name": "City Lights of China",       "city": "Bethesda, MD", "cuisines": ["chinese"] },
+    { "id": "q-by-peter-chang",     "name": "Q by Peter Chang",           "city": "Bethesda, MD", "cuisines": ["chinese"] },
+    { "id": "takumi",               "name": "Takumi Japanese Bistro & Bar", "city": "Bethesda, MD", "cuisines": ["japanese"] },
+    { "id": "kabuto",               "name": "Kabuto",                     "city": "Rockville, MD", "cuisines": ["japanese"] },
+    { "id": "house-of-milae",       "name": "House of Milae",             "city": "Bethesda, MD", "cuisines": ["korean"] },
+    { "id": "chadol",               "name": "Chadol Korean BBQ",          "city": "Rockville, MD", "cuisines": ["korean"] },
+    { "id": "mon-ami-gabi",         "name": "Mon Ami Gabi",               "city": "Bethesda, MD", "cuisines": ["french"] },
+    { "id": "bistro-provence",      "name": "Bistro Provence",            "city": "Bethesda, MD", "cuisines": ["french"] },
+    { "id": "ruta",                 "name": "Ruta",                       "city": "Bethesda, MD", "cuisines": ["ukrainian"] },
+    { "id": "ala",                  "name": "ala",                        "city": "Bethesda, MD", "cuisines": ["palestinian", "lebanese"] },
+    { "id": "agora-bethesda",       "name": "Agora Bethesda",             "city": "Bethesda, MD", "cuisines": ["turkish", "greek", "lebanese"] },
+    { "id": "bombay-bistro",        "name": "Bombay Bistro",              "city": "Rockville, MD", "cuisines": ["indian"] },
+    { "id": "el-golfo",             "name": "El Golfo",                   "city": "Silver Spring, MD", "cuisines": ["salvadoran"] },
+    { "id": "bistro-aracosia",      "name": "Bistro Aracosia",            "city": "Washington, DC", "cuisines": ["afghan"] },
+    { "id": "gringos-mariachis",    "name": "Gringos & Mariachis",        "city": "Bethesda, MD", "cuisines": ["mexican"] },
+    { "id": "hello-vietnam",        "name": "Hello Vietnam", "city": "Rockville, MD", "cuisines": ["vietnamese"] },
+    { "id": "alabardero",           "name": "Taberna del Alabardero",     "city": "Washington, DC", "cuisines": ["spanish"] }
+  ]
+}

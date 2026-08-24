@@ -1,0 +1,2466 @@
+{
+  "cuisine": "chinese",
+  "terms": [
+    {
+      "id": "cn-kung-pao",
+      "term": "Kung Pao",
+      "native": "宫保",
+      "romanizations": [
+        "gong bao",
+        "gongbao",
+        "kung po"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "Sichuan stir-fry of diced meat, dried chilies, and Sichuan peppercorn — and on American menus, always with **peanuts**.",
+      "long": "Diced chicken, beef, shrimp, or tofu wok-fried with dried red chilies, scallion, and often numbing Sichuan peppercorn in a savory-sweet soy-vinegar sauce. On authentic Sichuan versions the peanuts are optional; on essentially every American Chinese-restaurant menu they are standard and stated in the name. From real Bethesda menus (City Lights of China, listing Kung Pao Chicken/Beef/Shrimp/Squid/Lamb/Bean Curd all explicitly \"with peanuts\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "whole roasted peanuts",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Standard on US menus and usually stated in the dish name itself."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef, shrimp, squid, lamb, and tofu are equally standard menu variants."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp or squid",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Dried whole chilies are usually not meant to be eaten; heat is moderate on most US menus."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-general-tso",
+      "term": "General Tso's Chicken",
+      "native": "左宗棠雞",
+      "romanizations": [
+        "General Tsao's",
+        "zuo zong tang ji"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Deep-fried battered chicken chunks in a sweet, sticky, mildly spicy dark sauce. An American-Chinese invention.",
+      "long": "Chicken cut small, battered, and deep fried until crisp, then tossed in a glossy sauce of soy, sugar, vinegar, garlic, and dried chili. A Taiwanese-American dish rather than a dish from mainland Hunan despite the general's name. No nuts as standard, but the batter contains wheat and egg.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "battered fried chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat batter, soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, scallion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Sweet-forward with a background heat; many kitchens will reduce the chili."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-sesame-chicken",
+      "term": "Sesame Chicken",
+      "native": "芝麻雞",
+      "romanizations": [
+        "zhi ma ji"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Like General Tso's but sweeter and milder, finished with a heavy scatter of toasted **sesame seeds**.",
+      "long": "Battered fried chicken chunks in a sweet glaze similar to General Tso's but without the chili kick, topped generously with toasted sesame seeds. The sesame is a visible topping but a substantial one — not a token sprinkle. From real Bethesda menus (City Lights of China).",
+      "components": [
+        "cn-general-tso"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "battered fried chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "toasted sesame seeds",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "A heavy topping, definitional to the dish's name."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat batter, soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-orange-chicken",
+      "term": "Orange Chicken",
+      "native": "陳皮雞",
+      "romanizations": [
+        "chen pi ji"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Battered fried chicken in a sweet-tangy orange-zest glaze. Nut-free, mild.",
+      "long": "Similar construction to General Tso's — battered, deep-fried chicken — glazed instead with an orange-forward sweet-sour sauce using zest or dried peel. Nut-free and typically not spicy on US menus.",
+      "components": [
+        "cn-general-tso"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "battered fried chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat batter, soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "orange zest or juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Cooked into the glaze."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-cashew-chicken",
+      "term": "Chicken with Cashew Nuts",
+      "native": "腰果雞",
+      "romanizations": [
+        "yao guo ji",
+        "cashew chicken"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Stir-fried chicken with whole roasted **cashews**, bell pepper, and a light savory sauce.",
+      "long": "Diced or sliced chicken wok-fried with whole roasted cashews, onion, celery, and bell pepper in a thin garlic-soy sauce. The cashews are whole and visible, not ground in, but present in real quantity throughout the dish rather than as a garnish. The same treatment appears with beef, shrimp, and other proteins on most menus. From real Bethesda menus (City Lights of China).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "whole roasted cashews",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Whole and visible, but mixed through the dish rather than only on top."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-moo-shu",
+      "term": "Moo Shu",
+      "native": "木須",
+      "romanizations": [
+        "mu xu",
+        "moo shi",
+        "mu shu"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Shredded meat and vegetables (cabbage, egg, wood ear mushroom) stir-fried and rolled in thin wheat pancakes with hoisin.",
+      "long": "Thinly sliced pork, chicken, or beef stir-fried with scrambled egg, shredded cabbage, and wood ear mushroom, brought to the table with a stack of thin wheat pancakes and a small bowl of hoisin sauce for building your own wraps. Egg is stir-fried into the filling itself, not optional. From real Bethesda menus (City Lights of China: Moo Shi Chicken/Beef/Pork).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "scrambled egg in the filling",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked directly into the stir-fry."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Chicken and beef are equally standard menu choices."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat pancakes, hoisin sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "hoisin and soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-mapo-tofu",
+      "term": "Mapo Tofu",
+      "native": "麻婆豆腐",
+      "romanizations": [
+        "ma po tofu",
+        "ma po doufu"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Soft tofu in a fiery, numbing Sichuan sauce of chili bean paste and ground pork.",
+      "long": "Silken or soft tofu cubes simmered gently in a sauce built on doubanjiang (fermented broad bean-chili paste), ground pork, garlic, scallion, and a generous dose of Sichuan peppercorn, which produces a distinctive tingling numbness (*málà*) alongside the heat. Vegetarian versions omit the pork but keep the fermented bean paste. One of the more reliably spicy dishes on a Chinese menu.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "fermented bean paste (doubanjiang), soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "ground pork",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Vegetarian versions exist and are usually labeled."
+        },
+        {
+          "tag": "fermented",
+          "specific": "chili bean paste",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, scallion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Sichuan peppercorn adds numbing alongside the heat; some kitchens will scale both back."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-peking-duck",
+      "term": "Peking Duck",
+      "native": "北京烤鴨",
+      "romanizations": [
+        "Beijing duck",
+        "kao ya"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole roasted duck with lacquered crisp skin, carved tableside and wrapped in thin pancakes with hoisin and scallion.",
+      "long": "A whole duck air-dried, then roasted until the skin turns deep mahogany and shatteringly crisp, separating skin (and often meat) from bone at the table. Served with the same style of thin wheat pancakes as moo shu, scallion brushes, cucumber, and hoisin sauce for wrapping. From real Bethesda menus (City Lights of China).",
+      "components": [
+        "cn-moo-shu"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat pancakes, hoisin sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "hoisin sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw cucumber strips, scallion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Served alongside for wrapping."
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-hot-sour-soup",
+      "term": "Hot and Sour Soup",
+      "native": "酸辣湯",
+      "romanizations": [
+        "suan la tang"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick, peppery-tart soup with tofu, wood ear mushroom, bamboo, egg ribbons, and often pork.",
+      "long": "A cornstarch-thickened broth soured with vinegar and heated with white pepper (not chili), loaded with shredded tofu, wood ear mushroom, bamboo shoots, and often thin pork strips, finished by drizzling in beaten egg to form ribbons. Egg is stirred in at the end and is not skippable in a standard preparation.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg ribbons stirred in",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "shredded pork",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Vegetarian versions exist and are usually labeled."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce, tofu",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Heat is white pepper, not chili — sharper and more diffuse than a chili burn."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-wonton-soup",
+      "term": "Wonton Soup",
+      "native": "餛飩湯",
+      "romanizations": [
+        "huntun tang"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Clear broth with delicate pork-and-shrimp dumplings. Mild, not spicy.",
+      "long": "Thin wheat wrappers folded around a minced pork and shrimp filling, poached and served in a light, clear broth with scallion and sometimes bok choy. Both pork and shellfish are standard in the filling even on menus that don't spell it out. From real Bethesda menus (City Lights of China, Wang Dynasty).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork filling",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Standard even when not stated on the menu line."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china",
+        "wang-dynasty"
+      ]
+    },
+    {
+      "id": "cn-scallion-pancake",
+      "term": "Scallion Pancake",
+      "native": "蔥油餅",
+      "romanizations": [
+        "cong you bing"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "bread",
+        "dish"
+      ],
+      "short": "Flaky, layered pan-fried flatbread laminated with oil and scallion. Vegan, nut-free.",
+      "long": "Unleavened wheat dough rolled with oil and chopped scallion, coiled to create layers, then flattened and pan-fried until crisp outside and chewy within. Usually served plain or with a soy dipping sauce. From real Bethesda menus (City Lights of China).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-crab-rangoon",
+      "term": "Crab Rangoon",
+      "native": "",
+      "romanizations": [],
+      "language": "English (American Chinese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Deep-fried wonton stuffed with cream cheese and crab or imitation crab. An American invention.",
+      "long": "Wonton wrappers folded around a filling of cream cheese, scallion, and crab meat or crab-flavored surimi, sealed and deep fried until crisp. Not found in China — invented for American Polynesian- and Chinese-restaurant menus. \"Crab\" on the label sometimes means genuine crab and sometimes imitation crab made from white fish (surimi); either way it is a shellfish-adjacent or seafood item, and the cream cheese makes it one of the few dairy-heavy items on a Chinese-restaurant menu. From real Bethesda menus (City Lights of China, Wang Dynasty).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "crab meat or crab-flavored surimi",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Real crab or imitation crab (itself made from white fish) — either way, shellfish-adjacent."
+        },
+        {
+          "tag": "fish",
+          "specific": "surimi base, if imitation crab is used",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wonton wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china",
+        "wang-dynasty"
+      ]
+    },
+    {
+      "id": "cn-potstickers",
+      "term": "Potstickers",
+      "native": "鍋貼",
+      "romanizations": [
+        "guo tie",
+        "jiaozi"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pork-and-vegetable dumplings, pan-fried on one side then steamed. Steamed and boiled versions also standard.",
+      "long": "Wheat dumpling wrappers folded around minced pork, cabbage, and scallion, cooked so the bottom crisps in oil while the top steams. The same dumpling steamed instead is *jiaozi*; boiled is often called a \"dumpling\" plainly. Vegetable-only fillings are a common menu alternative. From real Bethesda menus (City Lights of China, Wang Dynasty, Takumi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Vegetable versions are a standard labeled alternative."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion, chives",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy dipping sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Chili oil is sometimes offered as a dip on the side."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china",
+        "wang-dynasty",
+        "takumi"
+      ]
+    },
+    {
+      "id": "cn-lo-mein",
+      "term": "Lo Mein",
+      "native": "撈麵",
+      "romanizations": [
+        "lao mian"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Soft wheat egg noodles tossed (not stir-fried hard) with soy sauce, vegetables, and a protein.",
+      "long": "Boiled fresh wheat noodles tossed through a light soy-based sauce with cabbage, carrot, and a choice of protein, cooked gentler than a hard stir-fry so the noodles stay soft rather than charred. Contains wheat and usually egg, since the noodles themselves are typically egg noodles. From real Bethesda menus (City Lights of China, Wang Dynasty).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat egg noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg noodles",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "roast pork, a common default protein",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Chicken, beef, shrimp, and vegetable are equally standard menu choices."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china",
+        "wang-dynasty"
+      ]
+    },
+    {
+      "id": "cn-chow-fun",
+      "term": "Chow Fun",
+      "native": "河粉",
+      "romanizations": [
+        "chow foon",
+        "hor fun",
+        "he fen"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Wide flat rice noodles stir-fried hot with bean sprouts and soy — gluten-free noodle, but check the sauce.",
+      "long": "Broad, silky rice noodles seared in a very hot wok with bean sprouts, scallion, and a protein, often in a soy-and-black-bean sauce. The noodle itself is rice, not wheat, but the soy sauce it's cooked in is usually wheat-brewed, so it isn't automatically gluten-free in practice. From real Bethesda menus (City Lights of China).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in the soy sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "The noodle is rice-based, but the sauce is typically not gluten-free."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "bean sprouts",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Usually cooked briefly, but can retain some crunch."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, a common default protein",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-egg-foo-young",
+      "term": "Egg Foo Young",
+      "native": "芙蓉蛋",
+      "romanizations": [
+        "fu yung",
+        "egg foo yung"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A thick omelette patty with bean sprouts and a protein, pan-fried and topped with brown gravy.",
+      "long": "Beaten egg mixed with bean sprouts, onion, and a protein (shrimp, chicken, roast pork), formed into patties and pan-fried until set, then blanketed in a savory brown gravy. Egg is the entire structure of the dish. From real Bethesda menus (City Lights of China).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire patty is egg-based",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, a common default filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce in the gravy",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat-thickened gravy, soy sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-twice-cooked-pork",
+      "term": "Twice Cooked Pork",
+      "native": "回鍋肉",
+      "romanizations": [
+        "hui guo rou"
+      ],
+      "language": "Chinese (Sichuan)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pork belly boiled then stir-fried with cabbage, leek, and fermented bean paste. Genuinely spicy in its authentic form.",
+      "long": "Pork belly simmered whole until tender, sliced thin, then stir-fried hard with cabbage, leek, and a bean-and-chili paste until the edges char slightly. A Sichuan classic; US versions are often milder than the source dish. Nut-free.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "fermented bean paste",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "chili bean paste",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "leek",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Often toned down on US menus relative to the Sichuan original."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-sweet-sour-pork",
+      "term": "Sweet and Sour Pork",
+      "native": "咕嚕肉",
+      "romanizations": [
+        "gu lao rou"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Battered, deep-fried pork chunks in a bright orange-red tangy-sweet sauce with pineapple and bell pepper.",
+      "long": "Pork cut into chunks, battered, and deep-fried, then tossed with pineapple, bell pepper, and onion in a ketchup-and-vinegar-based sauce. Chicken and shrimp versions are equally common. Nut-free and not spicy.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "battered fried pork",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Chicken and shrimp are common menu alternatives."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the batter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "pineapple, cooked into the sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-black-bean-sauce",
+      "term": "Black Bean Sauce",
+      "native": "豆豉醬",
+      "romanizations": [
+        "dou chi jiang"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Salty, pungent sauce of fermented, salted black soybeans, garlic, and often ginger.",
+      "long": "Whole or mashed fermented black soybeans cooked with garlic and sometimes ginger into a dark, intensely savory sauce, used across chicken, beef, pork, and seafood stir-fries. Soy-based and fermented; not spicy on its own, though it is sometimes paired with chili.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "fermented black soybeans",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "salted, fermented soybeans",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-basil-hot-pepper",
+      "term": "Basil & Hot Pepper",
+      "native": "九層塔",
+      "romanizations": [
+        "jiu ceng ta",
+        "Thai basil stir-fry style"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "technique",
+        "dish"
+      ],
+      "short": "Wok-fried meat or tofu with fresh basil and sliced chili — one of the reliably spicy preparations on the menu.",
+      "long": "A stir-fry style (rather than one fixed dish) pairing a protein with fresh Asian basil, sliced fresh chili, garlic, and a soy-based sauce, closely related to Thai pad kaprao. Appears across chicken, beef, pork, and tofu on many Chinese-American menus. Genuinely spicy and one of the few chili-forward listings on an otherwise mild menu. From real Bethesda menus (City Lights of China).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Fresh sliced chili, so kitchens can usually adjust the quantity."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-hunan-style",
+      "term": "Hunan Style",
+      "native": "湖南",
+      "romanizations": [
+        "Hunan"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "technique"
+      ],
+      "short": "Menu label meaning stir-fried in a hot, thin chili sauce — spicier and less sweet than Szechuan-labeled dishes on most US menus.",
+      "long": "On US Chinese-restaurant menus, \"Hunan style\" typically signals a thinner, vinegar-and-chili sauce without the numbing Sichuan peppercorn, generally spicier and less sweet than the same protein listed \"Szechuan style.\" Not a fixed dish — appears attached to chicken, beef, shrimp, and vegetable listings alike.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-szechuan-style",
+      "term": "Szechuan Style",
+      "native": "四川",
+      "romanizations": [
+        "Sichuan style"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "technique"
+      ],
+      "short": "Menu label meaning a thicker, sweeter chili sauce — and, done authentically, includes numbing Sichuan peppercorn.",
+      "long": "On most US Chinese-restaurant menus, \"Szechuan style\" indicates a thicker, glossier, somewhat sweeter chili sauce than \"Hunan style,\" though both vary a great deal by kitchen. A more authentic Sichuan preparation would include *huajiao* (Sichuan peppercorn), which produces a tingling numbness alongside the heat — most Americanized versions omit it.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-spring-roll",
+      "term": "Spring Roll",
+      "native": "春捲",
+      "romanizations": [
+        "chun juan"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin wheat wrapper rolled around shrimp, pork, and cabbage, deep fried. Distinct from the thicker egg roll.",
+      "long": "A thinner, crisper wrapper than an egg roll, rolled tightly around shredded cabbage, carrot, and usually a little minced pork and shrimp, then deep fried. Some vegetarian versions use only cabbage and glass noodle. From real Bethesda menus (City Lights of China, listed as shrimp & pork with vegetable).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Vegetarian versions are a standard labeled alternative."
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-egg-roll",
+      "term": "Egg Roll",
+      "native": "蛋捲",
+      "romanizations": [
+        "dan juan"
+      ],
+      "language": "Chinese (American)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thicker, bubbly-skinned wheat-and-egg wrapper around cabbage and often pork, deep fried. An American-Chinese staple.",
+      "long": "A thicker, coarser wrapper than a spring roll, made with egg in the dough, wrapped around a cabbage filling that usually includes minced pork, deep fried until blistered and crunchy. From real Bethesda menus (City Lights of China: Beef Egg Roll).",
+      "components": [
+        "cn-spring-roll"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg in the wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork filling",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Beef and vegetable versions are also standard."
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef, in beef egg rolls",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-dried-fish-peanuts",
+      "term": "Dried Baby Fish with Peanuts",
+      "native": "花生小魚乾",
+      "romanizations": [
+        "hua sheng xiao yu gan"
+      ],
+      "language": "Chinese (Taiwanese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crunchy fried dried anchovies tossed with whole **peanuts**, garlic, and chili — a Taiwanese bar-snack appetizer.",
+      "long": "Tiny dried anchovies deep-fried until crisp, then tossed with fried peanuts, slivered garlic, and dried chili in a sweet-savory glaze. A distinctly Taiwanese item on a menu otherwise leaning Cantonese-American — both fish and peanut are structural, not optional. From real Bethesda menus (Wang Dynasty).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "dried anchovies",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "fried whole peanuts",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Mixed through the dish in real quantity."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "wang-dynasty"
+      ]
+    },
+    {
+      "id": "cn-lettuce-wraps",
+      "term": "Chicken Lettuce Wraps",
+      "native": "生菜包雞",
+      "romanizations": [
+        "sang choy bao"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Minced chicken, mushroom, and water chestnut stir-fried and spooned into raw lettuce cups.",
+      "long": "Finely diced chicken stir-fried with mushroom, water chestnut, and scallion in a savory soy sauce, served hot alongside whole raw iceberg or butter lettuce leaves for wrapping at the table. The filling is cooked; the lettuce cups themselves are raw. From real Bethesda menus (Wang Dynasty).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "minced chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw lettuce cups",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The wrapper itself is raw, though the filling is cooked."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "wang-dynasty"
+      ]
+    },
+    {
+      "id": "cn-yangzhou-fried-rice",
+      "term": "Yangzhou Fried Rice",
+      "native": "揚州炒飯",
+      "romanizations": [
+        "yang chow fried rice"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Classic fried rice with roast pork, shrimp, egg, peas, and carrot — the benchmark combination fried rice.",
+      "long": "Day-old rice wok-fried with diced char siu roast pork, shrimp, scrambled egg, peas, and carrot, seasoned lightly rather than doused in dark soy so the grains stay separate and pale. Considered the standard against which other fried rice is judged. Contains both pork and shellfish as core, non-optional ingredients. From real Bethesda menus (City Lights of China).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "char siu roast pork",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "scrambled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "light soy seasoning",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-salt-pepper-shrimp",
+      "term": "Salt and Pepper Shrimp",
+      "native": "椒鹽蝦",
+      "romanizations": [
+        "jiao yan xia"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Shell-on shrimp deep fried with sliced jalapeño, garlic, and a dry salt-pepper dredge. Shell often meant to be eaten.",
+      "long": "Shrimp, often left in the shell for extra crunch, tossed in a light cornstarch dredge and flash-fried, then wok-tossed with fried garlic, scallion, and sliced fresh chili and a five-spice salt mix. Frequently paired on menus with scallops and squid as a mixed \"salt and pepper\" seafood plate. From real Bethesda menus (City Lights of China: Crispy Salt & Pepper Shrimp, Scallops & Squid).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, scallop, or squid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "light cornstarch/flour dredge",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Cornstarch-only versions are gluten-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Sliced fresh chili throughout."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "city-lights-of-china"
+      ]
+    },
+    {
+      "id": "cn-dim-sum",
+      "term": "Dim Sum",
+      "native": "點心",
+      "romanizations": [
+        "yum cha"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "Small steamed or fried plates served from carts, traditionally at weekend brunch. Shellfish, pork, and wheat are all common.",
+      "long": "A whole meal style rather than one dish: an array of small plates — steamed shrimp dumplings (*har gow*), pork siu mai, char siu bao, rice noodle rolls (*cheung fun*), chicken feet, turnip cake — ordered a few at a time, traditionally from carts wheeled table to table. Shrimp and pork recur across a large share of the classic items, and wheat, rice flour, and tapioca starch wrappers are all in play depending on the dish. Offered weekends at some Bethesda-area restaurants (Wang Dynasty).",
+      "components": [
+        "cn-potstickers"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, in har gow and many other items",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Recurs across a large share of the classic dim sum repertoire."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork, in siu mai, char siu bao, and more",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat, in many but not all wrappers",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Rice- and tapioca-starch wrappers (har gow) are gluten-free; bao and noodle items are usually wheat."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Chili oil is usually a table condiment rather than cooked in."
+      },
+      "confidence": "medium",
+      "ask": "Which of these have shrimp, and which wrappers are wheat versus rice flour?"
+    },
+    {
+      "id": "cn-dan-dan-noodles",
+      "term": "Dan Dan Noodles",
+      "native": "擔擔麵",
+      "romanizations": [
+        "dandan mian"
+      ],
+      "language": "Chinese (Sichuan)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sichuan street noodles in a spicy sauce built on chili oil, Sichuan peppercorn, and often **sesame or peanut** paste.",
+      "long": "Thin wheat noodles tossed with a sauce of chili oil, soy, black vinegar, and numbing Sichuan peppercorn, topped with preserved mustard stem (ya cai) and often minced pork. Many versions — including most restaurant renditions outside Sichuan — thicken or round out the sauce with sesame paste, and some add ground peanuts as a topping; a small minority of traditional versions use neither. Genuinely spicy and numbing rather than just hot. From real Bethesda menus (Q by Peter Chang).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "sesame paste in the sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Common in most restaurant versions, though not universal to the traditional dish."
+        },
+        {
+          "tag": "peanut",
+          "specific": "ground peanut topping",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Present on some but not all restaurant versions — worth asking."
+        },
+        {
+          "tag": "pork",
+          "specific": "minced pork",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat noodles, soy sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "preserved mustard stem (ya cai)",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Both chili heat and Sichuan-peppercorn numbness; some kitchens will scale back on request."
+      },
+      "confidence": "high",
+      "ask": "Is there sesame paste or peanut in the sauce?",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-bubble-scallion-pancake",
+      "term": "Bubble Scallion Pancake",
+      "native": "泡泡蔥油餅",
+      "romanizations": [],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "bread",
+        "dish"
+      ],
+      "short": "A puffier, more blistered take on the classic scallion pancake — fried until it balloons with air pockets.",
+      "long": "The same laminated wheat-and-scallion dough as a standard scallion pancake, but fried in more oil at a higher heat so the layers separate dramatically and puff into large air bubbles, giving a lighter, crispier structure. Vegan, nut-free. From real Bethesda menus (Q by Peter Chang).",
+      "components": [
+        "cn-scallion-pancake"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-xiao-long-bao",
+      "term": "Soup Dumplings",
+      "native": "小籠包",
+      "romanizations": [
+        "xiao long bao",
+        "XLB"
+      ],
+      "language": "Chinese (Shanghainese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Delicate steamed dumplings that release a mouthful of hot pork broth when bitten — the broth is set inside as gelatin before steaming.",
+      "long": "A thin wheat wrapper is folded around minced pork and a cube of jellied pork-and-often-crab stock; steaming melts the jelly back into liquid broth, so the finished dumpling is a self-contained soup. Traditionally eaten by biting a small hole first to sip the broth before finishing the dumpling — worth knowing the technique before ordering, since biting straight in leads to a spray of hot liquid. Crab roe is a common addition. From real Bethesda menus (Q by Peter Chang).",
+      "components": [
+        "cn-potstickers"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "minced pork and pork aspic broth",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "crab or crab roe, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A common premium variant; menus usually specify."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Usually served with a black vinegar-chili dip on the side."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-dongpo-pork-belly",
+      "term": "Dong Po Braised Pork Belly",
+      "native": "東坡肉",
+      "romanizations": [
+        "dongpo rou"
+      ],
+      "language": "Chinese (Hangzhou)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A thick square of pork belly braised for hours in soy, wine, and rock sugar until meltingly tender, served in a steamed bun.",
+      "long": "A whole square of pork belly, skin-on, browned then braised low and slow in a mix of soy sauce, Shaoxing wine, rock sugar, and ginger until the fat turns almost custard-soft. Named for the Song-dynasty poet Su Dongpo. Usually served perched inside a small steamed wheat bun (similar to a bao), sometimes with a mustard green side. From real Bethesda menus (Q by Peter Chang).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork belly, mostly fat",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "Shaoxing wine",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Cooked for hours, but present as a base ingredient."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce braise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "steamed bun, wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-lions-head",
+      "term": "Lion's Head Meatball",
+      "native": "獅子頭",
+      "romanizations": [
+        "shizi tou"
+      ],
+      "language": "Chinese (Huaiyang)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "An oversized, very loosely packed meatball (traditionally pork, sometimes a vegetable version) braised or steamed with napa cabbage.",
+      "long": "A large, tennis-ball-sized meatball made from coarsely chopped fatty pork mixed with water chestnut and just enough starch to barely hold together, giving it an unusually soft, almost custardy interior, braised gently in broth with napa cabbage leaves fanned around it like a mane (hence \"lion's head\"). A vegetable-only version replacing the pork with mushroom and tofu is a standard menu alternative rather than a substitution — worth checking which is being ordered. From real Bethesda menus (Q by Peter Chang, listing a \"Vegetable Lion Head\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "coarsely chopped fatty pork",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "The traditional version; a vegetable/mushroom version is a standard separate menu item, not necessarily a modification of the same dish."
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce broth",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "starch binder is usually cornstarch, but soy sauce carries wheat",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-tofu-skin",
+      "term": "Tofu Skin",
+      "native": "腐皮",
+      "romanizations": [
+        "fu pi",
+        "yuba"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "The thin film that forms on top of simmering soy milk, lifted off, dried or fresh, and served cold-dressed or stir-fried.",
+      "long": "As soy milk is gently heated, a protein-lipid skin forms on the surface; lifted off and either used fresh (soft, custardy) or dried into brittle sheets (rehydrated before cooking). Served cold in a tangy dressed salad, or stir-fried with vegetables. Purely soy-based — no wheat despite the \"skin\" resembling a wrapper. From real Bethesda menus (Q by Peter Chang).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "soy milk skin",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The entire ingredient is soy."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Cold tofu-skin salads are often dressed with a little chili oil."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-youpo-noodles",
+      "term": "Youpo Noodles",
+      "native": "油潑麵",
+      "romanizations": [
+        "you po mian",
+        "biang biang noodles"
+      ],
+      "language": "Chinese (Shaanxi)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick, wide, hand-pulled wheat noodles doused with sizzling hot oil poured over raw garlic and chili flake at the table.",
+      "long": "Hand-pulled or hand-torn wide wheat noodles ('biang biang' style) boiled and topped with raw minced garlic, scallion, and dried chili flakes, over which hot oil is poured tableside — the sizzle blooms the raw garlic and chili into an aromatic dressing. A lamb version (as \"Xi'an Style Youpo Lamb Noodles\") adds cumin-spiced lamb. From real Bethesda menus (Q by Peter Chang).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "hand-pulled wheat noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic, scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The garlic is only briefly bloomed by hot oil, not fully cooked through."
+        },
+        {
+          "tag": "lamb",
+          "specific": "cumin-spiced lamb, in the Xi'an-style version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-scallion-juice-fish",
+      "term": "Scallion Juice Branzino",
+      "native": "蔥油魚",
+      "romanizations": [
+        "cong you yu"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A whole fish fillet steamed and bathed in hot scallion-infused oil, served sizzling in a metal bowl.",
+      "long": "A branzino or similar white fish fillet steamed until just cooked, laid over shredded scallion, then finished tableside with a ladle of very hot oil poured directly over the fish and scallion, which sizzles audibly and blooms the aromatics. Fully cooked, nut-free, and one of the milder dishes on a Sichuan-leaning menu. From real Bethesda menus (Q by Peter Chang).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "branzino or similar white fish",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Steamed through, not raw."
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "light soy sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-egg-yolk-bun",
+      "term": "Creamy Egg Yolk Bun",
+      "native": "流沙包",
+      "romanizations": [
+        "liu sha bao",
+        "salted egg custard bun"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Steamed sweet bun filled with a molten, custardy salted-egg-yolk cream that oozes out when torn open.",
+      "long": "A soft steamed wheat bun filled with a custard made from salted duck egg yolk, butter, milk powder, and sugar, engineered to stay liquid ('liu sha,' flowing sand) at serving temperature so it pours out golden when the bun is torn open. Egg and dairy are both structural to the filling. From real Bethesda menus (Q by Peter Chang).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "salted egg yolk custard filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The entire filling is egg-yolk-based."
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, milk powder",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "steamed wheat bun",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "q-by-peter-chang"
+      ]
+    },
+    {
+      "id": "cn-hot-pot",
+      "term": "Hot Pot",
+      "native": "火鍋",
+      "romanizations": [
+        "huo guo"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish",
+        "course"
+      ],
+      "short": "Simmering communal pot of broth at the table, where raw meat, seafood, and vegetables are cooked to order.",
+      "long": "A pot of simmering broth — ranging from plain bone broth to a fiery mala (numbing-spicy) Sichuan style, often split into two halves — kept boiling at the table while diners cook thin-sliced raw meat, seafood, tofu, and vegetables in it themselves, then dip the cooked pieces in a sauce (often sesame-paste-based). Because ingredients are ordered à la carte and shared, cross-contact between shellfish and other proteins in the same pot is a real consideration.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "sesame",
+          "specific": "sesame paste dipping sauce, commonly offered",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, fish balls with shellfish content, or other seafood, if ordered into the shared pot",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Even if you don't order it yourself, others' shellfish cooks in the same shared broth."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Mala Sichuan broth is genuinely hot and numbing; a plain or bone-broth side is usually available in a split pot."
+      },
+      "confidence": "high",
+      "ask": "Can we get a split pot so the spicy broth doesn't touch the mild side?"
+    },
+    {
+      "id": "cn-mala-xiang-guo",
+      "term": "Málà Xiāng Guō",
+      "native": "麻辣香锅",
+      "romanizations": [
+        "mala xiangguo"
+      ],
+      "language": "Chinese (Sichuan)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Build-your-own stir-fry of chosen meats and vegetables, wok-tossed in a numbing, fiery dry chili sauce.",
+      "long": "Diners select raw ingredients — meats, tofu, mushroom, vegetables — from a self-serve counter, which the kitchen then stir-fries together in a dry (not brothy) sauce heavy with dried chili and Sichuan peppercorn. Genuinely spicy and numbing, and the specific allergen profile depends entirely on what's selected.",
+      "components": [
+        "cn-mapo-tofu"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Heat level is often chosen at order time (mild/medium/spicy)."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-zhajiang-mian",
+      "term": "Zhajiangmian",
+      "native": "炸醬麵",
+      "romanizations": [
+        "jajangmyeon (Korean-Chinese cousin)"
+      ],
+      "language": "Chinese (Beijing)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Wheat noodles topped with a fried, salty fermented soybean-and-pork sauce, mixed tableside.",
+      "long": "Ground pork stir-fried with fermented yellow or sweet bean sauce until thick and glossy, ladled over hand-pulled or machine-cut wheat noodles with shredded cucumber, and mixed together by the diner just before eating. The dish this session's Korean *jjajangmyeon* descends from — noticeably less sweet and less dark than its Korean cousin.",
+      "components": [
+        "kr-jjajangmyeon"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "ground pork",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "fermented bean sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat noodles, bean sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "shredded raw cucumber garnish",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-baozi",
+      "term": "Baozi",
+      "native": "包子",
+      "romanizations": [
+        "bao"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fluffy steamed bun filled with pork, vegetables, or red bean paste.",
+      "long": "Leavened wheat dough wrapped around a filling and steamed until pillowy soft. Savory versions most commonly hold seasoned ground pork (*char siu bao* uses barbecued pork specifically); sweet versions use red bean or custard. The filling determines the allergen profile entirely.",
+      "components": [
+        "cn-xiao-long-bao"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "steamed wheat bun",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork filling, in the most common savory version",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Vegetable and sweet red-bean versions are standard labeled alternatives."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "What's the filling in this bao?"
+    },
+    {
+      "id": "cn-congee",
+      "term": "Congee",
+      "native": "粥",
+      "romanizations": [
+        "zhou",
+        "jook"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Rice slow-simmered into a thick, savory porridge, topped variously with century egg, pork, or fish.",
+      "long": "Rice cooked for a long time in a large volume of water or stock until it breaks down into a smooth, thick porridge, then topped to order — century egg and shredded pork (*pei dan shou rou zhou*) is a classic combination, as is sliced fish or plain with fried dough stick (*youtiao*) on the side. Plain congee itself is simple and allergen-light; the topping is the variable.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "century egg, in that topping combination",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "shredded pork topping",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "sliced fish topping",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "What toppings come with this congee?"
+    },
+    {
+      "id": "cn-cha-siu",
+      "term": "Char Siu",
+      "native": "叉燒",
+      "romanizations": [
+        "cha siu"
+      ],
+      "language": "Chinese (Cantonese)",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Sweet, red-glazed roast pork, hung and roasted, sliced and used across noodles, buns, and rice plates.",
+      "long": "Pork shoulder marinated in a sweet, fermented-bean-and-honey glaze (the source of its signature red color), roasted hanging in an oven until caramelized at the edges. Appears constantly across the cuisine — in wonton noodle soup, baozi, fried rice, and simply sliced over rice.",
+      "components": [
+        "cn-baozi"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "roasted pork shoulder",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "fermented bean paste in the marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "soy sauce, hoisin in the glaze",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-mooncake",
+      "term": "Mooncake",
+      "native": "月餅",
+      "romanizations": [
+        "yuebing"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Dense, sweet pastry disc filled with lotus seed paste or **mixed nuts**, often around a salted egg yolk.",
+      "long": "A thick, dense pastry, traditionally stamped with a decorative pattern, filled with sweetened lotus seed or red bean paste and often a whole salted duck egg yolk in the center to represent the moon. A common variant, *wubao* (\"five kernel\"), is filled with a mix of chopped nuts and seeds instead of paste — the nut content varies dramatically by which filling is chosen, so it's worth checking the specific type.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "mixed nuts, in \"five kernel\" (wubao) style mooncakes",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in nut-filling varieties; lotus seed and red bean fillings are typically nut-free."
+        },
+        {
+          "tag": "egg",
+          "specific": "salted duck egg yolk center",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A common but optional addition, usually labeled (e.g. \"single yolk\")."
+        },
+        {
+          "tag": "gluten",
+          "specific": "pastry shell",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this a nut-filled (wubao) mooncake or a lotus seed/red bean one?"
+    },
+    {
+      "id": "cn-baijiu",
+      "term": "Baijiu",
+      "native": "白酒",
+      "romanizations": [],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Very strong clear grain spirit, typically 40–60% ABV, sipped for toasts.",
+      "long": "Distilled from sorghum or other grains and fermented with a solid-state starter culture, baijiu is intensely strong and pungent, traditionally drunk in small cups for ceremonial toasts rather than sipped slowly.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "distilled grain spirit",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Very high ABV, typically 40-60%."
+        },
+        {
+          "tag": "fermented",
+          "specific": "grain fermentation base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "cn-century-egg",
+      "term": "Century Egg",
+      "native": "皮蛋",
+      "romanizations": [
+        "pidan"
+      ],
+      "language": "Chinese",
+      "cuisines": [
+        "chinese"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Duck egg preserved in an alkaline clay-and-ash mixture for weeks, turning the white dark and translucent.",
+      "long": "A raw duck egg cured for weeks to months in a paste of clay, ash, salt, and quicklime, which chemically transforms the white into a dark, gelatinous, translucent jelly and the yolk into a soft, greenish-grey cream. Served sliced as a cold appetizer with pickled ginger, or as a congee topping. Not raw in the fresh sense, but not heat-cooked either — a distinct preservation category.",
+      "components": [
+        "cn-congee"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "alkaline-cured duck egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Chemically cured rather than heat-cooked or fresh-raw — a distinct category worth asking about if egg preparation matters."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

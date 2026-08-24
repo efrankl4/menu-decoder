@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menu Decoder</title>
+<meta name="theme-color" content="#1b1a17">
+<link rel="manifest" href="app/manifest.webmanifest">
+<!-- iOS ignores the manifest's icons for Add to Home Screen and looks for this instead;
+     without it the home-screen icon is a blurry screenshot of the page. -->
+<link rel="apple-touch-icon" href="app/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Decoder">
+<link rel="stylesheet" href="app/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-row">
+    <button class="icon-btn" id="btn-profiles" aria-label="Diners">👥</button>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search any menu word…" autocomplete="off"
+             autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Search">
+      <button class="clear-btn" id="btn-clear" aria-label="Clear search" hidden>✕</button>
+    </div>
+    <button class="icon-btn" id="btn-filters" aria-label="Filters">⚙︎</button>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab is-active" data-view="table" role="tab">Table</button>
+    <button class="tab" data-view="glossary" role="tab">Glossary</button>
+  </nav>
+  <div id="active-filters" class="active-filters" hidden></div>
+</header>
+
+<main>
+  <div id="view-table" class="view">
+    <div class="table-scroll">
+      <table id="terms-table">
+        <thead><tr id="thead-row"></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <p class="empty" id="table-empty" hidden>Nothing matches. Try a shorter search — spellings vary a lot.</p>
+  </div>
+
+  <div id="view-glossary" class="view" hidden>
+    <div id="glossary-list"></div>
+    <p class="empty" id="glossary-empty" hidden>Nothing matches. Try a shorter search — spellings vary a lot.</p>
+  </div>
+</main>
+
+<div class="legend" id="legend">
+  <span><b>!</b> always</span><span><b>?</b> sometimes — ask</span><span><b>·</b> rarely</span>
+  <span class="legend-sep"></span>
+  <span class="chip chip-primary demo">■</span> big part
+  <span class="chip chip-garnish demo">□</span> garnish
+  <button class="link-btn" id="btn-labels">labels on</button>
+</div>
+
+<!-- Detail sheet -->
+<div class="sheet-scrim" id="scrim" hidden></div>
+<section class="sheet" id="sheet" hidden aria-modal="true" role="dialog">
+  <button class="sheet-close" id="sheet-close" aria-label="Close">✕</button>
+  <div id="sheet-body"></div>
+</section>
+
+<!-- Filters panel -->
+<section class="panel" id="panel-filters" hidden>
+  <div class="panel-head"><h2>Filters</h2><button class="icon-btn" data-close-panel>✕</button></div>
+  <div class="panel-body" id="filters-body"></div>
+</section>
+
+<!-- Profiles panel -->
+<section class="panel" id="panel-profiles" hidden>
+  <div class="panel-head"><h2>Diners</h2><button class="icon-btn" data-close-panel>✕</button></div>
+  <div class="panel-body" id="profiles-body"></div>
+</section>
+
+<script src="app/app.js"></script>
+</body>
+</html>

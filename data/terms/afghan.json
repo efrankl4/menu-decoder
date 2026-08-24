@@ -1,0 +1,522 @@
+{
+  "cuisine": "afghan",
+  "terms": [
+    {
+      "id": "af-mantu",
+      "term": "Mantu",
+      "native": "منتو",
+      "romanizations": [
+        "mantoo"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Steamed dumplings filled with spiced minced beef, topped with garlic yogurt and a carrot-pea qorma.",
+      "long": "Wheat dumplings steamed and stuffed with spiced minced beef and onion, served topped with a garlic-yogurt sauce, a tomato-based carrot-and-pea qorma, and a dusting of dried mint and cayenne. Both dairy and meat toppings are always present, not optional. From real DC-area menus (Bistro Aracosia).",
+      "components": [
+        "cn-potstickers"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "spiced minced beef filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat dumpling wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "garlic yogurt topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "A dusting of cayenne on top; usually mild unless requested hotter."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-aushak",
+      "term": "Aushak",
+      "native": "آشک",
+      "romanizations": [
+        "ashak"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Steamed dumplings filled with leek and scallion, topped with garlic yogurt and a minced-beef-lentil qorma.",
+      "long": "The vegetarian-filled cousin of mantu: wheat dumplings stuffed with leek and scallion rather than meat, but still topped with garlic yogurt and — in the traditional presentation — a minced beef and lentil qorma sauce, so the dish as typically served is not vegetarian overall despite the filling being vegetable. From real DC-area menus (Bistro Aracosia).",
+      "components": [
+        "af-mantu"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "leek, scallion filling; garlic in the yogurt",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "garlic yogurt topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef in the qorma topping",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "A vegetarian version without the meat topping may be available on request — worth asking."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat dumpling wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ],
+      "ask": "Can the aushak come without the meat qorma topping, if I want it vegetarian?"
+    },
+    {
+      "id": "af-qorma",
+      "term": "Qorma",
+      "native": "قورمه",
+      "romanizations": [
+        "korma (Afghan)"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish",
+        "sauce"
+      ],
+      "short": "The general Afghan word for a braised stew — herb-and-yogurt or tomato-based, distinct from Indian korma's nut-cream base.",
+      "long": "A broad category of slow-braised stews in Afghan cooking, built variously on fresh herbs (sabzi), split peas (nakhoud), or tomato, usually finished with a little yogurt. Despite the name overlap, Afghan qorma is not the same dish as Indian korma — it is not typically thickened with nut paste, and the flavor profile is herbier and less sweet. From real DC-area menus (Bistro Aracosia, offering many qorma varieties by protein and style).",
+      "components": [
+        "in-korma"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "yogurt, in most styles",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-qabuli-palau",
+      "term": "Qabuli Palau",
+      "native": "قابلی پلو",
+      "romanizations": [
+        "kabuli pulao"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Afghanistan's national dish — basmati rice baked with lamb, topped with caramelized carrot and raisin, sometimes almond.",
+      "long": "Basmati rice cooked in lamb broth and baked, topped with a sweet-savory garnish of julienned carrot slow-cooked with sugar until caramelized, and raisins, occasionally with slivered almond scattered on top as well. The carrot-raisin topping is standard; almonds are a common but not universal addition. From real DC-area menus (Bistro Aracosia).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb, cooked into the rice and broth",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "raisins, and caramelized carrot",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Dried, not raw."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "slivered almonds, on some versions",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "A common but not universal topping — visible and removable when present."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ],
+      "ask": "Does this qabuli have almonds on top?"
+    },
+    {
+      "id": "af-kabob",
+      "term": "Kabob (Afghan)",
+      "native": "کباب",
+      "romanizations": [
+        "kebab"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Skewered, char-grilled meat — lamb, beef, or chicken, marinated simply and grilled plain, not sauced.",
+      "long": "Cubed or ground meat threaded on skewers and grilled over charcoal, seasoned simply with salt, pepper, and sometimes yogurt or ground coriander in the marinade — much less spiced than Indian or Levantine kebabs. Usually served over rice or bread with grilled tomato. Nut-free and mild. From real DC-area menus (Bistro Aracosia, offering lamb tenderloin, chops, beef tenderloin, and ground beef/chicken kabobs).",
+      "components": [
+        "tr-adana-kebab"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb tenderloin or chops",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef and chicken are equally standard skewer choices."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef tenderloin or ground beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken breast or thigh",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-baadenjaan",
+      "term": "Baadenjaan",
+      "native": "بادنجان",
+      "romanizations": [
+        "banjan",
+        "borani banjan"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried eggplant slices in tomato sauce, topped with garlic yogurt and dried mint.",
+      "long": "Eggplant sliced and fried until soft, layered with a tomato-garlic sauce, and finished with a cool garlic yogurt drizzle and dried mint. A standard vegetarian side or appetizer. Dairy is a defining topping, not optional.",
+      "components": [
+        "af-aushak"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "garlic yogurt topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-kadoo",
+      "term": "Kadoo",
+      "native": "کدو",
+      "romanizations": [
+        "kadu bouranee"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sweet-savory braised pumpkin, finished with garlic yogurt and a meat or split-pea sauce.",
+      "long": "Pumpkin or butternut squash braised until soft with a little sugar, giving a sweet-savory profile, topped with garlic yogurt and often a meat sauce (qorma) similar to how mantu and aushak are finished. Vegetarian versions swap in split peas for the meat topping.",
+      "components": [
+        "af-baadenjaan"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "garlic yogurt",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "meat qorma topping, in the non-vegetarian version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A split-pea (nakhoud) vegetarian version is standard."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-bolani",
+      "term": "Bolani",
+      "native": "بولانی",
+      "romanizations": [],
+      "language": "Dari / Pashto",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish",
+        "bread"
+      ],
+      "short": "Unleavened flatbread stuffed with mashed potato, leek, or pumpkin, pan-fried until crisp.",
+      "long": "A thin wheat dough folded flat around a filling — potato and scallion, leek, or pumpkin are the standard choices — and pan-fried or griddled until the outside crisps, served with yogurt and sometimes a cilantro-chili sauce. Vegan by default (no meat, no dairy in the bread or filling), though the yogurt dip served alongside adds dairy.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "unleavened wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "yogurt dipping sauce, served alongside",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "The bread itself is dairy-free; the standard accompaniment is not."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "af-ashak-note-daal",
+      "term": "Daal (Afghan)",
+      "native": "دال",
+      "romanizations": [
+        "dal"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Split lentils or peas simmered simply with turmeric and cumin — a plain, mild side.",
+      "long": "Yellow split peas or lentils simmered until soft with turmeric, cumin, and a little tomato, milder and less spiced than most Indian dal preparations. Vegan and nut-free as a rule.",
+      "components": [
+        "in-dal-makhani"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-afghania-dhood-palou",
+      "term": "Afghania Dhood Palou",
+      "native": "",
+      "romanizations": [],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Rice cooked in a milk-based broth, giving a pale, creamy-tasting pilaf despite containing no cream.",
+      "long": "A specialty rice preparation cooked in milk rather than water or stock, giving the grains a pale color and a subtly creamy flavor without added cream or butter beyond the milk itself. From real DC-area menus (Bistro Aracosia, listed among the chef's specials).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk cooking liquid",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Not obvious from the name — the rice itself is cooked in milk."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    },
+    {
+      "id": "af-shorwa",
+      "term": "Shorwa",
+      "native": "شوربا",
+      "romanizations": [
+        "shorba"
+      ],
+      "language": "Dari",
+      "cuisines": [
+        "afghan"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Clear, simple meat and vegetable broth soup — chicken, veal, or lamb shank.",
+      "long": "A plain, home-style clear broth soup with chunks of meat (chicken, veal, or lamb shank) and root vegetables, lightly seasoned. One of the mildest, simplest items on an Afghan menu, and a vegetarian version is standard too. From real DC-area menus (Bistro Aracosia).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken, in that version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Veal, lamb shank, and vegetarian versions are equally standard."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb shank, in that version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "restaurants": [
+        "bistro-aracosia"
+      ]
+    }
+  ]
+}

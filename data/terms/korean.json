@@ -1,0 +1,2068 @@
+{
+  "cuisine": "korean",
+  "terms": [
+    {
+      "id": "kr-kimchi",
+      "term": "Kimchi",
+      "native": "김치",
+      "romanizations": [
+        "gimchi"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Fermented, chili-rubbed napa cabbage. The default banchan, present at nearly every meal.",
+      "long": "Napa cabbage salted, then rubbed with a paste of Korean chili flake (gochugaru), garlic, ginger, scallion, and fish sauce or salted shrimp, then left to ferment for days to weeks. Sour, funky, and reliably spicy, though the fish/shrimp base means it is not strictly vegan even when it looks like a vegetable dish. Served as a free side with virtually every meal and used as an ingredient in fried rice, stew, and pancakes.",
+      "components": [
+        "kr-kimchi-jjigae"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "fish sauce, in most traditional recipes",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Vegan kimchi exists but is the exception, not the default."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "salted shrimp (saeujeot), in many recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "lacto-fermented cabbage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": "Chili is worked into the paste during fermentation — not adjustable per order."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-bulgogi",
+      "term": "Bulgogi",
+      "native": "불고기",
+      "romanizations": [
+        "pulgogi"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin-sliced beef marinated sweet and savory in soy, pear, garlic, and sesame, then grilled.",
+      "long": "Beef sliced very thin, marinated in soy sauce, grated Asian pear or apple, garlic, sugar, and sesame oil, then grilled or pan-seared quickly. Sweet-savory rather than spicy — one of the reliably mild items on a Korean menu. From real Bethesda menus (House of Milae).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "thin-sliced beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce marinade",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil and seeds",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "grated pear or apple in the marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Cooked into the marinade, not raw on the plate."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, scallion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat in soy sauce",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-galbi",
+      "term": "Galbi",
+      "native": "갈비",
+      "romanizations": [
+        "kalbi"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Beef short ribs, butterflied thin and marinated sweet-savory like bulgogi, then grilled.",
+      "long": "Short ribs cut across the bone into thin, wide strips (or flanken-style) and marinated in a soy-garlic-pear mixture similar to bulgogi's, then grilled over charcoal or a tabletop grill. Mild and sweet, not spicy. From real Bethesda menus (House of Milae, \"MILAE Short Rib\").",
+      "components": [
+        "kr-bulgogi"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "short rib",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce marinade",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "grated pear in the marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-jeyuk",
+      "term": "Spicy Pork (Jeyuk Bokkeum)",
+      "native": "제육볶음",
+      "romanizations": [
+        "jeyuk bokkeum",
+        "dwaeji bulgogi"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin-sliced pork stir-fried in a fiery gochujang-based marinade with onion and scallion.",
+      "long": "Pork shoulder sliced thin and marinated in gochujang (fermented chili paste), garlic, ginger, and sugar, then stir-fried hot with onion until caramelized at the edges. Genuinely spicy, unlike the sweet, mild bulgogi and galbi. From real Bethesda menus (House of Milae, \"Spicy Pork\").",
+      "components": [
+        "kr-gochujang"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork shoulder",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "gochujang (contains fermented soybean)",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "gochujang",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic, scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Built into the marinade, but some kitchens will reduce the gochujang on request."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-gochujang",
+      "term": "Gochujang",
+      "native": "고추장",
+      "romanizations": [
+        "kochujang"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "ingredient",
+        "sauce"
+      ],
+      "short": "Thick, sweet-spicy fermented red chili paste — the backbone of most spicy Korean dishes.",
+      "long": "Korean red chili powder fermented with glutinous rice, fermented soybean powder (meju), and salt for months to years, producing a deep, sweet, funky heat unlike fresh-chili sauces. Used as a marinade base, mixed into bibimbap, and thinned into dipping sauces. Contains soy and is inherently fermented.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "fermented soybean component (meju)",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "long-fermented chili-soybean paste",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "some commercial brands use wheat or barley malt",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Varies by brand; traditional versions use rice."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-bibimbap",
+      "term": "Bibimbap",
+      "native": "비빔밥",
+      "romanizations": [
+        "bibimbop"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Rice bowl topped with sautéed and raw vegetables, a protein, and a fried or raw egg, mixed with gochujang.",
+      "long": "A bowl of rice topped with an assortment of individually seasoned vegetables — some sautéed, some raw, notably fresh cucumber and often raw julienned carrot — plus a protein and a fried egg, served with gochujang to stir through at the table. **Dolsot bibimbap** arrives in a scorching stone bowl that crisps the bottom rice layer. Egg and a mix of raw and cooked vegetables are both structural. From real Bethesda menus (House of Milae).",
+      "components": [
+        "kr-gochujang"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "fried or raw egg on top",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Some versions use a raw egg yolk rather than fried."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "some toppings served raw (cucumber, carrot)",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Mixed among cooked toppings — not a separable garnish."
+        },
+        {
+          "tag": "beef",
+          "specific": "seasoned ground or sliced beef",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Chicken, pork, and tofu are common alternatives."
+        },
+        {
+          "tag": "soy",
+          "specific": "gochujang, soy seasoning",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil and seeds",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Gochujang is usually served on the side or added to taste."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-sundubu",
+      "term": "Sundubu-jjigae",
+      "native": "순두부찌개",
+      "romanizations": [
+        "soondubu",
+        "soft tofu stew"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Bubbling, fiery stew of uncurdled silken tofu, often with seafood or pork, finished with a raw egg cracked in hot.",
+      "long": "Very soft, custard-like tofu simmered in a red, gochugaru-based broth with kimchi, mushroom, and often clams, shrimp, or pork, served still boiling in a stone pot. A raw egg is typically cracked into the pot tableside, where it cooks gently in the residual heat rather than being fully cooked through. From real Bethesda menus (House of Milae: Seafood and Beef Soft Tofu Stew).",
+      "components": [
+        "kr-kimchi"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "clams or shrimp, in seafood versions",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "pork, in some versions",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in some versions",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "raw egg cracked in at the table",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Cooks only gently in the residual heat — not fully set unless stirred through and left."
+        },
+        {
+          "tag": "soy",
+          "specific": "tofu, fermented seasoning base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Some kitchens offer a mild version on request."
+      },
+      "confidence": "high",
+      "ask": "Can the egg be fully cooked in rather than left raw on top?",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-kimchi-jjigae",
+      "term": "Kimchi Jjigae",
+      "native": "김치찌개",
+      "romanizations": [
+        "kimchi stew"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Well-aged kimchi simmered into a hot, sour, spicy stew with tofu and usually pork.",
+      "long": "Older, more sour kimchi simmered down with tofu, scallion, and often pork belly or spam into a thick, deeply savory stew, sometimes finished with a little gochujang for extra heat and body. Pork is the traditional default protein even when not stated plainly. From real Bethesda menus (House of Milae).",
+      "components": [
+        "kr-kimchi"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork belly or spam",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The traditional default; tofu-only versions exist and are usually labeled."
+        },
+        {
+          "tag": "soy",
+          "specific": "tofu, fermented seasoning",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "aged kimchi",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-pajeon",
+      "term": "Pajeon",
+      "native": "파전",
+      "romanizations": [
+        "pa jun"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Savory scallion pancake, egg-battered and pan-fried. Seafood pancake adds shellfish.",
+      "long": "A thick batter of egg, flour, and water studded with whole scallions, pan-fried until crisp-edged and golden, served in wedges with a soy-vinegar dip. **Haemul pajeon** (seafood pancake) adds squid, shrimp, and mussel throughout the batter, not just as a garnish. From real Bethesda menus (House of Milae: Scallion Pancake, Seafood Pancake, Shrimp Pancake, Bulgogi Pancake, Kimchi Pancake).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "squid, shrimp, mussel, in the seafood version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Only in *haemul pajeon* / seafood or shrimp pancake."
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in the bulgogi pancake version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-mandu",
+      "term": "Mandu",
+      "native": "만두",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Korean dumplings, filled with beef, pork, or vegetables, steamed or fried.",
+      "long": "Wheat wrappers folded around a filling of ground meat (often beef and pork together), tofu, glass noodle, and cabbage, then steamed or pan-fried. Vegetable-only versions are a standard labeled alternative. From real Bethesda menus (House of Milae: Fried and Steamed Dumplings, beef & pork or vegetable).",
+      "components": [
+        "cn-potstickers"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Often combined with pork; vegetable versions are a standard alternative."
+        },
+        {
+          "tag": "pork",
+          "specific": "ground pork",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "tofu filling, soy dipping sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-japchae",
+      "term": "Japchae",
+      "native": "잡채",
+      "romanizations": [
+        "chapchae"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Stir-fried glass noodles (sweet potato starch) with vegetables and usually beef, tossed in sesame-soy.",
+      "long": "Chewy, translucent noodles made from sweet potato starch — naturally gluten-free — stir-fried with julienned carrot, spinach, mushroom, onion, and typically strips of marinated beef, finished with sesame oil. Sweet and savory, not spicy. From real Bethesda menus (House of Milae, \"Sweet Potato Noodle\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "thin-sliced beef",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Vegetable-only versions exist and are usually labeled."
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil and seeds",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-gimbap",
+      "term": "Gimbap",
+      "native": "김밥",
+      "romanizations": [
+        "kimbap"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Seasoned rice and fillings rolled in seaweed, sliced into rounds — savory, not raw fish.",
+      "long": "Sesame-oil-seasoned rice rolled in dried seaweed around a row of fillings — usually pickled radish, spinach, carrot, egg strip, and either beef bulgogi or imitation crab — sliced into bite-sized rounds. Visually similar to a sushi roll but built from fully cooked ingredients rather than raw fish. From real Bethesda menus (House of Milae, \"MILAE Kimbap\" with crab meat).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg strip",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "imitation crab",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A common filling; beef is the other standard."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in the bulgogi version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil seasoning the rice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-tteokbokki",
+      "term": "Tteokbokki",
+      "native": "떡볶이",
+      "romanizations": [
+        "dukbokki",
+        "ddukbokki"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chewy cylindrical rice cakes simmered in a sweet, fiery gochujang sauce. A street-food staple.",
+      "long": "Rice flour cakes (naturally gluten-free) simmered in a thick sauce of gochujang, gochugaru, sugar, and often fish cake and boiled egg, until glossy and clingy. Reliably one of the spicier items on a Korean menu, though built into the sauce rather than adjustable.",
+      "components": [
+        "kr-gochujang"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "Korean fish cake (eomuk), when included",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "boiled egg, when included",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "gochujang base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "gochujang",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-samgyeopsal",
+      "term": "Samgyeopsal",
+      "native": "삼겹살",
+      "romanizations": [
+        "samgyupsal"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick-cut, unmarinated pork belly, grilled tableside and wrapped in lettuce with garlic and ssamjang.",
+      "long": "Thick slices of pork belly grilled plain (no marinade) at the table, then wrapped by the diner in a lettuce or perilla leaf with raw garlic, a slice of raw chili, and a dab of ssamjang (a fermented soybean-chili dipping paste). The raw garlic and raw wrapping vegetables are part of the standard build, not optional garnish. From real Bethesda menus (House of Milae, \"Pork Belly\").",
+      "components": [
+        "kr-ssamjang"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "lettuce/perilla wrap, raw garlic, raw chili",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The standard build-your-own wrap; can decline the raw garlic if it matters."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "ssamjang dip",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "The pork itself isn't spicy; heat comes from the raw chili and ssamjang you add yourself."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-ssamjang",
+      "term": "Ssamjang",
+      "native": "쌈장",
+      "romanizations": [
+        "ssam jang"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Thick dipping paste blending fermented soybean paste (doenjang) and gochujang, for wrapping grilled meat.",
+      "long": "A mix of doenjang (fermented soybean paste) and gochujang (fermented chili paste), often with sesame oil, garlic, and scallion stirred in, served as the standard dip for Korean BBQ lettuce wraps. Both base pastes are soy-based ferments.",
+      "components": [
+        "kr-samgyeopsal",
+        "kr-gochujang"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "doenjang and gochujang, both soybean-based",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "doenjang, gochujang",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-japchae-egg-steamed",
+      "term": "Gyeran-jjim",
+      "native": "계란찜",
+      "romanizations": [
+        "gyeranjjim",
+        "Korean steamed egg"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whisked egg steamed in broth until soft and custardy, like a savory soufflé. Fully cooked.",
+      "long": "Beaten egg mixed with a little water, dashi, or anchovy stock, poured into a small pot or stone bowl, and gently steamed until it puffs into a soft, jiggly custard, finished with scallion. Fully cooked despite the airy texture. From real Bethesda menus (House of Milae, \"Korean-Style Steamed Egg\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire dish is egg-based",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "anchovy stock, in some versions",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "scallion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-galbitang",
+      "term": "Galbitang",
+      "native": "갈비탕",
+      "romanizations": [
+        "kalbitang",
+        "short rib soup"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Clear, mild short-rib broth with glass noodles and daikon — a gentle, un-spicy soup.",
+      "long": "Beef short ribs simmered for hours into a clean, pale broth with daikon radish, sweet potato glass noodles, and a little garlic, seasoned lightly. One of the mildest, least spicy items on a Korean menu. From real Bethesda menus (House of Milae, \"Beef Short Rib Soup\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "short rib and beef broth",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, scallion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-tteokguk",
+      "term": "Tteokguk",
+      "native": "떡국",
+      "romanizations": [
+        "ddukguk",
+        "rice cake soup"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Clear beef or anchovy broth with thin-sliced rice cake ovals and egg ribbons. Mild, gluten-free base.",
+      "long": "Thin ovals of rice cake simmered in a light broth (beef, anchovy, or both), garnished with strips of fried egg and seaweed, traditionally eaten on New Year's Day. Rice-based, so gluten-free apart from any soy seasoning; the broth base is usually a fish or meat stock. From real Bethesda menus (House of Milae, \"Rice Cake Soup\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg garnish strips",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "anchovy broth, in that version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef broth, in that version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "house-of-milae"
+      ]
+    },
+    {
+      "id": "kr-banchan",
+      "term": "Banchan",
+      "native": "반찬",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "The array of small free side dishes that arrive before the meal — kimchi, seasoned vegetables, and more.",
+      "long": "A set of small shared plates brought out automatically at the start of a Korean meal, refilled on request, typically including at least one kimchi, a bean sprout salad, and a few seasoned vegetable or tofu dishes. Composition varies daily by kitchen, so specific allergens aren't menu-listed — this is a category worth asking about directly rather than assuming from the main dish order.",
+      "components": [
+        "kr-kimchi"
+      ],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "kimchi and other fermented sides are typical",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil in many seasoned-vegetable banchan",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Varies dish to dish within the same spread."
+      },
+      "confidence": "medium",
+      "ask": "What's in today's banchan?"
+    },
+    {
+      "id": "kr-chadol",
+      "term": "Chadol",
+      "native": "차돌",
+      "romanizations": [
+        "chadolbaegi",
+        "chadol baegi"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Paper-thin unmarinated beef brisket, grilled tableside for seconds per side. The plainest, fastest cut on a Korean BBQ menu.",
+      "long": "Beef brisket sliced almost translucently thin and served raw and unmarinated, so it cooks in a matter of seconds directly on the tabletop grill. Usually dipped in a sesame-oil-and-salt mixture rather than a heavier sauce. Because it's unmarinated, it's one of the most allergen-transparent items on a Korean BBQ menu — what you see is what you get, no hidden marinade ingredients. From real Rockville menus (Chadol Korean BBQ, the restaurant's namesake cut).",
+      "components": [
+        "kr-samgyeopsal"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "thin-sliced brisket",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Grilled at the table; no marinade to check."
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil dipping sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Served on the side."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "A spicy-marinade version (\"Spicy Brisket\") is usually a separate menu line."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "chadol"
+      ]
+    },
+    {
+      "id": "kr-naengmyeon",
+      "term": "Naengmyeon",
+      "native": "냉면",
+      "romanizations": [
+        "neng myun",
+        "cold noodles"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chewy buckwheat noodles in icy broth (mul) or fiery gochujang sauce (bibim), topped with raw cucumber, pear, and half a boiled egg.",
+      "long": "Long, springy noodles made from buckwheat and starch, served either **mul naengmyeon** — in a tangy, icy beef or dongchimi (radish-water-kimchi) broth — or **bibim naengmyeon** — tossed in a sweet, sharp gochujang sauce with no broth. Both are topped with julienned raw Asian pear, sliced raw cucumber, and half a hard-boiled egg. A common menu-closer at Korean BBQ restaurants since the cold noodles are meant to cut the richness of grilled meat. From real Rockville menus (Chadol Korean BBQ, offering both Cold Noodles and Spicy Cold Noodles).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "half a boiled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "julienned raw Asian pear",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw cucumber",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "beef broth, in the mul (broth) version",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Only the broth version; bibim (spicy, dry) has no broth."
+        },
+        {
+          "tag": "fermented",
+          "specific": "gochujang, in the spicy version; dongchimi broth, in the plain version",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Mul (broth) naengmyeon is not spicy; bibim (dry, gochujang-tossed) naengmyeon is — the two are usually separate menu lines."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "chadol"
+      ]
+    },
+    {
+      "id": "kr-corn-cheese",
+      "term": "Corn Cheese",
+      "native": "콘치즈",
+      "romanizations": [
+        "kon chijeu"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sweet corn baked or pan-fried under a thick layer of melted mozzarella. A Korean BBQ side, not a traditional banchan.",
+      "long": "Canned or frozen sweet corn kernels mixed with mayonnaise and sugar, spread in a skillet, buried under shredded mozzarella, and cooked until the cheese fully melts and browns at the edges. A modern, very dairy-heavy side popularized alongside Korean BBQ and army-stew-style menus rather than a historic dish. From real Rockville menus (Chadol Korean BBQ).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "melted mozzarella",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "mayonnaise mixed into the corn",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "sweet corn kernels",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Corn is botanically a fruit/grain; cooked, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "chadol"
+      ]
+    },
+    {
+      "id": "kr-butter-garlic-shrimp",
+      "term": "Butter Garlic Shrimp",
+      "native": "마늘버터 통새우",
+      "romanizations": [
+        "maneul beoteo tongsaeu"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole shrimp grilled tableside in a pool of garlic butter — a Korean BBQ seafood option alongside the beef and pork.",
+      "long": "Whole shell-on shrimp cooked directly on the tabletop grill in a small foil boat of butter and minced garlic until the shell chars slightly. A dairy-and-shellfish combination that stands out on a menu otherwise centered on beef and pork. From real Rockville menus (Chadol Korean BBQ, alongside a spicy version and plain \"Butter Whole Shrimp\").",
+      "components": [
+        "kr-samgyeopsal"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "whole shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "A \"Spicy Butter Garlic Shrimp\" version is usually a separate, clearly labeled line."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "chadol"
+      ]
+    },
+    {
+      "id": "kr-ayce-format",
+      "term": "All You Can Eat Korean BBQ",
+      "native": "무한리필",
+      "romanizations": [
+        "muhan ripil"
+      ],
+      "language": "Korean (restaurant format)",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "A fixed-price course where the table orders unlimited rounds of raw meat, grilled at the table, from a set list.",
+      "long": "A common Korean BBQ restaurant format: a flat per-person price buys unlimited refills of a defined list of beef, pork, chicken, and sometimes seafood cuts, cooked by the diners themselves on a built-in tabletop grill, usually with soybean soup and rice included and banchan refilled automatically. Premium cuts (ribeye, marinated short rib) are often excluded from the base AYCE list and charged as a supplement. Because everything arrives raw for self-grilling, doneness and cross-contact between different meats and any shellfish cooked on the same grill surface are both worth being deliberate about. From real Rockville menus (Chadol Korean BBQ).",
+      "components": [
+        "kr-chadol",
+        "kr-samgyeopsal",
+        "kr-banchan"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp or squid, if included in the AYCE seafood option",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Cooked on the same shared grill surface as the meats, which matters for cross-contact even if not ordered directly."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Spicy-marinated versions of most cuts are usually offered alongside plain ones."
+      },
+      "confidence": "high",
+      "ask": "Is the seafood cooked on a separate part of the grill from the meat?",
+      "restaurants": [
+        "chadol"
+      ]
+    },
+    {
+      "id": "kr-japchae2-doenjang",
+      "term": "Doenjang-jjigae",
+      "native": "된장찌개",
+      "romanizations": [
+        "doenjang jjigae"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fermented soybean paste stew with tofu, zucchini, and potato — earthier and less spicy than kimchi jjigae.",
+      "long": "Doenjang (fermented soybean paste) dissolved into a broth with tofu, zucchini, potato, and onion, simmered until the vegetables soften. Milder and muddier in flavor than the chili-forward kimchi jjigae, often served alongside grilled meat as a savory counterpoint.",
+      "components": [
+        "kr-kimchi-jjigae"
+      ],
+      "contains": [
+        {
+          "tag": "soy",
+          "specific": "doenjang, tofu",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "doenjang",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-japchae3-bossam",
+      "term": "Bossam",
+      "native": "보쌈",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Boiled, sliced pork belly wrapped in lettuce or napa leaf with raw garlic, chili, and salted shrimp.",
+      "long": "Pork belly simmered whole in aromatics until tender, then sliced and served with lettuce or brined napa cabbage leaves for wrapping, alongside raw garlic slices, sliced raw chili, ssamjang, and often a spoon of salted fermented shrimp (saeujeot) to add to the wrap. A build-your-own dish, similar in spirit to samgyeopsal.",
+      "components": [
+        "kr-samgyeopsal"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "boiled pork belly",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "lettuce/napa wrap, raw garlic, raw chili",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "shellfish",
+          "specific": "salted fermented shrimp (saeujeot)",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "A common accompaniment, easy to miss since it's a small side condiment."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Heat comes from the raw chili and ssamjang you add yourself."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-dakgalbi",
+      "term": "Dakgalbi",
+      "native": "닭갈비",
+      "romanizations": [
+        "dak galbi"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Stir-fried chicken in a fiery gochujang glaze with cabbage, sweet potato, and rice cake, cooked at the table.",
+      "long": "Bite-sized marinated chicken cooked in a large pan at the table with cabbage, perilla leaf, sweet potato, tteok (rice cake), and a thick gochujang-based sauce, often finished with fried rice stirred into the leftover sauce. Reliably spicy and cooked in front of you.",
+      "components": [
+        "kr-gochujang"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "marinated chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "gochujang base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "gochujang",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, scallion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Some kitchens offer a mild version."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-jjajangmyeon",
+      "term": "Jjajangmyeon",
+      "native": "짜장면",
+      "romanizations": [
+        "jajangmyeon"
+      ],
+      "language": "Korean (Chinese-Korean)",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick wheat noodles in a dark, savory-sweet black bean sauce with diced pork and vegetables.",
+      "long": "A Korean-Chinese fusion dish: chunjang (roasted black soybean paste) fried with diced pork, onion, zucchini, and potato, thinned slightly and tossed with thick, chewy wheat noodles. Sweet-savory, not spicy, and one of the most popular delivery/takeout dishes in Korea.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "diced pork",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "black bean paste (chunjang)",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "thick wheat noodles, black bean paste",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-jajangmyeon-jjamppong",
+      "term": "Jjamppong",
+      "native": "짬뽕",
+      "romanizations": [
+        "champong"
+      ],
+      "language": "Korean (Chinese-Korean)",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fiery red seafood-and-pork noodle soup, heavy with shellfish, in a chili-oil broth.",
+      "long": "Wheat noodles in a fiercely spicy, chili-oil-red broth loaded with squid, mussels, shrimp, and often pork, stir-fried first with vegetables before the broth is added. The seafood-and-pork combination and significant heat are both structural to the dish, not optional. The mild counterpart to jjajangmyeon on the same Korean-Chinese menus.",
+      "components": [
+        "kr-jjajangmyeon"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "squid, mussels, shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "sliced pork",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-haemul-tang",
+      "term": "Haemul-tang",
+      "native": "해물탕",
+      "romanizations": [
+        "haemultang"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spicy mixed seafood hot pot — crab, shrimp, mussels, and squid in a fiery red broth, cooked at the table.",
+      "long": "A large pot of assorted shellfish and fish simmered at the table in a gochugaru-red broth with napa cabbage, enoki mushroom, and tofu, until everything is cooked through. Shellfish is the entire point of the dish and it is reliably spicy.",
+      "components": [
+        "kr-sundubu"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "crab, shrimp, mussels, squid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "fish, when included",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "tofu",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-jokbal",
+      "term": "Jokbal",
+      "native": "족발",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Whole pig's trotter braised in soy and spices until the skin turns gelatinous, sliced thin.",
+      "long": "Pork trotter simmered for hours in soy sauce, garlic, ginger, and warm spices until deeply tender, chilled slightly, then sliced thin and served with the same lettuce-wrap, raw-garlic, ssamjang setup as bossam. Skin and connective tissue give it a distinctly gelatinous texture.",
+      "components": [
+        "kr-samgyeopsal"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "whole braised trotter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy braise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, ginger, plus raw garlic for wrapping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-eomuk",
+      "term": "Eomuk",
+      "native": "어묵",
+      "romanizations": [
+        "odeng"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Korean fish cake — ground white fish and starch pressed into sheets or skewers, simmered in broth.",
+      "long": "White fish paste mixed with starch and formed into thin sheets or skewered logs, fried or steamed, then simmered in a light anchovy-kelp broth as a street-food snack (often called by the Japanese-derived name *odeng* on menus), or used as an ingredient in tteokbokki and stews.",
+      "components": [
+        "kr-tteokbokki"
+      ],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "white fish paste",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat starch binder, in some formulations",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-hotteok",
+      "term": "Hotteok",
+      "native": "호떡",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Sweet fried griddle pancake oozing brown sugar, cinnamon, and often chopped **peanuts**.",
+      "long": "A yeasted wheat dough filled with a pocket of brown sugar, cinnamon, and typically chopped peanuts or sunflower seeds, flattened on a griddle and fried until the sugar filling turns molten. A popular Korean street-food snack. The nuts are inside the filling, not visible until it's cut open.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "chopped peanuts in the filling",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Sealed inside the filling — not visible from outside."
+        },
+        {
+          "tag": "gluten",
+          "specific": "yeasted wheat dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Are there peanuts in the filling?"
+    },
+    {
+      "id": "kr-bingsu",
+      "term": "Bingsu",
+      "native": "빙수",
+      "romanizations": [
+        "patbingsu"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Mountain of finely shaved milk ice, topped with sweet red bean, fruit, or condensed milk.",
+      "long": "Milk frozen into a block and shaved into a snow-fine texture, piled high and topped variously with sweetened red azuki beans (the traditional *patbingsu*), fresh fruit, condensed milk, injeolmi (rice cake) powder, or matcha. Dairy is the base of the ice itself in most versions.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk-based shaved ice",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Some fruit-only versions use a water-ice base instead — worth asking."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "fresh fruit topping, when used",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-yukhoe",
+      "term": "Yukhoe",
+      "native": "육회",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Korean beef tartare — julienned raw beef dressed in sesame oil and soy, topped with a raw egg yolk and pear.",
+      "long": "Very fresh raw beef (typically sirloin) hand-cut into thin strips, dressed with sesame oil, soy, sugar, and garlic, arranged with julienned raw Korean pear, and topped with a raw egg yolk to stir in at the table. Unambiguously raw beef and raw egg together.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "raw julienned beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Served raw, not seared."
+        },
+        {
+          "tag": "egg",
+          "specific": "raw egg yolk topping",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "julienned raw Korean pear",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil dressing",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-dotorimuk",
+      "term": "Dotori-muk",
+      "native": "도토리묵",
+      "romanizations": [
+        "dotorimuk"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Wobbly acorn-starch jelly, sliced and tossed cold with soy, sesame oil, and raw vegetables.",
+      "long": "Acorn starch set into a firm, faintly bitter jelly, cut into cubes or strips and tossed cold with soy sauce, sesame oil, scallion, and often raw julienned carrot and cucumber. Vegan, nut-free (acorn is not classed as a tree nut for allergy purposes).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "julienned carrot, cucumber",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame oil dressing",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy sauce dressing",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "kr-danmuji",
+      "term": "Danmuji",
+      "native": "단무지",
+      "romanizations": [],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Bright yellow pickled daikon radish, sweet and crunchy — the standard side with Korean fried chicken and gimbap.",
+      "long": "Daikon radish pickled in vinegar, sugar, and turmeric (for the color), giving a sweet-tart crunch. Nearly always present alongside Korean fried chicken and inside gimbap. Fermented/pickled, vegan.",
+      "components": [
+        "kr-gimbap"
+      ],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "vinegar-pickled daikon",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "kr-dakgangjeong",
+      "term": "Dakgangjeong",
+      "native": "닭강정",
+      "romanizations": [
+        "Korean fried chicken"
+      ],
+      "language": "Korean",
+      "cuisines": [
+        "korean"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Double-fried chicken pieces glazed sweet-spicy-sticky, often finished with sesame seeds and crushed **peanuts**.",
+      "long": "Bite-sized chicken pieces battered and fried twice for extra crunch, then tossed in a glaze ranging from soy-garlic to gochujang-sweet-spicy, finished with sesame seeds and, on many versions, crushed peanuts scattered on top. Korean fried chicken generally is sold under many names and glaze styles; the peanuts are a common but not universal garnish.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "double-fried chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "batter, soy sauce",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "crushed peanut garnish",
+          "certainty": "sometimes",
+          "prominence": "garnish",
+          "note": "Common but not universal — visible on top when present."
+        },
+        {
+          "tag": "sesame",
+          "specific": "sesame seed garnish",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "soy",
+          "specific": "soy-garlic or gochujang glaze",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Depends on the glaze chosen — soy-garlic is mild, yangnyeom/gochujang is hot."
+      },
+      "confidence": "high"
+    }
+  ]
+}

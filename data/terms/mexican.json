@@ -1,0 +1,697 @@
+{
+  "cuisine": "mexican",
+  "terms": [
+    {
+      "id": "mx-tacos-general",
+      "term": "Tacos",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Corn (or flour) tortilla folded around a filling — the filling, not the tortilla, is the whole allergen question.",
+      "long": "A category, not one dish: two small corn tortillas (the standard in authentic preparations) or one flour tortilla, folded around a filling ranging from grilled steak to slow-cooked pork to fish, topped with raw onion and cilantro as the default garnish. Corn tortillas are naturally gluten-free; flour tortillas are not — worth confirming which is used. From real Bethesda menus (Gringos & Mariachis, offering carne asada, fish, short rib, and fusion tacos).",
+      "components": [
+        "mx-tortilla"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, cilantro",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "The standard garnish; easy to ask to leave off."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour tortilla, if used instead of corn",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Corn tortillas (the traditional default) are gluten-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Heat is usually in an optional salsa on the side."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "gringos-mariachis"
+      ],
+      "ask": "Is this a corn or flour tortilla, and what's the filling?"
+    },
+    {
+      "id": "mx-tortilla",
+      "term": "Tortilla",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Flat, round bread — corn tortillas are naturally gluten-free; flour tortillas are not.",
+      "long": "Corn tortillas are made from nixtamalized corn masa and contain no wheat at all, naturally gluten-free. Flour tortillas, more common in the northern Mexican and Tex-Mex tradition, are wheat-based. Menus don't always specify which is the default for a given dish — worth asking if gluten matters.",
+      "components": [
+        "mx-tacos-general"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour, in flour tortillas only",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Corn tortillas are gluten-free; flour tortillas are the default in some dishes (burritos, quesadillas) and not others."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-queso-fresco",
+      "term": "Queso Fresco",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Fresh, mild, crumbly white cheese, added raw and uncooked as a finishing garnish.",
+      "long": "An unaged, mild cheese, crumbled cold over finished dishes — tacos, tostadas, elote — rather than melted into them. Because it's added at the very end and often not melted, it's a dairy source that's easy to underestimate as \"just a garnish.\"",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "fresh unaged cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Sprinkled on top raw/uncooked — genuinely present even though it looks like a light garnish."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-chihuahua-cheese",
+      "term": "Queso Chihuahua",
+      "native": "",
+      "romanizations": [
+        "Chihuahua cheese"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Mild, meltable semi-firm cheese, similar to a mild cheddar or Monterey Jack — the standard melting cheese.",
+      "long": "A pale, semi-firm cow's milk cheese from Chihuahua state that melts smoothly, used in quesadillas, queso fundido, and layered over nachos. From real Bethesda menus (Gringos & Mariachis, on Caribbean-fusion tacos and duck nachos).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "semi-firm melting cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "gringos-mariachis"
+      ]
+    },
+    {
+      "id": "mx-al-pastor",
+      "term": "Al Pastor",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pork marinated in dried chili and achiote, stacked on a vertical spit (like shawarma/döner), shaved thin, topped with pineapple.",
+      "long": "Thin-sliced pork marinated in a paste of dried chilies, achiote, pineapple juice, and vinegar, stacked on a vertical trompo and roasted, with a chunk of pineapple often placed on top so its juice drips down as it cooks. Shaved off in thin, charred pieces for tacos. A direct descendant of Lebanese shawarma brought by Lebanese immigrants to Mexico.",
+      "components": [
+        "tr-doner"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "marinated pork",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "pineapple, cooked into the marinade and topping",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-carnitas",
+      "term": "Carnitas",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Pork slow-braised and then fried in its own fat until crisp-edged and tender — Michoacán style.",
+      "long": "Pork shoulder simmered slowly in lard (or its own rendered fat) with citrus and spices for hours until fall-apart tender, then the pieces are fried briefly in the same fat to crisp the exterior before serving, usually shredded into tacos.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork shoulder, cooked in pork fat",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-barbacoa",
+      "term": "Barbacoa",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Beef (traditionally whole animal, often cheek or head) slow-steamed until meltingly tender and shredded.",
+      "long": "Traditionally a whole animal (goat, lamb, or beef) wrapped in maguey leaves and slow-cooked in an underground pit; modern restaurant versions typically braise beef cheek or chuck for hours until shreddable. From real Bethesda menus (Gringos & Mariachis, Tinga de Res / Barbacoa-style tacos).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "slow-braised beef cheek or chuck",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Goat or lamb versions exist in more traditional preparations."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "gringos-mariachis"
+      ]
+    },
+    {
+      "id": "mx-mole",
+      "term": "Mole",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish (Nahuatl origin)",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Complex, deep sauce of dried chilies, spices, and often **peanut or almond**, sometimes chocolate — the specific nut varies by recipe.",
+      "long": "A family of sauces, not one recipe — mole poblano is the most famous, blending dozens of ingredients including dried chilies, spices, and a small amount of chocolate, and very often ground peanuts or almonds as a thickener. Other moles (verde, amarillo) may use pumpkin seed (pepita) instead. The specific nut, if any, genuinely varies by kitchen and by which mole is on the menu, so it needs to be asked about rather than assumed.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "ground peanuts, in many mole poblano recipes",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Blended smooth into the sauce — not visible or removable. Varies by kitchen and mole style."
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "ground almonds, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "An alternative or additional nut to peanut, depending on the recipe."
+        },
+        {
+          "tag": "gluten",
+          "specific": "a small amount of bread or tortilla as a thickener, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Does this mole have peanuts or almonds in it?"
+    },
+    {
+      "id": "mx-elote",
+      "term": "Elote",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled corn on the cob, slathered in crema, cheese, chili powder, and lime.",
+      "long": "A whole ear of corn, grilled, then coated in mayonnaise or crema, rolled in crumbled cotija or queso fresco, dusted with chili powder, and finished with lime juice. *Esquites* is the same flavor combination served off the cob in a cup. Dairy and egg (mayonnaise) are both standard.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "crema, crumbled cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "mayonnaise, if used instead of or with crema",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-guacamole",
+      "term": "Guacamole",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish (Nahuatl origin)",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "sauce",
+        "dish"
+      ],
+      "short": "Mashed raw avocado with raw onion, cilantro, lime, and chili.",
+      "long": "Ripe avocado mashed coarsely with raw diced onion, tomato, cilantro, lime juice, and chili, served fresh and never cooked. Vegan by default.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_fruit",
+          "specific": "raw avocado",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, tomato, cilantro",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-pico-de-gallo",
+      "term": "Pico de Gallo",
+      "native": "",
+      "romanizations": [
+        "salsa fresca"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Chunky raw salsa of diced tomato, onion, jalapeño, and cilantro — entirely uncooked.",
+      "long": "Fresh raw tomato, onion, jalapeño, cilantro, and lime juice, diced and mixed just before serving with no cooking at all. Distinct from cooked table salsas, which are blended and simmered.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw tomato, onion, jalapeño, cilantro",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The entire dish is raw."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-salsa-verde",
+      "term": "Salsa Verde",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Cooked green salsa of roasted tomatillo, chili, and garlic, blended smooth.",
+      "long": "Tomatillo, serrano or jalapeño, garlic, and onion roasted or boiled then blended into a smooth green sauce. Unlike pico de gallo, the vegetables here are cooked. Vegan by default.",
+      "components": [
+        "mx-pico-de-gallo"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic, onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "mx-chorizo",
+      "term": "Chorizo (Mexican)",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Fresh, loose-ground pork sausage seasoned heavily with dried chili and vinegar — unlike cured Spanish chorizo, this is raw until cooked.",
+      "long": "Ground pork mixed with dried chili, garlic, and vinegar and stuffed into casing or sold loose, sold raw and always cooked before eating (unlike the cured, ready-to-eat Spanish chorizo it shares a name with). Used in tacos, queso fundido, and scrambled with egg.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "ground pork sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "gringos-mariachis"
+      ]
+    },
+    {
+      "id": "mx-tinga",
+      "term": "Tinga de Res",
+      "native": "",
+      "romanizations": [
+        "tinga"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Shredded beef (or chicken) simmered in a smoky chipotle-tomato sauce.",
+      "long": "Cooked, shredded meat simmered in a sauce of tomato, onion, and chipotle chilies in adobo, giving a smoky, moderately spicy result. Chicken tinga is the more traditional version; beef (de res) is an equally common menu choice. From real Bethesda menus (Gringos & Mariachis).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "shredded beef, in the de res version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Chicken tinga is the classic version and equally common."
+        },
+        {
+          "tag": "chicken",
+          "specific": "shredded chicken, in the classic version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "gringos-mariachis"
+      ]
+    },
+    {
+      "id": "mx-nachos",
+      "term": "Nachos",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried corn tortilla chips layered with melted cheese and toppings — an American-Mexican invention.",
+      "long": "Corn tortilla chips fried and layered with melted cheese, then topped with a protein, jalapeño, sour cream, and salsa. Invented in northern Mexico for American diners rather than a traditional dish. From real Bethesda menus (Gringos & Mariachis, Duck Nachos with Chihuahua cheese, jalapeño, radish, sour cream).",
+      "components": [
+        "mx-chihuahua-cheese"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "melted cheese, sour cream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "corn chips are gluten-free, but some kitchens use flour-blend chips",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "Corn tortilla chips are the standard and are gluten-free."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "gringos-mariachis"
+      ]
+    },
+    {
+      "id": "mx-horchata",
+      "term": "Horchata",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Sweet, milky rice-and-cinnamon drink. Some recipes use dairy milk, others are naturally dairy-free.",
+      "long": "Rice soaked, blended, and strained into a sweet, cinnamon-scented drink; traditional Mexican horchata is made purely with rice, water, and sugar and is naturally dairy-free, though some modern recipes add dairy or condensed milk for extra creaminess — the two versions aren't visually distinguishable.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "milk or condensed milk, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Traditional rice-only horchata is dairy-free; some restaurant versions add milk — not visually distinguishable."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium",
+      "ask": "Is your horchata made with dairy milk or just rice and water?"
+    },
+    {
+      "id": "mx-tres-leches",
+      "term": "Tres Leches Cake",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "mexican"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Sponge cake soaked in three kinds of milk until saturated, topped with whipped cream.",
+      "long": "A light sponge cake, once baked, is drenched in a mixture of evaporated milk, condensed milk, and heavy cream until fully saturated and moist, then topped with whipped cream. Extremely dairy-heavy and egg-based (sponge). From real Bethesda menus (El Golfo).",
+      "components": [
+        "pe-suspiro"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "three milks plus whipped cream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "sponge cake batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "sponge cake",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "el-golfo"
+      ]
+    }
+  ]
+}

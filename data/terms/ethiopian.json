@@ -1,0 +1,2327 @@
+{
+  "cuisine": "ethiopian",
+  "terms": [
+    {
+      "id": "et-injera",
+      "term": "Injera",
+      "native": "እንጀራ",
+      "romanizations": [
+        "enjera",
+        "injara"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "bread",
+        "utensil-or-service"
+      ],
+      "short": "Large spongy sourdough flatbread of fermented teff batter; serves as plate, utensil, and starch.",
+      "long": "Teff flour and water are fermented for one to three days, then poured in a spiral onto a clay griddle and steamed under a lid, producing a soft grey-brown pancake covered in tiny craters. It arrives as the plate itself — stews are ladled directly onto it — with extra rolls on the side for tearing and pinching up food by hand. In Ethiopia it is usually pure teff, which is naturally gluten-free. In the US, many restaurants cut the batter with wheat, barley, or self-rising flour for cost and workability, so gluten is genuinely a per-restaurant question rather than a per-dish one. The sourness varies a lot by kitchen; a longer ferment gives a sharper tang.",
+      "components": [
+        "et-teff"
+      ],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "teff sourdough starter",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Definitional — the ferment is what makes it injera."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat or barley flour",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Common in US restaurants to cut cost; pure-teff injera is gluten-free. Worth asking if it matters."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is your injera 100% teff, or is there wheat in it?"
+    },
+    {
+      "id": "et-teff",
+      "term": "Teff",
+      "native": "ጤፍ",
+      "romanizations": [
+        "tef",
+        "t'ef"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "A tiny Ethiopian grain, gluten-free, ground whole into the flour used for injera.",
+      "long": "The world's smallest cereal grain, native to the Ethiopian highlands. Because the seed is too small to hull, it's always milled whole, which makes it unusually high in iron and fiber. Comes in ivory and brown varieties; brown teff gives injera its darker color and deeper flavor. Naturally gluten-free on its own.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-berbere",
+      "term": "Berbere",
+      "native": "በርበሬ",
+      "romanizations": [
+        "barbare",
+        "berberé"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "spice-blend"
+      ],
+      "short": "The foundational red chili spice blend; the reason most Ethiopian stews are red and hot.",
+      "long": "A deep brick-red blend built on dried red chilies, with garlic, ginger, fenugreek, korarima (Ethiopian cardamom), ajwain, nigella, coriander, and often cinnamon, clove, and rue. Sun-dried and ground, then usually bloomed in oil or niter kibbeh at the start of a stew. Heat is moderate-to-hot but rounded by the warm spices rather than sharp. Any dish described as *key* (red) or *wat* without the word *alicha* is almost certainly berbere-based. Contains no nuts.",
+      "components": [
+        "et-korarima"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": "The blend itself is hot; how much a kitchen uses varies."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-mitmita",
+      "term": "Mitmita",
+      "native": "ሚጥሚጣ",
+      "romanizations": [
+        "mit mita"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "spice-blend"
+      ],
+      "short": "Orange-red bird's-eye chili powder — noticeably hotter than berbere, used as a condiment.",
+      "long": "Ground African bird's-eye chili with korarima, clove, salt, and sometimes cinnamon. Much simpler and much hotter than berbere. It is the standard seasoning for raw meat dishes like kitfo and gored gored, and often arrives on the side in a small mound to dip into. Because it's usually a condiment rather than cooked in, you can generally control your own exposure.",
+      "components": [
+        "et-korarima"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "Frequently served on the side, so you dose it yourself."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-niter-kibbeh",
+      "term": "Niter kibbeh",
+      "native": "ንጥር ቅቤ",
+      "romanizations": [
+        "nit'ir qibe",
+        "niter kebbeh",
+        "nitir kibe"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "ingredient",
+        "technique"
+      ],
+      "short": "Spiced clarified butter — the default cooking fat. Present in most non-fasting dishes.",
+      "long": "Butter simmered with garlic, ginger, korarima, fenugreek, turmeric, basil, and often cinnamon and nigella, then strained. The milk solids are cooked out, giving a nutty-smelling, shelf-stable fat with a distinctly Ethiopian aroma. It is the base fat for most wat and tibs. This is the single most common source of dairy on an Ethiopian menu, and it is not obvious from dish names — the reliable workaround is to order from the fasting (*ye'tsom*) menu, which uses oil instead.",
+      "components": [
+        "et-korarima"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Clarified, so very low lactose, but it is butter."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Aromatic, not hot."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-korarima",
+      "term": "Korarima",
+      "native": "ኮረሪማ",
+      "romanizations": [
+        "korerima",
+        "false cardamom"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Ethiopian cardamom — a large brown pod, earthier and smokier than green cardamom.",
+      "long": "The seed pod of *Aframomum corrorima*, used across Ethiopian spice blends. Warm, slightly camphorous and smoky. Despite the name it is a distinct species from true cardamom. A spice, not a nut, despite the pod's appearance.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-wat",
+      "term": "Wat",
+      "native": "ወጥ",
+      "romanizations": [
+        "wot",
+        "wet",
+        "we't"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "The general word for a slow-simmered Ethiopian stew. Everything before it names the ingredient.",
+      "long": "A stew built on a long, slow, almost dry-fried base of finely minced onion cooked without fat until it collapses, after which berbere or turmeric and niter kibbeh are added, then the main ingredient and water. The onion base is the defining technique and is why every wat carries onion in quantity. *Key wat* is red and hot; *alicha wat* is mild and yellow. Served ladled onto injera.",
+      "components": [
+        "et-berbere",
+        "et-niter-kibbeh",
+        "et-injera"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked down to a paste and inseparable from the dish."
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Fasting versions use plain oil instead."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": "Unless labeled alicha, assume berbere heat."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-alicha",
+      "term": "Alicha",
+      "native": "አልጫ",
+      "romanizations": [
+        "alecha",
+        "aletcha"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "technique",
+        "dish"
+      ],
+      "short": "The mild counterpart to berbere dishes — yellow, turmeric- and ginger-based, no chili.",
+      "long": "Any stew made without berbere, seasoned instead with turmeric, ginger, garlic, and korarima, giving a pale yellow color. This is the single most useful word on an Ethiopian menu if you're avoiding heat: *alicha* anywhere in a dish name reliably means not spicy. Common versions are *alicha siga* (beef), *alicha doro* (chicken), and *kik alicha* (yellow split pea).",
+      "components": [
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": "By definition made without chili."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-doro-wat",
+      "term": "Doro wat",
+      "native": "ዶሮ ወጥ",
+      "romanizations": [
+        "doro wot",
+        "dorho wat"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "The national dish: chicken legs slow-stewed in berbere with a whole hard-boiled egg.",
+      "long": "Chicken, traditionally cut into twelve symbolic pieces, simmered for hours in a deeply reduced onion-and-berbere base enriched with niter kibbeh, and finished with whole hard-boiled eggs that absorb the sauce. Dark red-brown, thick enough to hold its shape on the injera, and quite hot. Reserved for holidays and Sundays traditionally, but a fixture on every restaurant menu. Often served with a wedge of ayib to cut the heat.",
+      "components": [
+        "et-berbere",
+        "et-niter-kibbeh",
+        "et-wat",
+        "et-ayib"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken leg and thigh",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Whole eggs sit in the stew; easily left aside."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": "One of the hotter standard dishes; heat is cooked in."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-siga-wat",
+      "term": "Siga wat",
+      "native": "ስጋ ወጥ",
+      "romanizations": [
+        "sega wot",
+        "key wat",
+        "key sega wat"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Beef stewed in berbere. Also listed as key wat (\"red stew\").",
+      "long": "Cubed beef simmered in the standard onion-berbere-niter kibbeh base until tender. *Siga* means meat and defaults to beef; *key wat* literally means red stew and is the same dish under a different name. The alicha version, *alicha siga*, is the mild yellow counterpart.",
+      "components": [
+        "et-berbere",
+        "et-wat",
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef chuck or similar",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-tibs",
+      "term": "Tibs",
+      "native": "ጥብስ",
+      "romanizations": [
+        "tibbs",
+        "t'ibs"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "Meat sautéed hot and fast with onion, jalapeño, and rosemary — the closest thing to a stir-fry.",
+      "long": "Cubed or sliced meat, most often beef or lamb, seared in niter kibbeh with onion, garlic, fresh green chili, tomato, and a signature hit of rosemary. Unlike wat it is quick-cooked and comes out browned rather than stewed, often still sizzling on a clay brazier. Heat depends on how much fresh chili goes in and is usually milder than berbere dishes; *tibs* seasoned with berbere will typically say so. **Zilzil tibs** uses long strips of beef; **awaze tibs** is finished with the awaze chili paste and is hot.",
+      "components": [
+        "et-niter-kibbeh",
+        "et-awaze"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Lamb versions are common and usually named."
+        },
+        {
+          "tag": "lamb",
+          "specific": "lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Menus usually specify beef vs lamb."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Fresh green chili rather than berbere; many kitchens will dial it back."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-kitfo",
+      "term": "Kitfo",
+      "native": "ክትፎ",
+      "romanizations": [
+        "ketfo",
+        "kitffo"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw minced beef warmed in spiced butter with mitmita. Can be ordered lightly or fully cooked.",
+      "long": "Very finely minced lean beef, hand-chopped rather than ground, folded with warm niter kibbeh and mitmita until it just barely warms through. A delicacy and a special-occasion dish. Three doneness levels are standard and worth knowing: **tere** (raw), **leb leb** (lightly warmed, the default), and **yebesele** (fully cooked). Usually plated with ayib and gomen, sometimes with kocho instead of injera.",
+      "components": [
+        "et-mitmita",
+        "et-niter-kibbeh",
+        "et-ayib",
+        "et-gomen"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "raw lean beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Ask for *yebesele* to have it cooked through."
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The butter is the sauce, not a trace."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Mitmita is hot; some kitchens serve it alongside."
+      },
+      "confidence": "high",
+      "ask": "Can I get the kitfo yebesele (cooked through)?"
+    },
+    {
+      "id": "et-gored-gored",
+      "term": "Gored gored",
+      "native": "ጎረድ ጎረድ",
+      "romanizations": [
+        "gored-gored",
+        "gored gorod"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cubed raw beef tossed in butter and awaze or mitmita. Like kitfo but cubed, not minced.",
+      "long": "Bite-sized cubes of raw beef, usually tenderloin, coated in niter kibbeh and served with mitmita or awaze for dipping. Unlike kitfo it is not minced and is rarely cooked at all — this is the more emphatically raw of the two. If a menu offers it cooked, it will normally be described as tibs instead.",
+      "components": [
+        "et-awaze",
+        "et-mitmita",
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "raw beef tenderloin",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Served raw by definition; cooked versions are a different dish."
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": true,
+        "note": "Heat comes from the dipping paste, so it's controllable."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-awaze",
+      "term": "Awaze",
+      "native": "አዋዜ",
+      "romanizations": [
+        "awazi"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Thick berbere paste loosened with wine or water — a hot table condiment.",
+      "long": "Berbere mixed to a paste with tej, wine, water, or oil, sometimes with garlic and ginger. Served in a small dish alongside raw meat and tibs, or stirred into a dish to make an 'awaze' version of it. Because it usually arrives on the side, it's easy to avoid or dose.",
+      "components": [
+        "et-berbere",
+        "et-tej"
+      ],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "tej or wine",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Some kitchens use only water."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 4,
+        "adjustable": true,
+        "note": "Concentrated berbere; usually served on the side."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-shiro",
+      "term": "Shiro",
+      "native": "ሽሮ",
+      "romanizations": [
+        "shuro",
+        "shiro wat"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Smooth, savory stew of powdered chickpea or broad bean. The workhorse vegan dish.",
+      "long": "Legumes are roasted, ground with spices into a fine flour, then whisked into simmering water or oil until thick and smooth, like a loose hummus. Comes in a mild version and a berbere-spiced one; **shiro tegabino** is a richer version served bubbling in its own clay pot. Almost always vegan when ordered from the fasting menu, though some kitchens make it with niter kibbeh. The prepared shiro powder is a spice-blend product, and a small number of commercial blends include ground peanut or sunflower — uncommon, but the one nut question worth asking in this cuisine.",
+      "components": [
+        "et-berbere",
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Fasting-menu shiro uses oil and is vegan."
+        },
+        {
+          "tag": "peanut",
+          "specific": "ground peanut in some shiro powder blends",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "Not traditional, but present in a minority of commercial shiro powders."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Mild and berbere versions both common; menus don't always distinguish."
+      },
+      "confidence": "medium",
+      "ask": "Is there any peanut in your shiro powder?"
+    },
+    {
+      "id": "et-misir-wat",
+      "term": "Misir wat",
+      "native": "ምስር ወጥ",
+      "romanizations": [
+        "mesir wot",
+        "misir wot",
+        "misr wat"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Red lentils stewed in berbere. The most common vegan item on any Ethiopian menu.",
+      "long": "Split red lentils cooked down with the onion-berbere base until thick and rich. Standard on every combination platter and reliably vegan when ordered from the fasting menu — oil replaces niter kibbeh. Nut-free. *Misir alicha* is the mild yellow version.",
+      "components": [
+        "et-berbere",
+        "et-wat"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Fasting version uses oil."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-kik-alicha",
+      "term": "Kik alicha",
+      "native": "ክክ አልጫ",
+      "romanizations": [
+        "kik alecha",
+        "yekik alicha"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Yellow split peas in a mild turmeric-ginger sauce. No chili at all.",
+      "long": "Split peas simmered soft with onion, garlic, ginger, and turmeric until they break into a thick golden purée. One of the two or three reliably mild items on a standard platter, and a good hedge if the rest of the order is berbere-heavy. Vegan on the fasting menu.",
+      "components": [
+        "et-alicha"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-gomen",
+      "term": "Gomen",
+      "native": "ጎመን",
+      "romanizations": [
+        "gomen wat",
+        "ye'abesha gomen"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Collard greens braised long and soft with garlic and ginger. Cooked, never raw.",
+      "long": "Collards or similar hardy greens chopped and stewed slowly with onion, garlic, ginger, and often a green chili, until fully tender — nothing crunchy survives. Mild by default. **Gomen be siga** adds beef; **ye'abesha gomen** is the plain Ethiopian-style version. A dependable vegetable option that carries no raw produce.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Occasionally a green chili, but mild."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-atakilt-wat",
+      "term": "Atakilt wat",
+      "native": "አታክልት ወጥ",
+      "romanizations": [
+        "atkilt wat",
+        "atakilt alicha",
+        "tikil gomen"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mild stewed cabbage, carrot, and potato in turmeric. Fully cooked, no chili.",
+      "long": "Cabbage, carrot, and potato simmered with onion, garlic, ginger, and turmeric until soft. Bright yellow, gentle, and one of the most reliably safe items on the platter — no chili, no nuts, no raw produce. Often listed as *tikil gomen* when cabbage-forward.",
+      "components": [
+        "et-alicha"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-fosolia",
+      "term": "Fosolia",
+      "native": "ፎሶሊያ",
+      "romanizations": [
+        "fosoliya",
+        "fasolia"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Green beans and carrots sautéed with onion and tomato until soft. Mild.",
+      "long": "Green beans cut on the bias with carrot batons, cooked down with onion, garlic, and tomato in oil or niter kibbeh. Softer than a Western green bean sauté — the beans go fully tender. Mild, nut-free, no raw components.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-timatim-salata",
+      "term": "Timatim salata",
+      "native": "ቲማቲም ሰላጣ",
+      "romanizations": [
+        "timatim salad",
+        "tomato salata",
+        "timatim fitfit"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Raw diced tomato, onion, and green chili salad, often with torn injera mixed in.",
+      "long": "Diced raw tomato, raw red or white onion, and fresh jalapeño dressed with oil, lemon, and sometimes a little berbere or mustard. When torn injera is folded through to soak up the dressing it becomes *timatim fitfit*. Entirely raw — this is the dish on an Ethiopian platter most likely to matter if you're avoiding raw vegetables, and the raw onion is a substantial portion, not a garnish.",
+      "components": [
+        "et-injera"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato, onion, jalapeño",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The whole dish is raw; nothing is cooked."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "injera, if fitfit",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Only if the injera itself contains wheat."
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": "Fresh jalapeño; often removable."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-azifa",
+      "term": "Azifa",
+      "native": "አዚፋ",
+      "romanizations": [
+        "azifa salad",
+        "azefa"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chilled green lentil salad with mustard, lemon, raw onion, and green chili.",
+      "long": "Green or brown lentils boiled, cooled, then dressed with lemon juice, Ethiopian mustard, olive oil, finely diced raw onion, and fresh chili. Served cold as a mezze-like starter. The lentils are cooked but the onion and chili are raw, and they're a meaningful part of the texture rather than a sprinkle.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, green chili",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Diced through the salad, not removable."
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-ayib",
+      "term": "Ayib",
+      "native": "አይብ",
+      "romanizations": [
+        "ayb",
+        "iab"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Fresh crumbly cheese, like a dry mild cottage cheese. Cooling counterpoint to berbere.",
+      "long": "Made by gently heating soured milk until it curdles, then draining. Barely salted, mild, slightly tangy, with a texture between ricotta and cottage cheese. Served in a cool mound next to hot stews specifically to temper the chili. **Ayib be gomen** is ayib folded into collard greens.",
+      "components": [
+        "et-gomen"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "fresh cow's milk cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Actively cools the palate."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-beyainatu",
+      "term": "Beyainatu",
+      "native": "በያይነቱ",
+      "romanizations": [
+        "beyaynetu",
+        "be'ayinetu",
+        "veggie combo"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish",
+        "course"
+      ],
+      "short": "The vegetarian combination platter — a sampler of several vegan stews on injera.",
+      "long": "Literally \"of every kind.\" A round of injera covered with small mounds of five to eight different vegetable and legume dishes — typically misir wat, shiro, kik alicha, gomen, atakilt wat, fosolia, and a salad. Ordered from the fasting menu it is fully vegan. The catch for anyone avoiding a specific thing is that the mounds touch and share the injera, and one of them is nearly always a raw salad; you can ask for that portion on a separate plate.",
+      "components": [
+        "et-misir-wat",
+        "et-shiro",
+        "et-kik-alicha",
+        "et-gomen",
+        "et-atakilt-wat",
+        "et-timatim-salata"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "the salad portion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "One mound of the platter; ask for it on the side."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Some components hot, some mild — you can eat selectively."
+      },
+      "confidence": "high",
+      "ask": "Can the salad come on a separate plate?"
+    },
+    {
+      "id": "et-sambusa",
+      "term": "Sambusa",
+      "native": "ሳምቡሳ",
+      "romanizations": [
+        "sambussa",
+        "samosa"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fried wheat-pastry triangle filled with spiced lentils or minced beef.",
+      "long": "A close cousin of the samosa, brought via Somali and Yemeni trade routes. Thin wheat wrapper folded into a triangle around a filling of green lentils with onion and jalapeño, or minced beef, then deep fried. Usually served with awaze for dipping. The wrapper is wheat; the filling is nut-free.",
+      "components": [
+        "et-awaze"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat pastry wrapper",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Lentil is the other standard filling; menus specify."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Jalapeño in the filling; the dipping awaze is much hotter."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-firfir",
+      "term": "Firfir",
+      "native": "ፍርፍር",
+      "romanizations": [
+        "fir fir",
+        "fitfit",
+        "fetfet"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish",
+        "technique"
+      ],
+      "short": "Torn injera tossed with sauce until soaked through. A breakfast staple.",
+      "long": "Shredded injera stirred into berbere sauce and niter kibbeh until it absorbs everything and turns soft and reddish. Eaten mostly at breakfast, often with a spoon rather than by hand. *Firfir* generally implies a warm cooked sauce; *fitfit* often means the cold, salad-dressed version. Variants add beef (*siga firfir*) or are made with dried bread instead of injera (*dirkosh firfir*).",
+      "components": [
+        "et-injera",
+        "et-berbere",
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "injera, if wheat-blended",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Depends entirely on the restaurant's injera."
+        },
+        {
+          "tag": "fermented",
+          "specific": "injera",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-ful",
+      "term": "Ful",
+      "native": "ፉል",
+      "romanizations": [
+        "foul",
+        "ful medames"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian",
+        "palestinian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Warm mashed fava beans with onion, tomato, and chili — breakfast, eaten with bread.",
+      "long": "Cooked fava beans mashed coarsely and served hot in a bowl, topped in the Ethiopian style with diced raw onion and tomato, green chili, a swirl of oil, and often crumbled ayib or a hard-boiled egg. Eaten with a bread roll rather than injera. The bean base is cooked, but the standard topping is raw and generous.",
+      "components": [
+        "et-ayib"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw onion, tomato, jalapeño topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Piled on top; can be scraped off or omitted on request."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "ayib or butter",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-kocho",
+      "term": "Kocho",
+      "native": "ቆጮ",
+      "romanizations": [
+        "kocha",
+        "qocho"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Dense fermented flatbread made from the false-banana (enset) plant. Gluten-free.",
+      "long": "Made from the fermented pulp of the enset corm, a staple of southern Ethiopia. Dense, slightly chewy, mildly sour, and much heavier than injera. Traditionally served with kitfo. Made from no cereal grain at all, so naturally gluten-free — though it's fermented, which is worth knowing separately.",
+      "components": [
+        "et-kitfo"
+      ],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "enset pulp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Fermented for weeks or months."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-dulet",
+      "term": "Dulet",
+      "native": "ዱለት",
+      "romanizations": [
+        "dullet",
+        "doulet"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Minced tripe, liver, and lean beef sautéed with butter, onion, and hot spice.",
+      "long": "Finely chopped offal — tripe and liver — mixed with minced lean beef and cooked briefly with niter kibbeh, onion, green chili, and mitmita. Sometimes served barely cooked, closer to kitfo, and sometimes fully sautéed. Rich, mineral, and quite hot. Worth confirming the doneness if that matters to you.",
+      "components": [
+        "et-niter-kibbeh",
+        "et-mitmita"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "tripe, liver, lean beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Sometimes served rare to raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-tere-siga",
+      "term": "Tere siga",
+      "native": "ጥሬ ሥጋ",
+      "romanizations": [
+        "tire siga",
+        "tere sega"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Literally \"raw meat\" — slabs of raw beef served to cut yourself, with mitmita and awaze.",
+      "long": "Chunks of raw beef, often still on the bone or hung, brought to the table with a knife, mitmita, awaze, and sometimes a fermented mustard sauce called *senafich*. A celebratory dish. The word **tere** means raw and is the key signal: seeing it anywhere on a menu means the item is served uncooked.",
+      "components": [
+        "et-mitmita",
+        "et-awaze"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "raw beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Raw by definition."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 4,
+        "adjustable": true,
+        "note": "Heat is entirely in the side condiments."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-kolo",
+      "term": "Kolo",
+      "native": "ቆሎ",
+      "romanizations": [
+        "qolo",
+        "kollo"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Roasted grain-and-seed snack mix — and the one Ethiopian item that routinely contains peanuts.",
+      "long": "A crunchy snack of roasted barley, sometimes with chickpeas, sunflower seeds, safflower, and very often **peanuts**. Served alongside coffee or as a bar snack. This is the notable exception to the general rule that Ethiopian food is nut-free — if peanuts appear anywhere in an Ethiopian restaurant, it is most likely here. Also usually contains barley, so gluten.",
+      "components": [
+        "et-buna"
+      ],
+      "contains": [
+        {
+          "tag": "peanut",
+          "specific": "roasted peanuts",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "A standard component of most kolo mixes, mixed throughout."
+        },
+        {
+          "tag": "gluten",
+          "specific": "roasted barley",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Does the kolo have peanuts in it?"
+    },
+    {
+      "id": "et-dabo",
+      "term": "Dabo",
+      "native": "ዳቦ",
+      "romanizations": [
+        "difo dabo",
+        "himbasha",
+        "ambasha"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Wheat bread. Difo dabo is a large celebratory loaf; ambasha is a sweet spiced round.",
+      "long": "The general word for leavened bread, always wheat-based. **Difo dabo** is a huge domed loaf baked in banana leaves for holidays. **Ambasha** or **himbasha** is a slightly sweet, cardamom-scented round scored into wedges, sometimes studded with raisins. Distinct from injera in every way — yeasted, wheat, not sour.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "raisins, in ambasha",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": "Dried, not raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter or milk",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-buna",
+      "term": "Buna",
+      "native": "ቡና",
+      "romanizations": [
+        "bunna",
+        "coffee ceremony"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "beverage",
+        "course"
+      ],
+      "short": "Coffee, and the ceremony around it — beans roasted, ground, and brewed at the table.",
+      "long": "Green beans are roasted over coals in front of you, ground by hand, and brewed in a clay *jebena*, then poured in three successive rounds (*abol*, *tona*, *baraka*). Served with sugar, sometimes salt or butter, and typically alongside kolo or popcorn. The ceremony can take half an hour and is a course in its own right, not a beverage order.",
+      "components": [
+        "et-kolo"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "butter, in some regional styles",
+          "certainty": "rarely",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-tej",
+      "term": "Tej",
+      "native": "ጠጅ",
+      "romanizations": [
+        "tedj",
+        "t'ej"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Honey wine flavored with gesho, a bittering shrub. Sweet, cloudy, deceptively strong.",
+      "long": "Fermented honey and water with the leaves and twigs of *gesho* (buckthorn) acting like hops. Served in a round-bottomed flask called a *berele*. Ranges from lightly sweet to quite dry and can run well above table-wine strength despite tasting like juice.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "fermented honey wine",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "honey ferment",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-tella",
+      "term": "Tella",
+      "native": "ጠላ",
+      "romanizations": [
+        "talla",
+        "t'ella"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Home-brewed barley or maize beer, cloudy and low in alcohol.",
+      "long": "A rustic beer fermented from roasted barley, maize, or sorghum with gesho. Murky brown, smoky, sour, and usually weak. Contains barley, so gluten.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "alcohol",
+          "specific": "grain beer",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "barley",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "grain ferment",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-telba",
+      "term": "Telba",
+      "native": "ተልባ",
+      "romanizations": [
+        "telva",
+        "flaxseed drink"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "beverage",
+        "ingredient"
+      ],
+      "short": "Flaxseed — usually served as a thick sweet ground-flax drink.",
+      "long": "Roasted flaxseed ground fine and whisked with water and sugar into a creamy, slightly gritty drink, popular during fasting periods. Flax is a seed, not a tree nut, and the drink is dairy-free.",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-yetsom",
+      "term": "Ye'tsom",
+      "native": "የጾም",
+      "romanizations": [
+        "yetsom",
+        "ye tsom",
+        "fasting"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "course"
+      ],
+      "short": "\"Fasting\" — the menu section that is vegan by religious rule. No meat, dairy, or egg.",
+      "long": "Ethiopian Orthodox fasting excludes all animal products, so the *ye'tsom* section of a menu is reliably vegan without needing to ask — niter kibbeh is replaced with oil and no meat, dairy, or egg appears. This is the most useful structural fact on an Ethiopian menu: rather than interrogating individual dishes about butter, order from this section. *Ye'tsom beyainatu* is the vegan combination platter.",
+      "components": [
+        "et-beyainatu"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Unrelated to fasting; depends on the dishes chosen."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-senig-karya",
+      "term": "Senig karya",
+      "native": "ሰንיግ ቃሪያ",
+      "romanizations": [
+        "senig karia",
+        "stuffed jalapeno"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Long green chilies stuffed with spiced onion, tomato, and sometimes cheese.",
+      "long": "Mild-to-medium long green peppers slit and filled with a mixture of chopped onion, tomato, ginger, and sometimes ayib, then served raw or lightly warmed as a side. Heat depends entirely on the pepper used, which varies from barely warm to genuinely hot. Frequently served uncooked.",
+      "components": [
+        "et-ayib"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw chili, onion, tomato",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Typically served raw or barely warmed."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "ayib",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": "Unpredictable — depends on the individual pepper."
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-bozena-shiro",
+      "term": "Bozena shiro",
+      "native": "ቦዘና ሽሮ",
+      "romanizations": [
+        "bozena shuro"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Shiro enriched with minced or dried beef. Not vegan, despite the shiro name.",
+      "long": "The standard chickpea-powder shiro stew with minced beef or dried strips of beef (*quanta*) cooked into it. Worth flagging because *shiro* alone reads as the safe vegan option on most menus, and this variant quietly isn't — the word **bozena** is the only signal.",
+      "components": [
+        "et-shiro"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "minced or dried beef",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-quanta",
+      "term": "Quanta",
+      "native": "ቋንጣ",
+      "romanizations": [
+        "kwanta",
+        "qwanta"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Air-dried strips of spiced beef jerky, rehydrated into stews or eaten as-is.",
+      "long": "Lean beef rubbed with berbere and salt and hung to dry. Eaten dry as a snack, fried with butter as *quanta firfir*, or stirred into shiro. Dried rather than cooked, though it is normally heated before serving.",
+      "components": [
+        "et-berbere"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "dried beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Air-dried; not cooked in the usual sense."
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-mahberawi",
+      "term": "Mahberawi",
+      "native": "መሕበራዊ",
+      "romanizations": [
+        "mahberawi",
+        "meat combo"
+      ],
+      "language": "Amharic / Tigrinya",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish",
+        "course"
+      ],
+      "short": "The meat combination platter — several meat dishes shared on one injera.",
+      "long": "The carnivore counterpart to beyainatu: typically tibs, doro wat, key wat, and kitfo arranged together on injera with a couple of vegetable sides. Sized for two or more. Since kitfo is often part of it, raw beef may be on the platter whether or not you ordered it specifically.",
+      "components": [
+        "et-tibs",
+        "et-doro-wat",
+        "et-siga-wat",
+        "et-kitfo",
+        "et-injera"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "multiple beef dishes",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Often includes raw beef as kitfo."
+        },
+        {
+          "tag": "chicken",
+          "specific": "doro wat",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh, ayib",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-yebeg-wat",
+      "term": "Yebeg Wat",
+      "native": "የበግ ወጥ",
+      "romanizations": [
+        "yebeg wot",
+        "lamb stew"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Lamb stewed in the standard berbere-onion base. \"Yebeg\" is the word for lamb on Ethiopian menus.",
+      "long": "The same long-simmered onion-and-berbere technique as siga wat and doro wat, here with lamb. **Yebeg** specifically means lamb/sheep, distinct from **siga** (meat, defaulting to beef) — recognizing the word lets you spot lamb dishes (yebeg tibs, yebeg wat) that might otherwise blend into a menu full of \"wat\" and \"tibs\" listings. From real Bethesda menus (Chercher Ethiopian Cuisine, listing both Yebeg Wet and Lamb Tibs/Yebeg Tibs).",
+      "components": [
+        "et-wat",
+        "et-berbere",
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb, stewed",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Fasting versions use oil instead."
+        }
+      ],
+      "spicy": {
+        "frequency": "always",
+        "heat": 3,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "chercher"
+      ]
+    },
+    {
+      "id": "et-doro-tibs",
+      "term": "Doro Tibs",
+      "native": "ዶሮ ጥብስ",
+      "romanizations": [
+        "doro t'ibs"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chicken sautéed tibs-style with onion, garlic, and rosemary, spicier than the plain grilled kind.",
+      "long": "Boneless chicken pieces seared hot with onion, garlic, jalapeño, and rosemary in niter kibbeh, following the same quick-sauté technique as beef or lamb tibs. Often includes berbere for extra heat.",
+      "components": [
+        "et-tibs"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "sautéed chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-tikil-gomen-note",
+      "term": "Denich Wat",
+      "native": "ድንች ወጥ",
+      "romanizations": [
+        "dinich wot"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Potato and carrot stewed in a mild turmeric-onion sauce, similar to atakilt wat without the cabbage.",
+      "long": "Potato and carrot chunks simmered in the same onion-turmeric-ginger base as atakilt wat, without cabbage. Mild, vegan on the fasting menu, nut-free.",
+      "components": [
+        "et-atakilt-wat"
+      ],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-gomen-kitfo",
+      "term": "Gomen Kitfo",
+      "native": "ጎመን ክትፎ",
+      "romanizations": [],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Finely chopped collard greens cooked with niter kibbeh — not to be confused with beef kitfo.",
+      "long": "Collard greens minced very fine and cooked down soft with niter kibbeh and a little onion, resembling the texture of minced meat, which is where the shared name with kitfo comes from despite being entirely vegetable. Worth flagging since the name alone could mislead someone scanning a menu for the raw beef dish.",
+      "components": [
+        "et-gomen"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-selata",
+      "term": "Selata",
+      "native": "ሰላጣ",
+      "romanizations": [
+        "ethiopian salad"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Simple raw salad of tomato, onion, and jalapeño, lighter than timatim salata.",
+      "long": "A plainer version of timatim salata — diced raw tomato, onion, and green chili with lemon and oil, sometimes with lettuce added. Entirely raw.",
+      "components": [
+        "et-timatim-salata"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "tomato, onion, chili",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-injera-firfir-note",
+      "term": "Chechebsa",
+      "native": "ጨጨብሳ",
+      "romanizations": [
+        "kita firfir"
+      ],
+      "language": "Amharic / Oromo",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Torn flatbread (not injera) tossed with berbere and niter kibbeh — an Oromo breakfast dish.",
+      "long": "A thicker, unleavened flatbread (*kita*) torn into pieces and tossed with melted spiced butter and berbere until well coated, similar in spirit to firfir but using a different, denser bread rather than injera. Popular as a breakfast dish, especially in Oromia.",
+      "components": [
+        "et-firfir",
+        "et-berbere"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flatbread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-tegabino",
+      "term": "Shiro Tegabino",
+      "native": "ሽሮ ተጋቢኖ",
+      "romanizations": [],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "A richer, bubbling clay-pot version of shiro, often with extra butter and a whole chili on top.",
+      "long": "The same chickpea-flour stew as shiro, cooked richer and thicker in its own individual clay pot, often served still bubbling with a whole green chili or a pat of niter kibbeh melting on top. Same nut caution as plain shiro — a small share of commercial shiro powders include peanut.",
+      "components": [
+        "et-shiro"
+      ],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh, often extra",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "peanut",
+          "specific": "ground peanut, in some shiro powder blends",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "Same caveat as plain shiro — not traditional but present in some commercial blends."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-genfo",
+      "term": "Genfo",
+      "native": "ገንፎ",
+      "romanizations": [
+        "gebs genfo"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick barley or wheat porridge mounded with a well of spiced butter and berbere in the center.",
+      "long": "Barley or wheat flour cooked with water into a very stiff, dense porridge, mounded on a plate with a crater pressed into the center filled with melted niter kibbeh, sometimes mixed with berbere and yogurt. A hearty breakfast dish, eaten by dipping bites into the buttery well.",
+      "components": [
+        "et-niter-kibbeh"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "barley or wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "niter kibbeh, often yogurt too",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": true,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-tihlo",
+      "term": "Tihlo",
+      "native": "ጥሕሎ",
+      "romanizations": [
+        "t'ihlo"
+      ],
+      "language": "Tigrinya",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Roasted barley flour rolled into firm dumplings, dipped into a spicy meat sauce. A Tigray specialty.",
+      "long": "Barley flour toasted then kneaded with hot water into a stiff dough, rolled by hand into small dumplings, and eaten by dipping into a hot, spiced meat or vegetable sauce (*silsi*). A specialty of the Tigray region, distinct in form from injera-based meals.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "roasted barley flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "meat sauce (silsi), when meat-based",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "et-gesho",
+      "term": "Gesho",
+      "native": "ገሾ",
+      "romanizations": [
+        "gesho leaves"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Buckthorn leaves and twigs used as the bittering, fermenting agent in tej and tella.",
+      "long": "The leaves and bark of the gesho shrub act as both a bittering agent (like hops) and a natural fermentation starter for tej (honey wine) and tella (beer). Not consumed directly as food, only as a brewing ingredient.",
+      "components": [
+        "et-tej",
+        "et-tella"
+      ],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "used to trigger fermentation",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "et-dabo-kolo",
+      "term": "Dabo Kolo",
+      "native": "ዳቦ ቆሎ",
+      "romanizations": [
+        "dabo kollo"
+      ],
+      "language": "Amharic",
+      "cuisines": [
+        "ethiopian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small crunchy fried wheat dough bites, spiced with berbere — a snack distinct from kolo (roasted grain).",
+      "long": "Bite-sized pieces of wheat dough, sometimes spiced with berbere or sugar, deep fried or baked until hard and crunchy, similar in role to a savory cracker. Easy to confuse by name with *kolo* (roasted barley and peanuts) — dabo kolo is wheat-dough based and, unlike kolo, does not typically contain peanuts.",
+      "components": [
+        "et-kolo"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "fried wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,1820 @@
+{
+  "cuisine": "ukrainian",
+  "terms": [
+    {
+      "id": "uk-borscht",
+      "term": "Borscht",
+      "native": "борщ",
+      "romanizations": [
+        "borsch",
+        "borshch"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Deep red beet soup, usually with cabbage and often beef, served with a dollop of sour cream.",
+      "long": "Beets, cabbage, carrot, potato, and tomato simmered into a garnet-red soup, traditionally with beef or pork stock and chunks of meat, though vegetarian versions are equally standard on modern menus. Served with a spoonful of sour cream stirred in and a garlic bread roll (*pampushka*) on the side. From real Bethesda menus (Ruta, offering both beef and vegetarian versions with pampushka).",
+      "components": [
+        "uk-pampushka"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "beef, in the non-vegetarian version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "A vegetarian version is a standard, equally prominent menu choice."
+        },
+        {
+          "tag": "dairy",
+          "specific": "sour cream",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Stirred in or served on the side — ask to have it left off if needed."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion, garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this the beef or the vegetarian borscht, and can the sour cream be left off?",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-green-borscht",
+      "term": "Green Borscht",
+      "native": "зелений борщ",
+      "romanizations": [
+        "zelenyi borshch",
+        "sorrel soup"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Tart sorrel-and-spinach soup with potato and a soft-boiled egg — unrelated to beet borscht beyond the name.",
+      "long": "Sour, lemony sorrel and spinach simmered with potato and vegetables into a bright green, tangy soup, usually finished with a halved hard- or soft-boiled egg and a spoon of sour cream. Egg is a standard, structural garnish here rather than optional. From real Bethesda menus (Ruta: \"Sorrel, spinach, chicken eggs, potato, vegetables\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "hard- or soft-boiled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "sour cream",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-varenyky",
+      "term": "Varenyky",
+      "native": "вареники",
+      "romanizations": [
+        "vareniki",
+        "pierogi"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Boiled dumplings filled with potato, sauerkraut, chicken, or short rib — the Ukrainian pierogi.",
+      "long": "Wheat dough folded around a filling and boiled, then usually finished with a little butter or fried onion. Fillings on a standard menu span vegetarian (potato, potato-and-sauerkraut) and meat (chicken, short rib) versions side by side, so it's genuinely a per-order question. Served with sour cream on the side. From real Bethesda menus (Ruta, offering potato, sauerkraut, chicken, and short rib varenyky, plus sweet cherry varenyky for dessert).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken filling, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Potato and sauerkraut versions are vegetarian."
+        },
+        {
+          "tag": "beef",
+          "specific": "short rib filling, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, sour cream on the side",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "sauerkraut, in that filling",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Which filling is this — potato, sauerkraut, chicken, or short rib?",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-salo",
+      "term": "Salo",
+      "native": "сало",
+      "romanizations": [
+        "salo pork fat"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish",
+        "ingredient"
+      ],
+      "short": "Cured slabs of pork back fat, sliced thin and eaten on dark rye with garlic and mustard.",
+      "long": "Pork fatback cured with salt and often garlic, black pepper, or paprika, sliced into thin, near-translucent pieces and served cold on dark rye bread. Almost entirely pork fat by composition — the single most pork-concentrated item on the menu. From real Bethesda menus (Ruta: \"Pork fat with rye bread\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured pork back fat",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The dish is essentially pure pork fat."
+        },
+        {
+          "tag": "gluten",
+          "specific": "rye bread",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic, if used in the cure",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-forshmak",
+      "term": "Forshmak",
+      "native": "форшмак",
+      "romanizations": [
+        "forschmak"
+      ],
+      "language": "Ukrainian (Jewish)",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Chopped herring spread with apple, onion, and egg, served on rye — a Jewish-Odessan classic.",
+      "long": "Salted or pickled herring finely chopped or ground with hard-boiled egg, tart apple, onion, and a little bread soaked in milk, forming a spreadable pâté-like mixture served on dark rye. The herring is cured, not fresh-raw, but is a strong, unambiguous fish flag. From real Bethesda menus (Ruta, \"Odesa Forshmak — Jewish herring on rye bread\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "salted or pickled herring",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured, not raw in the sashimi sense, but the dominant ingredient."
+        },
+        {
+          "tag": "egg",
+          "specific": "hard-boiled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "tart apple",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "rye bread, and bread soaked in the mixture",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-holubtsi",
+      "term": "Holubtsi",
+      "native": "голубці",
+      "romanizations": [
+        "holubtsy",
+        "golubtsi",
+        "stuffed cabbage"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cabbage leaves rolled around rice and meat (or mushroom), braised in tomato sauce.",
+      "long": "Blanched cabbage leaves wrapped around a filling of rice mixed with ground beef and chicken, or a mushroom filling for the vegetarian version, braised slowly in a light tomato sauce until tender. Both meat and vegetarian versions are standard, labeled menu items. From real Bethesda menus (Ruta: Meat Holubtsi \"beef and chicken\"; Mushroom Holubtsi).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "chicken",
+          "specific": "ground chicken, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this the meat or the mushroom holubtsi?",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-deruny",
+      "term": "Deruny",
+      "native": "деруни",
+      "romanizations": [
+        "draniki",
+        "potato pancakes"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grated potato pancakes, pan-fried crisp, served with mushroom sauce and often sour cream.",
+      "long": "Potato grated and bound with a little egg and flour, pan-fried into crisp savory pancakes, served hot with a mushroom cream sauce and a dollop of sour cream. Egg and dairy are both standard, though the potato itself contains neither. From real Bethesda menus (Ruta, \"Potato pancakes with mushrooms sauce\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "cream sauce, sour cream",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-banosh",
+      "term": "Banosh",
+      "native": "банош",
+      "romanizations": [
+        "bануш"
+      ],
+      "language": "Ukrainian (Hutsul)",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Creamy cornmeal polenta from the Carpathians, topped with salty bacon and fresh goat cheese.",
+      "long": "Cornmeal cooked slowly in sour cream until thick and rich, like a very creamy polenta, then topped with crisp slab bacon and crumbled fresh cheese (*brynza*, a sheep or goat cheese). A vegetarian version swaps in mushrooms for the bacon but keeps the cheese. Dairy-heavy throughout — the polenta itself is cooked in cream, not water. From real Bethesda menus (Ruta: Banosh with slab bacon and goat cheese; vegetarian version with mushrooms).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "sour cream base, goat cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The cornmeal is cooked in cream, not water — dairy is structural, not a topping."
+        },
+        {
+          "tag": "pork",
+          "specific": "slab bacon",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The vegetarian version substitutes mushrooms."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-kovbasa",
+      "term": "Kovbasa",
+      "native": "ковбаса",
+      "romanizations": [
+        "kobasa",
+        "kielbasa"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Garlicky smoked pork sausage, sliced and grilled or pan-seared, often paired with sauerkraut.",
+      "long": "A coarse-ground smoked pork sausage, heavily seasoned with garlic, served sliced and pan-seared or grilled, frequently alongside sauerkraut, mustard, or bacon in a mixed platter. From real Bethesda menus (Ruta: in the Cossack Bowl and in Bigos).",
+      "components": [
+        "uk-bigos"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "smoked pork sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "smoked/cured sausage, and any accompanying sauerkraut",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-bigos",
+      "term": "Bigos",
+      "native": "бігос",
+      "romanizations": [],
+      "language": "Ukrainian / Polish",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Long-braised hunter's stew of sauerkraut, kovbasa sausage, and pork.",
+      "long": "Sauerkraut and fresh cabbage slow-braised for hours with chunks of pork and slices of smoked kovbasa sausage, sometimes with a little dried fruit or mushroom for depth. Pork appears in two separate forms in the same dish. From real Bethesda menus (Ruta: \"Sauerkraut, Ukrainian kovbasa, pork\").",
+      "components": [
+        "uk-kovbasa"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork chunks and kovbasa sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Present in two forms — the meat itself and the sausage."
+        },
+        {
+          "tag": "fermented",
+          "specific": "sauerkraut",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-chicken-kyiv",
+      "term": "Chicken Kyiv",
+      "native": "котлета по-київськи",
+      "romanizations": [
+        "kotleta po-kyivsky",
+        "chicken kiev"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Breaded chicken breast wrapped around a core of herb butter, fried so the butter stays liquid inside.",
+      "long": "A chicken breast pounded thin, wrapped around a log of cold herb-and-garlic butter, breaded, and fried or baked so the outside is crisp while the butter center stays molten — cutting into it releases a rush of hot butter. Wheat and dairy are both essential, non-optional components. From real Bethesda menus (Ruta, offering classic and mushroom versions).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "chicken breast",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter core",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "The defining feature of the dish — a full stick's worth is typical."
+        },
+        {
+          "tag": "gluten",
+          "specific": "breading",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg wash in the breading",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic and herbs in the butter",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-beef-stroganoff",
+      "term": "Beef Stroganoff",
+      "native": "бефстроганов",
+      "romanizations": [
+        "befstroganov"
+      ],
+      "language": "Ukrainian / Russian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sliced beef in a mushroom-and-sour-cream sauce, served over buckwheat or noodles.",
+      "long": "Strips of beef sautéed with onion and mushroom, finished in a tangy sour cream sauce, traditionally served over buckwheat groats (naturally gluten-free) or egg noodles depending on the kitchen. Dairy is structural to the sauce. From real Bethesda menus (Ruta, \"with buckwheat and mushrooms\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "sliced beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "sour cream sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "egg noodles, if served over noodles rather than buckwheat",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Buckwheat groats (kasha) are naturally gluten-free; check which base is used."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-vinaigrette",
+      "term": "Vinaigrette Salad",
+      "native": "вінегрет",
+      "romanizations": [
+        "vinihret"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Diced cooked beet, potato, carrot, and pickle salad, dressed in oil — not a vinaigrette dressing itself.",
+      "long": "A confusingly-named cold salad (not a dressing): diced boiled beet, potato, carrot, pickled cucumber, and often sauerkraut or peas, all cooked or pickled rather than raw, dressed simply in sunflower or olive oil. Vegan, nut-free. From real Bethesda menus (Ruta, \"Roasted vegetable salad\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "pickled cucumber, sauerkraut when included",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-tsvikli",
+      "term": "Tsvikli",
+      "native": "цвіклі",
+      "romanizations": [
+        "tsvikly"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grated beet and horseradish relish, sharp and cold. Vegan, nut-free.",
+      "long": "Cooked, grated beet mixed with fresh grated horseradish and a little vinegar, served cold as a sharp, palate-clearing side. The beet is cooked; the horseradish is raw and gives it real bite. From real Bethesda menus (Ruta, \"Horseradish beet salad\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw horseradish",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Horseradish sharpness rather than chili heat."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-syrnyky",
+      "term": "Syrnyky",
+      "native": "сирники",
+      "romanizations": [
+        "syrniki"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Pan-fried farmer's cheese pancakes, served with sour cream and berries.",
+      "long": "Fresh farmer's cheese (similar to a dry ricotta) bound with egg and a little flour, formed into small patties, and pan-fried until golden, served with sour cream, berries, or fruit preserve. Dairy and egg are both central. From real Bethesda menus (Ruta).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "farmer's cheese, sour cream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg binder",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "berries and/or sour cherry confiture",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-honey-cake",
+      "term": "Medovik",
+      "native": "медовик",
+      "romanizations": [
+        "medovyk",
+        "honey cake"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Many-layered honey cake with sweet cream cheese frosting between paper-thin cake sheets.",
+      "long": "Thin honey-sweetened cake layers, baked individually and stacked with a sweetened sour-cream or cream-cheese frosting, left to sit so the layers soften into a moist, tender cake. Dairy and egg (in the cake layers) are both central. From real Bethesda menus (Ruta, \"Layered cake with sweet honey and sweet cream cheese\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "cream cheese or sour cream frosting",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the cake layers",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-kyiv-cake",
+      "term": "Kyiv Cake",
+      "native": "київський торт",
+      "romanizations": [
+        "Kiev cake"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Crisp meringue-and-hazelnut layers filled with buttercream — a definite tree-nut dessert.",
+      "long": "Two thin layers of baked meringue studded with chopped hazelnuts or cashews, sandwiched with a rich butter-and-egg cream, coated in chocolate glaze. Unlike most of this cuisine's desserts, nuts are baked directly into the meringue layers and are not removable. From real Bethesda menus (Ruta, \"Crispy meringue layers with mixed nuts and buttercream\").",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "hazelnut or cashew, baked into the meringue",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Baked directly into the structural layers — not a garnish and not removable."
+        },
+        {
+          "tag": "egg",
+          "specific": "meringue, buttercream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "buttercream",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-cherry-varenyky",
+      "term": "Cherry Varenyky",
+      "native": "вареники з вишнею",
+      "romanizations": [
+        "vareniki z vyshneyu"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Sweet boiled dumplings filled with tart cherries, served with sour cream.",
+      "long": "The same wheat-dough dumpling as savory varenyky, here filled with pitted sour cherries and a little sugar, boiled, and served with sour cream or melted butter on top. From real Bethesda menus (Ruta, \"Ukrainian dumplings filled with sweet and sour cherries\").",
+      "components": [
+        "uk-varenyky"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "cherries, cooked into the filling",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "sour cream or butter topping",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-apple-strudel",
+      "term": "Apple Strudel",
+      "native": "яблучний штрудель",
+      "romanizations": [
+        "yabluchnyi shtrudel"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Thin pastry rolled around cinnamon-spiced cooked apple, served warm with ice cream.",
+      "long": "Sheets of thin pastry (similar to filo) wrapped around apple cooked soft with cinnamon and sugar, baked until golden, and served warm, usually with a scoop of vanilla ice cream. The apple is fully cooked inside the pastry. From real Bethesda menus (Ruta).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "pastry",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "cinnamon-spiced cooked apple",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked, not raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "ice cream accompaniment, butter in the pastry",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-pampushka",
+      "term": "Pampushka",
+      "native": "пампушка",
+      "romanizations": [
+        "pampushky"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Soft yeasted garlic rolls, the standard accompaniment to borscht.",
+      "long": "Small, pillowy yeasted wheat rolls, baked and then brushed with a garlic-and-oil or garlic-and-dill mixture while still warm. Served alongside borscht as a near-automatic pairing. From real Bethesda menus (Ruta).",
+      "components": [
+        "uk-borscht"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic brushed on top",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, in some recipes",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "ruta"
+      ]
+    },
+    {
+      "id": "uk-kutia",
+      "term": "Kutia",
+      "native": "кутя",
+      "romanizations": [
+        "kutya"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dessert",
+        "dish"
+      ],
+      "short": "Sweet wheat-berry pudding with poppy seed, honey, and **walnuts** — the ceremonial first dish of Christmas Eve dinner.",
+      "long": "Boiled wheat berries (or sometimes rice) mixed with a ground poppy-seed-and-honey paste, dried fruit, and chopped walnuts, served cold or at room temperature. Eaten as the ritual first course of the twelve-dish Ukrainian Christmas Eve supper, not as an everyday dessert. Walnuts are mixed throughout, not a garnish.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "chopped walnuts",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Mixed through the dish, not removable."
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat berries",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Rice-based versions exist and are gluten-free."
+        },
+        {
+          "tag": "fruit",
+          "specific": "dried fruit (raisins, dried apricot)",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-paska",
+      "term": "Paska",
+      "native": "паска",
+      "romanizations": [
+        "Ukrainian Easter bread"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "bread",
+        "dessert"
+      ],
+      "short": "Tall, sweet, egg-rich yeasted bread baked for Easter, often topped with icing.",
+      "long": "An enriched yeasted bread made with a large number of eggs and butter, giving it a golden, brioche-like crumb, baked tall in a cylindrical mold and traditionally decorated with a dough cross or braid on top, sometimes iced. Egg and dairy are both heavy.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg-enriched dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter, milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-kholodets",
+      "term": "Kholodets",
+      "native": "холодець",
+      "romanizations": [
+        "studenets"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Savory meat aspic — pork or beef stock chilled until it sets into a firm jelly around the meat.",
+      "long": "Pork trotters, beef, or a mix simmered for many hours until the collagen-rich stock is thick enough to set on its own when chilled, then poured over shredded meat and cooled into a firm, jiggly jelly, served cold in slices with mustard or horseradish. Traditional, but visually unusual for anyone unfamiliar with aspic.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork trotter or knuckle stock",
+          "certainty": "usually",
+          "prominence": "primary",
+          "note": "Beef versions or blends are also standard."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in beef or mixed versions",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": true,
+        "note": "Usually served with horseradish or mustard on the side."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-solyanka",
+      "term": "Solyanka",
+      "native": "солянка",
+      "romanizations": [],
+      "language": "Ukrainian / Russian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Sour, salty soup with a mix of cured meats or fish, olives, pickles, and lemon.",
+      "long": "A thick, tangy soup built on pickle brine, tomato, and capers, with either a mix of cured/smoked meats (ham, sausage, beef) or a fish version with several kinds of fish, garnished with olives and a lemon slice. The meat and fish versions are distinct menu items, not variants of the same order.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "ham or sausage, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Meat and fish versions are separate menu items."
+        },
+        {
+          "tag": "beef",
+          "specific": "beef, in the meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "multiple fish varieties, in the fish version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "pickle brine base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this the meat solyanka or the fish version?"
+    },
+    {
+      "id": "uk-okroshka",
+      "term": "Okroshka",
+      "native": "окрошка",
+      "romanizations": [],
+      "language": "Ukrainian / Russian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Cold summer soup of diced raw vegetables, egg, and meat in a tangy kvas or kefir base.",
+      "long": "Diced raw cucumber, radish, and scallion, chopped hard-boiled egg, and diced ham or sausage, submerged in a cold, sour liquid base — traditionally fermented kvas, sometimes kefir or diluted yogurt. Served chilled; the raw vegetables are a large share of the dish, not a garnish.",
+      "components": [
+        "uk-kvas"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "diced raw cucumber, radish, scallion",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "chopped hard-boiled egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "diced ham or sausage",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "kefir or yogurt base, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": "Kvas-based versions are dairy-free."
+        },
+        {
+          "tag": "fermented",
+          "specific": "kvas or kefir base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-uzvar",
+      "term": "Uzvar",
+      "native": "узвар",
+      "romanizations": [],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Sweet, non-alcoholic dried-fruit compote drink, served cold or warm.",
+      "long": "Dried apple, pear, and plum simmered in water with a little sugar and sometimes cinnamon or clove, then strained or served with the softened fruit still in the glass. Traditional at Christmas alongside kutia. Non-alcoholic and dairy-free.",
+      "components": [
+        "uk-kutia"
+      ],
+      "contains": [
+        {
+          "tag": "fruit",
+          "specific": "dried apple, pear, plum",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cooked/rehydrated, not raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-kvas",
+      "term": "Kvas",
+      "native": "квас",
+      "romanizations": [
+        "kvass"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "beverage"
+      ],
+      "short": "Mildly fermented, faintly sweet-sour drink made from fermented rye bread. Barely alcoholic.",
+      "long": "Stale rye bread fermented briefly with yeast and sugar, producing a dark, tangy, effervescent drink with only trace alcohol (typically under 1%), sold everywhere as a soft-drink alternative. Contains gluten from the rye/wheat bread base.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "fermented rye or wheat bread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "bread fermentation",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "trace alcohol from fermentation",
+          "certainty": "rarely",
+          "prominence": "trace",
+          "note": "Typically under 1% ABV — far less than beer, but not strictly zero."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-nalysnyky",
+      "term": "Nalysnyky",
+      "native": "налисники",
+      "romanizations": [
+        "nalystnyky"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thin crepes filled with sweet farmer's cheese or savory meat, then pan-fried.",
+      "long": "Thin wheat crepes, similar to a French crêpe, rolled around a filling — most often sweetened farmer's cheese, though mushroom or minced meat versions are equally standard — and pan-fried until the outside crisps. Served with sour cream.",
+      "components": [
+        "fr-crepe",
+        "uk-syrnyky"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat crepe",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the crepe batter",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "farmer's cheese filling, sour cream",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "The cheese filling is the traditional default; savory meat versions are a labeled alternative."
+        },
+        {
+          "tag": "beef",
+          "specific": "minced meat, in the savory version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-kasha",
+      "term": "Kasha (Buckwheat)",
+      "native": "каша",
+      "romanizations": [
+        "hrechka"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "Toasted buckwheat groats, boiled into a nutty, naturally gluten-free porridge or side.",
+      "long": "Buckwheat groats, often lightly toasted before cooking, simmered in water or broth until tender, producing a nutty-tasting (though botanically nut-free) side dish or breakfast porridge. Naturally gluten-free, since buckwheat is not a wheat relative despite the name.",
+      "components": [
+        "uk-beef-stroganoff"
+      ],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-halushky",
+      "term": "Halushky",
+      "native": "галушки",
+      "romanizations": [
+        "haluski"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small soft wheat dumplings, boiled or pan-fried, tossed with butter, cabbage, or bacon.",
+      "long": "Simple dumplings of flour, egg, and water dropped into boiling water or broth, then often finished pan-fried with butter and either sautéed cabbage or bacon. Wheat and egg are structural; dairy and pork vary by preparation.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat dumpling dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg in the dough",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "bacon, in that version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-chebureki",
+      "term": "Chebureki",
+      "native": "чебуреки",
+      "romanizations": [
+        "cheburek"
+      ],
+      "language": "Crimean Tatar / Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Deep-fried half-moon turnover with a thin wheat crust around juicy minced meat.",
+      "long": "A thin, unleavened wheat dough folded around minced lamb or beef with onion and deep fried until the crust blisters and crisps, leaving the filling juicy inside. Crimean Tatar in origin, widely adopted across Ukraine. Wheat and meat are both structural.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "minced lamb",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Beef is an equally common filling."
+        },
+        {
+          "tag": "beef",
+          "specific": "minced beef",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "thin wheat dough",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-kapustnyak",
+      "term": "Kapustnyak",
+      "native": "капусняк",
+      "romanizations": [],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Tangy sauerkraut and millet soup, usually with pork.",
+      "long": "A sour soup built on sauerkraut (fresh cabbage is sometimes added too) and millet, simmered with pork or smoked pork ribs until the flavors meld. Fermented and pork-forward.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "pork or smoked pork ribs",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "sauerkraut base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-olivier",
+      "term": "Salat Olivier",
+      "native": "салат олів'є",
+      "romanizations": [
+        "Olivier salad",
+        "Russian salad"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Diced potato, carrot, pickle, egg, and bologna or ham, bound in mayonnaise — the standard holiday salad.",
+      "long": "Boiled potato, carrot, and egg diced small, mixed with diced pickle, peas, and cubes of bologna-style sausage or ham, all bound together in a generous amount of mayonnaise. A fixture at holiday tables. Egg appears both as a mixed-in ingredient and within the mayonnaise itself.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "diced hard-boiled egg, plus mayonnaise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "bologna-style sausage or ham",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "diced pickle",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "uk-shuba",
+      "term": "Shuba",
+      "native": "шуба",
+      "romanizations": [
+        "\"herring under a fur coat\""
+      ],
+      "language": "Ukrainian / Russian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Layered salad of salted herring under grated beet, carrot, potato, and mayonnaise — vivid magenta on top.",
+      "long": "Chopped salted (cured, not fresh-raw) herring layered at the bottom of a dish, covered with layers of grated boiled potato, carrot, and egg, each coated in mayonnaise, and topped with grated beet, which stains the whole top layer deep magenta — the \"fur coat.\" The fish is fully hidden beneath the vegetable layers, easy to miss if only looking at the visible top.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fish",
+          "specific": "salted herring, layered at the base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured, not fresh-raw, but the defining ingredient — easy to overlook since only the beet-topped surface is visible."
+        },
+        {
+          "tag": "egg",
+          "specific": "grated hard-boiled egg layer, plus mayonnaise",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "This has herring hidden under the vegetable layers — is that alright?"
+    },
+    {
+      "id": "uk-pyrizhky",
+      "term": "Pyrizhky",
+      "native": "пиріжки",
+      "romanizations": [
+        "pirozhki"
+      ],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small hand-sized yeasted buns, baked or fried, filled sweet or savory — cabbage, meat, potato, or fruit.",
+      "long": "Individual portions of soft yeasted dough sealed around a filling and baked or shallow-fried. Savory fillings include cabbage, mashed potato, or minced meat; sweet ones use fruit preserve or farmer's cheese. The filling varies dish to dish and is the whole allergen question here.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "yeasted wheat dough",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "beef",
+          "specific": "minced meat filling, in the savory meat version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "farmer's cheese filling, in the sweet cheese version",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "What's the filling in these?"
+    },
+    {
+      "id": "uk-kalach",
+      "term": "Kalach",
+      "native": "калач",
+      "romanizations": [],
+      "language": "Ukrainian",
+      "cuisines": [
+        "ukrainian"
+      ],
+      "type": [
+        "bread"
+      ],
+      "short": "Braided or ring-shaped white wheat bread, made for weddings and festive occasions.",
+      "long": "An enriched white wheat bread, often braided or shaped into a ring, glossy from an egg wash, baked for weddings and holidays as a symbol of hospitality. Egg and often dairy are part of the enrichment.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat flour",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg wash, and often in the dough",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "butter or milk, in enriched versions",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
+    }
+  ]
+}

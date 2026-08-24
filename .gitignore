@@ -1,0 +1,13 @@
+# Editor/tooling state, not part of the app
+.claude/
+.DS_Store
+
+# Source menus you downloaded for research. Excluded deliberately: they're
+# restaurant-copyrighted PDFs, they aren't needed at runtime, and they'd
+# otherwise be published verbatim to a public repo.
+menus/
+
+# Local Netlify folder
+.netlify
+.netlify/
+dist/
