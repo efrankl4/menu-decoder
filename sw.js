@@ -1,5 +1,5 @@
 /* Cache everything on install; serve cache-first so the app works with no signal. */
-const CACHE = 'menu-decoder-v10';
+const CACHE = 'menu-decoder-v11';
 const ASSETS = [
   './', './index.html',
   'app/styles.css', 'app/app.js', 'app/manifest.webmanifest',
@@ -22,6 +22,7 @@ const ASSETS = [
   'data/terms/mexican.json',
   'data/terms/vietnamese.json',
   'data/terms/spanish.json',
+  'app/fonts/fredoka-latin.woff2', 'app/fonts/jakarta-latin.woff2',
   'app/icons/icon-192.png', 'app/icons/icon-512.png'
 ];
 

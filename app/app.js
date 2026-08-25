@@ -9,6 +9,28 @@ const DEFAULT_PROFILES = [
   { id: 'd2', name: 'Diner 2', tags: [] }
 ];
 
+/* Inline SVG for the bits of chrome that used to be emoji or text glyphs. Kept as
+   constants so the same path is reused everywhere and stays one colour to restyle. */
+const SVG = {
+  flame: '<svg width="11" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c1 3.2-3.4 4.6-3.4 8.8a3.4 3.4 0 0 0 6.8 0c0-1.1-.5-1.9-1-2.7 1.9.9 3.6 3 3.6 6a6 6 0 0 1-12 0c0-6 4.4-7.3 6-12.1z"/></svg>',
+  check: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>',
+  pin:   '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.3"/></svg>',
+  grip:  '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="8" cy="6" r="1.6"/><circle cx="16" cy="6" r="1.6"/><circle cx="8" cy="12" r="1.6"/><circle cx="16" cy="12" r="1.6"/><circle cx="8" cy="18" r="1.6"/><circle cx="16" cy="18" r="1.6"/></svg>',
+  trash: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>',
+  x:     '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" aria-hidden="true"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>'
+};
+
+/* Each diner column gets one of the palette's diner hues, in order. */
+const DINER_HUE = ['var(--d1)', 'var(--d2)', 'var(--d3)'];
+const dinerHue = i => DINER_HUE[i % DINER_HUE.length];
+/* "Diner 1" -> "D1", "Sam" -> "SA": a two-character stand-in for the column header. */
+function initials(name) {
+  const words = String(name || '').trim().split(/\s+/).filter(Boolean);
+  if (!words.length) return '?';
+  if (words.length > 1) return (words[0][0] + words[1][0]).toUpperCase();
+  return words[0].slice(0, 2).toUpperCase();
+}
+
 const CERT_MARK   = { always: '!', usually: '!', sometimes: '?', rarely: '·' };
 const CERT_WORD   = { always: 'always', usually: 'usually', sometimes: 'sometimes — worth asking', rarely: 'rarely' };
 const PROM_WORD   = {
@@ -112,6 +134,10 @@ async function boot() {
   state.terms.forEach(t => state.termById[t.id] = t);
   state.terms.sort((a, b) => a.term.localeCompare(b.term));
 
+  const menuCount = state.restaurants.length;
+  document.getElementById('tagline').textContent =
+    `${state.terms.length} dishes across ${built.length} cuisines · ${menuCount} real menus checked`;
+
   wire();
   render();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
@@ -152,31 +178,40 @@ function hitsFor(term, profile) {
 }
 
 /* ---------- rendering ---------- */
+/* The detail sheet's leading glyph: an emoji where the tag has one, otherwise its
+   short code set small enough to fit the same slot. */
+function emFace(tag) {
+  return tag.emoji
+    ? `<span class="em">${tag.emoji}</span>`
+    : `<span class="em em-abbr">${esc(tag.short || '')}</span>`;
+}
+
 function chipHTML(hit) {
-  const tag = state.tags[hit.tag] || { emoji: '', short: hit.tag, label: hit.tag };
-  const face = tag.emoji || '';
+  const tag = state.tags[hit.tag] || { emoji: '', short: hit.tag, label: hit.tag, group: 'other' };
+  // the emoji is the chip's face; tags without one (sesame, fermented) fall back to letters
+  const face = tag.emoji ? `<span class="face">${tag.emoji}</span>` : '';
   const lbl = (!tag.emoji || state.showLabels) ? `<span class="lbl">${tag.short}</span>` : '';
   const title = `${tag.label}${hit.specific ? ' — ' + hit.specific : ''}: ${CERT_WORD[hit.certainty]}, ${PROM_WORD[hit.prominence]}`;
-  return `<span class="chip chip-${hit.prominence}" title="${esc(title)}">${face}${lbl}<span class="cert">${CERT_MARK[hit.certainty]}</span></span>`;
+  return `<span class="chip chip-${hit.prominence} g-${tag.group || 'other'}" title="${esc(title)}">${face}${lbl}<span class="cert">${CERT_MARK[hit.certainty]}</span></span>`;
 }
 
 function profileCell(term, profile) {
   const hits = hitsFor(term, profile);
-  if (!hits.length) return '<span class="clear-mark" title="Nothing on this diner\'s list">✓</span>';
+  if (!hits.length) return `<span class="clear-mark" title="Nothing on this diner's list">${SVG.check}</span>`;
   return hits.map(chipHTML).join('');
 }
 
 function spiceCell(sp) {
   if (!sp) return '';
   const h = sp.heat || 0;
-  const peppers = h === 0 ? '—' : '🌶'.repeat(Math.min(h, 4));
+  const peppers = h === 0 ? '–' : SVG.flame.repeat(Math.min(h, 4));
   const freq = { always: 'always', usually: 'usually', sometimes: 'sometimes', rarely: 'rarely', never: '' }[sp.frequency] || '';
   return `<span class="heat heat-${h}" title="${esc('Heat ' + h + '/4, ' + (sp.frequency || '') + (sp.adjustable ? ', usually adjustable' : ''))}">${peppers}${sp.adjustable ? '<sup>±</sup>' : ''}</span><span class="freq">${freq}</span>`;
 }
 
 function sortArrow(colId) {
   if (state.sort.col !== colId) return '';
-  return state.sort.dir === 'asc' ? ' ▲' : ' ▼';
+  return `<span class="th-arrow">${state.sort.dir === 'asc' ? '▲' : '▼'}</span>`;
 }
 
 function sortedList(list) {
@@ -196,10 +231,13 @@ function renderTable(list) {
   list = sortedList(list);
 
   const head = document.getElementById('thead-row');
-  head.innerHTML = state.profiles.map(p =>
-      `<th class="th-sort" data-sort="${esc(p.id)}" title="${esc(p.tags.map(t => (state.tags[t] || {}).label || t).join(', '))}">${esc(p.name)}${sortArrow(p.id)}</th>`).join('')
-    + `<th class="th-sort" data-sort="hot">Hot${sortArrow('hot')}</th>`
-    + '<th>Term</th>';
+  head.innerHTML = state.profiles.map((p, i) => {
+      const watching = p.tags.map(t => (state.tags[t] || {}).label || t).join(', ');
+      return `<th class="th-sort" data-sort="${esc(p.id)}" title="${esc(p.name + (watching ? ' — watching ' + watching : ' — nothing set yet'))}">
+        <span class="diner-av" style="background:${dinerHue(i)}">${esc(initials(p.name))}</span>${sortArrow(p.id)}</th>`;
+    }).join('')
+    + `<th class="th-sort" data-sort="hot" title="Heat">${SVG.flame}${sortArrow('hot')}</th>`
+    + '<th>Dish</th>';
 
   const body = document.getElementById('tbody');
   body.innerHTML = list.map(t => `
@@ -210,7 +248,7 @@ function renderTable(list) {
         <span class="term-name">${esc(t.term)}</span>
         <span class="term-meta">${esc(t._cuisineLabels.join(', '))} · ${esc((t.type || []).join(' · '))}</span>
         <span class="term-short">${md(t.short)}</span>
-        ${t._restaurantLabels.length ? `<span class="term-rest">🍽 ${esc(t._restaurantLabels.join(', '))}</span>` : ''}
+        ${t._restaurantLabels.length ? `<span class="term-rest">${SVG.pin}${esc(t._restaurantLabels.join(', '))}</span>` : ''}
       </td>
     </tr>`).join('');
 
@@ -222,7 +260,7 @@ function renderGlossary(list) {
     <article class="gcard" data-id="${t.id}">
       <h3>${esc(t.term)} ${t.native ? `<span class="native">${esc(t.native)}</span>` : ''}</h3>
       <div class="gmeta">${esc(t._cuisineLabels.join(', '))} · ${esc((t.type || []).join(' · '))}${
-        t._restaurantLabels.length ? ` · 🍽 ${esc(t._restaurantLabels.join(', '))}` : ''}</div>
+        t._restaurantLabels.length ? ' · ' + esc(t._restaurantLabels.join(', ')) : ''}</div>
       <p>${md(t.short)}</p>
       <div class="gchips">${state.profiles.map(p => {
         const hits = hitsFor(t, p);
@@ -253,7 +291,7 @@ function renderActiveFilters() {
   const el = document.getElementById('active-filters');
   el.hidden = !bits.length;
   el.innerHTML = bits.map(([k, label]) =>
-    `<span class="fchip">${esc(label)}<button data-drop="${esc(k)}" aria-label="Remove">✕</button></span>`).join('');
+    `<span class="fchip">${esc(label)}<button data-drop="${esc(k)}" aria-label="Remove">${SVG.x}</button></span>`).join('');
 }
 
 /* ---------- detail sheet ---------- */
@@ -264,11 +302,11 @@ function openSheet(id) {
 
   const perProfile = state.profiles.map(p => {
     const hits = hitsFor(t, p);
-    if (!hits.length) return `<div class="det"><span class="em">✓</span><div><span class="dl">${esc(p.name)}</span>
+    if (!hits.length) return `<div class="det"><span class="em clear-mark">${SVG.check}</span><div><span class="dl">${esc(p.name)}</span>
       <span class="dd">— nothing on this list</span></div></div>`;
     return hits.map(h => {
       const tag = state.tags[h.tag] || {};
-      return `<div class="det"><span class="em">${tag.emoji || tag.short || ''}</span><div>
+      return `<div class="det">${emFace(tag)}<div>
         <span class="dl">${esc(p.name)} · ${esc(tag.label || h.tag)}</span>
         <span class="pill pill-${h.certainty === 'sometimes' ? 'sometimes' : 'always'}">${CERT_WORD[h.certainty]}</span>
         <div class="dd">${h.specific ? esc(h.specific) + ' — ' : ''}${PROM_WORD[h.prominence]}${h.note ? '. ' + md(h.note) : ''}</div>
@@ -280,7 +318,7 @@ function openSheet(id) {
     !state.profiles.some(p => p.tags.includes(c.tag)));
   const othersHTML = others.length ? `<div class="sec-h">Also contains</div>` + others.map(h => {
     const tag = state.tags[h.tag] || {};
-    return `<div class="det"><span class="em">${tag.emoji || tag.short || ''}</span><div>
+    return `<div class="det">${emFace(tag)}<div>
       <span class="dl">${esc(tag.label || h.tag)}</span>
       <span class="pill">${CERT_WORD[h.certainty]}</span>
       <div class="dd">${h.specific ? esc(h.specific) + ' — ' : ''}${PROM_WORD[h.prominence]}${h.note ? '. ' + md(h.note) : ''}</div>
@@ -288,7 +326,7 @@ function openSheet(id) {
   }).join('') : '';
 
   const sp = t.spicy || {};
-  const spiceHTML = `<div class="sec-h">Heat</div><div class="det"><span class="em">${sp.heat ? '🌶' : '—'}</span><div>
+  const spiceHTML = `<div class="sec-h">Heat</div><div class="det"><span class="em heat">${sp.heat ? SVG.flame : '–'}</span><div>
     <span class="dl">${sp.heat || 0}/4${sp.adjustable ? ' · usually adjustable' : ''}</span>
     <span class="pill">${esc(sp.frequency || 'unknown')}</span>
     ${sp.note ? `<div class="dd">${md(sp.note)}</div>` : ''}</div></div>`;
@@ -301,7 +339,7 @@ function openSheet(id) {
   const rests = (t.restaurants || []).map(id => state.restaurantMap[id]).filter(Boolean);
   const restHTML = rests.length
     ? `<div class="sec-h">Checked against the menu at</div><div class="linkrow">${rests.map(r =>
-        `<button data-restfilter="${r.id}">🍽 ${esc(r.name)} <span class="sub-inline">${esc(r.city)}</span></button>`).join('')}</div>`
+        `<button data-restfilter="${r.id}">${SVG.pin}${esc(r.name)} <span class="sub-inline">${esc(r.city)}</span></button>`).join('')}</div>`
     : `<p class="note">General ${esc(t._cuisineLabels[0] || 'cuisine')} vocabulary — not tied to one of your saved restaurant menus.</p>`;
 
   b.innerHTML = `
@@ -398,7 +436,7 @@ function buildProfiles() {
         ? `<ul class="sevlist" data-pi="${i}">${tags.map((id, n) => {
             const t = state.tags[id] || { label: id, emoji: '' };
             return `<li data-tag="${esc(id)}" title="Drag to re-rank">
-              <span class="sev-grip" aria-hidden="true">⠿</span>
+              <span class="sev-grip">${SVG.grip}</span>
               <span class="sev-num">${n + 1}</span>
               <span class="sev-face">${t.emoji || (t.short || '')}</span>
               <span class="sev-label">${esc(t.label)}</span>
@@ -411,11 +449,12 @@ function buildProfiles() {
       return `
       <div class="prof" data-pi="${i}">
         <div class="prof-head">
+          <span class="prof-av" style="background:${dinerHue(i)}">${esc(initials(p.name))}</span>
           <input value="${esc(p.name)}" data-pname="${i}" aria-label="Diner name" maxlength="12">
-          ${state.profiles.length > 1 ? `<button class="icon-btn" data-pdel="${i}" aria-label="Remove diner">🗑</button>` : ''}
+          ${state.profiles.length > 1 ? `<button class="icon-btn" data-pdel="${i}" aria-label="Remove diner">${SVG.trash}</button>` : ''}
         </div>
         <div class="tagpick">${state.tagList.map(t =>
-          `<button data-ptag="${i}:${t.id}" class="${tags.includes(t.id) ? 'on' : ''}">${t.emoji ? t.emoji + ' ' : ''}${esc(t.label)}</button>`).join('')}
+          `<button data-ptag="${i}:${t.id}" class="${tags.includes(t.id) ? 'on' : ''}">${t.emoji ? `<span class="face">${t.emoji}</span>` : ''}${esc(t.label)}</button>`).join('')}
         </div>
         <div class="sec-h">Severity order</div>
         ${sevList}
@@ -443,6 +482,24 @@ function wire() {
     document.querySelectorAll('.tab').forEach(t => t.classList.toggle('is-active', t === tab));
     state.view = tab.dataset.view; render();
   }));
+
+  /* Fold the brand row and tagline away once you start scrolling, so a tall header
+     doesn't cost a third of the screen while you're reading down a long table. */
+  const topbar = document.getElementById('topbar');
+  let compact = false;
+  // the column head sticks *below* the top bar, so it needs the bar's live height
+  const syncTopbarHeight = () =>
+    document.documentElement.style.setProperty('--topbar-h', Math.round(topbar.getBoundingClientRect().height) + 'px');
+  syncTopbarHeight();
+  addEventListener('resize', syncTopbarHeight);
+  addEventListener('scroll', () => {
+    const want = scrollY > 70;
+    if (want !== compact) {
+      compact = want;
+      topbar.classList.toggle('compact', want);
+      syncTopbarHeight();
+    }
+  }, { passive: true });
 
   document.getElementById('btn-filters').addEventListener('click', () => openPanel('filters'));
   document.getElementById('btn-profiles').addEventListener('click', () => openPanel('profiles'));
@@ -545,7 +602,11 @@ function wire() {
   document.body.addEventListener('input', e => {
     const nm = e.target.closest('[data-pname]');
     if (nm) {
-      state.profiles[+nm.dataset.pname].name = nm.value;
+      const i = +nm.dataset.pname;
+      state.profiles[i].name = nm.value;
+      // keep the panel's avatar in step without rebuilding the panel out from under the caret
+      const av = nm.parentElement.querySelector('.prof-av');
+      if (av) av.textContent = initials(nm.value);
       save('profiles', state.profiles); render();
     }
   });

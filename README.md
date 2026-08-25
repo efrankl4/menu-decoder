@@ -35,6 +35,7 @@ sw.js                 service worker — lives at the root so its scope covers e
 app/
   app.js              search, filtering, profiles, rendering
   styles.css          mobile-first, light/dark, print stylesheet
+  fonts/*.woff2       Fredoka + Plus Jakarta Sans, self-hosted so they work offline
   manifest.webmanifest
 data/
   SCHEMA.md           the data contract; read this before adding terms
@@ -51,6 +52,17 @@ control requests to `/app/*`, silently missing `index.html` and every `data/*.js
 fetch. That was a real bug here until it was caught by inspecting
 `navigator.serviceWorker.getRegistrations()` in the browser.
 
+## Look and feel
+
+One palette, two modes, following the phone's own light/dark setting: **citrus** (warm
+coral and cream) in light, **sunset** (plum and gold) in dark. Both are the same set of
+CSS custom properties at the top of `styles.css`, so every rule is written once — to
+retheme the app, change the tokens, not the rules.
+
+The two display faces are self-hosted in `app/fonts/` rather than pulled from Google
+Fonts: a webfont fetched from another origin is a network dependency, and this app has
+to work in a restaurant basement with no signal. Both are OFL-licensed.
+
 ## How the table reads
 
 Each diner is a column. **A blank cell (✓) means nothing on that person's list is in the
@@ -58,8 +70,10 @@ dish** — that's the thing to scan for. Otherwise you get a chip per flagged in
 
 - **Certainty** is the mark on the chip: `!` always/usually · `?` sometimes, worth asking ·
   `·` rarely.
-- **Prominence** is the chip's weight: solid = a large part of the dish, outlined dashed =
-  a garnish or trace amount.
+- **Prominence** is the chip's weight: a filled tint = a large part of the dish, a dashed
+  outline = a garnish or trace amount.
+- The chip's face is the ingredient's emoji, coloured by family (nuts, produce, meat,
+  seafood, other), so a column scans as shapes and colours before you read anything.
 - Tapping any row opens the full description, the per-ingredient detail (what it is, how
   much, whether it's removable), the heat rating, and a suggested question for the server.
 
