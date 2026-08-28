@@ -2,8 +2,8 @@
   "cuisine": "spanish",
   "terms": [
     {
-      "id": "es-jamon-serrano",
-      "term": "Jamón Serrano",
+      "id": "es-aceitunas-es",
+      "term": "Aceitunas",
       "native": "",
       "romanizations": [],
       "language": "Spanish",
@@ -13,18 +13,356 @@
       "type": [
         "ingredient"
       ],
-      "short": "Dry-cured mountain ham, sliced paper-thin and eaten raw/cured — not cooked with heat.",
-      "long": "Pork leg salted and air-dried in mountain air for months to over a year, sliced translucently thin and eaten as-is. Cured rather than heat-cooked — the same preservation category as prosciutto or basturma. From real DC menus (Taberna del Alabardero).",
+      "short": "Marinated Spanish table olives — usually with garlic, citrus peel, and herbs in the marinade.",
+      "long": "Spain's table olives (Manzanilla, Gordal, Arbequina and others), cured in brine and then marinated with garlic, herbs, citrus peel, and sometimes vermouth or chili. Served as the opening plate almost by default. Some marinades include **anchovy**, and stuffed olives may carry almond, pepper, or anchovy fillings — worth a glance if that matters. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "fermented",
+          "specific": "brine-cured olives",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the marinade",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "anchovy, in some marinades and stuffings",
+          "certainty": "rarely",
+          "prominence": "trace",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "almond, in almond-stuffed varieties",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "Only in stuffed olives — visible if you look at the cut end."
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Some marinades include a dried chili."
+      },
+      "confidence": "high",
+      "ask": "Are any of the olives stuffed, and is there anchovy in the marinade?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-albondigas",
+      "term": "Albóndigas",
+      "native": "",
+      "romanizations": [
+        "albondigas"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spanish meatballs in tomato sauce — usually a beef-and-pork mix, bound with bread and egg.",
+      "long": "Meatballs simmered in tomato sauce, standard across Spanish tapas menus. The mix is typically **beef and pork together**, bound with breadcrumbs soaked in milk plus egg — so a single order can carry four separate flagged ingredients before the sauce. Boqueria's are beef and pork, finished with sheep's-milk cheese and chives. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "ground beef",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "pork",
+          "specific": "ground pork",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Mixed into the same meatball — not separable."
+        },
+        {
+          "tag": "gluten",
+          "specific": "breadcrumb binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "binder",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "sheep's milk cheese; milk-soaked breadcrumbs",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "onion and garlic in the sauce",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-alioli",
+      "term": "Alioli",
+      "native": "",
+      "romanizations": [
+        "aioli"
+      ],
+      "language": "Spanish / Catalan",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Raw garlic and olive oil emulsion — traditionally egg-free, though most restaurant versions add egg.",
+      "long": "Traditionally just raw garlic pounded and slowly emulsified with olive oil, with no egg at all — a labor-intensive technique. Most modern restaurant versions add egg yolk to stabilize the emulsion more easily, functionally becoming a garlic mayonnaise. The traditional and modern versions are not visually distinguishable.",
       "components": [
-        "pa-basturma"
+        "pa-toum"
       ],
       "contains": [
         {
-          "tag": "pork",
-          "specific": "cured ham",
+          "tag": "allium",
+          "specific": "raw garlic, in significant quantity",
           "certainty": "always",
           "prominence": "primary",
-          "note": "Cured, not cooked with heat."
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "egg yolk, in most modern restaurant versions",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "Traditional alioli has none, but most restaurants make the easier egg-stabilized version — worth asking if egg matters."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this alioli made with egg, or the traditional egg-free style?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-atun-crudo",
+      "term": "Atún Canario",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "**Raw** ahi tuna crudo with avocado, **raw** red onion, cucumber, and a lime marinade.",
+      "long": "A tuna crudo — **raw** ahi sliced or diced and dressed in a cilantro-lime marinade with avocado, **raw red onion**, and cucumber. Canary-Islands styling on what is essentially a Spanish take on tiradito. Raw fish and raw vegetables both, and the citrus does not cook it in any meaningful sense over the few minutes before serving. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "raw ahi tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fish",
+          "specific": "tuna",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw red onion and cucumber",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "raw red onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "avocado; lime juice",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-bomba",
+      "term": "Bomba rice",
+      "native": "arroz bomba",
+      "romanizations": [
+        "arroz bomba",
+        "bomba"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "The short, thirsty rice used for paella. Absorbs three times its volume without turning creamy.",
+      "long": "A short-grain Valencian rice that soaks up about three times its volume in liquid while keeping the grains separate, which is why paella tastes of its broth rather than of rice. Gluten-free on its own — **the wheat risk in a paella-style dish comes from a [fideuà] noodle version, not from the rice**. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-boquerones",
+      "term": "Boquerones",
+      "native": "",
+      "romanizations": [
+        "boquerones",
+        "boqueron"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient",
+        "dish"
+      ],
+      "short": "White anchovies cured in vinegar rather than cooked — mild and pale, not the brown salt-packed kind.",
+      "long": "Fresh anchovies filleted and **cured in vinegar and oil**, which turns them white, firm, and mildly tart. Completely different in taste from the brown, intensely salty oil-packed anchovy used in dressings — but **still uncooked fish**, preserved by acid the way [ceviche] is. The restaurant's own name, *Boqueria*, is the Barcelona market; *boquerón* is the fish. Boqueria serves them with orange, olive oil, black pepper, and potato chips. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_fish",
+          "specific": "vinegar-cured anchovy",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "**Acid-cured, never heat-cooked** — the same category as ceviche."
+        },
+        {
+          "tag": "fish",
+          "specific": "anchovy",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "fresh orange",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "vinegar cure",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-calamares-andaluza",
+      "term": "Calamares a la Andaluza",
+      "native": "",
+      "romanizations": [
+        "fried calamari"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Squid rings dredged in flour and deep fried, Andalusian style — plain, crisp, served with lemon.",
+      "long": "Squid rings lightly dredged in flour (sometimes cut with a little cornstarch) and flash-fried in olive oil until just crisp, seasoned only with salt and served with lemon wedges — simpler and less battered than many other fried-calamari styles. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "gr-kalamari"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "squid",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "flour dredge",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
         }
       ],
       "spicy": {
@@ -39,10 +377,12 @@
       ]
     },
     {
-      "id": "es-jamon-iberico",
-      "term": "Jamón Ibérico",
+      "id": "es-cana-de-cabra",
+      "term": "Caña de Cabra",
       "native": "",
-      "romanizations": [],
+      "romanizations": [
+        "cana de cabra"
+      ],
       "language": "Spanish",
       "cuisines": [
         "spanish"
@@ -50,18 +390,23 @@
       "type": [
         "ingredient"
       ],
-      "short": "Premium cured ham from Iberian pigs, often acorn-fed (de bellota) — richer and more marbled than Serrano.",
-      "long": "A more prized, more expensive relative of jamón serrano, from the black Iberian pig breed, sometimes specifically acorn-fed (jamón ibérico de bellota) for a nuttier fat flavor despite containing no actual nuts. Cured, not cooked. From real DC menus (Taberna del Alabardero).",
-      "components": [
-        "es-jamon-serrano"
-      ],
+      "short": "Soft goat's-milk log from Murcia — creamy, mild, slightly grassy.",
+      "long": "A bloomy-rind goat cheese shaped in a log (*caña* = cane/log) from Murcia, soft and spreadable with a gentle tang. Boqueria lists it on the cheese board and melts it onto the mushroom coca. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
       "contains": [
         {
-          "tag": "pork",
-          "specific": "cured Iberian ham",
+          "tag": "dairy",
+          "specific": "goat's milk cheese",
           "certainty": "always",
           "prominence": "primary",
-          "note": "Cured, not cooked with heat."
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "surface-ripened cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
         }
       ],
       "spicy": {
@@ -72,8 +417,154 @@
       },
       "confidence": "high",
       "restaurants": [
-        "alabardero"
+        "boqueria"
       ]
+    },
+    {
+      "id": "es-chorizo-iberico",
+      "term": "Chorizo Ibérico",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Cured Iberian pork sausage, red with smoked pimentón. Mildly spicy, eaten as-is without cooking.",
+      "long": "Dry-cured pork sausage from Iberian pigs, colored and flavored with [pimentón] — smoked Spanish paprika — plus garlic and salt. Sliced and served at room temperature on a charcuterie board, not cooked. Boqueria's is *de bellota* (acorn-fed) and described as mildly spicy. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-pimenton",
+        "es-bellota"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured pork sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "dry-cured sausage",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Pimentón dulce is sweet; picante versions carry mild heat."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-coca",
+      "term": "Coca",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish",
+        "bread"
+      ],
+      "short": "Catalan flatbread, savory or sweet — here a base for grilled toppings.",
+      "long": "A Catalan flatbread, longer and thinner than a pizza, in savory and sweet versions. On a tapas menu it arrives as a shareable topped flatbread. Boqueria's *coca de setas* carries sautéed mushrooms, caramelized onion, black garlic, and two cheeses. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-cana-de-cabra",
+        "es-mahon"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "flatbread base",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "Caña de Cabra and Mahón cheeses",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "caramelized onion and black garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Both fully cooked; black garlic is slow-aged."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-crema-catalana",
+      "term": "Crema Catalana",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish / Catalan",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dessert"
+      ],
+      "short": "Egg-yolk custard flavored with citrus and cinnamon, topped with a torched sugar crust — Catalonia's answer to crème brûlée.",
+      "long": "A stovetop-set custard (rather than baked) of milk, egg yolk, citrus zest, and cinnamon, chilled, then finished with a caramelized sugar crust torched just before serving. Egg and dairy are both structural.",
+      "components": [
+        "fr-creme-brulee"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "egg yolk custard",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "milk",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high"
     },
     {
       "id": "es-croquetas",
@@ -132,12 +623,13 @@
       },
       "confidence": "high",
       "restaurants": [
-        "alabardero"
+        "alabardero",
+        "boqueria"
       ]
     },
     {
-      "id": "es-patatas-bravas",
-      "term": "Patatas Bravas",
+      "id": "es-croquetas-setas",
+      "term": "Croquetas de Setas",
       "native": "",
       "romanizations": [],
       "language": "Spanish",
@@ -147,156 +639,39 @@
       "type": [
         "dish"
       ],
-      "short": "Crispy fried potato cubes under a spicy tomato sauce, garlic aioli, or both.",
-      "long": "Potato cut into cubes, fried until crisp, and topped with *salsa brava* (a smoky, mildly spicy tomato-paprika sauce) and often a drizzle of garlic aioli as well. Egg appears if aioli is included; otherwise vegan. From real DC menus (Taberna del Alabardero).",
+      "short": "Mushroom croquettes — creamy béchamel, breaded and fried. Dairy and wheat in the base, no meat.",
+      "long": "The vegetarian counterpart to [croquetas de jamón]: sautéed mushrooms folded into a thick milk-and-flour béchamel, chilled, rolled, breaded, and deep-fried. The béchamel means **dairy and wheat are structural**, not optional. Boqueria finishes theirs with a truffle allioli, which is garlic- and egg-based. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
       "components": [
-        "gr-skordalia"
+        "es-croquetas",
+        "es-alioli"
       ],
       "contains": [
         {
-          "tag": "egg",
-          "specific": "garlic aioli, when included",
-          "certainty": "sometimes",
-          "prominence": "minor",
-          "note": ""
-        },
-        {
-          "tag": "allium",
-          "specific": "garlic in the aioli",
-          "certainty": "sometimes",
-          "prominence": "minor",
-          "note": ""
-        }
-      ],
-      "spicy": {
-        "frequency": "usually",
-        "heat": 1,
-        "adjustable": false,
-        "note": ""
-      },
-      "confidence": "high",
-      "restaurants": [
-        "alabardero"
-      ]
-    },
-    {
-      "id": "es-tortilla-espanola",
-      "term": "Tortilla Española",
-      "native": "",
-      "romanizations": [
-        "Spanish omelette",
-        "tortilla de patatas"
-      ],
-      "language": "Spanish",
-      "cuisines": [
-        "spanish"
-      ],
-      "type": [
-        "dish"
-      ],
-      "short": "Thick potato and onion omelette, served warm or room temperature in wedges — not a flatbread despite the name.",
-      "long": "Thinly sliced potato and onion slow-cooked in olive oil until soft, then bound with a large number of beaten eggs and cooked in a pan, flipped whole, into a thick, dense disc, sliced into wedges. The name is easy to confuse with the Mexican corn/flour flatbread of the same name, but this is entirely egg-based. From real DC menus (Taberna del Alabardero, with olives and alioli).",
-      "components": [
-        "fr-galette-bretonne"
-      ],
-      "contains": [
-        {
-          "tag": "egg",
-          "specific": "the entire dish is bound with egg",
-          "certainty": "always",
-          "prominence": "primary",
-          "note": "Not to be confused with the flatbread tortilla — this is a dense potato omelette."
-        },
-        {
-          "tag": "allium",
-          "specific": "onion",
-          "certainty": "usually",
-          "prominence": "significant",
-          "note": ""
-        }
-      ],
-      "spicy": {
-        "frequency": "never",
-        "heat": 0,
-        "adjustable": false,
-        "note": ""
-      },
-      "confidence": "high",
-      "restaurants": [
-        "alabardero"
-      ]
-    },
-    {
-      "id": "es-pulpo-gallega",
-      "term": "Pulpo a la Gallega",
-      "native": "",
-      "romanizations": [
-        "Galician-style octopus"
-      ],
-      "language": "Spanish",
-      "cuisines": [
-        "spanish"
-      ],
-      "type": [
-        "dish"
-      ],
-      "short": "Boiled octopus sliced over potato, dusted with smoked paprika and sea salt, finished with olive oil.",
-      "long": "Octopus boiled until tender (a specific technique, often involving dipping it in and out of the water repeatedly to keep the skin intact), sliced into rounds over boiled potato, and dusted with sweet or hot smoked paprika and coarse sea salt. Fully cooked, simple, nut-free. From real DC menus (Taberna del Alabardero).",
-      "components": [
-        "gr-htapodi"
-      ],
-      "contains": [
-        {
-          "tag": "shellfish",
-          "specific": "octopus",
-          "certainty": "always",
-          "prominence": "primary",
-          "note": ""
-        }
-      ],
-      "spicy": {
-        "frequency": "sometimes",
-        "heat": 1,
-        "adjustable": true,
-        "note": "Depends on sweet vs hot smoked paprika."
-      },
-      "confidence": "high",
-      "restaurants": [
-        "alabardero"
-      ]
-    },
-    {
-      "id": "es-calamares-andaluza",
-      "term": "Calamares a la Andaluza",
-      "native": "",
-      "romanizations": [
-        "fried calamari"
-      ],
-      "language": "Spanish",
-      "cuisines": [
-        "spanish"
-      ],
-      "type": [
-        "dish"
-      ],
-      "short": "Squid rings dredged in flour and deep fried, Andalusian style — plain, crisp, served with lemon.",
-      "long": "Squid rings lightly dredged in flour (sometimes cut with a little cornstarch) and flash-fried in olive oil until just crisp, seasoned only with salt and served with lemon wedges — simpler and less battered than many other fried-calamari styles. From real DC menus (Taberna del Alabardero).",
-      "components": [
-        "gr-kalamari"
-      ],
-      "contains": [
-        {
-          "tag": "shellfish",
-          "specific": "squid",
+          "tag": "dairy",
+          "specific": "béchamel",
           "certainty": "always",
           "prominence": "primary",
           "note": ""
         },
         {
           "tag": "gluten",
-          "specific": "flour dredge",
+          "specific": "flour roux and breadcrumb coating",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "in the allioli, and often in the breading",
           "certainty": "usually",
-          "prominence": "significant",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the allioli; onion in the filling",
+          "certainty": "usually",
+          "prominence": "minor",
           "note": ""
         }
       ],
@@ -308,7 +683,458 @@
       },
       "confidence": "high",
       "restaurants": [
-        "alabardero"
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-datiles-con-beicon",
+      "term": "Dátiles con Beicon",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Bacon-wrapped dates **stuffed with almonds** and blue cheese. The nut is hidden inside.",
+      "long": "Dates pitted and **stuffed with an almond** and Valdeón blue cheese, wrapped in bacon and roasted until the bacon crisps. A tapas-bar standard, and a genuine trap: **the almond is concealed inside the date**, invisible from the outside, and the dish name mentions only bacon. Some kitchens skip the nut, many do not. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-valdeon",
+        "es-marcona"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "almond, stuffed inside the date",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": "**Hidden inside** — not visible before biting in. Always worth asking."
+        },
+        {
+          "tag": "pork",
+          "specific": "bacon",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "Valdeón blue cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "date",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is there an almond inside the dates?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-ensalada-cesar-es",
+      "term": "Ensalada César (Spanish)",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spanish take on a Caesar: **raw** baby gem lettuce, Marcona almonds, white anchovies, Manchego.",
+      "long": "A tapas-bar Caesar built on **raw** baby gem lettuce, dressed and topped with **Marcona almonds**, whole white anchovies (boquerones), and Manchego rather than Parmesan. The almonds are scattered on top and can be removed; the anchovies are cured rather than cooked. Caesar dressing conventionally contains egg and anchovy even when neither is listed. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-marcona",
+        "es-boquerones",
+        "es-manchego"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw baby gem lettuce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "Marcona almond",
+          "certainty": "always",
+          "prominence": "garnish",
+          "note": "Scattered on top — removable by hand."
+        },
+        {
+          "tag": "fish",
+          "specific": "white anchovy",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "Manchego",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "in the dressing",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": "Standard in Caesar dressing even when unlisted."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the dressing",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-ensalada-vasca",
+      "term": "Ensalada Vasca",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "**Raw** market lettuces and herbs in a creamy garlic dressing.",
+      "long": "A plain Basque-style green salad: **raw** market lettuces and spring herbs in a creamy garlic dressing. Creamy dressings of this type are usually built on egg-emulsion allioli or mayonnaise, sometimes with dairy. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw lettuces and herbs",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw garlic in the dressing",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "emulsified dressing",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "in some creamy dressings",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the creamy dressing made with egg, dairy, or both?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-ensalada-bruselas",
+      "term": "Ensalada de Brusélas",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "**Raw** shaved Brussels sprouts with shaved almonds, green apple, dried cranberry, and Manchego.",
+      "long": "Brussels sprouts shaved paper-thin and served **completely raw**, dressed in citrus vinaigrette with shaved almonds, raw green apple, dried cranberries, and Manchego. Nothing in this salad is cooked. Not to be confused with Boqueria's *Bruselas con Naranja*, which is the same vegetable crisped in the fryer. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-manchego"
+      ],
+      "contains": [
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw shaved Brussels sprouts",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "shaved almond",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Shaved through the salad — hard to pick out cleanly."
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "raw green apple",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "fruit",
+          "specific": "dried cranberry",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "dairy",
+          "specific": "Manchego",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-escalivada",
+      "term": "Escalivada",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Fire-roasted eggplant, pepper, and onion served at room temperature. Roasted, not raw — but served cold.",
+      "long": "A Catalan dish whose name comes from *escalivar*, to cook in embers: whole eggplant, red pepper, and onion charred over fire until collapsing, then peeled and torn into strips and dressed with olive oil. Served **room temperature or cold, but fully cooked** — a common point of confusion when scanning a menu for raw vegetable dishes. Boqueria serves it over labne yogurt with focaccia, and offers boquerones (cured anchovies) as an add-on. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "roasted onion",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Cooked through, not raw."
+        },
+        {
+          "tag": "dairy",
+          "specific": "labne yogurt base",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Boqueria's plating; the traditional dish has no dairy. Served underneath — ask to have it left off."
+        },
+        {
+          "tag": "gluten",
+          "specific": "focaccia served alongside",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "On the side, so removable."
+        },
+        {
+          "tag": "fish",
+          "specific": "anchovy, only if boquerones are added",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": "An explicit paid add-on at Boqueria, not in the base dish."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Does the escalivada come on the yogurt, or can it be served without?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-esparragos-romesco",
+      "term": "Espárragos con Romesco",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled asparagus under a **hazelnut romesco**, with whole hazelnuts on top. Nuts in both the sauce and the garnish.",
+      "long": "Grilled asparagus plated with [romesco] — at Boqueria specifically a *hazelnut romesco allioli* — plus **whole hazelnuts scattered over the top**, lemon zest, and shaved Manchego. Two separate nut exposures: the loose hazelnuts can be brushed off, but **the ones ground into the sauce cannot**. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-romesco",
+        "es-manchego",
+        "es-alioli"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "hazelnut, in the sauce",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Ground into the romesco base. **Not removable.**"
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "hazelnut, scattered on top",
+          "certainty": "always",
+          "prominence": "garnish",
+          "note": "Whole nuts on the surface — these ones can be picked off."
+        },
+        {
+          "tag": "dairy",
+          "specific": "Manchego",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "in the allioli",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the allioli",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "The romesco is hazelnut-based — is there any version of this without it?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-fideua",
+      "term": "Fideuà Negra",
+      "native": "",
+      "romanizations": [
+        "fideua",
+        "fideua negra",
+        "fidua"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Paella made with **short toasted noodles instead of rice**, blackened with squid ink.",
+      "long": "A Valencian cousin of paella that swaps the rice for *fideus* — short, thin toasted **wheat** noodles — cooked the same way in the wide pan until the bottom crisps. The *negra* version is colored and flavored with **squid ink**, which is itself a shellfish product. Boqueria's carries shrimp, fava beans, peas, and garlic allioli. **The noodles mean this dish contains wheat where a rice paella would not.** From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-paella",
+        "es-alioli"
+      ],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "wheat fideu noodles",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "**The key difference from paella** — this version is wheat-based."
+        },
+        {
+          "tag": "shellfish",
+          "specific": "squid ink; shrimp",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "egg",
+          "specific": "in the allioli",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
       ]
     },
     {
@@ -352,92 +1178,9 @@
       },
       "confidence": "high",
       "restaurants": [
-        "alabardero"
+        "alabardero",
+        "boqueria"
       ]
-    },
-    {
-      "id": "es-paella",
-      "term": "Paella",
-      "native": "",
-      "romanizations": [],
-      "language": "Spanish",
-      "cuisines": [
-        "spanish"
-      ],
-      "type": [
-        "dish"
-      ],
-      "short": "Saffron rice cooked in a wide shallow pan, topped with seafood, chicken and rabbit, or both.",
-      "long": "Short-grain rice cooked in a wide, shallow pan with saffron-infused stock, left undisturbed so a crisp bottom crust (socarrat) forms. **Paella de mariscos** is seafood-topped (shrimp, mussels, clams, squid); **paella valenciana** is the original, with chicken and rabbit and green beans, no seafood at all; **paella mixta** combines both. The three versions carry very different allergen profiles despite sharing a name.",
-      "components": [],
-      "contains": [
-        {
-          "tag": "shellfish",
-          "specific": "shrimp, mussels, clams, squid, in the seafood or mixed versions",
-          "certainty": "sometimes",
-          "prominence": "primary",
-          "note": "Only in de mariscos or mixta — valenciana has none."
-        },
-        {
-          "tag": "chicken",
-          "specific": "chicken, in the valenciana or mixta versions",
-          "certainty": "sometimes",
-          "prominence": "primary",
-          "note": ""
-        }
-      ],
-      "spicy": {
-        "frequency": "never",
-        "heat": 0,
-        "adjustable": false,
-        "note": ""
-      },
-      "confidence": "high",
-      "ask": "Is this the seafood paella, the valenciana (chicken and rabbit), or mixed?"
-    },
-    {
-      "id": "es-alioli",
-      "term": "Alioli",
-      "native": "",
-      "romanizations": [
-        "aioli"
-      ],
-      "language": "Spanish / Catalan",
-      "cuisines": [
-        "spanish"
-      ],
-      "type": [
-        "sauce"
-      ],
-      "short": "Raw garlic and olive oil emulsion — traditionally egg-free, though most restaurant versions add egg.",
-      "long": "Traditionally just raw garlic pounded and slowly emulsified with olive oil, with no egg at all — a labor-intensive technique. Most modern restaurant versions add egg yolk to stabilize the emulsion more easily, functionally becoming a garlic mayonnaise. The traditional and modern versions are not visually distinguishable.",
-      "components": [
-        "pa-toum"
-      ],
-      "contains": [
-        {
-          "tag": "allium",
-          "specific": "raw garlic, in significant quantity",
-          "certainty": "always",
-          "prominence": "primary",
-          "note": ""
-        },
-        {
-          "tag": "egg",
-          "specific": "egg yolk, in most modern restaurant versions",
-          "certainty": "usually",
-          "prominence": "significant",
-          "note": "Traditional alioli has none, but most restaurants make the easier egg-stabilized version — worth asking if egg matters."
-        }
-      ],
-      "spicy": {
-        "frequency": "never",
-        "heat": 0,
-        "adjustable": false,
-        "note": ""
-      },
-      "confidence": "high",
-      "ask": "Is this alioli made with egg, or the traditional egg-free style?"
     },
     {
       "id": "es-gazpacho",
@@ -488,33 +1231,208 @@
       "confidence": "high"
     },
     {
-      "id": "es-crema-catalana",
-      "term": "Crema Catalana",
+      "id": "es-guindilla",
+      "term": "Guindilla",
       "native": "",
-      "romanizations": [],
-      "language": "Spanish / Catalan",
+      "romanizations": [
+        "guindilla"
+      ],
+      "language": "Spanish",
       "cuisines": [
         "spanish"
       ],
       "type": [
-        "dessert"
+        "ingredient"
       ],
-      "short": "Egg-yolk custard flavored with citrus and cinnamon, topped with a torched sugar crust — Catalonia's answer to crème brûlée.",
-      "long": "A stovetop-set custard (rather than baked) of milk, egg yolk, citrus zest, and cinnamon, chilled, then finished with a caramelized sugar crust torched just before serving. Egg and dairy are both structural.",
+      "short": "Slim Spanish chili, mild to moderate — the usual source of gentle heat in an otherwise unspicy cuisine.",
+      "long": "A thin Spanish chili sold dried (in oil dishes like [gambas al ajillo]) or pickled (the pale green Basque bar snack). Mild to moderately hot and mostly used whole to perfume oil, so the heat stays gentle and the pepper itself is easy to set aside. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
       "components": [
-        "fr-creme-brulee"
+        "es-gambas-al-ajillo"
       ],
       "contains": [
         {
-          "tag": "egg",
-          "specific": "egg yolk custard",
+          "tag": "fermented",
+          "specific": "pickled, in the Basque preparation",
+          "certainty": "sometimes",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 2,
+        "adjustable": false,
+        "note": "Mild-to-moderate; usually left whole and easy to remove."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-iberico-salbitxada",
+      "term": "Ibérico con Salbitxada",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Ibérico pork served **medium-rare**, with **Marcona almond** salbitxada and a fried egg.",
+      "long": "A premium cut of Ibérico pork seared and served **medium-rare** — deliberate for this breed, and unusual for pork on a US menu — plated with **Marcona almond salbitxada**, sherry vinegar, and a fried egg. The almond sauce is ground and cannot be picked out, so the nut exposure travels with the dish unless the sauce is left off. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-salbitxada",
+        "es-bellota"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "Ibérico pork",
           "certainty": "always",
           "prominence": "primary",
           "note": ""
         },
         {
+          "tag": "tree_nut",
+          "specific": "Marcona almond in the salbitxada",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Ground into the sauce. **Not removable** — ask for the dish without the salbitxada."
+        },
+        {
+          "tag": "egg",
+          "specific": "fried egg",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the sauce",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Can the Ibérico come without the almond salbitxada?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-jamon-iberico",
+      "term": "Jamón Ibérico",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Premium cured ham from Iberian pigs, often acorn-fed (de bellota) — richer and more marbled than Serrano.",
+      "long": "A more prized, more expensive relative of jamón serrano, from the black Iberian pig breed, sometimes specifically acorn-fed (jamón ibérico de bellota) for a nuttier fat flavor despite containing no actual nuts. Cured, not cooked. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "es-jamon-serrano"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured Iberian ham",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured, not cooked with heat."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero",
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-jamon-serrano",
+      "term": "Jamón Serrano",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Dry-cured mountain ham, sliced paper-thin and eaten raw/cured — not cooked with heat.",
+      "long": "Pork leg salted and air-dried in mountain air for months to over a year, sliced translucently thin and eaten as-is. Cured rather than heat-cooked — the same preservation category as prosciutto or basturma. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "pa-basturma"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured ham",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Cured, not cooked with heat."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero",
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-mahon",
+      "term": "Mahón",
+      "native": "",
+      "romanizations": [
+        "mahon"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Tangy, sharp cow's-milk cheese from Menorca in the Balearics.",
+      "long": "A pressed cow's-milk cheese from the island of Menorca, rubbed with butter and paprika as it ages, giving an orange rind and a sharp, salty, faintly citric bite. Boqueria serves it 8-month aged on the cheese board and melted into the mushroom coca. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
           "tag": "dairy",
-          "specific": "milk",
+          "specific": "cow's milk cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "aged cheese",
           "certainty": "always",
           "prominence": "significant",
           "note": ""
@@ -526,7 +1444,854 @@
         "adjustable": false,
         "note": ""
       },
-      "confidence": "high"
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-manchego",
+      "term": "Manchego",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Hard sheep's-milk cheese from La Mancha. Menu descriptions call it 'nutty' — that is flavor, not nuts.",
+      "long": "Spain's best-known cheese: pressed sheep's milk from La Mancha, aged from a few months to over a year, firm and slightly crumbly with a caramel edge. Menus and cheese boards routinely describe aged Manchego as having **'notes of caramel and nuts'** — a standard tasting phrase for aged sheep's cheese and **not a statement that nuts are present**. Boqueria's 12-month Manchego carries exactly that wording, and also appears shaved over the Caesar, the Brussels sprout salad, and the asparagus. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "sheep's milk cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "aged cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-marcona",
+      "term": "Marcona almond",
+      "native": "almendra Marcona",
+      "romanizations": [
+        "marcona"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "The round, soft Spanish almond used all over this menu — in sauces, on salads, and inside stuffed dates.",
+      "long": "A short, round, flatter Spanish almond variety, sweeter and softer than the California almond, usually sold blanched and fried in olive oil with salt. It turns up across Spanish menus as a bar snack, scattered over salads, ground into [salbitxada] and [romesco], and stuffed inside dates. **A tree nut in every one of those uses.** At Boqueria it appears in the Caesar salad, the salbitxada, and the bacon-wrapped dates. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "Marcona almond",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-mejillones",
+      "term": "Mejillones con Azafrán",
+      "native": "",
+      "romanizations": [
+        "mejillones"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Mussels steamed in sherry and saffron. Shellfish, cooked in wine that is only partly cooked off.",
+      "long": "Mussels steamed open in a broth of **sherry** and saffron with lemon and parsley. The sherry reduces but does not fully cook off in a quick steam, and the broth is the point of the dish — usually mopped up with bread. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "mussels",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "sherry in the broth",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "Steamed briefly — not fully cooked off."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic and shallot in the broth",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-mojo-verde",
+      "term": "Mojo Verde",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Canary Islands green sauce — cilantro or parsley, **raw** garlic, cumin, oil, and vinegar. Uncooked.",
+      "long": "The green half of the Canary Islands *mojo* pair (the red *mojo picón* is the spicy one), blended from cilantro or parsley, **raw garlic**, cumin, olive oil, and vinegar. Served **uncooked**, spooned over grilled meat, fish, and the wrinkled *papas arrugadas*. Some versions thicken it with bread or, less often, ground almonds — worth asking if that matters. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "raw garlic",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw garlic and raw herbs",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": "The sauce is never cooked."
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread thickener",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "tree_nut",
+          "specific": "almond, in some thickened versions",
+          "certainty": "rarely",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": "The green mojo is mild; mojo *picón* is the hot one."
+      },
+      "confidence": "high",
+      "ask": "Is there any nut or bread in the mojo verde?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-paella",
+      "term": "Paella",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Saffron rice cooked in a wide shallow pan, topped with seafood, chicken and rabbit, or both.",
+      "long": "Short-grain rice cooked in a wide, shallow pan with saffron-infused stock, left undisturbed so a crisp bottom crust (socarrat) forms. **Paella de mariscos** is seafood-topped (shrimp, mussels, clams, squid); **paella valenciana** is the original, with chicken and rabbit and green beans, no seafood at all; **paella mixta** combines both. The three versions carry very different allergen profiles despite sharing a name.",
+      "components": [],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "shrimp, mussels, clams, squid, in the seafood or mixed versions",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "Only in de mariscos or mixta — valenciana has none."
+        },
+        {
+          "tag": "chicken",
+          "specific": "chicken, in the valenciana or mixta versions",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is this the seafood paella, the valenciana (chicken and rabbit), or mixed?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-pan-con-tomate",
+      "term": "Pan con Tomate",
+      "native": "pa amb tomàquet",
+      "romanizations": [
+        "pa amb tomaquet",
+        "pan con tomate"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish",
+        "bread"
+      ],
+      "short": "Toasted bread rubbed with **raw** garlic and raw tomato, then olive oil. The garlic and tomato are never cooked.",
+      "long": "The Catalan staple (*pa amb tomàquet* in Catalan, *pan con tomate* in Spanish): grilled or toasted bread rubbed hard with a cut clove of **raw garlic** and the cut face of a **raw ripe tomato**, then salt and olive oil. The bread is toasted; nothing rubbed onto it is cooked. Deceptively simple and on nearly every Spanish menu. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "gluten",
+          "specific": "bread",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw garlic rubbed on the bread",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Rubbed on raw. Cannot be removed once applied."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "raw_fruit",
+          "specific": "raw tomato",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": "Botanically a fruit; rubbed on raw."
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-patatas-bravas",
+      "term": "Patatas Bravas",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Crispy fried potato cubes under a spicy tomato sauce, garlic aioli, or both.",
+      "long": "Potato cut into cubes, fried until crisp, and topped with *salsa brava* (a smoky, mildly spicy tomato-paprika sauce) and often a drizzle of garlic aioli as well. Egg appears if aioli is included; otherwise vegan. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "gr-skordalia"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "garlic aioli, when included",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the aioli",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero",
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-picanha",
+      "term": "Picanha a la Parrilla",
+      "native": "",
+      "romanizations": [
+        "picana",
+        "picanha"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Grilled top sirloin cap, with mojo verde. Beef, usually cooked to medium-rare.",
+      "long": "*Picanha* is the top sirloin cap — a Brazilian cut name that has spread onto Spanish and Latin grill menus — cooked over fire and sliced. Boqueria serves it with roasted carrot purée, mojo verde, and grilled lime. Steak of this cut is normally served pink in the middle. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-mojo-verde"
+      ],
+      "contains": [
+        {
+          "tag": "beef",
+          "specific": "top sirloin cap",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the mojo verde",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Mojo verde is herbal, occasionally with a little green chili."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-pimenton",
+      "term": "Pimentón",
+      "native": "",
+      "romanizations": [
+        "pimenton",
+        "smoked paprika"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "spice-blend",
+        "ingredient"
+      ],
+      "short": "Spanish smoked paprika. Comes sweet (dulce), bittersweet (agridulce), or hot (picante) — the name alone doesn't say which.",
+      "long": "Peppers dried over oak smoke and ground, the backbone seasoning of Spanish cooking and what makes [chorizo] red. Sold in three grades: *dulce* (sweet, no heat), *agridulce* (bittersweet), and *picante* (hot). **A menu saying only 'pimentón' does not tell you which**, though sweet is the default in most dishes. The smoke, not chili heat, is the dominant flavor. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Dulce has no heat at all; picante is mild-to-moderate. Default is usually sweet."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-pimientos-padron",
+      "term": "Pimientos de Padrón",
+      "native": "",
+      "romanizations": [
+        "pimientos de padron",
+        "padron peppers",
+        "shishito"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Small green peppers blistered whole in oil with coarse salt. **Roughly one in ten is genuinely hot** — the rest are mild.",
+      "long": "Small green peppers from Padrón in Galicia, fried whole in hot olive oil until the skins blister, then finished with flaky salt. The traditional saying — *os pementos de Padrón, uns pican e outros non* — is literal: most are sweet and mild, but a small unpredictable fraction are sharply hot, and there is no way to tell by looking. Many US kitchens, Boqueria included, use **shishito peppers** instead, which behave the same way but are milder on average. Eaten by the stem. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 2,
+        "adjustable": false,
+        "note": "**Russian roulette by design**: most peppers are mild, but roughly one in ten is hot. Cannot be adjusted."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-pintxos-morunos",
+      "term": "Pintxos Morunos",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Spiced skewers — 'Moorish' in style, meaning cumin and paprika. Usually pork, but lamb at Boqueria.",
+      "long": "Small marinated skewers whose name means 'Moorish pintxos', referring to a North African spice marinade — cumin, coriander, paprika, garlic — rather than to any one meat. **Traditionally pork**, which is the historical joke in the name; Boqueria uses **lamb**. Worth confirming which meat, since the name does not tell you. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-pimenton"
+      ],
+      "contains": [
+        {
+          "tag": "lamb",
+          "specific": "lamb skewer",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Boqueria's version. Many kitchens use pork instead."
+        },
+        {
+          "tag": "pork",
+          "specific": "pork, in the traditional version",
+          "certainty": "sometimes",
+          "prominence": "primary",
+          "note": "The classic recipe is pork — always confirm which meat a given kitchen uses."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the marinade",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "usually",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Warm spice from pimentón and cumin, not chili heat."
+      },
+      "confidence": "high",
+      "ask": "Are the pintxos morunos lamb or pork here?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-pollo-rustido",
+      "term": "Pollo Rustido",
+      "native": "",
+      "romanizations": [
+        "pollo rustit"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Catalan-style roast chicken with lemon, herbs, and salsa verde.",
+      "long": "Chicken roasted Catalan style (*rustit* = roasted) with lemon and herbs, served half or whole, with a herb [salsa verde]. A straightforward dish with few hidden ingredients. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-salsa-verde-es"
+      ],
+      "contains": [
+        {
+          "tag": "chicken",
+          "specific": "roast chicken",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the salsa verde",
+          "certainty": "always",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-pulpo-gallega",
+      "term": "Pulpo a la Gallega",
+      "native": "",
+      "romanizations": [
+        "Galician-style octopus"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Boiled octopus sliced over potato, dusted with smoked paprika and sea salt, finished with olive oil.",
+      "long": "Octopus boiled until tender (a specific technique, often involving dipping it in and out of the water repeatedly to keep the skin intact), sliced into rounds over boiled potato, and dusted with sweet or hot smoked paprika and coarse sea salt. Fully cooked, simple, nut-free. From real DC menus (Taberna del Alabardero).",
+      "components": [
+        "gr-htapodi"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "octopus",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": true,
+        "note": "Depends on sweet vs hot smoked paprika."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero"
+      ]
+    },
+    {
+      "id": "es-pulpo-plancha",
+      "term": "Pulpo a la Plancha",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Octopus seared hard on the flat-top, rather than the boiled-and-paprika Galician version.",
+      "long": "Octopus simmered tender, then finished with a hard sear on the *plancha* (flat-top griddle) for charred edges. Distinct from [pulpo a la gallega], which is boiled, sliced, and dressed with paprika and oil without the sear. Boqueria plates it with Manzanilla olive tapenade and crushed potatoes in olive oil. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-pulpo-gallega"
+      ],
+      "contains": [
+        {
+          "tag": "shellfish",
+          "specific": "octopus",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "A mollusc — grouped with shellfish, though it is not a crustacean."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic in the olivada or potatoes",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-romesco",
+      "term": "Romesco",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Catalan roasted-pepper sauce **thickened with ground nuts** — almonds, hazelnuts, or both. The nuts are blended in and cannot be removed.",
+      "long": "A Catalan sauce of roasted red pepper (often nyora), tomato, garlic, olive oil, and stale bread, **thickened and bound with ground almonds, hazelnuts, or a mix of the two**. The nuts are a structural ingredient, not a garnish — they are what makes the sauce a sauce rather than a purée, and there is no way to pick them out. Boqueria serves a *hazelnut romesco allioli* on the grilled asparagus, with whole hazelnuts scattered on top as well. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "almond and/or hazelnut",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Ground into the sauce base. **Not removable** — the nuts are the thickener."
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "gluten",
+          "specific": "bread thickener",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": "Most traditional recipes use stale bread as a second thickener."
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw garlic",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "sometimes",
+        "heat": 1,
+        "adjustable": false,
+        "note": "Nyora or ñora pepper is mild and sweet, not hot."
+      },
+      "confidence": "high",
+      "ask": "Which nuts are in the romesco, and is there any version made without them?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-salbitxada",
+      "term": "Salbitxada",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Catalan almond-and-pepper sauce, a cousin of romesco — **ground almonds are a defining ingredient**.",
+      "long": "A Catalan sauce closely related to [romesco]: roasted tomato and pepper, garlic, vinegar, olive oil, and **ground almonds**, traditionally served with grilled spring onions (calçots) and grilled meats. Boqueria plates a *Marcona almond salbitxada* alongside the Ibérico pork. Like romesco, the almonds are blended into the sauce body and cannot be separated out. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-romesco",
+        "es-marcona"
+      ],
+      "contains": [
+        {
+          "tag": "tree_nut",
+          "specific": "Marcona almond",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Ground into the sauce. **Not removable.**"
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw garlic",
+          "certainty": "usually",
+          "prominence": "trace",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the salbitxada almond-based? Can the dish come without the sauce?",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-salchichon",
+      "term": "Salchichón Ibérico",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Cured Iberian pork sausage seasoned with black peppercorns rather than paprika — the pale counterpart to chorizo.",
+      "long": "A dry-cured pork sausage seasoned with whole black peppercorns, garlic, and salt, without the paprika that makes [chorizo] red. Sliced thin and eaten cured, not cooked. Boqueria's is *de bellota*. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-chorizo-iberico",
+        "es-bellota"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "cured pork sausage",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "dry-cured sausage",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": "Peppercorn warmth, not chili heat."
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-salsa-verde-es",
+      "term": "Salsa Verde (Spanish)",
+      "native": "",
+      "romanizations": [],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "sauce"
+      ],
+      "short": "Spanish green sauce — parsley, garlic, olive oil, sometimes white wine. Nothing like the Mexican tomatillo version.",
+      "long": "In Spanish cooking, *salsa verde* is a **parsley-and-garlic** sauce in olive oil, often loosened with white wine and fish stock in Basque cooking (*merluza en salsa verde*). This is a completely different sauce from the Mexican salsa verde, which is tomatillo- and chili-based — **the shared name is a frequent menu misunderstanding**. Boqueria uses it on the paellas, lamb skewers, and roast chicken. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "allium",
+          "specific": "garlic",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "raw_vegetable",
+          "specific": "raw parsley; raw garlic",
+          "certainty": "usually",
+          "prominence": "minor",
+          "note": ""
+        },
+        {
+          "tag": "alcohol",
+          "specific": "white wine",
+          "certainty": "sometimes",
+          "prominence": "trace",
+          "note": "Mostly cooked off."
+        },
+        {
+          "tag": "fish",
+          "specific": "fish stock, in Basque versions",
+          "certainty": "sometimes",
+          "prominence": "minor",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "rarely",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "ask": "Is the salsa verde the parsley-garlic kind, and does it have fish stock in it?",
+      "restaurants": [
+        "boqueria"
+      ]
     },
     {
       "id": "es-sangria",
@@ -568,6 +2333,137 @@
         "note": ""
       },
       "confidence": "high"
+    },
+    {
+      "id": "es-tortilla-espanola",
+      "term": "Tortilla Española",
+      "native": "",
+      "romanizations": [
+        "Spanish omelette",
+        "tortilla de patatas"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "dish"
+      ],
+      "short": "Thick potato and onion omelette, served warm or room temperature in wedges — not a flatbread despite the name.",
+      "long": "Thinly sliced potato and onion slow-cooked in olive oil until soft, then bound with a large number of beaten eggs and cooked in a pan, flipped whole, into a thick, dense disc, sliced into wedges. The name is easy to confuse with the Mexican corn/flour flatbread of the same name, but this is entirely egg-based. From real DC menus (Taberna del Alabardero, with olives and alioli).",
+      "components": [
+        "fr-galette-bretonne"
+      ],
+      "contains": [
+        {
+          "tag": "egg",
+          "specific": "the entire dish is bound with egg",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": "Not to be confused with the flatbread tortilla — this is a dense potato omelette."
+        },
+        {
+          "tag": "allium",
+          "specific": "onion",
+          "certainty": "usually",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "alabardero",
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-valdeon",
+      "term": "Valdeón",
+      "native": "",
+      "romanizations": [
+        "valdeon"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Spanish blue cheese from León, wrapped in sycamore leaves — sharp and creamy. Mixed goat, sheep, and cow's milk.",
+      "long": "A blue cheese from the Valdeón valley in Castilla y León, traditionally wrapped in sycamore or chestnut leaves, made from a blend of cow's milk with goat and/or sheep. Punchy and salty, closer to Roquefort than to a mild Gorgonzola. Boqueria stuffs it into the bacon-wrapped dates alongside almonds. **The leaf wrapper is not eaten and is not a nut**, though chestnut leaves sometimes prompt the question. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [],
+      "contains": [
+        {
+          "tag": "dairy",
+          "specific": "blue cheese",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        },
+        {
+          "tag": "fermented",
+          "specific": "blue-mold cheese",
+          "certainty": "always",
+          "prominence": "significant",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
+    },
+    {
+      "id": "es-bellota",
+      "term": "de bellota",
+      "native": "",
+      "romanizations": [
+        "bellota"
+      ],
+      "language": "Spanish",
+      "cuisines": [
+        "spanish"
+      ],
+      "type": [
+        "ingredient"
+      ],
+      "short": "Means **acorn-fed**, describing the pig — not an ingredient. The 'nutty' flavor it produces contains no tree nuts.",
+      "long": "*Bellota* is Spanish for acorn. On a menu it grades Ibérico pork products: the pigs foraged on acorns in the oak groves (dehesa) during the montanera season, which gives the fat a distinctive rich, **nutty** flavor and a softer, more marbled texture. This is the single most common false alarm on a Spanish menu for anyone avoiding tree nuts — *bellota*, and the tasting words 'nutty' and 'nut-like' that follow it, describe **flavor produced by the pig's diet**, not a nut added to the plate. Acorns are also not botanically or allergenically tree nuts in the culinary sense. Boqueria uses the term on its jamón, chorizo, and salchichón. From the real Boqueria Dupont Circle menu (1837 M St NW, Washington, DC).",
+      "components": [
+        "es-jamon-iberico"
+      ],
+      "contains": [
+        {
+          "tag": "pork",
+          "specific": "Ibérico pork",
+          "certainty": "always",
+          "prominence": "primary",
+          "note": ""
+        }
+      ],
+      "spicy": {
+        "frequency": "never",
+        "heat": 0,
+        "adjustable": false,
+        "note": ""
+      },
+      "confidence": "high",
+      "restaurants": [
+        "boqueria"
+      ]
     }
   ]
 }

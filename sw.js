@@ -1,5 +1,5 @@
 /* Cache everything on install; serve cache-first so the app works with no signal. */
-const CACHE = 'menu-decoder-v11';
+const CACHE = 'menu-decoder-v12';
 const ASSETS = [
   './', './index.html',
   'app/styles.css', 'app/app.js', 'app/manifest.webmanifest',
